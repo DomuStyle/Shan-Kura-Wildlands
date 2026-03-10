@@ -1,0 +1,21 @@
+{
+  "Group": "KMoD_One",
+  "Name": "Shan'Kura Wildlands",
+  "Version": "1.0.0",
+  "Description": "A new Biome to participate in the 100K Dollar Mod Jam of Hytale",
+  "Authors": [
+    {
+      "Name": "KMoD_One",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "2026.02.19-1a311a592",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
