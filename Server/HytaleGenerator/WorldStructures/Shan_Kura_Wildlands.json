@@ -2,6 +2,11 @@
   "Type": "NoiseRange",
   "Biomes": [
     {
+      "Biome": "Plains1_Mountains",
+      "Min": -1.5,
+      "Max": -1
+    },
+    {
       "Biome": "Plains1_Oak",
       "Min": -1,
       "Max": -0.82
