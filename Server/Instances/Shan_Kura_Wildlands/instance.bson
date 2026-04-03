@@ -1,5 +1,5 @@
 {
-  "$Comment": "This instanced world spawns a prototype Plains1 region from the Hytale generator",
+  "$Comment": "This instanced world spawns Shan'Kura Wildlands Biome by KMoD_One",
   "RequiredPlugins": {},
   "ChunkStorage": {
     "Type": "Hytale"

@@ -1,7 +1,4 @@
 {
-  "TranslationProperties": {
-    "Name": "server.items.Soil_Sand_White.name"
-  },
   "ItemLevel": 10,
   "Icon": "Icons/ItemsGenerated/Soil_Sand_White.png",
   "Categories": [
@@ -60,5 +57,8 @@
       "Sand"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Gravel"
+  "ItemSoundSetId": "ISS_Blocks_Gravel",
+  "TranslationProperties": {
+    "Name": "server.items.Soil_Sand_Crystal.name"
+  }
 }
