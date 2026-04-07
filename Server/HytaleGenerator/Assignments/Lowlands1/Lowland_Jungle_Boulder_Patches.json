@@ -1,7 +1,7 @@
 {
 	"$NodeId":	"Weighted.Assignments-6d719a94-f802-443a-a771-3a21b21cef87",
 	"Type":	"Weighted",
-	"ExportAs":	"Plains1_Oak_Boulder_Patches",
+	"ExportAs":	"Lowland_Jungle_Boulder_Patches",
 	"SkipChance":	0,
 	"Seed":	"A",
 	"WeightedAssignments":	[{
@@ -352,7 +352,7 @@
 																"SolidBottomUp":	false
 															}, {
 																"$NodeId":	"Material-31d5e502-4cf6-4726-8c9a-2477700262b4",
-																"Solid":	"Soil_Pebbles",
+																"Solid":	"Soil_Pebbles_Frozen",
 																"SolidBottomUp":	false
 															}]
 													}
@@ -403,7 +403,7 @@
 												"SolidBottomUp":	false
 											}, {
 												"$NodeId":	"Material-b10354a9-f37b-4109-8d48-d9f5c7af7f6b",
-												"Solid":	"Soil_Pebbles",
+												"Solid":	"Soil_Pebbles_Frozen",
 												"SolidBottomUp":	false
 											}]
 									}
