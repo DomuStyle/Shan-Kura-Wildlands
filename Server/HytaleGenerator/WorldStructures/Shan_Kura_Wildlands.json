@@ -4,26 +4,26 @@
     {
       "Biome": "Plains1_Mountains",
       "Min": -0.95,
-      "Max": -0.7
+      "Max": -0.8
     },
     {
       "Biome": "Plains1_Gorges",
-      "Min": -0.7,
-      "Max": -0.65
+      "Min": -0.8,
+      "Max": -0.75
     },
     {
       "Biome": "SK_Lowlands_Jungle",
-      "Min": -0.65,
-      "Max": -0.3
+      "Min": -0.75,
+      "Max": -0.4
     },
     {
       "Biome": "Plains1_Deeproot",
-      "Min": -0.3,
-      "Max": -0.25
+      "Min": -0.4,
+      "Max": -0.35
     },
     {
       "Biome": "Plains1_River",
-      "Min": -0.25,
+      "Min": -0.35,
       "Max": 0
     },
     {
