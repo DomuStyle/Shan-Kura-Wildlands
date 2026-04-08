@@ -95,8 +95,8 @@
 																															"Skip":	false,
 																															"FromMin":	-1,
 																															"FromMax":	1,
-																															"ToMin":	-0.85,
-																															"ToMax":	0.85,
+																															"ToMin":	-0.55,
+																															"ToMax":	0.75,
 																															"Inputs":	[{
 																																	"$NodeId":	"SimplexNoise2DDensityNode-ef0823c0-ed1d-4298-b7d7-e449509c0409",
 																																	"Type":	"SimplexNoise2D",
@@ -300,91 +300,91 @@
 			},
 			"ClampDensityNode-1a3a0c82-4054-424c-a92d-19952d26dd9f":	{
 				"$Position":	{
-					"$x":	-246,
+					"$x":	-244,
 					"$y":	-6338
 				}
 			},
 			"NormalizerDensityNode-f5dec591-9de0-49a3-a004-246a241e63ba":	{
 				"$Position":	{
-					"$x":	373,
+					"$x":	374,
 					"$y":	-6351
 				}
 			},
 			"Exported.Density-f784048d-1662-4e4b-8f11-82a71ee9ea9f":	{
 				"$Position":	{
-					"$x":	982,
+					"$x":	983,
 					"$y":	-6348
 				}
 			},
 			"YOverride.Density-393ea210-408f-471e-8569-dec7de9dbfae":	{
 				"$Position":	{
-					"$x":	1645,
+					"$x":	1646,
 					"$y":	-6350
 				}
 			},
 			"Cache.Density-f8151bba-99f6-43bd-a25e-c0276d2664c7":	{
 				"$Position":	{
-					"$x":	2257,
+					"$x":	2258,
 					"$y":	-6353
 				}
 			},
 			"InverterDensityNode-af9187e3-1663-48d7-8b06-f03fbe05ed44":	{
 				"$Position":	{
-					"$x":	2886,
+					"$x":	2887,
 					"$y":	-6355
 				}
 			},
 			"NormalizerDensityNode-ba5e73be-c8dc-4098-be65-82b279b55f60":	{
 				"$Position":	{
-					"$x":	3536,
+					"$x":	3537,
 					"$y":	-6361
 				}
 			},
 			"AbsDensityNode-06a5d44a-87e7-4f81-ad6f-0e2c05f05a45":	{
 				"$Position":	{
-					"$x":	4160,
+					"$x":	4161,
 					"$y":	-6367
 				}
 			},
 			"SumDensityNode-15164002-f244-4ce7-a942-7850f6a3a83b":	{
 				"$Position":	{
-					"$x":	4769,
+					"$x":	4770,
 					"$y":	-6365
 				}
 			},
 			"NormalizerDensityNode-6d0eb095-6ccc-4a1d-8663-4decc301e8d8":	{
 				"$Position":	{
-					"$x":	5370,
+					"$x":	5371,
 					"$y":	-6362
 				}
 			},
 			"SimplexNoise2DDensityNode-ef0823c0-ed1d-4298-b7d7-e449509c0409":	{
 				"$Position":	{
-					"$x":	5996,
+					"$x":	5997,
 					"$y":	-6362
 				}
 			},
 			"NormalizerDensityNode-0516ed49-91a3-4819-872d-72a300293f3e":	{
 				"$Position":	{
-					"$x":	5372,
+					"$x":	5373,
 					"$y":	-6020
 				}
 			},
 			"SimplexNoise2DDensityNode-8c65e93f-c5c1-4351-a398-1107074adfab":	{
 				"$Position":	{
-					"$x":	5996,
+					"$x":	5997,
 					"$y":	-6022
 				}
 			},
 			"NormalizerDensityNode-faa128ed-eed3-4d50-bca1-1ec546a749da":	{
 				"$Position":	{
-					"$x":	5377,
+					"$x":	5378,
 					"$y":	-5684
 				}
 			},
 			"SimplexNoise2DDensityNode-9fdb0a11-3d7b-4e34-9dcf-7daad6751d9a":	{
 				"$Position":	{
-					"$x":	6001,
+					"$x":	6002,
 					"$y":	-5686
 				}
 			},
@@ -486,7 +486,7 @@
 				"$name":	"Biome Tiles"
 			}, {
 				"$Position":	{
-					"$x":	-311.875,
+					"$x":	-310.625,
 					"$y":	-6445.5
 				},
 				"$width":	6892.625,
