@@ -2,28 +2,28 @@
   "Type": "NoiseRange",
   "Biomes": [
     {
-      "Biome": "Plains1_Mountains",
-      "Min": -0.95,
-      "Max": -0.8
+      "Biome": "SK_Lowlands_Peaks",
+      "Min": -1.0,
+      "Max": -0.85
     },
     {
       "Biome": "Plains1_Gorges",
-      "Min": -0.8,
-      "Max": -0.75
+      "Min": -0.85,
+      "Max": -0.65
     },
     {
       "Biome": "SK_Lowlands_Jungle",
-      "Min": -0.75,
-      "Max": -0.4
+      "Min": -0.65,
+      "Max": -0.5
     },
     {
       "Biome": "Plains1_Deeproot",
-      "Min": -0.4,
-      "Max": -0.35
+      "Min": -0.5,
+      "Max": -0.45
     },
     {
       "Biome": "SK_Lowlands_River",
-      "Min": -0.35,
+      "Min": -0.45,
       "Max": 0
     },
     {
