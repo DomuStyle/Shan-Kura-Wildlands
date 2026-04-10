@@ -1,92 +1,154 @@
 {
-	"$Title":	"[ROOT] BlockMask",
-	"$Position":	{
-		"$x":	11345,
-		"$y":	9915
-	},
+	"$NodeId":	"BlockMask-69a43cfd-763b-4bf4-8024-03c6b9f7d230",
 	"ExportAs":	"Taiga1_Trees",
 	"DontPlace":	{
-		"$Position":	{
-			"$x":	12261,
-			"$y":	11240
-		},
+		"$NodeId":	"BlockSet.BlockMask-0f9c9294-7753-4146-8437-2d2850c3a022",
 		"Inclusive":	true,
 		"Materials":	[{
-				"$Position":	{
-					"$x":	12742,
-					"$y":	11091
-				},
-				"Solid":	"Wood_Ash_Roots"
+				"$NodeId":	"Material-aa4c3e47-e2ac-4447-a41a-114c7463be44",
+				"Solid":	"Wood_Ash_Roots",
+				"SolidBottomUp":	false
 			}, {
-				"$Position":	{
-					"$x":	12740,
-					"$y":	11236
-				},
-				"Solid":	"Wood_Cedar_Roots"
+				"$NodeId":	"Material-03286634-82f0-41ee-9d0f-33281d3c3eb8",
+				"Solid":	"Wood_Cedar_Roots",
+				"SolidBottomUp":	false
 			}, {
-				"$Position":	{
-					"$x":	12745,
-					"$y":	11398
-				},
-				"Solid":	"Wood_Fir_Roots"
+				"$NodeId":	"Material-adaa3faa-e3fc-4d4c-ab9c-6b54c1125f42",
+				"Solid":	"Wood_Fir_Roots",
+				"SolidBottomUp":	false
 			}, {
-				"$Position":	{
-					"$x":	12741,
-					"$y":	11558
-				},
-				"Solid":	"Wood_Redwood_Roots"
+				"$NodeId":	"Material-3aed6e77-2ad2-4e59-b17e-7bd846ce7e47",
+				"Solid":	"Wood_Redwood_Roots",
+				"SolidBottomUp":	false
 			}]
 	},
 	"DontReplace":	{
-		"$Position":	{
-			"$x":	12017,
-			"$y":	9954
-		},
+		"$NodeId":	"BlockSet.BlockMask-7a74dd67-7a24-4aa3-94c0-6e6abab91580",
 		"Inclusive":	false,
 		"Materials":	[{
+				"$NodeId":	"Material-232df27e-d214-45b7-a2cc-c83d21c1be23",
+				"Solid":	"Empty",
+				"SolidBottomUp":	false
+			}, {
+				"$NodeId":	"Material-00c13aed-4bd9-4e09-9303-99e3af4810b4",
+				"Solid":	"Soil_Grass",
+				"SolidBottomUp":	false
+			}, {
+				"$NodeId":	"Material-5ea5728c-6fc5-45e1-8089-d3602c246097",
+				"Solid":	"Soil_Leaves",
+				"SolidBottomUp":	false
+			}, {
+				"$NodeId":	"Material-fc0a0ea1-3ceb-486f-95b1-49ca39dce3ca",
+				"Solid":	"Soil_Needles",
+				"SolidBottomUp":	false
+			}, {
+				"$NodeId":	"Material-002cd5c3-8662-4ba3-aaa8-fa380dc4213e",
+				"Solid":	"Soil_Dirt",
+				"SolidBottomUp":	false
+			}, {
+				"$NodeId":	"Material-00b19d7c-5d55-4f7b-9e20-8c662c1412be",
+				"Solid":	"Soil_Pathway",
+				"SolidBottomUp":	false
+			}, {
+				"$NodeId":	"Material-48aeb08d-5e88-4abe-b6bc-9b955eda78fb",
+				"Solid":	"Soil_Mud",
+				"SolidBottomUp":	false
+			}]
+	},
+	"Advanced":	[],
+	"$NodeEditorMetadata":	{
+		"$Nodes":	{
+			"BlockMask-69a43cfd-763b-4bf4-8024-03c6b9f7d230":	{
+				"$Position":	{
+					"$x":	11345,
+					"$y":	9918
+				},
+				"$Title":	"[ROOT] BlockMask"
+			},
+			"BlockSet.BlockMask-0f9c9294-7753-4146-8437-2d2850c3a022":	{
+				"$Position":	{
+					"$x":	12261,
+					"$y":	11240
+				}
+			},
+			"Material-aa4c3e47-e2ac-4447-a41a-114c7463be44":	{
+				"$Position":	{
+					"$x":	12742,
+					"$y":	11091
+				}
+			},
+			"Material-03286634-82f0-41ee-9d0f-33281d3c3eb8":	{
+				"$Position":	{
+					"$x":	12740,
+					"$y":	11236
+				}
+			},
+			"Material-adaa3faa-e3fc-4d4c-ab9c-6b54c1125f42":	{
+				"$Position":	{
+					"$x":	12745,
+					"$y":	11398
+				}
+			},
+			"Material-3aed6e77-2ad2-4e59-b17e-7bd846ce7e47":	{
+				"$Position":	{
+					"$x":	12741,
+					"$y":	11558
+				}
+			},
+			"BlockSet.BlockMask-7a74dd67-7a24-4aa3-94c0-6e6abab91580":	{
+				"$Position":	{
+					"$x":	12017,
+					"$y":	9954
+				}
+			},
+			"Material-232df27e-d214-45b7-a2cc-c83d21c1be23":	{
 				"$Position":	{
 					"$x":	12498,
 					"$y":	9951
-				},
-				"Solid":	"Empty"
-			}, {
+				}
+			},
+			"Material-00c13aed-4bd9-4e09-9303-99e3af4810b4":	{
 				"$Position":	{
 					"$x":	12497,
 					"$y":	10105
-				},
-				"Solid":	"Soil_Grass"
-			}, {
+				}
+			},
+			"Material-5ea5728c-6fc5-45e1-8089-d3602c246097":	{
 				"$Position":	{
 					"$x":	12499,
 					"$y":	10266
-				},
-				"Solid":	"Soil_Leaves"
-			}, {
+				}
+			},
+			"Material-fc0a0ea1-3ceb-486f-95b1-49ca39dce3ca":	{
 				"$Position":	{
 					"$x":	12500,
 					"$y":	10418
-				},
-				"Solid":	"Soil_Needles"
-			}, {
+				}
+			},
+			"Material-002cd5c3-8662-4ba3-aaa8-fa380dc4213e":	{
 				"$Position":	{
 					"$x":	12504,
 					"$y":	10574
-				},
-				"Solid":	"Soil_Dirt"
-			}, {
+				}
+			},
+			"Material-00b19d7c-5d55-4f7b-9e20-8c662c1412be":	{
 				"$Position":	{
 					"$x":	12512,
 					"$y":	10728
-				},
-				"Solid":	"Soil_Pathway"
-			}, {
+				}
+			},
+			"Material-48aeb08d-5e88-4abe-b6bc-9b955eda78fb":	{
 				"$Position":	{
 					"$x":	12512,
 					"$y":	10888
-				},
-				"Solid":	"Soil_Mud"
-			}]
-	},
-	"$WorkspaceID":	"HytaleGenerator - BlockMask",
-	"$Groups":	[]
+				}
+			}
+		},
+		"$FloatingNodes":	[],
+		"$Links":	{
+		},
+		"$Groups":	[],
+		"$Comments":	[],
+		"$WorkspaceID":	"HytaleGenerator - BlockMask"
+	}
 }

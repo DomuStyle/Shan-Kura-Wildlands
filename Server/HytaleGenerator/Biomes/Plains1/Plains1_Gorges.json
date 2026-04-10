@@ -1010,7 +1010,8 @@
 						"Type":	"Constant",
 						"Material":	{
 							"$NodeId":	"Material-3ba6eb06-5aa9-4a92-a6f0-7904f44629be",
-							"Solid":	"Rock_Bedrock"
+							"Solid":	"Rock_Bedrock",
+							"SolidBottomUp":	false
 						}
 					}
 				}, {
@@ -1145,7 +1146,8 @@
 																					"Type":	"Constant",
 																					"Material":	{
 																						"$NodeId":	"Material-851e58dd-acaa-4d88-9b46-c4ab66ee599e",
-																						"Solid":	"Soil_Pebbles"
+																						"Solid":	"Soil_Pebbles",
+																						"SolidBottomUp":	false
 																					}
 																				}
 																			}]
@@ -1223,7 +1225,8 @@
 																					"Type":	"Constant",
 																					"Material":	{
 																						"$NodeId":	"Material-180891aa-e75f-4f37-b1cf-d4e79f86b595",
-																						"Solid":	"Soil_Grass_Sunny"
+																						"Solid":	"Soil_Grass_Sunny",
+																						"SolidBottomUp":	false
 																					}
 																				}
 																			}]
@@ -1265,7 +1268,8 @@
 																				"Type":	"Constant",
 																				"Material":	{
 																					"$NodeId":	"Material-29eed87b-9acb-4ee7-a55e-fca0a74f24e5",
-																					"Solid":	"Soil_Grass"
+																					"Solid":	"Soil_Grass",
+																					"SolidBottomUp":	false
 																				}
 																			}
 																		}]
@@ -1296,7 +1300,8 @@
 																		"Type":	"Constant",
 																		"Material":	{
 																			"$NodeId":	"Material-ebe03ca8-1f0a-4413-9bac-15e55e3b2994",
-																			"Solid":	"Soil_Grass_Full"
+																			"Solid":	"Soil_Grass_Full",
+																			"SolidBottomUp":	false
 																		}
 																	}
 																}, {
@@ -1310,7 +1315,8 @@
 																		"Type":	"Constant",
 																		"Material":	{
 																			"$NodeId":	"Material-8ffc9272-4a8a-436c-adaa-4badd6060e08",
-																			"Solid":	"Soil_Dirt"
+																			"Solid":	"Soil_Dirt",
+																			"SolidBottomUp":	false
 																		}
 																	}
 																}]
@@ -1342,7 +1348,8 @@
 																		"Type":	"Constant",
 																		"Material":	{
 																			"$NodeId":	"Material-191595b8-5bdf-487a-a570-bef3aacfbbb3",
-																			"Solid":	"Soil_Mud"
+																			"Solid":	"Soil_Mud",
+																			"SolidBottomUp":	false
 																		}
 																	}
 																}]
@@ -1427,7 +1434,8 @@
 												"Type":	"Constant",
 												"Material":	{
 													"$NodeId":	"Material-835b449c-c0e6-4ff1-8e6d-298ee7c4c9c4",
-													"Solid":	"Rock_Chalk"
+													"Solid":	"Rock_Basalt",
+													"SolidBottomUp":	false
 												}
 											}
 										}]
@@ -1444,7 +1452,8 @@
 									"Type":	"Constant",
 									"Material":	{
 										"$NodeId":	"Material-a1d1a7e2-4e03-4e9b-a42a-9e6ec1bf882e",
-										"Solid":	"Rock_Chalk"
+										"Solid":	"Rock_Shale",
+										"SolidBottomUp":	false
 									}
 								}
 							}]
@@ -1454,7 +1463,8 @@
 					"Type":	"Constant",
 					"Material":	{
 						"$NodeId":	"Material-933986c2-1296-446a-9ef9-297e4098e191",
-						"Solid":	"Rock_Stone"
+						"Solid":	"Rock_Stone",
+						"SolidBottomUp":	false
 					}
 				}]
 		},
@@ -1463,7 +1473,8 @@
 			"$Comment":	"REQUIRED",
 			"Type":	"Constant",
 			"Material":	{
-				"$NodeId":	"Material-999cbd9e-8d4b-47fc-ac73-670639d216f3"
+				"$NodeId":	"Material-999cbd9e-8d4b-47fc-ac73-670639d216f3",
+				"SolidBottomUp":	false
 			}
 		}
 	},
@@ -3364,6 +3375,30 @@
 					"$y":	1891
 				}
 			},
+			"Runtime-7c82dc84-ae31-41a3-99f0-56ef892b3084":	{
+				"$Position":	{
+					"$x":	-6096,
+					"$y":	1762
+				}
+			},
+			"Mesh2DPositions-97f9ee0d-6508-437a-a4c2-85ab2a986487":	{
+				"$Position":	{
+					"$x":	-5578,
+					"$y":	1771
+				}
+			},
+			"MeshPointGenerator-bb47b820-55f8-46ca-96e0-3be78f060693":	{
+				"$Position":	{
+					"$x":	-4899,
+					"$y":	1777
+				}
+			},
+			"Imported.Assignments-00604d6a-d59a-4cc4-9afe-7dedd7573c4d":	{
+				"$Position":	{
+					"$x":	-5573,
+					"$y":	2001
+				}
+			},
 			"Runtime-d6b07164-74f3-4dcc-bcc5-870006e7f74b":	{
 				"$Position":	{
 					"$x":	-4165,
@@ -3596,30 +3631,6 @@
 				"$Position":	{
 					"$x":	-10331,
 					"$y":	-841
-				}
-			},
-			"Runtime-7c82dc84-ae31-41a3-99f0-56ef892b3084":	{
-				"$Position":	{
-					"$x":	-6096,
-					"$y":	1762
-				}
-			},
-			"Mesh2DPositions-97f9ee0d-6508-437a-a4c2-85ab2a986487":	{
-				"$Position":	{
-					"$x":	-5578,
-					"$y":	1771
-				}
-			},
-			"MeshPointGenerator-bb47b820-55f8-46ca-96e0-3be78f060693":	{
-				"$Position":	{
-					"$x":	-4899,
-					"$y":	1777
-				}
-			},
-			"Imported.Assignments-00604d6a-d59a-4cc4-9afe-7dedd7573c4d":	{
-				"$Position":	{
-					"$x":	-5573,
-					"$y":	2001
 				}
 			}
 		},
