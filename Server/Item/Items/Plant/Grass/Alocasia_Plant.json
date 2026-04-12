@@ -7,7 +7,7 @@
     "CustomModel": "Blocks/Foliage/Plants/Alocasia_Small.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Foliage/Plants/Fern_Giant_Texture.png",
+        "Texture": "Blocks/Foliage/Plants/Alocasia_Texture.png",
         "Weight": 1
       }
     ],
@@ -20,22 +20,22 @@
     "ParticleColor": "#4fa890",
     "Textures": [
       {
-        "All": "Blocks/Foliage/Plants/Alocasia_Texture.png"
+        "All": "Blocks/Foliage/Plants/Test_Texture.png"
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Plant_Fern_Giant.png",
+  "Icon": "Icons/ItemsGenerated/Alocasia_Plant.png",
   "Scale": 0.65,
   "IconProperties": {
     "Scale": 0.28,
     "Rotation": [
-      22.5,
-      45,
-      22.5
+      0,
+      96,
+      21
     ],
     "Translation": [
-      7,
-      -34
+      1,
+      -29
     ]
   }
 }

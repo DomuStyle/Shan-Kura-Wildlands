@@ -1094,7 +1094,7 @@
 							"$NodeId":	"SimplexNoise2DDensityNode-383ce21b-6cd1-4407-9a60-7f5b8a845d97",
 							"Type":	"SimplexNoise2D",
 							"Skip":	false,
-							"Lacunarity":	2.5,
+							"Lacunarity":	4.5,
 							"Persistence":	0.2,
 							"Octaves":	2,
 							"Scale":	85,
@@ -1109,7 +1109,7 @@
 									"Type":	"Constant",
 									"Material":	{
 										"$NodeId":	"Material-6b165610-7dce-40c0-819a-51af33036c26",
-										"Solid":	"Rock_Quartzite",
+										"Solid":	"Rock_Basalt",
 										"SolidBottomUp":	false
 									}
 								}
@@ -2772,37 +2772,37 @@
 			},
 			"SimpleHorizontalMaterialProvider-d64b337d-97e9-44cc-a056-b591ffc4de8f":	{
 				"$Position":	{
-					"$x":	-2254,
+					"$x":	-2255,
 					"$y":	1142
 				}
 			},
 			"FieldFunctionMaterialProvider-998200aa-84db-4022-8598-008cf2670017":	{
 				"$Position":	{
-					"$x":	-1618,
+					"$x":	-1619,
 					"$y":	1142
 				}
 			},
 			"SimplexNoise2DDensityNode-383ce21b-6cd1-4407-9a60-7f5b8a845d97":	{
 				"$Position":	{
-					"$x":	-915,
+					"$x":	-916,
 					"$y":	1136
 				}
 			},
 			"DelimiterFieldFunctionMP-6c4f5982-7548-4527-b2cd-775db981e630":	{
 				"$Position":	{
-					"$x":	-918,
+					"$x":	-919,
 					"$y":	1480
 				}
 			},
 			"ConstantMaterialProvider-67f3a70d-f840-474d-b6c6-e25c0a58c096":	{
 				"$Position":	{
-					"$x":	-500,
+					"$x":	-501,
 					"$y":	1486
 				}
 			},
 			"Material-6b165610-7dce-40c0-819a-51af33036c26":	{
 				"$Position":	{
-					"$x":	110,
+					"$x":	108,
 					"$y":	1487
 				}
 			},
@@ -3738,7 +3738,7 @@
 				"$name":	"Lean backward"
 			}, {
 				"$Position":	{
-					"$x":	-2343.4375,
+					"$x":	-2345.0625,
 					"$y":	1019.1875
 				},
 				"$width":	3618.4375,

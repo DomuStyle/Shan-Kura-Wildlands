@@ -1,0 +1,69 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Rock_Shale_Brick_Pillar_Base.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Deko_Block_Test.png",
+  "Set": "Rock_Shale",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Rock_Shale_Brick"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Pillar"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Opacity": "Transparent",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Glow_block_test_texture.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#3d4a52",
+    "CustomModel": "Blocks/Blocks/Block_Glowing_TEST2.blockymodel",
+    "Textures": [
+      {
+        "All": "BlockTextures/Glow_block_test_texture.png"
+      }
+    ],
+    "RequiresAlphaBlending": false
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Shale"
+    ]
+  },
+  "Parent": "Rock_Stone_Brick_Pillar_Base",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

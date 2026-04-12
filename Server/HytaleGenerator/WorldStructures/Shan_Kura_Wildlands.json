@@ -22,8 +22,13 @@
       "Max": -0.45
     },
     {
-      "Biome": "SK_Lowlands_River",
+      "Biome": "FloatIsland",
       "Min": -0.45,
+      "Max": -0.32
+    },
+    {
+      "Biome": "SK_Lowlands_River",
+      "Min": -0.32,
       "Max": 0
     },
     {
@@ -59,6 +64,14 @@
         {
           "Name": "Bedrock",
           "Value": 0
+        },
+        {
+          "Name": "FloatIsland",
+          "Value": 200
+        },
+        {
+          "Name": "FloatIsland1",
+          "Value": 190
         }
       ]
     }
