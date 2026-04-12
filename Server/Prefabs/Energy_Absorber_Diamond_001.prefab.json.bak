@@ -28,22 +28,22 @@
       "x": -7,
       "y": 6,
       "z": 3,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 3
+      "rotation": 5
     },
     {
       "x": -7,
       "y": 7,
       "z": 3,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15
     },
     {
       "x": -7,
       "y": 8,
       "z": 3,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 9
     },
@@ -137,15 +137,15 @@
       "x": -6,
       "y": 4,
       "z": 1,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 3
+      "rotation": 5
     },
     {
       "x": -6,
       "y": 5,
       "z": 1,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 8
     },
@@ -159,15 +159,15 @@
       "x": -6,
       "y": 9,
       "z": 1,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 18
+      "rotation": 25
     },
     {
       "x": -6,
       "y": 5,
       "z": 2,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 4
     },
@@ -181,7 +181,7 @@
       "x": -6,
       "y": 9,
       "z": 2,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 4
     },
@@ -189,16 +189,17 @@
       "x": -6,
       "y": 5,
       "z": 3,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
-      "support": 15
+      "name": "Metal_Iron_Pipe_Corner",
+      "support": 15,
+      "rotation": 6
     },
     {
       "x": -6,
       "y": 6,
       "z": 3,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 11
+      "rotation": 13
     },
     {
       "x": -6,
@@ -210,7 +211,7 @@
       "x": -6,
       "y": 8,
       "z": 3,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 1
     },
@@ -218,9 +219,9 @@
       "x": -6,
       "y": 9,
       "z": 3,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 10
+      "rotation": 12
     },
     {
       "x": -6,
@@ -396,7 +397,7 @@
       "x": -5,
       "y": 4,
       "z": -1,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 25
     },
@@ -423,7 +424,7 @@
       "x": -5,
       "y": 4,
       "z": 0,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 4
     },
@@ -443,7 +444,7 @@
       "x": -5,
       "y": 4,
       "z": 1,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 16
     },
@@ -589,14 +590,14 @@
       "x": -5,
       "y": 8,
       "z": 6,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15
     },
     {
       "x": -5,
       "y": 9,
       "z": 6,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 15
     },
@@ -695,7 +696,7 @@
       "x": -4,
       "y": 13,
       "z": -4,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 18
     },
@@ -749,7 +750,7 @@
       "x": -4,
       "y": 13,
       "z": -3,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 4
     },
@@ -796,7 +797,7 @@
       "x": -4,
       "y": 13,
       "z": -2,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 19
     },
@@ -1122,7 +1123,7 @@
       "x": -4,
       "y": 10,
       "z": 5,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 2
     },
@@ -1130,7 +1131,7 @@
       "x": -4,
       "y": 11,
       "z": 5,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 9
     },
@@ -1144,7 +1145,7 @@
       "x": -4,
       "y": 9,
       "z": 6,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 1
     },
@@ -1152,9 +1153,9 @@
       "x": -4,
       "y": 10,
       "z": 6,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 10
+      "rotation": 12
     },
     {
       "x": -3,
@@ -1185,7 +1186,7 @@
       "x": -3,
       "y": 10,
       "z": -5,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 3
     },
@@ -1193,21 +1194,21 @@
       "x": -3,
       "y": 11,
       "z": -5,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15
     },
     {
       "x": -3,
       "y": 12,
       "z": -5,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15
     },
     {
       "x": -3,
       "y": 13,
       "z": -5,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 8
     },
@@ -1261,7 +1262,7 @@
       "x": -3,
       "y": 13,
       "z": -4,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 27
     },
@@ -1420,7 +1421,7 @@
       "x": -3,
       "y": 13,
       "z": -2,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 1
     },
@@ -1428,7 +1429,7 @@
       "x": -3,
       "y": 14,
       "z": -2,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 14
     },
@@ -1488,14 +1489,14 @@
       "x": -3,
       "y": 14,
       "z": -1,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15
     },
     {
       "x": -3,
       "y": 15,
       "z": -1,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 9
     },
@@ -1812,7 +1813,7 @@
       "x": -3,
       "y": 11,
       "z": 5,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 5
     },
@@ -1826,7 +1827,7 @@
       "x": -2,
       "y": 4,
       "z": -6,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 2
     },
@@ -1834,14 +1835,14 @@
       "x": -2,
       "y": 5,
       "z": -6,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15
     },
     {
       "x": -2,
       "y": 6,
       "z": -6,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 8
     },
@@ -1855,7 +1856,7 @@
       "x": -2,
       "y": 3,
       "z": -5,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 2
     },
@@ -1863,7 +1864,7 @@
       "x": -2,
       "y": 4,
       "z": -5,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 12
     },
@@ -1903,7 +1904,7 @@
       "x": -2,
       "y": 10,
       "z": -5,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 5
     },
@@ -1911,7 +1912,7 @@
       "x": -2,
       "y": 2,
       "z": -4,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 2
     },
@@ -1919,7 +1920,7 @@
       "x": -2,
       "y": 3,
       "z": -4,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 10
     },
@@ -1966,9 +1967,9 @@
       "x": -2,
       "y": 2,
       "z": -3,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 19
+      "rotation": 26
     },
     {
       "x": -2,
@@ -2213,7 +2214,7 @@
       "x": -2,
       "y": 15,
       "z": -1,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 5
     },
@@ -2580,7 +2581,7 @@
       "x": -2,
       "y": 11,
       "z": 5,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 5
     },
@@ -2619,9 +2620,9 @@
       "x": -1,
       "y": 10,
       "z": -5,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 24
+      "rotation": 17
     },
     {
       "x": -1,
@@ -2680,7 +2681,7 @@
       "x": -1,
       "y": 2,
       "z": -3,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 24
     },
@@ -2740,7 +2741,7 @@
       "x": -1,
       "y": 2,
       "z": -2,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 4
     },
@@ -3128,7 +3129,7 @@
       "x": -1,
       "y": 2,
       "z": 2,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 4
     },
@@ -3204,7 +3205,7 @@
       "x": -1,
       "y": 2,
       "z": 3,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 26
     },
@@ -3329,7 +3330,7 @@
       "x": -1,
       "y": 11,
       "z": 5,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 16
     },
@@ -3922,7 +3923,7 @@
       "x": 0,
       "y": 2,
       "z": 3,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 5
     },
@@ -4632,9 +4633,9 @@
       "x": 1,
       "y": 2,
       "z": 3,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 24
+      "rotation": 17
     },
     {
       "x": 1,
@@ -4688,16 +4689,16 @@
       "x": 1,
       "y": 2,
       "z": 4,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15
     },
     {
       "x": 1,
       "y": 3,
       "z": 4,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 9
+      "rotation": 15
     },
     {
       "x": 1,
@@ -5093,17 +5094,17 @@
       "x": 2,
       "y": 15,
       "z": -1,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 5
+      "rotation": 3
     },
     {
       "x": 2,
       "y": 16,
       "z": -1,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 13
+      "rotation": 11
     },
     {
       "x": 2,
@@ -5403,7 +5404,7 @@
       "x": 2,
       "y": 3,
       "z": 4,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 5
     },
@@ -5757,24 +5758,24 @@
       "x": 3,
       "y": 13,
       "z": -1,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 2
+      "rotation": 4
     },
     {
       "x": 3,
       "y": 14,
       "z": -1,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15
     },
     {
       "x": 3,
       "y": 15,
       "z": -1,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 13
+      "rotation": 11
     },
     {
       "x": 3,
@@ -5839,7 +5840,7 @@
       "x": 3,
       "y": 13,
       "z": 0,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 26
     },
@@ -6050,7 +6051,7 @@
       "x": 3,
       "y": 3,
       "z": 4,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 17
     },
@@ -6104,14 +6105,14 @@
       "x": 3,
       "y": 3,
       "z": 5,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15
     },
     {
       "x": 3,
       "y": 4,
       "z": 5,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 9
     },
@@ -6427,16 +6428,16 @@
       "x": 4,
       "y": 12,
       "z": 0,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15
     },
     {
       "x": 4,
       "y": 13,
       "z": 0,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 13
+      "rotation": 11
     },
     {
       "x": 4,
@@ -6645,7 +6646,7 @@
       "x": 4,
       "y": 4,
       "z": 5,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 16
     },
@@ -6837,7 +6838,7 @@
       "x": 5,
       "y": 4,
       "z": 1,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 5
     },
@@ -7060,15 +7061,15 @@
       "x": 6,
       "y": 4,
       "z": 1,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 1
+      "rotation": 7
     },
     {
       "x": 6,
       "y": 5,
       "z": 1,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 8
     },
@@ -7082,7 +7083,7 @@
       "x": 6,
       "y": 5,
       "z": 2,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 6
     },
@@ -7090,7 +7091,7 @@
       "x": 6,
       "y": 6,
       "z": 2,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 9
     },
@@ -7104,7 +7105,7 @@
       "x": 6,
       "y": 8,
       "z": 2,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15,
       "rotation": 5
     },
@@ -7181,22 +7182,22 @@
       "x": 7,
       "y": 6,
       "z": 2,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
-      "rotation": 1
+      "rotation": 7
     },
     {
       "x": 7,
       "y": 7,
       "z": 2,
-      "name": "Metal_Iron_Glowing_Pipe",
+      "name": "Metal_Iron_Pipe_Long",
       "support": 15
     },
     {
       "x": 7,
       "y": 8,
       "z": 2,
-      "name": "Metal_Iron_Glowing_Pipe_Corner",
+      "name": "Metal_Iron_Pipe_Corner",
       "support": 15,
       "rotation": 11
     },
