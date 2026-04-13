@@ -2362,7 +2362,7 @@
 				},
 				"Delimiters":	[{
 						"$NodeId":	"Delimiter.FieldFunction.Assignments-a2da55a9-7d27-4e7b-b67b-213e12262a9b",
-						"Max":	0.8,
+						"Max":	-0.25,
 						"Min":	-1,
 						"Assignments":	{
 							"$NodeId":	"Constant.Assignments-a3338905-117a-4abe-803e-b9d4d5193b43",
@@ -2440,8 +2440,8 @@
 						}
 					}, {
 						"$NodeId":	"Delimiter.FieldFunction.Assignments-23b49c38-a1c7-4a21-834b-8690dd56a142",
-						"Max":	1,
-						"Min":	0.8,
+						"Max":	0,
+						"Min":	-0.25,
 						"Assignments":	{
 							"$NodeId":	"Constant.Assignments-1b0727ee-4f7a-44d1-8c51-76da61abf6bd",
 							"Type":	"Constant",
@@ -2452,7 +2452,7 @@
 								"WeightedPrefabPaths":	[{
 										"$NodeId":	"WeightedPath.Prefab.Prop-caf33524-c1dc-4602-af2b-68e90587e7c4",
 										"Path":	"Custom/Energy_Absorber_Combined",
-										"Weight":	10
+										"Weight":	50
 									}],
 								"LegacyPath":	false,
 								"LoadEntities":	true,
