@@ -4,10 +4,10 @@
   },
   "Parent": "Plant_Fern",
   "BlockType": {
-    "CustomModel": "Blocks/Foliage/Plants/Alocasia_Small.blockymodel",
+    "CustomModel": "Blocks/Foliage/Plants/Alocasia_Customized_LargeV1.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Foliage/Plants/Alocasia_Texture.png",
+        "Texture": "Blocks/Foliage/Plants/Alocasia_Customized_LargeV1_Texture.png",
         "Weight": 1
       }
     ],
@@ -27,15 +27,15 @@
   "Icon": "Icons/ItemsGenerated/Alocasia_Plant.png",
   "Scale": 0.65,
   "IconProperties": {
-    "Scale": 0.28,
+    "Scale": 0.1,
     "Rotation": [
       0,
-      96,
-      21
+      116,
+      19
     ],
     "Translation": [
-      1,
-      -29
+      -12,
+      -59
     ]
   }
 }
