@@ -1,0 +1,41 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Plant_Alocasia_Custom_Large.name"
+  },
+  "Parent": "Plant_Fern",
+  "BlockType": {
+    "CustomModel": "Blocks/Foliage/Plants/Plant_GlowingV1.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Foliage/Plants/Plant_GlowingV1_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "Tint": [
+      "#686868"
+    ],
+    "BiomeTint": 80,
+    "Material": "Solid",
+    "HitboxType": "Beam",
+    "ParticleColor": "#4fa890",
+    "Textures": [
+      {
+        "All": "Blocks/Foliage/Plants/Plant_GlowingV1_Texture.png"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Plant_Glowing_Test.png",
+  "Scale": 0.65,
+  "IconProperties": {
+    "Scale": 0.1,
+    "Rotation": [
+      0,
+      116,
+      19
+    ],
+    "Translation": [
+      -12,
+      -59
+    ]
+  }
+}
