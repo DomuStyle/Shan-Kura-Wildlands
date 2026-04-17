@@ -8,3 +8,7 @@ items.Rock_Shale_Glowing_Ornament.name=Shale Glowing Ornament
 # === plants ===
 
 items.Plant_Alocasia_Custom_Large.name=Alocasia Custom Large
+
+# === npc ===
+
+npcRoles.Capybara.name=Capybara

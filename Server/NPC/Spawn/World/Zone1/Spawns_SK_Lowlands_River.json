@@ -1,0 +1,12 @@
+{
+  "Environments": [
+    "Env_Lowland_Shores"
+  ],
+  "NPCs": [
+    {
+      "Weight": 8,
+      "SpawnBlockSet": "Sand",
+      "Id": "Capybara"
+    }
+  ]
+}
