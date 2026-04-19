@@ -1,0 +1,64 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Wood_Sallow_Trunk_Glowing_Corner.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Wood_Sallow_Trunk_Full_G_Branching.png",
+  "Set": "Rock_Shale",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Rock_Shale_Brick"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Pillar"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Opacity": "Transparent",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Glow_Trunk_Branches_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#3d4a52",
+    "CustomModel": "Blocks/Blocks/Block_Glowing_Trunk.blockymodel",
+    "RequiresAlphaBlending": false
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Shale"
+    ]
+  },
+  "Parent": "Rock_Stone_Brick_Pillar_Base",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      16,
+      24,
+      21
+    ],
+    "Translation": [
+      3,
+      -14
+    ]
+  }
+}
