@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Plant_Alocasia_Custom_Large.name"
+    "Name": "server.items.Plant_Jungle1.name"
   },
   "Parent": "Plant_Fern",
   "BlockType": {
