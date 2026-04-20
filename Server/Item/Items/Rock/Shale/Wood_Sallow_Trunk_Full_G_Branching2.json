@@ -1,8 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Wood_Sallow_Trunk_Glowing_Branching.name"
+    "Name": "server.items.Wood_Sallow_Trunk_Glowing_Branching2.name"
   },
-  "Icon": "Icons/ItemsGenerated/Wood_Sallow_Trunk_Full_G_Branching.png",
+  "Icon": "Icons/ItemsGenerated/Wood_Sallow_Trunk_Full_G_Branching2.png",
   "Set": "Rock_Shale",
   "Recipe": {
     "Input": [
@@ -27,7 +27,7 @@
     "Opacity": "Transparent",
     "CustomModelTexture": [
       {
-        "Texture": "BlockTextures/Glow_Trunk_Branches_Texture.png",
+        "Texture": "BlockTextures/Glow_Trunk_Branches2_Texture.png",
         "Weight": 1
       }
     ],
