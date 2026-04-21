@@ -390,7 +390,7 @@
 			"Assignments":	{
 				"$NodeId":	"FieldFunction.Assignments-4cb6fcfb-1731-456f-9a30-1fa75f4e1e5a",
 				"Type":	"FieldFunction",
-				"ExportAs":	"Plains1_Oak_Bushes",
+				"ExportAs":	"",
 				"FieldFunction":	{
 					"$NodeId":	"SimplexNoise2DDensityNode-4c3b2f2b-b365-4447-8645-ab9dc1a3c50d",
 					"Type":	"SimplexNoise2D",
@@ -1172,7 +1172,7 @@
 			"Assignments":	{
 				"$NodeId":	"FieldFunction.Assignments-d200aad6-2760-48f5-b0d2-656e73790611",
 				"Type":	"FieldFunction",
-				"ExportAs":	"Plains1_Oak_Bushes",
+				"ExportAs":	"",
 				"FieldFunction":	{
 					"$NodeId":	"SimplexNoise2DDensityNode-4841dfa9-adec-4917-af2f-718d3597f36c",
 					"Type":	"SimplexNoise2D",
@@ -1798,7 +1798,7 @@
 			"Assignments":	{
 				"$NodeId":	"FieldFunction.Assignments-c15a9aa4-2895-4871-b41a-6a582efafb18",
 				"Type":	"FieldFunction",
-				"ExportAs":	"Plains1_Oak_Bushes",
+				"ExportAs":	"",
 				"FieldFunction":	{
 					"$NodeId":	"SimplexNoise2DDensityNode-99096280-d0b0-4669-ba65-1b565a47aa59",
 					"Type":	"SimplexNoise2D",
