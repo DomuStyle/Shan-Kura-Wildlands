@@ -916,7 +916,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-31a98469-8efc-45be-9dbf-1f5268dc0deb",
 				"Type":	"Imported",
-				"Name":	"Lowland_FloatingPlains_Boulder_Patches"
+				"Name":	"Lowland_Jungle_Pillars"
 			}
 		}, {
 			"$NodeId":	"Runtime-6a0a2cc3-5645-4ea8-84d7-ec857206823f",
@@ -2682,26 +2682,26 @@
 			},
 			"Runtime-4f876fbb-be54-4f6b-807e-a16cfb9e080c":	{
 				"$Position":	{
-					"$x":	-2226,
-					"$y":	-818
+					"$x":	-2195,
+					"$y":	-532
 				}
 			},
 			"Mesh2DPositions-eb602700-68a6-463e-b096-e486b857e80a":	{
 				"$Position":	{
-					"$x":	-1570,
-					"$y":	-849
+					"$x":	-1539,
+					"$y":	-563
 				}
 			},
 			"MeshPointGenerator-ec45a571-e93b-49b9-b97e-d82336e8e416":	{
 				"$Position":	{
-					"$x":	-871,
-					"$y":	-846
+					"$x":	-840,
+					"$y":	-560
 				}
 			},
 			"Imported.Assignments-31a98469-8efc-45be-9dbf-1f5268dc0deb":	{
 				"$Position":	{
-					"$x":	-1559,
-					"$y":	-645
+					"$x":	-1528,
+					"$y":	-359
 				}
 			}
 		},
@@ -2825,8 +2825,8 @@
 				"$name":	"FI Grasses"
 			}, {
 				"$Position":	{
-					"$x":	-2298,
-					"$y":	-934.125
+					"$x":	-2267.5,
+					"$y":	-648.125
 				},
 				"$width":	1873.125,
 				"$height":	471,
