@@ -2,27 +2,27 @@
   "Type": "NoiseRange",
   "Biomes": [
     {
-      "Biome": "SK_Lowlands_Peaks",
+      "Biome": "FloatIsland",
       "Min": -1.0,
-      "Max": -0.9
+      "Max": -0.94
     },
     {
-      "Biome": "SK_Lowlands_Gorges",
-      "Min": -0.9,
+      "Biome": "SK_Lowlands_Peaks",
+      "Min": -0.94,
       "Max": -0.8
     },
     {
-      "Biome": "SK_Lowlands_Jungle",
+      "Biome": "SK_Lowlands_Gorges",
       "Min": -0.8,
-      "Max": -0.55
+      "Max": -0.7
     },
     {
-      "Biome": "Plains1_Deeproot",
-      "Min": -0.55,
+      "Biome": "SK_Lowlands_Jungle",
+      "Min": -0.7,
       "Max": -0.45
     },
     {
-      "Biome": "FloatIsland",
+      "Biome": "Plains1_Deeproot",
       "Min": -0.45,
       "Max": -0.32
     },
@@ -68,10 +68,6 @@
         {
           "Name": "FloatIsland",
           "Value": 200
-        },
-        {
-          "Name": "FloatIsland1",
-          "Value": 190
         }
       ]
     }
