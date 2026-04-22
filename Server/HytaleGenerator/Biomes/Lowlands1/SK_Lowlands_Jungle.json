@@ -852,42 +852,6 @@
 				"Name":	"Lowland_Jungle_Pillars"
 			}
 		}, {
-			"$NodeId":	"Runtime-dd5bbbc1-6abe-4bfc-8276-8596129e3c41",
-			"Skip":	true,
-			"Runtime":	0,
-			"Positions":	{
-				"$NodeId":	"OccurrencePositions-32369498-f098-4930-a499-c5abc4d7964c",
-				"Type":	"Occurrence",
-				"Skip":	false,
-				"Seed":	"A",
-				"FieldFunction":	{
-					"$NodeId":	"ConstantDensityNode-b7a48d33-6242-491b-ad0d-8a0cf643af49",
-					"Type":	"Constant",
-					"Skip":	false,
-					"Value":	0.2
-				},
-				"Positions":	{
-					"$NodeId":	"Mesh2DPositions-e0c2744c-71d3-48fc-90f9-437ed49da3b1",
-					"Type":	"Mesh2D",
-					"Skip":	false,
-					"PointsY":	0,
-					"PointGenerator":	{
-						"$NodeId":	"MeshPointGenerator-e9737476-f5f1-49c0-89ec-ee5cf984e5a7",
-						"Type":	"Mesh",
-						"Jitter":	0.3,
-						"ScaleX":	75,
-						"ScaleY":	75,
-						"ScaleZ":	75,
-						"Seed":	"A"
-					}
-				}
-			},
-			"Assignments":	{
-				"$NodeId":	"Imported.Assignments-ffd31af9-c953-43bf-b0fc-651abe0ae447",
-				"Type":	"Imported",
-				"Name":	"Plains1_Oak_Encounters"
-			}
-		}, {
 			"$NodeId":	"Runtime-aa00e81e-a1d7-4299-9eb6-715a8e428f82",
 			"Skip":	false,
 			"Runtime":	0,
@@ -2288,7 +2252,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-ebbaa07f-742b-4afc-b45a-e0f8e2509aa5",
 				"Type":	"Imported",
-				"Name":	"Plains1_Oak_Hedges"
+				"Name":	"Lowland_Jungle_Hedges"
 			}
 		}, {
 			"$NodeId":	"Runtime-4977b684-6973-43c5-a0f8-c6045dded943",
@@ -4131,42 +4095,6 @@
 				"$Position":	{
 					"$x":	2480,
 					"$y":	-1344
-				}
-			},
-			"Runtime-dd5bbbc1-6abe-4bfc-8276-8596129e3c41":	{
-				"$Position":	{
-					"$x":	4063,
-					"$y":	-1497
-				}
-			},
-			"OccurrencePositions-32369498-f098-4930-a499-c5abc4d7964c":	{
-				"$Position":	{
-					"$x":	4755,
-					"$y":	-1475
-				}
-			},
-			"ConstantDensityNode-b7a48d33-6242-491b-ad0d-8a0cf643af49":	{
-				"$Position":	{
-					"$x":	5472,
-					"$y":	-1266
-				}
-			},
-			"Mesh2DPositions-e0c2744c-71d3-48fc-90f9-437ed49da3b1":	{
-				"$Position":	{
-					"$x":	5468,
-					"$y":	-1471
-				}
-			},
-			"MeshPointGenerator-e9737476-f5f1-49c0-89ec-ee5cf984e5a7":	{
-				"$Position":	{
-					"$x":	6147,
-					"$y":	-1465
-				}
-			},
-			"Imported.Assignments-ffd31af9-c953-43bf-b0fc-651abe0ae447":	{
-				"$Position":	{
-					"$x":	4625,
-					"$y":	-1139
 				}
 			},
 			"Runtime-aa00e81e-a1d7-4299-9eb6-715a8e428f82":	{
@@ -6878,14 +6806,6 @@
 				"$width":	1988.0625,
 				"$height":	489.9375,
 				"$name":	"Pillars"
-			}, {
-				"$Position":	{
-					"$x":	3789.625,
-					"$y":	-1620.5
-				},
-				"$width":	2830,
-				"$height":	756.875,
-				"$name":	"Encounters"
 			}, {
 				"$Position":	{
 					"$x":	-3355.4375,
