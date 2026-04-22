@@ -4,11 +4,11 @@
     {
       "Biome": "FloatIsland",
       "Min": -1.0,
-      "Max": -0.94
+      "Max": -0.9275
     },
     {
       "Biome": "SK_Lowlands_Peaks",
-      "Min": -0.94,
+      "Min": -0.9275,
       "Max": -0.8
     },
     {
