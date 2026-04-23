@@ -11,18 +11,43 @@
     },
     {
       "Id": "Rex_Cave",
-      "Weight": 0.05,
-      "SpawnBlockSet": "Grass"
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
     },
     {
       "Id": "Raptor_Cave",
-      "Weight": 0.05,
-      "SpawnBlockSet": "Grass"
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
     },
     {
       "Id": "Cactee",
-      "Weight": 0.01,
-      "SpawnBlockSet": "Grass"
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Snake_Cobra",
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Snake_Rattle",
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Hawk",
+      "Weight": 4,
+      "SpawnBlockSet": "Birds"
+    },
+    {
+      "Id": "Archaeopteryx",
+      "Weight": 3,
+      "SpawnBlockSet": "Birds"
+    },
+    {
+      "Id": "Pterodactyl",
+      "Weight": 3,
+      "SpawnBlockSet": "Birds"
     }
   ],
   "DayTimeRange": [

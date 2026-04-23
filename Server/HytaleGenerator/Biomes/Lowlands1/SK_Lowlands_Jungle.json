@@ -6434,14 +6434,14 @@
 			},
 			"Constant.EnvironmentProvider-8b157b85-1440-40b6-a140-bbd7a6454bc6":	{
 				"$Position":	{
-					"$x":	-6802,
-					"$y":	4546
+					"$x":	-6766,
+					"$y":	4550
 				}
 			},
 			"Decimal.Range-362502f0-07ee-45e3-b138-09aad552ec3d":	{
 				"$Position":	{
-					"$x":	-6793,
-					"$y":	4706
+					"$x":	-6766,
+					"$y":	4704
 				}
 			},
 			"Delimiter.DensityDelimited.EnvironmentProvider-6add5ddf-63e6-46c6-bfd1-fd081dc58212":	{

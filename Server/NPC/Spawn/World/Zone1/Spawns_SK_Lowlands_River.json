@@ -12,6 +12,21 @@
       "Id": "Meerkat",
       "Weight": 0.1,
       "SpawnBlockSet": "Sand"
+    },
+    {
+      "Id": "Woodpecker",
+      "Weight": 3,
+      "SpawnBlockSet": "Birds"
+    },
+    {
+      "Id": "Sparrow",
+      "Weight": 4,
+      "SpawnBlockSet": "Birds"
+    },
+    {
+      "Id": "Tortoise",
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
     }
   ]
 }

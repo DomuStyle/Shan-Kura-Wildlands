@@ -41,7 +41,7 @@
     {
       "Weight": 10,
       "SpawnBlockSet": "Soil",
-      "Id": "Pig",
+      "Id": "Pig_Wild",
       "Flock": "Group_Small"
     },
     {
@@ -49,6 +49,21 @@
       "SpawnBlockSet": "Soil",
       "Id": "Rabbit",
       "Flock": "One_Or_Two"
+    },
+    {
+      "Id": "Warthog",
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Warthog_Piglet",
+      "Weight": 1,
+      "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Turkey",
+      "Weight": 0.5,
+      "SpawnBlockSet": "Soil"
     }
   ],
   "DayTimeRange": [
