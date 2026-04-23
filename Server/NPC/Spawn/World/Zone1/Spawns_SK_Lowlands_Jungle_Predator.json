@@ -1,0 +1,32 @@
+{
+  "Environments": [
+    "Env_Lowland_Jungle"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Soil",
+      "Id": "Wolf_Black",
+      "Flock": "Pack_Small"
+    },
+    {
+      "Id": "Rex_Cave",
+      "Weight": 0.05,
+      "SpawnBlockSet": "Grass"
+    },
+    {
+      "Id": "Raptor_Cave",
+      "Weight": 0.05,
+      "SpawnBlockSet": "Grass"
+    },
+    {
+      "Id": "Cactee",
+      "Weight": 0.01,
+      "SpawnBlockSet": "Grass"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    24
+  ]
+}

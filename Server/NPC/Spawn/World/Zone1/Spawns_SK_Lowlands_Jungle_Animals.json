@@ -33,12 +33,6 @@
       "Flock": "Group_Small"
     },
     {
-      "Weight": 10,
-      "SpawnBlockSet": "Soil",
-      "Id": "Cow",
-      "Flock": "Group_Small"
-    },
-    {
       "Weight": 5,
       "SpawnBlockSet": "Soil",
       "Id": "Horse",
@@ -55,12 +49,6 @@
       "SpawnBlockSet": "Soil",
       "Id": "Rabbit",
       "Flock": "One_Or_Two"
-    },
-    {
-      "Weight": 10,
-      "SpawnBlockSet": "Soil",
-      "Id": "Sheep",
-      "Flock": "Group_Small"
     }
   ],
   "DayTimeRange": [
