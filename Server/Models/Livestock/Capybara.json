@@ -1,6 +1,6 @@
 {
-  "Model": "NPC/Livestock/Capybara/Models/Capybara_v1_WIP_2.blockymodel",
-  "Texture": "NPC/Livestock/Capybara/Models/CapybaraV1_Texture.png",
+  "Model": "NPC/Livestock/Capybara/Models/Capybara_v1_WIP_fixed_anim.blockymodel",
+  "Texture": "NPC/Livestock/Capybara/Models/CapybaraV1_Texture_3.png",
   "EyeHeight": 0.7,
   "CrouchOffset": -0.2,
   "HitBox": {
