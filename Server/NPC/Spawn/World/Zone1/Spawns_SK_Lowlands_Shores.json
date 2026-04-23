@@ -4,14 +4,19 @@
   ],
   "NPCs": [
     {
-      "Weight": 0.5,
+      "Weight": 0.005,
       "SpawnBlockSet": "Soil_Sand",
       "Id": "Crab"
     },
     {
       "Id": "Lobster",
-      "Weight": 0.001,
+      "Weight": 0.004,
       "SpawnBlockSet": "Soil_Sand"
+    },
+    {
+      "Id": "Meerkat",
+      "Weight": 0.001,
+      "SpawnBlockSet": "Grass"
     }
   ]
 }
