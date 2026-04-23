@@ -3086,7 +3086,7 @@
 				"Environment":	{
 					"$NodeId":	"Constant.EnvironmentProvider-8b157b85-1440-40b6-a140-bbd7a6454bc6",
 					"Type":	"Constant",
-					"Environment":	"Env_Zone1_Plains"
+					"Environment":	"Env_Lowland_Jungle"
 				},
 				"Range":	{
 					"$NodeId":	"Decimal.Range-362502f0-07ee-45e3-b138-09aad552ec3d",
