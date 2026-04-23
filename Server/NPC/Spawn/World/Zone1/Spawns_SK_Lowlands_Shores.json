@@ -1,0 +1,17 @@
+{
+  "Environments": [
+    "Env_Lowland_Shores"
+  ],
+  "NPCs": [
+    {
+      "Weight": 0.5,
+      "SpawnBlockSet": "Soil_Sand",
+      "Id": "Crab"
+    },
+    {
+      "Id": "Lobster",
+      "Weight": 0.001,
+      "SpawnBlockSet": "Soil_Sand"
+    }
+  ]
+}
