@@ -17,6 +17,11 @@
       "Id": "Meerkat",
       "Weight": 0.001,
       "SpawnBlockSet": "Grass"
+    },
+    {
+      "Id": "Tortoise",
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
     }
   ]
 }

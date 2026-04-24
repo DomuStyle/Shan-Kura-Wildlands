@@ -1,0 +1,42 @@
+{
+  "Environments": [
+    "Env_Lowland_Peaks"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Soil",
+      "Id": "Wolf_White",
+      "Flock": "Pack_Small"
+    },
+    {
+      "Id": "Snake_Cobra",
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Snake_Rattle",
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Hawk",
+      "Weight": 4,
+      "SpawnBlockSet": "Birds"
+    },
+    {
+      "Id": "Archaeopteryx",
+      "Weight": 3,
+      "SpawnBlockSet": "Birds"
+    },
+    {
+      "Id": "Pterodactyl",
+      "Weight": 3,
+      "SpawnBlockSet": "Birds"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    24
+  ]
+}

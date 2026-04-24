@@ -39,7 +39,7 @@
       "Flock": "Group_Medium"
     },
     {
-      "Weight": 10,
+      "Weight": 5,
       "SpawnBlockSet": "Soil",
       "Id": "Pig_Wild",
       "Flock": "Group_Small"

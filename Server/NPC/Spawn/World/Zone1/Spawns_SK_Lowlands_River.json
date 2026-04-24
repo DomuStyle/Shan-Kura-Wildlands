@@ -27,6 +27,11 @@
       "Id": "Tortoise",
       "Weight": 2,
       "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Crocodile",
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
     }
   ]
 }
