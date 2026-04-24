@@ -1,26 +1,28 @@
 {
   "Environments": [
-    "Env_Lowland_Rivers",
-    "Env_Lowland_Shores"
+    "Env_Lowland_Rivers"
   ],
   "NPCs": [
     {
-      "Weight": 100,
+      "Weight": 15,
       "Id": "Piranha",
       "Flock": "Group_Large",
-      "SpawnFluidTag": "Water"
+      "SpawnFluidTag": "Water",
+      "SpawnBlockSet": "Soil"
     },
     {
       "Weight": 5,
       "Id": "Piranha_Black",
       "Flock": "Group_Small",
-      "SpawnFluidTag": "Water"
+      "SpawnFluidTag": "Water",
+      "SpawnBlockSet": "Soil"
     },
     {
-      "Weight": 15,
+      "Weight": 5,
       "Id": "Trilobite",
       "SpawnFluidTag": "Water",
-      "Flock": "One_Or_Two"
+      "Flock": "One_Or_Two",
+      "SpawnBlockSet": "Soil"
     }
   ],
   "DayTimeRange": [
