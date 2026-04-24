@@ -366,7 +366,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-16c80f6e-4b52-4b30-a0f4-9b5dedc8d4eb",
 				"Type":	"Imported",
-				"Name":	"Plains1_Oak_Grasses"
+				"Name":	"Lowland_Jungle_Grasses"
 			}
 		}, {
 			"$NodeId":	"Runtime-327bedfd-f400-429f-9407-ffba4ab3b16d",
@@ -4325,7 +4325,7 @@
 				"Assignments":	{
 					"$NodeId":	"Imported.Assignments-b8b77945-f313-4e5b-860d-37e40644ac27",
 					"Type":	"Imported",
-					"Name":	"Plains1_Oak_Trees"
+					"Name":	"Lowland_Shore_Trees"
 				}
 			}, {
 				"$NodeId":	"WeightedPath.Prefab.Prop-43e533c1-ef24-4c29-845c-b82870b72f77",
@@ -4464,7 +4464,7 @@
 					"$y":	2753.75
 				},
 				"$width":	7043.75,
-				"$height":	6165.3125,
+				"$height":	7206.3125,
 				"$name":	"Jungle Plants"
 			}],
 		"$Comments":	[],

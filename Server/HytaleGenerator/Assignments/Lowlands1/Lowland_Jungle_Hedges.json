@@ -18,6 +18,10 @@
 							"$NodeId":	"WeightedPath.Prefab.Prop-3d1fe880-0728-44ec-bbef-9e6802efd1ac",
 							"Path":	"Rock_Formations/Rocks/Shale/Small/",
 							"Weight":	10
+						}, {
+							"$NodeId":	"WeightedPath.Prefab.Prop-4b8595e0-48b3-4d28-b55b-ea92b8c01eab",
+							"Path":	"Rock_Formations/Rocks/Jungle",
+							"Weight":	10
 						}],
 					"LegacyPath":	false,
 					"LoadEntities":	true,
@@ -63,7 +67,7 @@
 							"Skip":	false,
 							"WeightedPrefabPaths":	[{
 									"$NodeId":	"WeightedPath.Prefab.Prop-8575e55b-0750-4907-8ea5-2d1f10eaee98",
-									"Path":	"Trees/Oak/Stage_0",
+									"Path":	"Trees/Jungle_Island1/Stage_00",
 									"Weight":	10
 								}],
 							"LegacyPath":	false,
@@ -377,8 +381,8 @@
 			},
 			"WeightedPath.Prefab.Prop-3d1fe880-0728-44ec-bbef-9e6802efd1ac":	{
 				"$Position":	{
-					"$x":	-457,
-					"$y":	-6858
+					"$x":	-425,
+					"$y":	-6959
 				}
 			},
 			"Random.Directionality-43f8cc8d-f09d-4334-871b-368bd349494e":	{
@@ -715,6 +719,12 @@
 				"$Position":	{
 					"$x":	-613,
 					"$y":	-510
+				}
+			},
+			"WeightedPath.Prefab.Prop-4b8595e0-48b3-4d28-b55b-ea92b8c01eab":	{
+				"$Position":	{
+					"$x":	-425,
+					"$y":	-6810
 				}
 			}
 		},

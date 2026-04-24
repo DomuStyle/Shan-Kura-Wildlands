@@ -1053,30 +1053,6 @@
 		}
 	},
 	"Props":	[{
-			"$NodeId":	"Runtime-ea411f54-7627-4b20-8ebd-52fd241ea23a",
-			"Skip":	true,
-			"Runtime":	0,
-			"Positions":	{
-				"$NodeId":	"Mesh2DPositions-5304dfdf-5402-4578-9fc5-2eba41fd1446",
-				"Type":	"Mesh2D",
-				"Skip":	false,
-				"PointsY":	0,
-				"PointGenerator":	{
-					"$NodeId":	"MeshPointGenerator-1b087eb7-c11e-41bb-9a1a-2f9430ffbc6b",
-					"Type":	"Mesh",
-					"Jitter":	0.4,
-					"ScaleX":	20,
-					"ScaleY":	20,
-					"ScaleZ":	20,
-					"Seed":	"A"
-				}
-			},
-			"Assignments":	{
-				"$NodeId":	"Imported.Assignments-06db4c4d-eeee-4f76-967a-39428948b3e1",
-				"Type":	"Imported",
-				"Name":	"Plains1_Oak_Pillars"
-			}
-		}, {
 			"$NodeId":	"Runtime-98581f99-e2b4-4480-82ac-afe737b8b761",
 			"Skip":	false,
 			"Runtime":	1,
@@ -1171,30 +1147,6 @@
 				"$NodeId":	"Imported.Assignments-64f5db7c-e7c3-4cb1-9218-6bb8081d09e1",
 				"Type":	"Imported",
 				"Name":	"Plains1_River_Bushes"
-			}
-		}, {
-			"$NodeId":	"Runtime-15804390-e4cb-4939-b545-ea2891b6f679",
-			"Skip":	false,
-			"Runtime":	1,
-			"Positions":	{
-				"$NodeId":	"Mesh2DPositions-7d41a8b1-898f-4135-b63d-e68bad657c87",
-				"Type":	"Mesh2D",
-				"Skip":	false,
-				"PointsY":	0,
-				"PointGenerator":	{
-					"$NodeId":	"MeshPointGenerator-20a3c5b6-cb44-476f-b927-c140bedd8fc6",
-					"Type":	"Mesh",
-					"Jitter":	0.4,
-					"ScaleX":	10,
-					"ScaleY":	10,
-					"ScaleZ":	10,
-					"Seed":	"A"
-				}
-			},
-			"Assignments":	{
-				"$NodeId":	"Imported.Assignments-5b617eaf-e09b-4cea-8e70-709ae2c72e07",
-				"Type":	"Imported",
-				"Name":	"Plains1_Oak_Trees"
 			}
 		}, {
 			"$NodeId":	"Runtime-cac83679-7266-4995-bd4b-e2451322a32a",
@@ -4089,30 +4041,6 @@
 					"$y":	18280
 				}
 			},
-			"Runtime-ea411f54-7627-4b20-8ebd-52fd241ea23a":	{
-				"$Position":	{
-					"$x":	-3240,
-					"$y":	15070
-				}
-			},
-			"Mesh2DPositions-5304dfdf-5402-4578-9fc5-2eba41fd1446":	{
-				"$Position":	{
-					"$x":	-2568,
-					"$y":	15025
-				}
-			},
-			"MeshPointGenerator-1b087eb7-c11e-41bb-9a1a-2f9430ffbc6b":	{
-				"$Position":	{
-					"$x":	-1881,
-					"$y":	15018
-				}
-			},
-			"Imported.Assignments-06db4c4d-eeee-4f76-967a-39428948b3e1":	{
-				"$Position":	{
-					"$x":	-2570,
-					"$y":	15229
-				}
-			},
 			"Runtime-98581f99-e2b4-4480-82ac-afe737b8b761":	{
 				"$Position":	{
 					"$x":	-3363,
@@ -4175,38 +4103,38 @@
 			},
 			"Runtime-c14d3ee4-adae-43ad-847e-915bd7f954b0":	{
 				"$Position":	{
-					"$x":	-3262,
+					"$x":	-3292,
 					"$y":	17125
 				}
 			},
 			"OccurrencePositions-952a6450-5381-4838-895b-284dc6430f58":	{
 				"$Position":	{
-					"$x":	-2732,
-					"$y":	17124
+					"$x":	-2666,
+					"$y":	17126
 				}
 			},
 			"ConstantDensityNode-8f58726f-0af8-4d66-bee9-b38daa20105e":	{
 				"$Position":	{
-					"$x":	-2030,
-					"$y":	17377
+					"$x":	-1991,
+					"$y":	17340
 				}
 			},
 			"Mesh2DPositions-06bfe673-d69c-4f6f-b342-4e9d3259802c":	{
 				"$Position":	{
-					"$x":	-2064,
+					"$x":	-1986,
 					"$y":	17132
 				}
 			},
 			"MeshPointGenerator-fe5784a7-2afb-4ad9-add6-c86c64275df7":	{
 				"$Position":	{
-					"$x":	-1404,
-					"$y":	17126
+					"$x":	-1312,
+					"$y":	17132
 				}
 			},
 			"Imported.Assignments-64f5db7c-e7c3-4cb1-9218-6bb8081d09e1":	{
 				"$Position":	{
-					"$x":	-2721,
-					"$y":	17348
+					"$x":	-2672,
+					"$y":	17333
 				}
 			},
 			"Runtime-15804390-e4cb-4939-b545-ea2891b6f679":	{
@@ -4217,20 +4145,20 @@
 			},
 			"Mesh2DPositions-7d41a8b1-898f-4135-b63d-e68bad657c87":	{
 				"$Position":	{
-					"$x":	-2311,
-					"$y":	18052
+					"$x":	-2466,
+					"$y":	18058
 				}
 			},
 			"MeshPointGenerator-20a3c5b6-cb44-476f-b927-c140bedd8fc6":	{
 				"$Position":	{
-					"$x":	-1632,
-					"$y":	18058
+					"$x":	-1765,
+					"$y":	18054
 				}
 			},
 			"Imported.Assignments-5b617eaf-e09b-4cea-8e70-709ae2c72e07":	{
 				"$Position":	{
-					"$x":	-2545,
-					"$y":	18347
+					"$x":	-2470,
+					"$y":	18263
 				}
 			},
 			"Runtime-cac83679-7266-4995-bd4b-e2451322a32a":	{
@@ -6217,6 +6145,30 @@
 			}
 		},
 		"$FloatingNodes":	[{
+				"$NodeId":	"Runtime-15804390-e4cb-4939-b545-ea2891b6f679",
+				"Skip":	false,
+				"Runtime":	1,
+				"Positions":	{
+					"$NodeId":	"Mesh2DPositions-7d41a8b1-898f-4135-b63d-e68bad657c87",
+					"Type":	"Mesh2D",
+					"Skip":	false,
+					"PointsY":	0,
+					"PointGenerator":	{
+						"$NodeId":	"MeshPointGenerator-20a3c5b6-cb44-476f-b927-c140bedd8fc6",
+						"Type":	"Mesh",
+						"Jitter":	0.4,
+						"ScaleX":	10,
+						"ScaleY":	10,
+						"ScaleZ":	10,
+						"Seed":	"A"
+					}
+				},
+				"Assignments":	{
+					"$NodeId":	"Imported.Assignments-5b617eaf-e09b-4cea-8e70-709ae2c72e07",
+					"Type":	"Imported",
+					"Name":	"Plains1_Oak_Trees"
+				}
+			}, {
 				"$NodeId":	"Material-8c9faaf3-e49f-4f4a-8b40-893542ccdde1",
 				"Solid":	"Soil_Sand_Crystal",
 				"SolidBottomUp":	false
@@ -6296,7 +6248,7 @@
 					"$x":	-3348.3125,
 					"$y":	17059.75
 				},
-				"$width":	2409,
+				"$width":	2476.375,
 				"$height":	578.25,
 				"$name":	"Bushes"
 			}, {
@@ -6403,14 +6355,6 @@
 				"$width":	2492.4375,
 				"$height":	712.0625,
 				"$name":	"Pebbles"
-			}, {
-				"$Position":	{
-					"$x":	-3397.375,
-					"$y":	14860.0625
-				},
-				"$width":	1988.0625,
-				"$height":	614.1875,
-				"$name":	"Pillars"
 			}, {
 				"$Position":	{
 					"$x":	2583.5625,
