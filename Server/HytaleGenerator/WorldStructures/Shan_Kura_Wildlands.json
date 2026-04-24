@@ -19,11 +19,6 @@
     {
       "Biome": "SK_Lowlands_Jungle",
       "Min": -0.7,
-      "Max": -0.45
-    },
-    {
-      "Biome": "Plains1_Deeproot",
-      "Min": -0.45,
       "Max": -0.32
     },
     {

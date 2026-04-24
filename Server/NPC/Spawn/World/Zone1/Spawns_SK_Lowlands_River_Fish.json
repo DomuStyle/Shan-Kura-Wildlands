@@ -1,0 +1,30 @@
+{
+  "Environments": [
+    "Env_Lowland_Rivers",
+    "Env_Lowland_Shores"
+  ],
+  "NPCs": [
+    {
+      "Weight": 100,
+      "Id": "Piranha",
+      "Flock": "Group_Large",
+      "SpawnFluidTag": "Water"
+    },
+    {
+      "Weight": 5,
+      "Id": "Piranha_Black",
+      "Flock": "Group_Small",
+      "SpawnFluidTag": "Water"
+    },
+    {
+      "Weight": 15,
+      "Id": "Trilobite",
+      "SpawnFluidTag": "Water",
+      "Flock": "One_Or_Two"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    24
+  ]
+}

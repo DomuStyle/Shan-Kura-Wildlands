@@ -53,7 +53,8 @@
     {
       "Id": "Warthog",
       "Weight": 2,
-      "SpawnBlockSet": "Soil"
+      "SpawnBlockSet": "Soil",
+      "Flock": "Parent_And_Young_75_25"
     },
     {
       "Id": "Warthog_Piglet",
@@ -64,6 +65,12 @@
       "Id": "Turkey",
       "Weight": 0.5,
       "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Trillodon",
+      "Weight": 3,
+      "SpawnBlockSet": "Soil",
+      "Flock": "Group_Small"
     }
   ],
   "DayTimeRange": [
