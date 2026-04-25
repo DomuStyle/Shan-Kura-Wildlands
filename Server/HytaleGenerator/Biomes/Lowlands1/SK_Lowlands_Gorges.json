@@ -3320,38 +3320,38 @@
 			},
 			"SimpleHorizontalMaterialProvider-190426d3-17ae-4ba3-9f17-b784ab2896d3":	{
 				"$Position":	{
-					"$x":	346,
-					"$y":	120
+					"$x":	351,
+					"$y":	299
 				}
 			},
 			"SpaceAndDepthMaterialProvider-9459886b-280f-472d-b61a-9bd712ff2951":	{
 				"$Position":	{
-					"$x":	1051,
-					"$y":	117
+					"$x":	1056,
+					"$y":	296
 				}
 			},
 			"AlwaysTrueConditionSADMP-157b683a-1d53-4243-ad0d-97f0b12997e9":	{
 				"$Position":	{
-					"$x":	1851,
-					"$y":	71
+					"$x":	1856,
+					"$y":	250
 				}
 			},
 			"RangeThicknessLayerSADMP-7148d798-cbde-462e-bf93-d5396a703c4d":	{
 				"$Position":	{
-					"$x":	2139,
-					"$y":	225
+					"$x":	2144,
+					"$y":	404
 				}
 			},
 			"ConstantMaterialProvider-624e1872-5396-4458-9267-7c70191a5e49":	{
 				"$Position":	{
-					"$x":	2793,
-					"$y":	230
+					"$x":	2798,
+					"$y":	409
 				}
 			},
 			"Material-191595b8-5bdf-487a-a570-bef3aacfbbb3":	{
 				"$Position":	{
-					"$x":	3471,
-					"$y":	224
+					"$x":	3476,
+					"$y":	403
 				}
 			},
 			"SimpleHorizontalMaterialProvider-8d5fbb52-33de-4a8d-bb8b-55d84b43dbf6":	{
@@ -3985,7 +3985,7 @@
 					"$x":	-60.8125,
 					"$y":	-1107.125
 				},
-				"$width":	4492.375,
+				"$width":	4828.5,
 				"$height":	930.375,
 				"$name":	"Grass and Dirt Material"
 			}, {
@@ -4081,7 +4081,7 @@
 					"$x":	2.0625,
 					"$y":	-5777.0625
 				},
-				"$width":	5506.875,
+				"$width":	5626.125,
 				"$height":	1663.8125,
 				"$name":	"Pebble Material"
 			}, {
@@ -4094,10 +4094,10 @@
 				"$name":	"Sunny Grass material"
 			}, {
 				"$Position":	{
-					"$x":	-95.0625,
-					"$y":	-218.375
+					"$x":	-89.1875,
+					"$y":	-38.625
 				},
-				"$width":	4492.375,
+				"$width":	4769.625,
 				"$height":	930.375,
 				"$name":	"Mud Material"
 			}, {
@@ -4113,7 +4113,7 @@
 					"$x":	-60.375,
 					"$y":	-2148.25
 				},
-				"$width":	4190,
+				"$width":	4642,
 				"$height":	886.125,
 				"$name":	"Grass Patches Material"
 			}, {

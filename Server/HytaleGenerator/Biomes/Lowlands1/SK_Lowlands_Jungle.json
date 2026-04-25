@@ -1340,7 +1340,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-34d8cf0c-6b45-4350-bd37-1f8c911e7b58",
 				"Type":	"Imported",
-				"Name":	"Plains1_Oak_Cave_Encounters"
+				"Name":	"Lowland_Jungle_Cave_Encounters"
 			}
 		}, {
 			"$NodeId":	"Runtime-9d5d16ef-7b35-431b-a8b4-80aa08480fc6",
@@ -1598,7 +1598,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-389e181d-638a-4209-8f0a-dfb08fd306eb",
 				"Type":	"Imported",
-				"Name":	"Plains1_Oak_Flower_Pink_Cyan"
+				"Name":	"Lowland_Jungle_Flower_Pink_Cyan"
 			}
 		}, {
 			"$NodeId":	"Runtime-2051ff1d-e07d-4585-b846-df134ed88ed4",
@@ -1647,7 +1647,129 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-cec956f0-586f-4871-8a17-5c5317607d6f",
 				"Type":	"Imported",
-				"Name":	"Plains1_Oak_Flower_Red_Yellow"
+				"Name":	"Lowland_Jungle_Flower_Red_Yellow"
+			}
+		}, {
+			"$NodeId":	"Runtime-e2af4036-fa60-475d-a525-7e12f2e2cce5",
+			"Skip":	false,
+			"Runtime":	1,
+			"Positions":	{
+				"$NodeId":	"Mesh2DPositions-672ed328-dae0-4f0d-9f80-938d3261e4a1",
+				"Type":	"Mesh2D",
+				"Skip":	false,
+				"PointsY":	0,
+				"PointGenerator":	{
+					"$NodeId":	"MeshPointGenerator-f974abc6-8aa2-4183-b845-1d861eaae667",
+					"Type":	"Mesh",
+					"Jitter":	0.001,
+					"ScaleX":	1,
+					"ScaleY":	1,
+					"ScaleZ":	1,
+					"Seed":	"A"
+				}
+			},
+			"Assignments":	{
+				"$NodeId":	"Imported.Assignments-05b45848-5b3d-4f60-a47b-57f966443e20",
+				"Type":	"Imported",
+				"Name":	"Lowland_Jungle_Cave_Moss"
+			}
+		}, {
+			"$NodeId":	"Runtime-37903bd0-cb9e-4874-a7d1-46f093940716",
+			"Skip":	false,
+			"Runtime":	1,
+			"Positions":	{
+				"$NodeId":	"OccurrencePositions-b47822c6-c03f-4b52-a593-f9a604e20c9a",
+				"Type":	"Occurrence",
+				"Skip":	false,
+				"Seed":	"A",
+				"FieldFunction":	{
+					"$NodeId":	"NormalizerDensityNode-ecf448cf-23aa-4654-bc85-c9fa9f01da5e",
+					"Type":	"Normalizer",
+					"Skip":	false,
+					"FromMin":	0,
+					"FromMax":	1,
+					"ToMin":	-0.3,
+					"ToMax":	0.5,
+					"Inputs":	[{
+							"$NodeId":	"InverterDensityNode-01a2bf73-9f44-4aa4-8d50-2f263e517513",
+							"Type":	"Inverter",
+							"Skip":	false,
+							"Inputs":	[{
+									"$NodeId":	"ImportedDensityNode-be261a9d-cc30-45e5-a044-a2885b36fc00",
+									"Type":	"Imported",
+									"Skip":	false,
+									"Name":	"Plains1_Oak_Dips"
+								}]
+						}]
+				},
+				"Positions":	{
+					"$NodeId":	"Mesh2DPositions-1fb3e3d5-3e4c-41e6-a079-419b6929661f",
+					"Type":	"Mesh2D",
+					"Skip":	false,
+					"PointsY":	0,
+					"PointGenerator":	{
+						"$NodeId":	"MeshPointGenerator-e5189144-9066-4bee-96ef-2cd8f3bb8b50",
+						"Type":	"Mesh",
+						"Jitter":	0.001,
+						"ScaleX":	1,
+						"ScaleY":	1,
+						"ScaleZ":	1,
+						"Seed":	"A"
+					}
+				}
+			},
+			"Assignments":	{
+				"$NodeId":	"Imported.Assignments-932953fe-e42b-4098-a697-4a0bba9fde41",
+				"Type":	"Imported",
+				"Name":	"Lowland_Jungle_Flower_Pink_Cyan"
+			}
+		}, {
+			"$NodeId":	"Runtime-5ff5f67f-1a47-4100-b0f6-96f0f2ac5a05",
+			"Skip":	false,
+			"Runtime":	1,
+			"Positions":	{
+				"$NodeId":	"Mesh2DPositions-65efe96e-2fb8-4a01-9390-c98673befd03",
+				"Type":	"Mesh2D",
+				"Skip":	false,
+				"PointsY":	0,
+				"PointGenerator":	{
+					"$NodeId":	"MeshPointGenerator-43b570af-0707-4a7a-b890-58d495259b99",
+					"Type":	"Mesh",
+					"Jitter":	0.001,
+					"ScaleX":	1,
+					"ScaleY":	1,
+					"ScaleZ":	1,
+					"Seed":	"A"
+				}
+			},
+			"Assignments":	{
+				"$NodeId":	"Imported.Assignments-d9e9f040-0ef8-40df-b6d3-952135e8c582",
+				"Type":	"Imported",
+				"Name":	"Lowland_Jungle_Grasses"
+			}
+		}, {
+			"$NodeId":	"Runtime-9ade8e53-3695-4fdd-ace9-dd5672c67ec5",
+			"Skip":	false,
+			"Runtime":	0,
+			"Positions":	{
+				"$NodeId":	"Mesh2DPositions-7d2bd555-921a-4c70-a54d-847c362308af",
+				"Type":	"Mesh2D",
+				"Skip":	false,
+				"PointsY":	0,
+				"PointGenerator":	{
+					"$NodeId":	"MeshPointGenerator-81a6503e-092e-4476-8e15-ee8408c0163e",
+					"Type":	"Mesh",
+					"Jitter":	0.5,
+					"ScaleX":	22,
+					"ScaleY":	22,
+					"ScaleZ":	22,
+					"Seed":	"Iron"
+				}
+			},
+			"Assignments":	{
+				"$NodeId":	"Imported.Assignments-7c3aa12e-6072-48b1-be45-d9bb63d19cec",
+				"Type":	"Imported",
+				"Name":	"Lowland_Jungle_Iron"
 			}
 		}, {
 			"$NodeId":	"Runtime-ec29d47b-dc1a-4be3-8c0e-ac06d7e82705",
@@ -1932,128 +2054,6 @@
 					}]
 			}
 		}, {
-			"$NodeId":	"Runtime-e2af4036-fa60-475d-a525-7e12f2e2cce5",
-			"Skip":	false,
-			"Runtime":	1,
-			"Positions":	{
-				"$NodeId":	"Mesh2DPositions-672ed328-dae0-4f0d-9f80-938d3261e4a1",
-				"Type":	"Mesh2D",
-				"Skip":	false,
-				"PointsY":	0,
-				"PointGenerator":	{
-					"$NodeId":	"MeshPointGenerator-f974abc6-8aa2-4183-b845-1d861eaae667",
-					"Type":	"Mesh",
-					"Jitter":	0.001,
-					"ScaleX":	1,
-					"ScaleY":	1,
-					"ScaleZ":	1,
-					"Seed":	"A"
-				}
-			},
-			"Assignments":	{
-				"$NodeId":	"Imported.Assignments-05b45848-5b3d-4f60-a47b-57f966443e20",
-				"Type":	"Imported",
-				"Name":	"Plains1_Oak_Cave_Moss"
-			}
-		}, {
-			"$NodeId":	"Runtime-37903bd0-cb9e-4874-a7d1-46f093940716",
-			"Skip":	false,
-			"Runtime":	1,
-			"Positions":	{
-				"$NodeId":	"OccurrencePositions-b47822c6-c03f-4b52-a593-f9a604e20c9a",
-				"Type":	"Occurrence",
-				"Skip":	false,
-				"Seed":	"A",
-				"FieldFunction":	{
-					"$NodeId":	"NormalizerDensityNode-ecf448cf-23aa-4654-bc85-c9fa9f01da5e",
-					"Type":	"Normalizer",
-					"Skip":	false,
-					"FromMin":	0,
-					"FromMax":	1,
-					"ToMin":	-0.3,
-					"ToMax":	0.5,
-					"Inputs":	[{
-							"$NodeId":	"InverterDensityNode-01a2bf73-9f44-4aa4-8d50-2f263e517513",
-							"Type":	"Inverter",
-							"Skip":	false,
-							"Inputs":	[{
-									"$NodeId":	"ImportedDensityNode-be261a9d-cc30-45e5-a044-a2885b36fc00",
-									"Type":	"Imported",
-									"Skip":	false,
-									"Name":	"Plains1_Oak_Dips"
-								}]
-						}]
-				},
-				"Positions":	{
-					"$NodeId":	"Mesh2DPositions-1fb3e3d5-3e4c-41e6-a079-419b6929661f",
-					"Type":	"Mesh2D",
-					"Skip":	false,
-					"PointsY":	0,
-					"PointGenerator":	{
-						"$NodeId":	"MeshPointGenerator-e5189144-9066-4bee-96ef-2cd8f3bb8b50",
-						"Type":	"Mesh",
-						"Jitter":	0.001,
-						"ScaleX":	1,
-						"ScaleY":	1,
-						"ScaleZ":	1,
-						"Seed":	"A"
-					}
-				}
-			},
-			"Assignments":	{
-				"$NodeId":	"Imported.Assignments-932953fe-e42b-4098-a697-4a0bba9fde41",
-				"Type":	"Imported",
-				"Name":	"Plains1_Oak_Flower_Pink_Cyan"
-			}
-		}, {
-			"$NodeId":	"Runtime-5ff5f67f-1a47-4100-b0f6-96f0f2ac5a05",
-			"Skip":	false,
-			"Runtime":	1,
-			"Positions":	{
-				"$NodeId":	"Mesh2DPositions-65efe96e-2fb8-4a01-9390-c98673befd03",
-				"Type":	"Mesh2D",
-				"Skip":	false,
-				"PointsY":	0,
-				"PointGenerator":	{
-					"$NodeId":	"MeshPointGenerator-43b570af-0707-4a7a-b890-58d495259b99",
-					"Type":	"Mesh",
-					"Jitter":	0.001,
-					"ScaleX":	1,
-					"ScaleY":	1,
-					"ScaleZ":	1,
-					"Seed":	"A"
-				}
-			},
-			"Assignments":	{
-				"$NodeId":	"Imported.Assignments-d9e9f040-0ef8-40df-b6d3-952135e8c582",
-				"Type":	"Imported",
-				"Name":	"Lowland_Jungle_Grasses"
-			}
-		}, {
-			"$NodeId":	"Runtime-9ade8e53-3695-4fdd-ace9-dd5672c67ec5",
-			"Skip":	false,
-			"Runtime":	0,
-			"Positions":	{
-				"$NodeId":	"Mesh2DPositions-7d2bd555-921a-4c70-a54d-847c362308af",
-				"Type":	"Mesh2D",
-				"Skip":	false,
-				"PointsY":	0,
-				"PointGenerator":	{
-					"$NodeId":	"MeshPointGenerator-81a6503e-092e-4476-8e15-ee8408c0163e",
-					"Type":	"Mesh",
-					"Jitter":	0.5,
-					"ScaleX":	22,
-					"ScaleY":	22,
-					"ScaleZ":	22,
-					"Seed":	"Iron"
-				}
-			},
-			"Assignments":	{
-				"$NodeId":	"Imported.Assignments-7c3aa12e-6072-48b1-be45-d9bb63d19cec",
-				"Type":	"Imported",
-				"Name":	"Plains1_Iron"
-			}
-		}, {
 			"$NodeId":	"Runtime-94f49ee7-30be-4b59-8639-1edc0cbf6f85",
 			"Skip":	false,
 			"Runtime":	0,
@@ -2075,7 +2075,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-f06f14d9-cb0d-4739-9ffa-48c49ceaa0a7",
 				"Type":	"Imported",
-				"Name":	"Plains1_Oak_Cave_Boulders"
+				"Name":	"Lowland_Jungle_Cave_Boulders"
 			}
 		}, {
 			"$NodeId":	"Runtime-837ac4d3-f0ec-4c6c-8a44-5aacdf133df0",
@@ -2170,7 +2170,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-13abd15a-4199-407e-a549-18545afb08ce",
 				"Type":	"Imported",
-				"Name":	"Plains1_Oak_Stalactites"
+				"Name":	"Lowland_Jungle_Stalactites"
 			}
 		}, {
 			"$NodeId":	"Runtime-a795819d-4451-444d-bd89-e96215ded6ed",
@@ -4712,86 +4712,86 @@
 			},
 			"Runtime-f5d2808e-9202-4ff8-b497-bf03e2a74c0d":	{
 				"$Position":	{
-					"$x":	-4382,
-					"$y":	1396
+					"$x":	-4436,
+					"$y":	88
 				}
 			},
 			"OccurrencePositions-64c36605-b4d5-4fdc-8c4f-8ffd6a83d0d1":	{
 				"$Position":	{
-					"$x":	-3737,
-					"$y":	1398
+					"$x":	-3791,
+					"$y":	90
 				}
 			},
 			"NormalizerDensityNode-7fad03ce-a02d-4cc7-8db0-7b1b19de697b":	{
 				"$Position":	{
-					"$x":	-3043,
-					"$y":	1661
+					"$x":	-3097,
+					"$y":	353
 				}
 			},
 			"SimplexNoise2DDensityNode-44b4614f-27f4-4501-9917-c89a425d19e7":	{
 				"$Position":	{
-					"$x":	-2433,
-					"$y":	1660
+					"$x":	-2487,
+					"$y":	352
 				}
 			},
 			"Mesh2DPositions-dd6fd58f-94d4-4619-baf0-de4eb4f3f891":	{
 				"$Position":	{
-					"$x":	-3051,
-					"$y":	1402
+					"$x":	-3105,
+					"$y":	94
 				}
 			},
 			"MeshPointGenerator-a318e7e3-6b97-46d8-9373-a1c5f0c6654b":	{
 				"$Position":	{
-					"$x":	-2340,
-					"$y":	1379
+					"$x":	-2394,
+					"$y":	71
 				}
 			},
 			"Imported.Assignments-389e181d-638a-4209-8f0a-dfb08fd306eb":	{
 				"$Position":	{
-					"$x":	-3677,
-					"$y":	1835
+					"$x":	-3731,
+					"$y":	527
 				}
 			},
 			"Runtime-2051ff1d-e07d-4585-b846-df134ed88ed4":	{
 				"$Position":	{
-					"$x":	-1697,
-					"$y":	1422
+					"$x":	-1710,
+					"$y":	89
 				}
 			},
 			"OccurrencePositions-678f8edb-b8b6-476c-9e9d-43b9082d8f78":	{
 				"$Position":	{
-					"$x":	-1039,
-					"$y":	1429
+					"$x":	-1052,
+					"$y":	96
 				}
 			},
 			"NormalizerDensityNode-4d5153f6-0346-4628-a695-56d9eb277d08":	{
 				"$Position":	{
-					"$x":	-312,
-					"$y":	1708
+					"$x":	-325,
+					"$y":	375
 				}
 			},
 			"SimplexNoise2DDensityNode-07b9f02c-896f-47a5-9f2f-1b610c6b62ce":	{
 				"$Position":	{
-					"$x":	296,
-					"$y":	1707
+					"$x":	282,
+					"$y":	374
 				}
 			},
 			"Mesh2DPositions-05b5bdb6-f457-40b0-828c-ae1cf862a813":	{
 				"$Position":	{
-					"$x":	-316,
-					"$y":	1426
+					"$x":	-329,
+					"$y":	93
 				}
 			},
 			"MeshPointGenerator-509e4bcc-017b-4463-9d7a-4f9b71d36aa8":	{
 				"$Position":	{
-					"$x":	357,
-					"$y":	1432
+					"$x":	343,
+					"$y":	99
 				}
 			},
 			"Imported.Assignments-cec956f0-586f-4871-8a17-5c5317607d6f":	{
 				"$Position":	{
-					"$x":	-981,
-					"$y":	1895
+					"$x":	-994,
+					"$y":	562
 				}
 			},
 			"Runtime-ec29d47b-dc1a-4be3-8c0e-ac06d7e82705":	{
@@ -5096,236 +5096,236 @@
 			},
 			"Runtime-e2af4036-fa60-475d-a525-7e12f2e2cce5":	{
 				"$Position":	{
-					"$x":	-4345,
-					"$y":	2220
+					"$x":	-4407,
+					"$y":	1014
 				}
 			},
 			"Mesh2DPositions-672ed328-dae0-4f0d-9f80-938d3261e4a1":	{
 				"$Position":	{
-					"$x":	-3702,
-					"$y":	2221
+					"$x":	-3764,
+					"$y":	1015
 				}
 			},
 			"MeshPointGenerator-f974abc6-8aa2-4183-b845-1d861eaae667":	{
 				"$Position":	{
-					"$x":	-3006,
-					"$y":	2223
+					"$x":	-3068,
+					"$y":	1017
 				}
 			},
 			"Imported.Assignments-05b45848-5b3d-4f60-a47b-57f966443e20":	{
 				"$Position":	{
-					"$x":	-3692,
-					"$y":	2506
+					"$x":	-3754,
+					"$y":	1300
 				}
 			},
 			"Runtime-37903bd0-cb9e-4874-a7d1-46f093940716":	{
 				"$Position":	{
-					"$x":	-2323,
-					"$y":	2235
+					"$x":	-2423,
+					"$y":	1019
 				}
 			},
 			"OccurrencePositions-b47822c6-c03f-4b52-a593-f9a604e20c9a":	{
 				"$Position":	{
-					"$x":	-1684,
-					"$y":	2238
+					"$x":	-1784,
+					"$y":	1022
 				}
 			},
 			"NormalizerDensityNode-ecf448cf-23aa-4654-bc85-c9fa9f01da5e":	{
 				"$Position":	{
-					"$x":	-999,
-					"$y":	2512
+					"$x":	-1099,
+					"$y":	1296
 				}
 			},
 			"InverterDensityNode-01a2bf73-9f44-4aa4-8d50-2f263e517513":	{
 				"$Position":	{
-					"$x":	-381,
-					"$y":	2513
+					"$x":	-481,
+					"$y":	1297
 				}
 			},
 			"ImportedDensityNode-be261a9d-cc30-45e5-a044-a2885b36fc00":	{
 				"$Position":	{
-					"$x":	238,
-					"$y":	2513
+					"$x":	137,
+					"$y":	1297
 				}
 			},
 			"Mesh2DPositions-1fb3e3d5-3e4c-41e6-a079-419b6929661f":	{
 				"$Position":	{
-					"$x":	-1001,
-					"$y":	2240
+					"$x":	-1101,
+					"$y":	1024
 				}
 			},
 			"MeshPointGenerator-e5189144-9066-4bee-96ef-2cd8f3bb8b50":	{
 				"$Position":	{
-					"$x":	-316,
-					"$y":	2239
+					"$x":	-416,
+					"$y":	1023
 				}
 			},
 			"Imported.Assignments-932953fe-e42b-4098-a697-4a0bba9fde41":	{
 				"$Position":	{
-					"$x":	-1607,
-					"$y":	2700
+					"$x":	-1707,
+					"$y":	1484
 				}
 			},
 			"Runtime-5ff5f67f-1a47-4100-b0f6-96f0f2ac5a05":	{
 				"$Position":	{
-					"$x":	-4342,
-					"$y":	2866
+					"$x":	-4399,
+					"$y":	1711
 				}
 			},
 			"Mesh2DPositions-65efe96e-2fb8-4a01-9390-c98673befd03":	{
 				"$Position":	{
-					"$x":	-3711,
-					"$y":	2868
+					"$x":	-3768,
+					"$y":	1713
 				}
 			},
 			"MeshPointGenerator-43b570af-0707-4a7a-b890-58d495259b99":	{
 				"$Position":	{
-					"$x":	-3032,
-					"$y":	2874
+					"$x":	-3089,
+					"$y":	1719
 				}
 			},
 			"Imported.Assignments-d9e9f040-0ef8-40df-b6d3-952135e8c582":	{
 				"$Position":	{
-					"$x":	-3705,
-					"$y":	3083
+					"$x":	-3762,
+					"$y":	1928
 				}
 			},
 			"Runtime-9ade8e53-3695-4fdd-ace9-dd5672c67ec5":	{
 				"$Position":	{
-					"$x":	-2347,
-					"$y":	3195
+					"$x":	-2382,
+					"$y":	1851
 				}
 			},
 			"Mesh2DPositions-7d2bd555-921a-4c70-a54d-847c362308af":	{
 				"$Position":	{
-					"$x":	-1699,
-					"$y":	3201
+					"$x":	-1734,
+					"$y":	1857
 				}
 			},
 			"MeshPointGenerator-81a6503e-092e-4476-8e15-ee8408c0163e":	{
 				"$Position":	{
-					"$x":	-1015,
-					"$y":	3207
+					"$x":	-1050,
+					"$y":	1863
 				}
 			},
 			"Imported.Assignments-7c3aa12e-6072-48b1-be45-d9bb63d19cec":	{
 				"$Position":	{
-					"$x":	-1689,
-					"$y":	3418
+					"$x":	-1724,
+					"$y":	2074
 				}
 			},
 			"Runtime-94f49ee7-30be-4b59-8639-1edc0cbf6f85":	{
 				"$Position":	{
-					"$x":	-2269,
-					"$y":	3831
+					"$x":	-4316,
+					"$y":	2289
 				}
 			},
 			"Mesh2DPositions-cc642439-5c3f-4288-af0b-c9dc74452207":	{
 				"$Position":	{
-					"$x":	-1610,
-					"$y":	3833
+					"$x":	-3657,
+					"$y":	2291
 				}
 			},
 			"MeshPointGenerator-4e1acf75-76c0-4887-b4a5-21b006d1cc93":	{
 				"$Position":	{
-					"$x":	-923,
-					"$y":	3826
+					"$x":	-2970,
+					"$y":	2284
 				}
 			},
 			"Imported.Assignments-f06f14d9-cb0d-4739-9ffa-48c49ceaa0a7":	{
 				"$Position":	{
-					"$x":	-1604,
-					"$y":	4036
+					"$x":	-3651,
+					"$y":	2494
 				}
 			},
 			"Runtime-837ac4d3-f0ec-4c6c-8a44-5aacdf133df0":	{
 				"$Position":	{
-					"$x":	-311,
-					"$y":	4162
+					"$x":	-2351,
+					"$y":	2619
 				}
 			},
 			"FieldFunctionPositions-c4c4193f-943b-463e-86d7-28d69a21c32d":	{
 				"$Position":	{
-					"$x":	323,
-					"$y":	4168
+					"$x":	-1717,
+					"$y":	2625
 				}
 			},
 			"InverterDensityNode-b4be90f7-6337-44e0-b901-42496dde3b13":	{
 				"$Position":	{
-					"$x":	1009,
-					"$y":	4300
+					"$x":	-1031,
+					"$y":	2757
 				}
 			},
 			"ImportedDensityNode-4111de76-8cff-45cd-a91a-a0100f67b582":	{
 				"$Position":	{
-					"$x":	1641,
-					"$y":	4303
+					"$x":	-399,
+					"$y":	2760
 				}
 			},
 			"Delimiter-e0dec378-6acb-4c17-848d-9886170ad4f4":	{
 				"$Position":	{
-					"$x":	1010,
-					"$y":	4469
+					"$x":	-1030,
+					"$y":	2926
 				}
 			},
 			"OccurrencePositions-4148e364-a5af-495f-bda2-96c6c5660f6b":	{
 				"$Position":	{
-					"$x":	1005,
-					"$y":	4100
+					"$x":	-1035,
+					"$y":	2557
 				}
 			},
 			"NormalizerDensityNode-6b629d6b-7e13-4298-9ae6-bc797989e6a3":	{
 				"$Position":	{
-					"$x":	2262,
-					"$y":	4303
+					"$x":	221,
+					"$y":	2760
 				}
 			},
 			"CellNoise2DDensityNode-f73ae45d-c3c4-43bc-b3d8-e8b717b7cebd":	{
 				"$Position":	{
-					"$x":	2895,
-					"$y":	4299
+					"$x":	854,
+					"$y":	2756
 				}
 			},
 			"Mesh2DPositions-264eb70f-bacf-4617-b71f-abc56a737b4d":	{
 				"$Position":	{
-					"$x":	1758,
-					"$y":	4010
+					"$x":	-282,
+					"$y":	2467
 				}
 			},
 			"MeshPointGenerator-7cd73102-27b6-47fd-b6d3-1ef8fec1c620":	{
 				"$Position":	{
-					"$x":	2457,
-					"$y":	4008
+					"$x":	416,
+					"$y":	2465
 				}
 			},
 			"Imported.Assignments-ebbaa07f-742b-4afc-b45a-e0f8e2509aa5":	{
 				"$Position":	{
-					"$x":	325,
-					"$y":	4377
+					"$x":	-1715,
+					"$y":	2834
 				}
 			},
 			"Runtime-06eb9440-e11f-49e2-99a7-ef709975dd6d":	{
 				"$Position":	{
-					"$x":	-2247,
-					"$y":	4460
+					"$x":	-4291,
+					"$y":	2877
 				}
 			},
 			"Mesh2DPositions-8a08b232-5fe1-433e-abdc-4ad8e35d133d":	{
 				"$Position":	{
-					"$x":	-1592,
-					"$y":	4461
+					"$x":	-3636,
+					"$y":	2878
 				}
 			},
 			"MeshPointGenerator-488b5fff-15a0-458f-b381-7f07a99f2931":	{
 				"$Position":	{
-					"$x":	-913,
-					"$y":	4467
+					"$x":	-2957,
+					"$y":	2884
 				}
 			},
 			"Imported.Assignments-13abd15a-4199-407e-a549-18545afb08ce":	{
 				"$Position":	{
-					"$x":	-1589,
-					"$y":	4662
+					"$x":	-3633,
+					"$y":	3079
 				}
 			},
 			"Runtime-a795819d-4451-444d-bd89-e96215ded6ed":	{
@@ -6234,132 +6234,6 @@
 					"$y":	7079
 				}
 			},
-			"Runtime-c956f399-44b7-41e3-9e82-de028af10428":	{
-				"$Position":	{
-					"$x":	-4419,
-					"$y":	112
-				}
-			},
-			"OccurrencePositions-1fbd5e1b-a622-49db-a888-1fbcc2f640a5":	{
-				"$Position":	{
-					"$x":	-3789,
-					"$y":	98
-				}
-			},
-			"NormalizerDensityNode-7c6011d0-9c1d-4c8c-852b-b7c901dfa588":	{
-				"$Position":	{
-					"$x":	-3113,
-					"$y":	385
-				}
-			},
-			"InverterDensityNode-c617cfdc-fab1-4e71-952e-2c5467b1b08a":	{
-				"$Position":	{
-					"$x":	-2498,
-					"$y":	387
-				}
-			},
-			"PowDensityNode-2c7357bd-59df-4a81-8167-4ca30a6b5ab0":	{
-				"$Position":	{
-					"$x":	-1881,
-					"$y":	382
-				}
-			},
-			"AbsDensityNode-0cbaad24-fe8c-4659-9aed-b03509935003":	{
-				"$Position":	{
-					"$x":	-1263,
-					"$y":	384
-				}
-			},
-			"YOverride.Density-6037bf99-1a09-4f61-9315-8daeda10b897":	{
-				"$Position":	{
-					"$x":	-646,
-					"$y":	380
-				}
-			},
-			"Cache.Density-cef6a5ed-68a3-4ee4-81b1-3af8fda4daef":	{
-				"$Position":	{
-					"$x":	-65,
-					"$y":	379
-				}
-			},
-			"PositionsCellNoiseDensityNode-128a82cb-c4dc-48d5-8b03-60e3d3ca2379":	{
-				"$Position":	{
-					"$x":	559,
-					"$y":	381
-				}
-			},
-			"FieldFunctionPositions-d688854b-11a2-47c4-a7c3-3ceae6fc8e7b":	{
-				"$Position":	{
-					"$x":	1314,
-					"$y":	380
-				}
-			},
-			"SimplexNoise2DDensityNode-1faad908-ddd1-4d58-a990-24845d2fb51e":	{
-				"$Position":	{
-					"$x":	2053,
-					"$y":	584
-				}
-			},
-			"Delimiter-1a15735f-8700-46e7-889e-38905cf89c6a":	{
-				"$Position":	{
-					"$x":	2051,
-					"$y":	923
-				}
-			},
-			"OccurrencePositions-8cfb71d8-8ee0-4587-b856-4563fd6d42f6":	{
-				"$Position":	{
-					"$x":	2049,
-					"$y":	386
-				}
-			},
-			"ConstantDensityNode-57e3d038-a88d-4a56-9475-09c9c7e376d9":	{
-				"$Position":	{
-					"$x":	2763,
-					"$y":	486
-				}
-			},
-			"Mesh2DPositions-080463aa-ef65-4393-a52a-b63f8ae9dd99":	{
-				"$Position":	{
-					"$x":	2765,
-					"$y":	287
-				}
-			},
-			"MeshPointGenerator-a72aea93-093a-4d9d-bde0-eb58dce7dbc8":	{
-				"$Position":	{
-					"$x":	3440,
-					"$y":	288
-				}
-			},
-			"DistancePCNReturnType-32025a36-6412-47d7-8d25-dba8a65f52da":	{
-				"$Position":	{
-					"$x":	1327,
-					"$y":	700
-				}
-			},
-			"PCNDistanceFunction-635b1f07-8c91-4c43-a18d-2216fef41b5e":	{
-				"$Position":	{
-					"$x":	1322,
-					"$y":	575
-				}
-			},
-			"Mesh2DPositions-fb54c8eb-6371-41ce-90c8-50bd06f365fc":	{
-				"$Position":	{
-					"$x":	-3098,
-					"$y":	95
-				}
-			},
-			"MeshPointGenerator-71d3ff4a-2292-40b8-be88-4a0195587a95":	{
-				"$Position":	{
-					"$x":	-2358,
-					"$y":	79
-				}
-			},
-			"Imported.Assignments-81580e50-0b46-45d5-b586-7aba94726bbf":	{
-				"$Position":	{
-					"$x":	-3778,
-					"$y":	354
-				}
-			},
 			"Material-b4e9d5f8-e6c9-4342-8e84-e125a28e115b":	{
 				"$Position":	{
 					"$x":	10489,
@@ -6392,136 +6266,6 @@
 			}
 		},
 		"$FloatingNodes":	[{
-				"$NodeId":	"Runtime-c956f399-44b7-41e3-9e82-de028af10428",
-				"Skip":	false,
-				"Runtime":	0,
-				"Positions":	{
-					"$NodeId":	"OccurrencePositions-1fbd5e1b-a622-49db-a888-1fbcc2f640a5",
-					"Type":	"Occurrence",
-					"Skip":	false,
-					"Seed":	"A",
-					"FieldFunction":	{
-						"$NodeId":	"NormalizerDensityNode-7c6011d0-9c1d-4c8c-852b-b7c901dfa588",
-						"Type":	"Normalizer",
-						"Skip":	false,
-						"FromMin":	-1,
-						"FromMax":	0,
-						"ToMin":	-0.05,
-						"ToMax":	0.3,
-						"Inputs":	[{
-								"$NodeId":	"InverterDensityNode-c617cfdc-fab1-4e71-952e-2c5467b1b08a",
-								"Type":	"Inverter",
-								"Skip":	false,
-								"Inputs":	[{
-										"$NodeId":	"PowDensityNode-2c7357bd-59df-4a81-8167-4ca30a6b5ab0",
-										"Type":	"Pow",
-										"Skip":	false,
-										"Exponent":	0.75,
-										"Inputs":	[{
-												"$NodeId":	"AbsDensityNode-0cbaad24-fe8c-4659-9aed-b03509935003",
-												"Type":	"Abs",
-												"Skip":	false,
-												"Inputs":	[{
-														"$NodeId":	"YOverride.Density-6037bf99-1a09-4f61-9315-8daeda10b897",
-														"Type":	"YOverride",
-														"ExportAs":	"Plains1_Oak_Dips",
-														"Skip":	false,
-														"Value":	0,
-														"Inputs":	[{
-																"$NodeId":	"Cache.Density-cef6a5ed-68a3-4ee4-81b1-3af8fda4daef",
-																"Type":	"Cache",
-																"Skip":	false,
-																"Capacity":	1,
-																"Inputs":	[{
-																		"$NodeId":	"PositionsCellNoiseDensityNode-128a82cb-c4dc-48d5-8b03-60e3d3ca2379",
-																		"Type":	"PositionsCellNoise",
-																		"Skip":	false,
-																		"MaxDistance":	45,
-																		"Positions":	{
-																			"$NodeId":	"FieldFunctionPositions-d688854b-11a2-47c4-a7c3-3ceae6fc8e7b",
-																			"Type":	"FieldFunction",
-																			"Skip":	false,
-																			"FieldFunction":	{
-																				"$NodeId":	"SimplexNoise2DDensityNode-1faad908-ddd1-4d58-a990-24845d2fb51e",
-																				"Type":	"SimplexNoise2D",
-																				"Skip":	false,
-																				"Lacunarity":	2,
-																				"Persistence":	0.5,
-																				"Octaves":	1,
-																				"Scale":	200,
-																				"Seed":	"A"
-																			},
-																			"Delimiters":	[{
-																					"$NodeId":	"Delimiter-1a15735f-8700-46e7-889e-38905cf89c6a",
-																					"Min":	0.5,
-																					"Max":	1
-																				}],
-																			"Positions":	{
-																				"$NodeId":	"OccurrencePositions-8cfb71d8-8ee0-4587-b856-4563fd6d42f6",
-																				"Type":	"Occurrence",
-																				"ExportAs":	"Plains1_Oak_Forest_Rings",
-																				"Skip":	false,
-																				"Seed":	"A",
-																				"FieldFunction":	{
-																					"$NodeId":	"ConstantDensityNode-57e3d038-a88d-4a56-9475-09c9c7e376d9",
-																					"Type":	"Constant",
-																					"Skip":	false,
-																					"Value":	0.15
-																				},
-																				"Positions":	{
-																					"$NodeId":	"Mesh2DPositions-080463aa-ef65-4393-a52a-b63f8ae9dd99",
-																					"Type":	"Mesh2D",
-																					"Skip":	false,
-																					"PointsY":	0,
-																					"PointGenerator":	{
-																						"$NodeId":	"MeshPointGenerator-a72aea93-093a-4d9d-bde0-eb58dce7dbc8",
-																						"Type":	"Mesh",
-																						"Jitter":	0.4,
-																						"ScaleX":	30,
-																						"ScaleY":	30,
-																						"ScaleZ":	30,
-																						"Seed":	"A"
-																					}
-																				}
-																			}
-																		},
-																		"ReturnType":	{
-																			"$NodeId":	"DistancePCNReturnType-32025a36-6412-47d7-8d25-dba8a65f52da",
-																			"Type":	"Distance"
-																		},
-																		"DistanceFunction":	{
-																			"$NodeId":	"PCNDistanceFunction-635b1f07-8c91-4c43-a18d-2216fef41b5e",
-																			"Type":	"Euclidean"
-																		}
-																	}]
-															}]
-													}]
-											}]
-									}]
-							}]
-					},
-					"Positions":	{
-						"$NodeId":	"Mesh2DPositions-fb54c8eb-6371-41ce-90c8-50bd06f365fc",
-						"Type":	"Mesh2D",
-						"Skip":	false,
-						"PointsY":	0,
-						"PointGenerator":	{
-							"$NodeId":	"MeshPointGenerator-71d3ff4a-2292-40b8-be88-4a0195587a95",
-							"Type":	"Mesh",
-							"Jitter":	0.4,
-							"ScaleX":	3,
-							"ScaleY":	3,
-							"ScaleZ":	3,
-							"Seed":	"A"
-						}
-					}
-				},
-				"Assignments":	{
-					"$NodeId":	"Imported.Assignments-81580e50-0b46-45d5-b586-7aba94726bbf",
-					"Type":	"Imported",
-					"Name":	"Plains1_Oak_Tree_Rings"
-				}
-			}, {
 				"$NodeId":	"Material-b4e9d5f8-e6c9-4342-8e84-e125a28e115b",
 				"Solid":	"Soil_Sand_Crystal",
 				"SolidBottomUp":	false
@@ -6634,48 +6378,40 @@
 				"$name":	"Fluids"
 			}, {
 				"$Position":	{
-					"$x":	-2428.1875,
-					"$y":	3738.1875
+					"$x":	-4476,
+					"$y":	2196.625
 				},
 				"$width":	1988.0625,
 				"$height":	498.75,
 				"$name":	"Cave Boulders"
 			}, {
 				"$Position":	{
-					"$x":	-4424.75,
-					"$y":	2740.8125
+					"$x":	-4482,
+					"$y":	1586.3125
 				},
 				"$width":	1822.875,
 				"$height":	496.25,
 				"$name":	"Grasses"
 			}, {
 				"$Position":	{
-					"$x":	-2397.1875,
-					"$y":	2121.3125
+					"$x":	-2498,
+					"$y":	906
 				},
 				"$width":	3218.75,
 				"$height":	749.9375,
 				"$name":	"Flower Rings"
 			}, {
 				"$Position":	{
-					"$x":	-2419.1875,
-					"$y":	4370.6875
+					"$x":	-4463.3125,
+					"$y":	2787.6875
 				},
 				"$width":	1930.875,
 				"$height":	454.8125,
 				"$name":	"Cave Stalactites"
 			}, {
 				"$Position":	{
-					"$x":	-4499.6875,
-					"$y":	-54.75
-				},
-				"$width":	8394.0625,
-				"$height":	1321.8125,
-				"$name":	"Tree rings"
-			}, {
-				"$Position":	{
-					"$x":	-4436.9375,
-					"$y":	2074.875
+					"$x":	-4499.375,
+					"$y":	869.625
 				},
 				"$width":	1885.375,
 				"$height":	607.9375,
@@ -6690,8 +6426,8 @@
 				"$name":	"Environments"
 			}, {
 				"$Position":	{
-					"$x":	-1797.375,
-					"$y":	1309.6875
+					"$x":	-1810.4375,
+					"$y":	-22.8125
 				},
 				"$width":	2690.9375,
 				"$height":	797.375,
@@ -6714,16 +6450,16 @@
 				"$name":	"Boulder Patches"
 			}, {
 				"$Position":	{
-					"$x":	-4483.0625,
-					"$y":	1281.8125
+					"$x":	-4537.0625,
+					"$y":	-26.1875
 				},
 				"$width":	2653.125,
 				"$height":	759.25,
 				"$name":	"Pink & Cyan Flowers"
 			}, {
 				"$Position":	{
-					"$x":	-392.125,
-					"$y":	3925.4375
+					"$x":	-2432.625,
+					"$y":	2382.5625
 				},
 				"$width":	3869.8125,
 				"$height":	807.0625,
@@ -6738,8 +6474,8 @@
 				"$name":	"Cave Encounters"
 			}, {
 				"$Position":	{
-					"$x":	-2435.375,
-					"$y":	3089.5
+					"$x":	-2471.25,
+					"$y":	1745.875
 				},
 				"$width":	1849.9375,
 				"$height":	516.625,

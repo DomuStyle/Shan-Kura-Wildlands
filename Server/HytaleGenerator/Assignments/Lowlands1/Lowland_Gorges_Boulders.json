@@ -137,7 +137,7 @@
 									"Y":	0,
 									"Material":	{
 										"$NodeId":	"Material-0facd9db-e1e2-4bb8-9bb3-5a9633d14b8a",
-										"Solid":	"Rubble_Marble_Medium",
+										"Solid":	"Rubble_Quartzite_Medium",
 										"SolidBottomUp":	false
 									}
 								}],

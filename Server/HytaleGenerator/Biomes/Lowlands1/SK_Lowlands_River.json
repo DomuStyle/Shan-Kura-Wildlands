@@ -1086,7 +1086,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-163da652-254f-4448-9f90-6442c5b185aa",
 				"Type":	"Imported",
-				"Name":	"Plains1_River_Marshes"
+				"Name":	"Lowland_River_Marshes"
 			}
 		}, {
 			"$NodeId":	"Runtime-f75415e3-42e7-4934-8cbc-f7b24b63b348",
@@ -1146,7 +1146,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-64f5db7c-e7c3-4cb1-9218-6bb8081d09e1",
 				"Type":	"Imported",
-				"Name":	"Plains1_River_Bushes"
+				"Name":	"Lowland_River_Bushes"
 			}
 		}, {
 			"$NodeId":	"Runtime-cac83679-7266-4995-bd4b-e2451322a32a",
