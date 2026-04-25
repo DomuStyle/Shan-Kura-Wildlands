@@ -5809,152 +5809,152 @@
 			},
 			"Runtime-2ef8da10-09b1-48f6-b362-bc29d100c73c":	{
 				"$Position":	{
-					"$x":	-3568,
-					"$y":	28901
+					"$x":	-3525,
+					"$y":	28887
 				}
 			},
 			"FieldFunctionPositions-8747b9a2-d801-4ee7-b9b3-dbfa414be130":	{
 				"$Position":	{
-					"$x":	-2907,
-					"$y":	28776
+					"$x":	-2864,
+					"$y":	28762
 				}
 			},
 			"Delimiter-cd287249-63a4-4c9e-af89-3533d6c57926":	{
 				"$Position":	{
-					"$x":	-2216,
-					"$y":	28596
+					"$x":	-2173,
+					"$y":	28582
 				}
 			},
 			"Mesh2DPositions-aa849368-15c8-489a-bcf9-e0dc326f7086":	{
 				"$Position":	{
-					"$x":	-2269,
-					"$y":	28399
+					"$x":	-2226,
+					"$y":	28385
 				}
 			},
 			"MeshPointGenerator-25e83618-fb76-4943-9aa0-8c528d1046ec":	{
 				"$Position":	{
-					"$x":	-1572,
-					"$y":	28400
+					"$x":	-1529,
+					"$y":	28386
 				}
 			},
 			"FieldFunction.Assignments-8cdbc8f3-76da-4930-8450-df68ec07c354":	{
 				"$Position":	{
-					"$x":	-2924,
-					"$y":	29003
+					"$x":	-2881,
+					"$y":	28989
 				}
 			},
 			"SimplexNoise2DDensityNode-dd04b503-3ca2-4ddd-8ac7-a9db3110a8bb":	{
 				"$Position":	{
-					"$x":	-2227,
-					"$y":	28783
+					"$x":	-2184,
+					"$y":	28769
 				}
 			},
 			"Delimiter.FieldFunction.Assignments-11ab3821-efda-4940-953b-a92b5cc1fb0e":	{
 				"$Position":	{
-					"$x":	-2229,
-					"$y":	29115
+					"$x":	-2186,
+					"$y":	29101
 				}
 			},
 			"Constant.Assignments-40f47f39-0602-4a40-96e8-bdc48019d168":	{
 				"$Position":	{
-					"$x":	-1647,
-					"$y":	29000
+					"$x":	-1604,
+					"$y":	28986
 				}
 			},
 			"Prefab.Prop-4ff15f1d-c9c2-472f-b350-5d3e0f9e1d1e":	{
 				"$Position":	{
-					"$x":	-1035,
-					"$y":	29003
+					"$x":	-992,
+					"$y":	28989
 				}
 			},
 			"WeightedPath.Prefab.Prop-61d43e32-cab1-4438-8ca3-434a136b16df":	{
 				"$Position":	{
-					"$x":	-170,
-					"$y":	28620
+					"$x":	-127,
+					"$y":	28606
 				}
 			},
 			"WeightedPath.Prefab.Prop-bdbc317b-1ce2-4f0f-a48d-6174f633e97e":	{
 				"$Position":	{
-					"$x":	-174,
-					"$y":	28774
+					"$x":	-131,
+					"$y":	28760
 				}
 			},
 			"WeightedPath.Prefab.Prop-a3695e7b-4f59-4619-93d5-04395e66033a":	{
 				"$Position":	{
-					"$x":	-174,
-					"$y":	28932
+					"$x":	-131,
+					"$y":	28918
 				}
 			},
 			"Random.Directionality-e0462891-6466-4cbd-b336-2174d34b5e9f":	{
 				"$Position":	{
-					"$x":	-169,
-					"$y":	29104
+					"$x":	-126,
+					"$y":	29090
 				}
 			},
 			"Offset.Pattern-06e84088-9aa9-4819-818c-b3add32815c5":	{
 				"$Position":	{
-					"$x":	475,
-					"$y":	29107
+					"$x":	517,
+					"$y":	29093
 				}
 			},
 			"Floor.Pattern-7650cc89-213b-4f18-843a-73e699e8efae":	{
 				"$Position":	{
-					"$x":	1143,
-					"$y":	29116
+					"$x":	1185,
+					"$y":	29102
 				}
 			},
 			"BlockType.Pattern-fb7ca90f-c571-4216-b4b6-e9fecfde46be":	{
 				"$Position":	{
-					"$x":	1768,
-					"$y":	29097
+					"$x":	1810,
+					"$y":	29083
 				}
 			},
 			"Material-c45f34b6-a5a5-43c9-a206-99649ef1c297":	{
 				"$Position":	{
-					"$x":	2377,
-					"$y":	29102
+					"$x":	2419,
+					"$y":	29088
 				}
 			},
 			"BlockSet.Pattern-8fc58d66-36ad-4fe9-9ad7-00f494621324":	{
 				"$Position":	{
-					"$x":	1770,
-					"$y":	29272
+					"$x":	1812,
+					"$y":	29258
 				}
 			},
 			"BlockSet.BlockMask-53baae7c-0a9d-4b1e-bc91-e3e20673a61f":	{
 				"$Position":	{
-					"$x":	2405,
-					"$y":	29276
+					"$x":	2447,
+					"$y":	29262
 				}
 			},
 			"Material-c8400bc3-1e6d-4075-a052-5aa98cde2ba5":	{
 				"$Position":	{
-					"$x":	2889,
-					"$y":	29281
+					"$x":	2931,
+					"$y":	29267
 				}
 			},
 			"Material-1bfccf0a-5e99-4771-9274-26de9507c8be":	{
 				"$Position":	{
-					"$x":	2892,
-					"$y":	29432
+					"$x":	2934,
+					"$y":	29418
 				}
 			},
 			"Material-b50c1d8b-d672-4d28-b494-3070caa5152c":	{
 				"$Position":	{
-					"$x":	2890,
-					"$y":	29584
+					"$x":	2932,
+					"$y":	29570
 				}
 			},
 			"Point3D-fde16bf1-a4dc-4e72-9aac-0bb550b9f4bd":	{
 				"$Position":	{
-					"$x":	1151,
-					"$y":	29291
+					"$x":	1193,
+					"$y":	29277
 				}
 			},
 			"ColumnLinear.Scanner-c2f25ec0-469f-4a9e-980c-966d05d5dcfa":	{
 				"$Position":	{
-					"$x":	-156,
-					"$y":	29267
+					"$x":	-113,
+					"$y":	29253
 				}
 			},
 			"DensityDelimited.EnvironmentProvider-60ccd1a8-3932-414d-b362-6601fb90b839":	{
@@ -6357,8 +6357,8 @@
 				"$name":	"Tall Trees"
 			}, {
 				"$Position":	{
-					"$x":	-3701,
-					"$y":	28261.5
+					"$x":	-3658.75,
+					"$y":	28247.5
 				},
 				"$width":	7780.5,
 				"$height":	1501.625,

@@ -4164,8 +4164,8 @@
 			},
 			"Constant.EnvironmentProvider-afeda86e-7d9c-4723-bb6d-c2db2fafee63":	{
 				"$Position":	{
-					"$x":	-2449,
-					"$y":	529
+					"$x":	-2406,
+					"$y":	423
 				}
 			},
 			"DensityDelimited.TintProvider-94f37958-bdce-4922-8488-d57256bc9951":	{
@@ -4381,15 +4381,15 @@
 			}, {
 				"$Position":	{
 					"$x":	-2756.5,
-					"$y":	796.9375
+					"$y":	765.5625
 				},
-				"$width":	2394.5,
-				"$height":	1432.875,
+				"$width":	2425.75,
+				"$height":	1464.25,
 				"$name":	"Tint"
 			}, {
 				"$Position":	{
-					"$x":	-2559,
-					"$y":	436.6875
+					"$x":	-2516.1875,
+					"$y":	331.4375
 				},
 				"$width":	698.5,
 				"$height":	339.0625,

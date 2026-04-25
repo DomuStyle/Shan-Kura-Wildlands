@@ -1525,7 +1525,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-00604d6a-d59a-4cc4-9afe-7dedd7573c4d",
 				"Type":	"Imported",
-				"Name":	"Plains1_Iron"
+				"Name":	"Lowland_Jungle_Iron"
 			}
 		}, {
 			"$NodeId":	"Runtime-62a8d741-0aa2-49e8-900c-be10122407e9",
@@ -1683,7 +1683,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-0fb31739-26fb-4c7d-8b2c-0b773aa79877",
 				"Type":	"Imported",
-				"Name":	"Plains1_Gorges_Bushes"
+				"Name":	"Lowland_Gorges_Bushes"
 			}
 		}, {
 			"$NodeId":	"Runtime-201add3d-1fb0-4657-8173-31cd157622ff",
@@ -1707,7 +1707,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-cf0f667e-f536-4591-96ef-52694fa5057c",
 				"Type":	"Imported",
-				"Name":	"Plains1_Gorges_Forest_Bushes"
+				"Name":	"Lowland_Gorges_Forest_Bushes"
 			}
 		}, {
 			"$NodeId":	"Runtime-74f1b318-62c9-4c51-bdfa-869d13ef79d9",
@@ -1731,7 +1731,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-8274f932-d595-4c2d-b995-fbb82de18ae3",
 				"Type":	"Imported",
-				"Name":	"Plains1_Gorges_Forest_Clusters"
+				"Name":	"Lowland_Gorges_Forest_Clusters"
 			}
 		}, {
 			"$NodeId":	"Runtime-0577b707-d1f9-452f-a74e-a054f8ad5278",
@@ -1755,7 +1755,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-3573085f-f08c-4061-a401-6a05e07f9c3e",
 				"Type":	"Imported",
-				"Name":	"Plains1_Gorges_Boulders"
+				"Name":	"Lowland_Gorges_Boulders"
 			}
 		}],
 	"EnvironmentProvider":	{

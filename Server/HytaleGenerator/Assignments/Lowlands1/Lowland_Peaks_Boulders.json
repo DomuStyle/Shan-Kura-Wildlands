@@ -1,7 +1,7 @@
 {
 	"$NodeId":	"FieldFunction.Assignments-917dfd59-3fa4-4740-8fcd-623c20cc4adf",
 	"Type":	"FieldFunction",
-	"ExportAs":	"Taiga1_Mountains_Boulders",
+	"ExportAs":	"Lowland_Peaks_Boulders",
 	"FieldFunction":	{
 		"$NodeId":	"SimplexNoise2DDensityNode-0bc8cb32-9ad6-4d2a-b226-fd5886d37963",
 		"Type":	"SimplexNoise2D",
