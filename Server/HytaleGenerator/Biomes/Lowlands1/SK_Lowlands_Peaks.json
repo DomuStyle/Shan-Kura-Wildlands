@@ -1127,6 +1127,68 @@
 		}
 	},
 	"Props":	[{
+			"$NodeId":	"Runtime-962a7db2-c37f-40bf-ad57-966fbd921114",
+			"Skip":	false,
+			"Runtime":	1,
+			"Positions":	{
+				"$NodeId":	"OccurrencePositions-ff06e5f7-c685-49ae-ac20-ca0424467932",
+				"Type":	"Occurrence",
+				"Skip":	false,
+				"Seed":	"A",
+				"FieldFunction":	{
+					"$NodeId":	"CurveMapper.Density-1618d2b8-7835-40b7-8107-fa1b4d02a42e",
+					"Type":	"CurveMapper",
+					"Skip":	false,
+					"Curve":	{
+						"$NodeId":	"ManualCurve-2c5207d3-4a19-46ce-8585-2df544cbfd90",
+						"Type":	"Manual",
+						"Points":	[{
+								"$NodeId":	"CurvePoint-832660a4-b7a7-4deb-973e-f9ccb9923a77",
+								"In":	1,
+								"Out":	1
+							}, {
+								"$NodeId":	"CurvePoint-0aa9dcaf-d367-4047-9ad5-612dfa050f6e",
+								"In":	0.4,
+								"Out":	1
+							}, {
+								"$NodeId":	"CurvePoint-91fb5b11-61bb-4f34-9e11-0458ee976c21",
+								"In":	0.3,
+								"Out":	0.5
+							}, {
+								"$NodeId":	"CurvePoint-5bd12cc4-9bad-4725-9392-fc9761826e62",
+								"In":	0.2,
+								"Out":	0
+							}]
+					},
+					"Inputs":	[{
+							"$NodeId":	"ImportedDensityNode-36511705-68c1-417d-a8b5-801b683a3b54",
+							"Type":	"Imported",
+							"Skip":	false,
+							"Name":	"Taiga1_Mountains_Trees_Pattern"
+						}]
+				},
+				"Positions":	{
+					"$NodeId":	"Mesh2DPositions-16a96845-505b-4c2d-a87b-369241203b06",
+					"Type":	"Mesh2D",
+					"Skip":	false,
+					"PointsY":	0,
+					"PointGenerator":	{
+						"$NodeId":	"MeshPointGenerator-a310ca88-7662-4108-9f6c-5d7bc570699e",
+						"Type":	"Mesh",
+						"Jitter":	0.3,
+						"ScaleX":	5.5,
+						"ScaleY":	5.5,
+						"ScaleZ":	5.5,
+						"Seed":	"A"
+					}
+				}
+			},
+			"Assignments":	{
+				"$NodeId":	"Imported.Assignments-124e4ad6-6388-4dac-8010-ba3fdc32ad18",
+				"Type":	"Imported",
+				"Name":	"Lowland_Peaks_Trees"
+			}
+		}, {
 			"$NodeId":	"Runtime-de149d90-d5b6-4f78-ad25-db65f5359e9c",
 			"Skip":	false,
 			"Runtime":	1,
@@ -3326,6 +3388,78 @@
 					"$x":	-1723,
 					"$y":	4091
 				}
+			},
+			"Runtime-962a7db2-c37f-40bf-ad57-966fbd921114":	{
+				"$Position":	{
+					"$x":	-12678,
+					"$y":	-4084
+				}
+			},
+			"OccurrencePositions-ff06e5f7-c685-49ae-ac20-ca0424467932":	{
+				"$Position":	{
+					"$x":	-12162,
+					"$y":	-4075
+				}
+			},
+			"CurveMapper.Density-1618d2b8-7835-40b7-8107-fa1b4d02a42e":	{
+				"$Position":	{
+					"$x":	-11493,
+					"$y":	-3789
+				}
+			},
+			"ManualCurve-2c5207d3-4a19-46ce-8585-2df544cbfd90":	{
+				"$Position":	{
+					"$x":	-10855,
+					"$y":	-3628
+				}
+			},
+			"CurvePoint-832660a4-b7a7-4deb-973e-f9ccb9923a77":	{
+				"$Position":	{
+					"$x":	-10240,
+					"$y":	-3627
+				}
+			},
+			"CurvePoint-0aa9dcaf-d367-4047-9ad5-612dfa050f6e":	{
+				"$Position":	{
+					"$x":	-10241,
+					"$y":	-3466
+				}
+			},
+			"CurvePoint-91fb5b11-61bb-4f34-9e11-0458ee976c21":	{
+				"$Position":	{
+					"$x":	-10242,
+					"$y":	-3306
+				}
+			},
+			"CurvePoint-5bd12cc4-9bad-4725-9392-fc9761826e62":	{
+				"$Position":	{
+					"$x":	-10242,
+					"$y":	-3145
+				}
+			},
+			"ImportedDensityNode-36511705-68c1-417d-a8b5-801b683a3b54":	{
+				"$Position":	{
+					"$x":	-10849,
+					"$y":	-3797
+				}
+			},
+			"Mesh2DPositions-16a96845-505b-4c2d-a87b-369241203b06":	{
+				"$Position":	{
+					"$x":	-11431,
+					"$y":	-4091
+				}
+			},
+			"MeshPointGenerator-a310ca88-7662-4108-9f6c-5d7bc570699e":	{
+				"$Position":	{
+					"$x":	-10754,
+					"$y":	-4090
+				}
+			},
+			"Imported.Assignments-124e4ad6-6388-4dac-8010-ba3fdc32ad18":	{
+				"$Position":	{
+					"$x":	-12163,
+					"$y":	-3815
+				}
 			}
 		},
 		"$FloatingNodes":	[{
@@ -3434,7 +3568,7 @@
 				},
 				"$width":	4014.6875,
 				"$height":	1538.3125,
-				"$name":	"Needles"
+				"$name":	"Dirt"
 			}, {
 				"$Position":	{
 					"$x":	-7188.75,

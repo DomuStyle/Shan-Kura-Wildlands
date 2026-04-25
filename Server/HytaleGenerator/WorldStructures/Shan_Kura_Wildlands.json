@@ -2,7 +2,7 @@
   "Type": "NoiseRange",
   "Biomes": [
     {
-      "Biome": "SK_Lowland_FloatingPlains",
+      "Biome": "SK_Lowlands_FloatingPlains",
       "Min": -1.0,
       "Max": -0.9275
     },
