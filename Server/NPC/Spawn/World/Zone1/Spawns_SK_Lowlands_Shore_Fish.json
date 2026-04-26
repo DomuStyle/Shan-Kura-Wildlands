@@ -1,87 +1,98 @@
 {
   "Environments": [
-    "Env_Lowland_Rivers"
+    "Env_Lowland_Shores"
   ],
   "NPCs": [
     {
-      "Weight": 15,
-      "Id": "Piranha",
-      "Flock": "Group_Large",
+      "Weight": 7,
+      "SpawnBlockSet": "Soil",
+      "Id": "Minnow",
       "SpawnFluidTag": "Water",
-      "SpawnBlockSet": "Soil"
+      "Flock": "Group_Large"
     },
     {
-      "Weight": 5,
-      "Id": "Piranha_Black",
-      "Flock": "Group_Small",
-      "SpawnFluidTag": "Water",
-      "SpawnBlockSet": "Soil"
-    },
-    {
-      "Weight": 5,
-      "Id": "Trilobite",
-      "SpawnFluidTag": "Water",
-      "Flock": "One_Or_Two",
-      "SpawnBlockSet": "Soil"
-    },
-    {
-      "Id": "Trout_Rainbow",
+      "Id": "Catfish",
       "Weight": 5,
       "SpawnBlockSet": "Soil",
       "SpawnFluidTag": "Water",
-      "Flock": "Group_Small"
+      "Flock": "One_Or_Two"
     },
     {
-      "Id": "Snapjaw",
+      "Id": "Pike",
       "Weight": 2,
       "SpawnBlockSet": "Soil",
       "SpawnFluidTag": "Water",
       "Flock": "One_Or_Two"
     },
     {
-      "Id": "Bluegill",
-      "Weight": 5,
+      "Id": "Piranha",
+      "Weight": 3,
+      "SpawnBlockSet": "Soil",
+      "SpawnFluidTag": "Water",
+      "Flock": "Group_Large"
+    },
+    {
+      "Id": "Snapjaw",
+      "Weight": 3,
+      "SpawnBlockSet": "Soil",
+      "SpawnFluidTag": "Water",
+      "Flock": "One_Or_Two"
+    },
+    {
+      "Id": "Salmon",
+      "Weight": 7,
       "SpawnBlockSet": "Soil",
       "SpawnFluidTag": "Water",
       "Flock": "Group_Medium"
     },
     {
-      "Id": "Catfish",
+      "Id": "Pufferfish",
+      "Weight": 3,
+      "SpawnBlockSet": "Soil",
+      "SpawnFluidTag": "Water",
+      "Flock": "One_Or_Two"
+    },
+    {
+      "Id": "Clownfish",
+      "Weight": 3,
+      "SpawnBlockSet": "Soil",
+      "SpawnFluidTag": "Water",
+      "Flock": "Group_Small"
+    },
+    {
+      "Id": "Jellyfish_Man_Of_War",
       "Weight": 2,
       "SpawnBlockSet": "Soil",
-      "SpawnFluidTag": "Water"
+      "SpawnFluidTag": "Water",
+      "Flock": "One_Or_Two"
     },
     {
       "Id": "Tang_Blue",
-      "Weight": 3,
-      "SpawnBlockSet": "Soil",
-      "SpawnFluidTag": "Water",
-      "Flock": "Group_Small"
-    },
-    {
-      "Id": "Tang_Chevron",
-      "Weight": 3,
-      "SpawnBlockSet": "Soil",
-      "SpawnFluidTag": "Water",
-      "Flock": "Group_Small"
-    },
-    {
-      "Id": "Tang_Lemon_Peel",
       "Weight": 4,
       "SpawnBlockSet": "Soil",
       "SpawnFluidTag": "Water",
       "Flock": "Group_Small"
     },
     {
-      "Id": "Tang_Sailfin",
+      "Id": "Tang_Chevron",
+      "Weight": 4,
+      "SpawnBlockSet": "Soil",
+      "SpawnFluidTag": "Water",
+      "Flock": "Group_Medium"
+    },
+    {
+      "Id": "Tang_Lemon_Peel",
       "Weight": 3,
+      "SpawnBlockSet": "Soil",
+      "SpawnFluidTag": "Water",
+      "Flock": "Group_Medium"
+    },
+    {
+      "Id": "Tang_Sailfin",
+      "Weight": 2,
       "SpawnBlockSet": "Soil",
       "SpawnFluidTag": "Water",
       "Flock": "Group_Small"
     }
-  ],
-  "DayTimeRange": [
-    6,
-    24
   ]
 }

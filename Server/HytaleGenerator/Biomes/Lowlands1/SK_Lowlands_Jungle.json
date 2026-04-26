@@ -3201,11 +3201,11 @@
 								"WeightedPrefabPaths":	[{
 										"$NodeId":	"WeightedPath.Prefab.Prop-f7ac6679-5ccb-43b9-a93d-aab705fc4bce",
 										"Path":	"Custom/Energy_Absorber_Medium_Mossy_Cracked",
-										"Weight":	30
+										"Weight":	35
 									}, {
 										"$NodeId":	"WeightedPath.Prefab.Prop-a79d2144-f89e-4a93-9281-f3468e3ad313",
 										"Path":	"Custom/AEA_Round_Cracked",
-										"Weight":	40
+										"Weight":	20
 									}],
 								"LegacyPath":	false,
 								"LoadEntities":	true,
