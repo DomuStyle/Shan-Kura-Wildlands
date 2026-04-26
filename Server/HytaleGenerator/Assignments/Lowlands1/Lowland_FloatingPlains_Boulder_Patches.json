@@ -6,7 +6,7 @@
 	"Seed":	"A",
 	"WeightedAssignments":	[{
 			"$NodeId":	"Weight.Weighted.Assignments-2ffced1f-20e4-476a-8a79-3bb7f200b39c",
-			"Weight":	40,
+			"Weight":	35,
 			"Assignments":	{
 				"$NodeId":	"Constant.Assignments-b24cc9fd-c694-4e2b-bf9c-7495c9a2aa9b",
 				"Type":	"Constant",
@@ -17,7 +17,7 @@
 					"WeightedPrefabPaths":	[{
 							"$NodeId":	"WeightedPath.Prefab.Prop-c1d2dc36-8afa-4346-95ef-35eacb6c3ac5",
 							"Path":	"Rock_Formations/Rocks/Quartzite/Moss_Large_Health/",
-							"Weight":	30
+							"Weight":	20
 						}, {
 							"$NodeId":	"WeightedPath.Prefab.Prop-f5fd8d20-adda-4e03-8987-dc0181b6b620",
 							"Path":	"Rock_Formations/Rocks/Quartzite/Medium/",
