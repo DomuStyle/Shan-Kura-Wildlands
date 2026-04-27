@@ -1,11 +1,11 @@
 {
   "Environments": [
-    "Env_Lowland_Shores"
+    "Env_Zone0"
   ],
   "NPCs": [
     {
       "Weight": 7,
-      "SpawnBlockSet": "Soil",
+      "SpawnBlockSet": "Rock",
       "Id": "Minnow",
       "SpawnFluidTag": "Water",
       "Flock": "Group_Large"
@@ -13,93 +13,100 @@
     {
       "Id": "Catfish",
       "Weight": 5,
-      "SpawnBlockSet": "Soil",
+      "SpawnBlockSet": "Rock",
       "SpawnFluidTag": "Water",
       "Flock": "One_Or_Two"
     },
     {
       "Id": "Pike",
       "Weight": 2,
-      "SpawnBlockSet": "Soil",
+      "SpawnBlockSet": "Rock",
       "SpawnFluidTag": "Water",
       "Flock": "One_Or_Two"
     },
     {
       "Id": "Piranha",
       "Weight": 3,
-      "SpawnBlockSet": "Soil",
+      "SpawnBlockSet": "Rock",
       "SpawnFluidTag": "Water",
       "Flock": "Group_Large"
     },
     {
       "Id": "Snapjaw",
       "Weight": 3,
-      "SpawnBlockSet": "Soil",
+      "SpawnBlockSet": "Rock",
       "SpawnFluidTag": "Water",
       "Flock": "One_Or_Two"
     },
     {
       "Id": "Salmon",
       "Weight": 7,
-      "SpawnBlockSet": "Soil",
+      "SpawnBlockSet": "Rock",
       "SpawnFluidTag": "Water",
       "Flock": "Group_Medium"
     },
     {
       "Id": "Pufferfish",
       "Weight": 3,
-      "SpawnBlockSet": "Soil",
+      "SpawnBlockSet": "Rock",
       "SpawnFluidTag": "Water",
       "Flock": "One_Or_Two"
     },
     {
       "Id": "Clownfish",
       "Weight": 3,
-      "SpawnBlockSet": "Soil",
+      "SpawnBlockSet": "Rock",
       "SpawnFluidTag": "Water",
       "Flock": "Group_Small"
     },
     {
       "Id": "Jellyfish_Man_Of_War",
       "Weight": 2,
-      "SpawnBlockSet": "Soil",
+      "SpawnBlockSet": "Rock",
       "SpawnFluidTag": "Water",
       "Flock": "One_Or_Two"
     },
     {
       "Id": "Tang_Blue",
       "Weight": 4,
-      "SpawnBlockSet": "Soil",
+      "SpawnBlockSet": "Rock",
       "SpawnFluidTag": "Water",
       "Flock": "Group_Small"
     },
     {
       "Id": "Tang_Chevron",
       "Weight": 4,
-      "SpawnBlockSet": "Soil",
+      "SpawnBlockSet": "Rock",
       "SpawnFluidTag": "Water",
       "Flock": "Group_Medium"
     },
     {
       "Id": "Tang_Lemon_Peel",
       "Weight": 3,
-      "SpawnBlockSet": "Soil",
+      "SpawnBlockSet": "Rock",
       "SpawnFluidTag": "Water",
       "Flock": "Group_Medium"
     },
     {
       "Id": "Tang_Sailfin",
       "Weight": 2,
-      "SpawnBlockSet": "Soil",
+      "SpawnBlockSet": "Rock",
       "SpawnFluidTag": "Water",
       "Flock": "Group_Small"
     },
     {
-      "Id": "Shark_Hammerhead",
-      "Weight": 2,
-      "SpawnBlockSet": "Soil",
+      "Id": "Whale_Humpback",
+      "Weight": 3,
+      "SpawnBlockSet": "Rock",
       "SpawnFluidTag": "Water",
-      "Flock": "Group_Tiny"
+      "Flock": "One_Or_Two"
+    },
+    {
+      "Id": "Shark_Hammerhead",
+      "Weight": 3,
+      "SpawnBlockSet": "Rock",
+      "SpawnFluidTag": "Water",
+      "Flock": "Group_Small"
     }
   ]
 }
