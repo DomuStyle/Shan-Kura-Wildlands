@@ -2,15 +2,15 @@
   "Group": "KMoD_One",
   "Name": "Shan'Kura Wildlands",
   "Version": "1.0.0",
-  "Description": "A new Biome to participate in the 100K Dollar Mod Jam of Hytale",
+  "Description": "My custom WorldGenV2 Mod for the Hytale New Wolrds Contest",
   "Authors": [
     {
       "Name": "KMoD_One",
-      "Email": "",
-      "Url": ""
+      "Email": "contact@dominik-marnet.de",
+      "Url": "https://www.artstation.com/kmod_voxel"
     }
   ],
-  "Website": "",
+  "Website": "www.dominik-marnet.de",
   "ServerVersion": "2026.03.26-89796e57b",
   "Dependencies": {},
   "OptionalDependencies": {},
