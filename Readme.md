@@ -66,9 +66,11 @@ Future Plans:
 
 -performance optimizations
 -adding Nyxari NPC's
+-custom Ocean Biome (Coral Reefs)
+-custom Caves
 -more Biomes
 -more custom Blocks, Assets, Prefabs and NPC's
--more Dinosaurs with mounting ability where Weapons can be attached (longterm goal inspired by Dino Riders TV-Show)
+-more Dinosaurs with mounting ability where Weapons can be attached (longterm goal inspired   by Dino Riders TV-Show)
 
 
 Wording Roots
