@@ -1791,7 +1791,7 @@
 				"Environment":	{
 					"$NodeId":	"Constant.EnvironmentProvider-23a78718-84da-4b48-9a20-329d341afc1c",
 					"Type":	"Constant",
-					"Environment":	"Env_Zone1_Plains"
+					"Environment":	"Env_Lowland_Gorges"
 				},
 				"Range":	{
 					"$NodeId":	"Decimal.Range-08c03fcf-f2c4-4992-81c4-f6a54f9b7c85",

@@ -1,0 +1,49 @@
+{
+  "Environments": [
+    "Env_Lowland_Gorges"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Soil",
+      "Id": "Wolf_Black",
+      "Flock": "Pack_Small"
+    },
+    {
+      "Id": "Cactee",
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Snake_Cobra",
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Snake_Rattle",
+      "Weight": 2,
+      "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Hawk",
+      "Weight": 4,
+      "SpawnBlockSet": "Birds"
+    },
+    {
+      "Id": "Snake_Marsh",
+      "Weight": 4,
+      "SpawnBlockSet": "Soil",
+      "Flock": "One_Or_Two"
+    },
+    {
+      "Id": "Leopard_Snow",
+      "Weight": 3,
+      "SpawnBlockSet": "Soil",
+      "Flock": "One_Or_Two"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    24
+  ]
+}
