@@ -25,7 +25,7 @@ About Shan'Kura Wildlands:
 
 Concept
 
-Shan Kura Wildlands is a collection of different Worlds/Zones that are mainly inspired by southeast Asian landscapes and Nature, a prehistoricla Flora and Fauna mixed with Fantasy Elements.
+Shan’Kura Wildlands is a collection of different worlds and zones, mainly inspired by Southeast Asian landscapes and nature, featuring prehistoric flora and fauna mixed with fantasy elements.
 
 Shan'Kura can be translated as "The Hidden Sanctum of the Free People"
 
@@ -33,8 +33,8 @@ Shan'Kura can be translated as "The Hidden Sanctum of the Free People"
 
 Lore
 
-Shan'Kura Lowlands is the home of a Human-Panther Hybrid Race called the Nyxari (Nyxari can be translated as "Night worthy") living in Treehouses build on gigantic yellow meranti trees.
-Among the different Biomes are leftover, mostly broken structures and Monuments that where created and build by an Ancient Civilisation. Who these people are is unknown until today.  
+Shan’Kura Lowlands is the home of a human–panther hybrid race called the Nyxari. The name ‘Nyxari’ can be translated as ‘night‑worthy’. They live in treehouses built atop gigantic yellow meranti trees.
+Across the different biomes, remnants of mostly ruined structures and monuments can be found — creations of an ancient civilization. Who these people were remains unknown to this day.  
 
 
 
@@ -64,6 +64,7 @@ Features:
 
 Future Plans:
 
+-performance optimizations
 -adding Nyxari NPC's
 -more Biomes
 -more custom Blocks, Assets, Prefabs and NPC's
@@ -83,7 +84,7 @@ Derived from "Nyx" (Greek for "night") + "Ari (Sanskrit/the Malay region, meanin
 
 
 
-Last Word:
+Last Words:
 Thank you very much for downloading my very first Mod for Hytale.
 I hope you enjoy it!
 
@@ -92,7 +93,7 @@ contact@dominik-marnet.de
 alternatively you can text me on X:
 https://x.com/KMoD_One
 
-You can support me by using my ko-fi link:
+You can support my work by using my ko-fi link:
 ko-fi.com/kmod_one
 
 
