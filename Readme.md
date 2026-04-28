@@ -1,3 +1,4 @@
+<pre>
 8""""8                      8   8                    
 8      e   e eeeee eeeee    8   8  e   e eeeee  eeeee
 8eeeee 8   8 8   8 8   8    8eee8e 8   8 8   8  8   8
@@ -12,7 +13,7 @@ e   88 88  8 88  8 88  8    88   8 88  8 88   8 88  8
 88  8  8 88 88    88  8 88    88  8 88  8 88  8    88
 88ee8ee8 88 88eee 88ee8 88eee 88  8 88  8 88ee8 8ee88
                                 by KMoD_One
-
+</pre>
 
 Setup:
 copy and open the following link in your browser to see how to install Hytale Mods
