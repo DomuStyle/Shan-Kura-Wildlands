@@ -1038,7 +1038,7 @@
 										},
 										"BlockMask":	{
 											"$NodeId":	"BlockMask-cc71c6be-bed3-4ba5-b359-01ea18131163",
-											"Import":	"Taiga1_Trees"
+											"Import":	"SK_Lowland_Trees"
 										},
 										"MoldingDirection":	"None",
 										"MoldingChildren":	false
@@ -1117,7 +1117,7 @@
 										},
 										"BlockMask":	{
 											"$NodeId":	"BlockMask-b4098f45-9eac-4c16-9ec3-9e96be25aedf",
-											"Import":	"Taiga1_Trees"
+											"Import":	"SK_Lowland_Trees"
 										},
 										"MoldingDirection":	"None",
 										"MoldingChildren":	false
@@ -1223,7 +1223,7 @@
 													},
 													"BlockMask":	{
 														"$NodeId":	"BlockMask-dfab0697-a63b-48cd-a883-3fe5c982cc92",
-														"Import":	"Taiga1_Trees"
+														"Import":	"SK_Lowland_Trees"
 													},
 													"MoldingDirection":	"None",
 													"MoldingChildren":	false
@@ -1578,7 +1578,7 @@
 													},
 													"BlockMask":	{
 														"$NodeId":	"BlockMask-e966e5d6-1154-4db6-bcfe-cb316112d077",
-														"Import":	"Taiga1_Trees"
+														"Import":	"SK_Lowland_Trees"
 													},
 													"MoldingDirection":	"None",
 													"MoldingChildren":	false
@@ -1671,7 +1671,7 @@
 													},
 													"BlockMask":	{
 														"$NodeId":	"BlockMask-7f3df465-92f3-4b0d-8637-3c79c4a0c5bf",
-														"Import":	"Taiga1_Trees"
+														"Import":	"SK_Lowland_Trees"
 													},
 													"MoldingDirection":	"None",
 													"MoldingChildren":	false
@@ -1750,7 +1750,7 @@
 													},
 													"BlockMask":	{
 														"$NodeId":	"BlockMask-ccf33914-05b7-4fae-bfee-812b5c11932c",
-														"Import":	"Taiga1_Trees"
+														"Import":	"SK_Lowland_Trees"
 													},
 													"MoldingDirection":	"None",
 													"MoldingChildren":	false
@@ -1768,7 +1768,7 @@
 					"$x":	3587.75,
 					"$y":	17926.4375
 				},
-				"$width":	4865.1875,
+				"$width":	5346.625,
 				"$height":	1506.5,
 				"$name":	"Fir"
 			}, {
@@ -1776,7 +1776,7 @@
 					"$x":	2132.3125,
 					"$y":	8339.375
 				},
-				"$width":	4817,
+				"$width":	5250.0625,
 				"$height":	1506.5,
 				"$name":	"Thin Ash"
 			}, {
@@ -1784,7 +1784,7 @@
 					"$x":	2160.375,
 					"$y":	10041.1875
 				},
-				"$width":	4817,
+				"$width":	5259.875,
 				"$height":	1506.5,
 				"$name":	"Ash"
 			}, {
@@ -1792,7 +1792,7 @@
 					"$x":	3413.625,
 					"$y":	12079.4375
 				},
-				"$width":	4865.1875,
+				"$width":	5279,
 				"$height":	1506.5,
 				"$name":	"Thin Fir"
 			}, {
@@ -1800,7 +1800,7 @@
 					"$x":	3418.3125,
 					"$y":	13718
 				},
-				"$width":	5319.5625,
+				"$width":	5685.5,
 				"$height":	1984.6875,
 				"$name":	"Sticks"
 			}, {
@@ -1808,7 +1808,7 @@
 					"$x":	3437.5,
 					"$y":	15855
 				},
-				"$width":	5295.4375,
+				"$width":	5704.625,
 				"$height":	1947.75,
 				"$name":	"Mushrooms"
 			}, {

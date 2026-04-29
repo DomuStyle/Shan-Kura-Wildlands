@@ -224,7 +224,7 @@
 										},
 										"BlockMask":	{
 											"$NodeId":	"BlockMask-a654f988-7807-4ebf-ab24-ca878bb0c3fb",
-											"Import":	"Taiga1_Trees"
+											"Import":	"SK_Lowland_Trees"
 										},
 										"MoldingDirection":	"None",
 										"MoldingChildren":	false
@@ -394,7 +394,7 @@
 										},
 										"BlockMask":	{
 											"$NodeId":	"BlockMask-106b1faa-abb3-4f50-8175-b84212857f96",
-											"Import":	"Taiga1_Trees"
+											"Import":	"SK_Lowland_Trees"
 										},
 										"MoldingDirection":	"None",
 										"MoldingChildren":	false
@@ -988,110 +988,110 @@
 			},
 			"Weight.Weighted.Assignments-5e82a138-4191-4b3f-a468-81d2554b637c":	{
 				"$Position":	{
-					"$x":	1915,
-					"$y":	18408
+					"$x":	1858,
+					"$y":	18308
 				}
 			},
 			"Constant.Assignments-43c59460-f227-4c2e-8e87-cd3533caf6fe":	{
 				"$Position":	{
-					"$x":	2403,
-					"$y":	18396
+					"$x":	2346,
+					"$y":	18296
 				}
 			},
 			"Cluster.Prop-d9e87b78-91d5-4dc0-bf25-b5377b982620":	{
 				"$Position":	{
-					"$x":	3028,
-					"$y":	18374
+					"$x":	2971,
+					"$y":	18274
 				}
 			},
 			"ManualCurve-dec240da-9816-40ab-b3ce-d9e16ffb94ae":	{
 				"$Position":	{
-					"$x":	3738,
-					"$y":	18310
+					"$x":	3681,
+					"$y":	18210
 				}
 			},
 			"CurvePoint-b8ca13ed-51eb-4efe-ba04-c1670b29f591":	{
 				"$Position":	{
-					"$x":	4364,
-					"$y":	18111
+					"$x":	4307,
+					"$y":	18011
 				}
 			},
 			"CurvePoint-6729888d-8385-418d-9780-8faf2bb6860f":	{
 				"$Position":	{
-					"$x":	4371,
-					"$y":	18282
+					"$x":	4314,
+					"$y":	18182
 				}
 			},
 			"Weighted.Cluster.Prop-72a4c6c9-b346-48bf-a5cd-ee5177c085ac":	{
 				"$Position":	{
-					"$x":	3717,
-					"$y":	18467
+					"$x":	3660,
+					"$y":	18367
 				}
 			},
 			"Column.Prop-34b996f1-f5d3-4b4a-906e-5d6413506b0c":	{
 				"$Position":	{
-					"$x":	4187,
-					"$y":	18466
+					"$x":	4130,
+					"$y":	18366
 				}
 			},
 			"Block.Column.Prop-a3d4ae80-b6a0-4b9a-a47e-eb243735ac59":	{
 				"$Position":	{
-					"$x":	4887,
-					"$y":	18286
+					"$x":	4830,
+					"$y":	18186
 				}
 			},
 			"Material-1a34a862-bf43-4d18-9411-3a4d6d0441f8":	{
 				"$Position":	{
-					"$x":	5315,
-					"$y":	18281
+					"$x":	5258,
+					"$y":	18181
 				}
 			},
 			"Block.Column.Prop-9f9680f8-93a3-40db-9822-7bed0371efb7":	{
 				"$Position":	{
-					"$x":	4886,
-					"$y":	18449
+					"$x":	4829,
+					"$y":	18349
 				}
 			},
 			"Material-1481dd07-99fa-4e70-abf1-48c19e64cafc":	{
 				"$Position":	{
-					"$x":	5310,
-					"$y":	18450
+					"$x":	5253,
+					"$y":	18350
 				}
 			},
 			"Static.Directionality-339b5ee8-25d3-4824-bdb9-e669bc2d86d3":	{
 				"$Position":	{
-					"$x":	4913,
-					"$y":	18609
+					"$x":	4856,
+					"$y":	18509
 				}
 			},
 			"Floor.Pattern-4749de5a-b84e-4eb0-aef3-61465f1952f5":	{
 				"$Position":	{
-					"$x":	5540,
-					"$y":	18614
+					"$x":	5483,
+					"$y":	18514
 				}
 			},
 			"BlockType.Pattern-4ffde304-e64d-4db5-9ebd-eff5aa366d33":	{
 				"$Position":	{
-					"$x":	6175,
-					"$y":	18522
+					"$x":	6118,
+					"$y":	18422
 				}
 			},
 			"Material-3a00b69d-59fe-4114-8ce3-2c40c1d88c5e":	{
 				"$Position":	{
-					"$x":	6877,
-					"$y":	18521
+					"$x":	6820,
+					"$y":	18421
 				}
 			},
 			"BlockSet.Pattern-ea0a9d0c-5933-4f95-a37d-b7fe302a425a":	{
 				"$Position":	{
-					"$x":	6163,
-					"$y":	18732
+					"$x":	6106,
+					"$y":	18632
 				}
 			},
 			"BlockSet.BlockMask-17aec8f8-2ddb-465b-aa2a-924ebdba7f40":	{
 				"$Position":	{
-					"$x":	6812,
-					"$y":	18748
+					"$x":	6755,
+					"$y":	18648
 				}
 			},
 			"Material-57fff21c-eaae-4e45-8081-545becf02c23":	{
@@ -1114,20 +1114,20 @@
 			},
 			"ColumnLinear.Scanner-39429f46-93a2-4ccb-bbc5-843dff4b37b1":	{
 				"$Position":	{
-					"$x":	4930,
-					"$y":	18771
+					"$x":	4873,
+					"$y":	18671
 				}
 			},
 			"Imported.Pattern-179e2125-35d6-40fa-aa9c-720dd1d6876b":	{
 				"$Position":	{
-					"$x":	3738,
-					"$y":	18690
+					"$x":	3681,
+					"$y":	18590
 				}
 			},
 			"ColumnLinear.Scanner-a4c77c9a-9b58-4039-9c23-82b2857029c9":	{
 				"$Position":	{
-					"$x":	3741,
-					"$y":	18862
+					"$x":	3684,
+					"$y":	18762
 				}
 			}
 		},
@@ -1139,7 +1139,7 @@
 					"$x":	356.75,
 					"$y":	9120.6875
 				},
-				"$width":	8509.875,
+				"$width":	8909.5,
 				"$height":	3545.125,
 				"$name":	"Aspen"
 			}, {
@@ -1152,10 +1152,10 @@
 				"$name":	"Cedar"
 			}, {
 				"$Position":	{
-					"$x":	1833.4375,
-					"$y":	18008.25
+					"$x":	1777.25,
+					"$y":	17908.375
 				},
-				"$width":	6176.0625,
+				"$width":	6700.625,
 				"$height":	1381.5625,
 				"$name":	"Bushes"
 			}, {
@@ -1163,7 +1163,7 @@
 					"$x":	1715.25,
 					"$y":	12748.25
 				},
-				"$width":	6176.0625,
+				"$width":	6650.625,
 				"$height":	1381.5625,
 				"$name":	"Flowers"
 			}],

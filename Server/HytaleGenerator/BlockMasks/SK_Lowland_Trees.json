@@ -1,6 +1,6 @@
 {
 	"$NodeId":	"BlockMask-69a43cfd-763b-4bf4-8024-03c6b9f7d230",
-	"ExportAs":	"Taiga1_Trees",
+	"ExportAs":	"SK_Lowland_Trees",
 	"DontPlace":	{
 		"$NodeId":	"BlockSet.BlockMask-0f9c9294-7753-4146-8437-2d2850c3a022",
 		"Inclusive":	true,
