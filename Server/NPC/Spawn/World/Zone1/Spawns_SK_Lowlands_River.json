@@ -32,8 +32,10 @@
     },
     {
       "Id": "Crocodile",
-      "Weight": 2,
-      "SpawnBlockSet": "Soil"
+      "Weight": 5,
+      "SpawnBlockSet": "Soil",
+      "Flock": "One_Or_Two",
+      "SpawnFluidTag": "Water"
     }
   ]
 }
