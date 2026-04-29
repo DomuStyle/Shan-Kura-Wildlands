@@ -4,14 +4,16 @@
   ],
   "NPCs": [
     {
-      "Weight": 3,
-      "SpawnBlockSet": "Grass",
-      "Id": "Capybara"
+      "Weight": 30,
+      "Id": "Capybara",
+      "Flock": "Group_Medium",
+      "SpawnBlockSet": "Grass"
     },
     {
       "Id": "Meerkat",
-      "Weight": 0.1,
-      "SpawnBlockSet": "Sand"
+      "Weight": 1,
+      "SpawnBlockSet": "Sand",
+      "Flock": "Group_Small"
     },
     {
       "Id": "Woodpecker",

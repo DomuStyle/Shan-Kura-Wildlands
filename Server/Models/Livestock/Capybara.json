@@ -16,7 +16,7 @@
     }
   },
   "MinScale": 0.8,
-  "MaxScale": 1.2,
+  "MaxScale": 1.0,
   "AnimationSets": {
     "Idle": {
       "Animations": [

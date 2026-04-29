@@ -1,33 +1,36 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Animal_Neutral",
+  "Reference": "Template_Livestock",
   "Modify": {
     "Appearance": "Capybara",
-    "AttitudeGroup": "PreyBig",
     "FlockArray": [
       "Capybara"
     ],
     "AttractiveItemSet": [
+      "Tool_Feedbag",
       "Plant_Crop_Mana1"
     ],
-    "AttractiveItemSetParticles": "Want_Food_Mana1",
+    "FollowItemDistance": [
+      1.5,
+      2
+    ],
     "DropList": "Drop_Capybara",
     "MaxHealth": 81,
     "ViewRange": 15,
     "ViewSector": 300,
     "HearingRange": 9,
     "AlertedRange": 17,
-    "AlertedActionRange": 5,
+    "AlertedActionRange": 4,
     "AbsoluteDetectionRange": 2,
     "AttackWhenStartled": true,
     "Attack": "Root_NPC_Attack_Melee",
-    "IsTameable": true,
-    "TameRoleChange": "Tamed_Capybara",
+    "ProduceItem": "Ingredient_Poop",
     "IsMemory": true,
-    "MemoriesNameOverride": "Capybara",
-    "NameTranslationKey": {
-      "Compute": "NameTranslationKey"
-    },
+    "IsMountable": true,
+    "MountAnchorX": 0,
+    "MountAnchorY": 1.5,
+    "MountAnchorZ": 0,
+    "MemoriesNameOverride": "Boar",
     "_InteractionVars": {
       "Melee_Start": {
         "Interactions": [
@@ -109,11 +112,14 @@
           }
         ]
       }
+    },
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
     }
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Capybara.name",
+      "Value": "server.npcRoles.Capybara_Tamed.name",
       "Description": "Translation key for NPC name display"
     }
   }
