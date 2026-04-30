@@ -524,37 +524,17 @@
 					"$y":	2756
 				}
 			},
-			"WeightedPath.Prefab.Prop-8c1c8ed0-3f3e-4170-8091-a31d9d99c051":	{
-				"$Position":	{
-					"$x":	3497,
-					"$y":	359
-				}
-			},
 			"Material-8066cbd0-ff39-4494-bf62-b9767d3eea10":	{
 				"$Position":	{
 					"$x":	6568,
 					"$y":	868
 				}
-			},
-			"WeightedPath.Prefab.Prop-32df6033-6218-460a-97cd-4721cfc1c8e1":	{
-				"$Position":	{
-					"$x":	3491,
-					"$y":	1430
-				}
 			}
 		},
 		"$FloatingNodes":	[{
-				"$NodeId":	"WeightedPath.Prefab.Prop-8c1c8ed0-3f3e-4170-8091-a31d9d99c051",
-				"Path":	"Rock_Formations/Pillars/Shale/Plains/Small",
-				"Weight":	70
-			}, {
 				"$NodeId":	"Material-8066cbd0-ff39-4494-bf62-b9767d3eea10",
 				"Solid":	"Soil_Sand_Crystal",
 				"SolidBottomUp":	false
-			}, {
-				"$NodeId":	"WeightedPath.Prefab.Prop-32df6033-6218-460a-97cd-4721cfc1c8e1",
-				"Path":	"Rock_Formations/Pillars/Shale/Plains/Small",
-				"Weight":	70
 			}],
 		"$Links":	{
 		},
