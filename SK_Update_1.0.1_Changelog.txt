@@ -1,0 +1,13 @@
+Shan'Kura Wildlands Update Changelog
+
+
+
+Ver. 1.0.1 (02.05.2026)
+
+- added taming and mounting for Capybara's
+- runtime optimisations
+- assignments cleanup
+- plant spawning adjustments (Shores & Rivers)
+- increased Merana & Jungle Tree density in Jungle Biome
+- slightly increased animal spawning in gorges (Bamboo Gardens) 
+- chnaged Treehouse villages spawning from fixed positions to procedual generation

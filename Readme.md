@@ -57,7 +57,7 @@ Features:
 
 -Custom Assets
 
- NPC's (Capybara)
+ NPC's (Capybara tameable & rideable)
  Plants
  Blocks
 
@@ -71,7 +71,7 @@ Future Plans:
 -custom Caves
 -more Biomes
 -more custom Blocks, Assets, Prefabs and NPC's
--more Dinosaurs with mounting ability where Weapons can be attached (longterm goal inspired   by Dino Riders TV-Show)
+-more Dinosaurs with mounting ability where Weapons can be attached (longterm goal inspired by Dino Riders TV-Show)
 
 
 Wording Roots
