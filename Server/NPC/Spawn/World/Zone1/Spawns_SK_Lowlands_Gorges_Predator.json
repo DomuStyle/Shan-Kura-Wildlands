@@ -11,17 +11,17 @@
     },
     {
       "Id": "Cactee",
-      "Weight": 2,
+      "Weight": 3,
       "SpawnBlockSet": "Soil"
     },
     {
       "Id": "Snake_Cobra",
-      "Weight": 2,
+      "Weight": 4,
       "SpawnBlockSet": "Soil"
     },
     {
       "Id": "Snake_Rattle",
-      "Weight": 2,
+      "Weight": 3,
       "SpawnBlockSet": "Soil"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "Id": "Snake_Marsh",
-      "Weight": 4,
+      "Weight": 6,
       "SpawnBlockSet": "Soil",
       "Flock": "One_Or_Two"
     },
