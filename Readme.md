@@ -19,6 +19,12 @@ Setup:
 copy and open the following link in your browser to see how to install Hytale Mods
 https://support.curseforge.com/support/solutions/articles/9000273615-install-hytale-mods#How-to-add/remove-Hytale-mods-to-a-world 
 
+-Start a new creative world
+-op yourself by using the command /op self
+-use command /instance and choose Shan'Kura Wildlands and press Spawn button
+
+To be able to tame Animals use change gamemode to Adventure by using the command /gamemode adventure
+
 
 
 About Shan'Kura Wildlands:

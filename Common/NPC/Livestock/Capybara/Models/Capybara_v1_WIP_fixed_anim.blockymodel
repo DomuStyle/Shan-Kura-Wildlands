@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Origin",
       "position": {"x": 0, "y": 0, "z": 12},
-      "orientation": {"x": 0, "y": -1, "z": 0, "w": 0},
+      "orientation": {"x": 0, "y": 1, "z": 0, "w": 0},
       "shape": {
         "type": "none",
         "offset": {"x": 0, "y": 0, "z": 0},
@@ -334,7 +334,7 @@
               "id": "8",
               "name": "L-Tigh",
               "position": {"x": -48.5, "y": -17.67403, "z": 9.60048},
-              "orientation": {"x": 0, "y": -1, "z": 0, "w": 0},
+              "orientation": {"x": 0, "y": 1, "z": 0, "w": 0},
               "shape": {
                 "type": "none",
                 "offset": {"x": 0, "y": 0, "z": 0},
@@ -546,8 +546,8 @@
                         {
                           "id": "14",
                           "name": "leftToes--C2",
-                          "position": {"x": 0, "y": -4.53895, "z": 9.0058},
-                          "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
+                          "position": {"x": 0, "y": -4.53895, "z": 14.0058},
+                          "orientation": {"x": 0, "y": -0.70711, "z": 0.70711, "w": 0},
                           "shape": {
                             "type": "quad",
                             "offset": {"x": 0, "y": 2.45638, "z": 0.99905},
@@ -609,7 +609,7 @@
               "id": "16",
               "name": "R-Tigh",
               "position": {"x": -6.5, "y": -17.67403, "z": 9.60048},
-              "orientation": {"x": 0, "y": -1, "z": 0, "w": 0},
+              "orientation": {"x": 0, "y": 1, "z": 0, "w": 0},
               "shape": {
                 "type": "none",
                 "offset": {"x": 0, "y": 0, "z": 0},
@@ -699,7 +699,7 @@
                       "id": "19",
                       "name": "rightCalf--C1",
                       "position": {"x": 0.25, "y": -4.44187, "z": 3.34881},
-                      "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+                      "orientation": {"x": 0, "y": -0.93969, "z": 0.34202, "w": 0},
                       "shape": {
                         "type": "box",
                         "offset": {"x": 0.5, "y": -2.67559, "z": -0.73728},
@@ -770,7 +770,7 @@
                           "id": "21",
                           "name": "rightFoot--C1",
                           "position": {"x": 0, "y": -1.45945, "z": 6.98224},
-                          "orientation": {"x": 0, "y": 0.99976, "z": -0.02181, "w": 0},
+                          "orientation": {"x": 0, "y": -0.99976, "z": 0.02181, "w": 0},
                           "shape": {
                             "type": "box",
                             "offset": {"x": 0, "y": -1.5, "z": 5.5},
@@ -821,8 +821,8 @@
                         {
                           "id": "22",
                           "name": "rightToes--C2",
-                          "position": {"x": 0, "y": -5.45945, "z": 8.98224},
-                          "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
+                          "position": {"x": 0, "y": -5.45945, "z": 13.98224},
+                          "orientation": {"x": 0, "y": 0.70711, "z": -0.70711, "w": 0},
                           "shape": {
                             "type": "quad",
                             "offset": {"x": 0, "y": 2.45638, "z": 0.99905},
@@ -1629,7 +1629,7 @@
                               "id": "43",
                               "name": "leftEyelid--C1",
                               "position": {"x": -14.5, "y": 108, "z": -58},
-                              "orientation": {"x": 0.01543, "y": 0.68684, "z": -0.16807, "w": 0.70694},
+                              "orientation": {"x": 0.01543, "y": 0.68684, "z": -0.16808, "w": 0.70694},
                               "shape": {
                                 "type": "quad",
                                 "offset": {"x": 0.5, "y": 1, "z": 0.05},
@@ -1678,7 +1678,7 @@
                               "id": "45",
                               "name": "leftEyelid--C1",
                               "position": {"x": 14.5, "y": 108, "z": -58},
-                              "orientation": {"x": 0.01543, "y": -0.68684, "z": 0.16807, "w": 0.70694},
+                              "orientation": {"x": 0.01543, "y": -0.68684, "z": 0.16808, "w": 0.70694},
                               "shape": {
                                 "type": "quad",
                                 "offset": {"x": -0.5, "y": 1, "z": 0.05},
@@ -1800,7 +1800,7 @@
                               "id": "49",
                               "name": "leftForearm--C1",
                               "position": {"x": -1.25, "y": 2.01823, "z": 1.91326},
-                              "orientation": {"x": 0, "y": 0.99619, "z": -0.08716, "w": 0},
+                              "orientation": {"x": 0, "y": -0.99619, "z": 0.08716, "w": 0},
                               "shape": {
                                 "type": "box",
                                 "offset": {"x": -0.5, "y": -8.06712, "z": 1.45259},
