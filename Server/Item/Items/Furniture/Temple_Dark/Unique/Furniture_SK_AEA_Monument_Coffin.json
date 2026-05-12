@@ -6,7 +6,7 @@
   "Categories": [
     "Furniture.Containers"
   ],
-  "Icon": "Icons/ItemsGenerated/Furniture_Temple_Dark_Coffin.png",
+  "Icon": "Icons/ItemsGenerated/Furniture_SK_AEA_Monument_Coffin.png",
   "IconProperties": {
     "Scale": 0.395,
     "Translation": [
@@ -43,7 +43,7 @@
     "Interactions": {
       "Use": {
         "Interactions": [
-          "Block_Coffin_Open"
+          "AEA_Monument_Coffin_Open"
         ]
       }
     },
