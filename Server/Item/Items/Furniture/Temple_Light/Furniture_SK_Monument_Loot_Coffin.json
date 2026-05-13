@@ -56,18 +56,19 @@
       "Definitions": {
         "CloseWindow": {
           "InteractionSoundEventId": "SFX_Chest_Wooden_Close",
-          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Close.blockyanim"
+          "CustomModelAnimation": "Blocks/Animations/Coffin/Coffin_Close.blockyanim"
         },
         "OpenWindow": {
           "InteractionSoundEventId": "SFX_Chest_Wooden_Open",
-          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Open.blockyanim"
+          "CustomModelAnimation": "Blocks/Animations/Coffin/Coffin_Open.blockyanim"
         }
       }
     },
     "BlockEntity": {
       "Components": {
         "ItemContainerBlock": {
-          "Capacity": 18
+          "Capacity": 18,
+          "Droplist": "SK_Monument_Tier1"
         }
       }
     },
