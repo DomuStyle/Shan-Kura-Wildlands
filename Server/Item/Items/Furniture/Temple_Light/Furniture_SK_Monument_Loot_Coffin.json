@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.AEA_Monument_Chest_Small.name"
+    "Name": "server.items.AEA_Monument_Loot_Coffin.name"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
@@ -90,7 +90,8 @@
     "Interactions": {
       "Use": "Open_Container"
     },
-    "RequiresAlphaBlending": false
+    "RequiresAlphaBlending": false,
+    "HitboxType": "Coffin"
   },
   "Tags": {
     "Type": [
