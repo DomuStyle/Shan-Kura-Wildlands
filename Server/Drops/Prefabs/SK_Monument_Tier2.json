@@ -29,7 +29,7 @@
             "Type": "Single",
             "Weight": 10,
             "Item": {
-              "ItemId": "Ore_Silver",
+              "ItemId": "Ore_Cobalt",
               "QuantityMin": 2,
               "QuantityMax": 4
             }
@@ -38,7 +38,7 @@
             "Type": "Single",
             "Weight": 7,
             "Item": {
-              "ItemId": "Ore_Gold",
+              "ItemId": "Ore_Thorium",
               "QuantityMin": 2,
               "QuantityMax": 3
             }
@@ -56,7 +56,7 @@
             "Type": "Single",
             "Weight": 2,
             "Item": {
-              "ItemId": "Weapon_Shield_Scrap",
+              "ItemId": "Tool_Repair_Kit_Iron",
               "QuantityMin": 1,
               "QuantityMax": 1
             }
@@ -65,7 +65,7 @@
             "Type": "Single",
             "Weight": 2,
             "Item": {
-              "ItemId": "Weapon_Sword_Scrap",
+              "ItemId": "Tool_Repair_Kit_Rare",
               "QuantityMin": 1,
               "QuantityMax": 1
             }
@@ -74,7 +74,7 @@
       },
       {
         "Type": "Droplist",
-        "DroplistId": "Zone1_Encounters_Tier1"
+        "DroplistId": "Zone1_Encounters_Tier2"
       }
     ]
   }
