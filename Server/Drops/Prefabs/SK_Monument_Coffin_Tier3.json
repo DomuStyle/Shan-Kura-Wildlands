@@ -1,0 +1,462 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 3,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Potion_Health_Large",
+              "QuantityMin": 1,
+              "QuantityMax": 4
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Ingredient_Life_Essence",
+              "QuantityMin": 1,
+              "QuantityMax": 4
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 8,
+            "Item": {
+              "ItemId": "Ingredient_Voidheart",
+              "QuantityMin": 1,
+              "QuantityMax": 3
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Potion_Regen_Health_Large",
+              "QuantityMin": 1,
+              "QuantityMax": 3
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Ingredient_Hide_Heavy",
+              "QuantityMin": 1,
+              "QuantityMax": 2
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 1,
+            "Item": {
+              "ItemId": "Ingredient_Powder_Boom",
+              "QuantityMin": 1,
+              "QuantityMax": 3
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Weapon_Shield_Doomed",
+              "QuantityMin": 3,
+              "QuantityMax": 8
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 3,
+            "Item": {
+              "ItemId": "Weapon_Battleaxe_Doomed",
+              "QuantityMin": 2,
+              "QuantityMax": 4
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 1,
+            "Item": {
+              "ItemId": "Ore_Mithril",
+              "QuantityMin": 1,
+              "QuantityMax": 2
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 3,
+            "Item": {
+              "ItemId": "Potion_Signature_Large",
+              "QuantityMin": 1,
+              "QuantityMax": 7
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 16,
+            "Item": {
+              "ItemId": "Ore_Cobalt",
+              "QuantityMin": 1,
+              "QuantityMax": 4
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 12,
+            "Item": {
+              "ItemId": "Ore_Iron",
+              "QuantityMin": 1,
+              "QuantityMax": 2
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 1,
+            "Item": {
+              "ItemId": "Tool_Repair_Kit_Rare",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 2,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Plant_Fruit_Berries_Red",
+              "QuantityMin": 3,
+              "QuantityMax": 6
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Plant_Fruit_Apple",
+              "QuantityMin": 3,
+              "QuantityMax": 6
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Weapon_Longsword_Adamantite",
+              "QuantityMin": 2,
+              "QuantityMax": 3
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Weapon_Shield_Doomed",
+              "QuantityMin": 2,
+              "QuantityMax": 3
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Food_Vegetable_Cooked",
+              "QuantityMin": 1,
+              "QuantityMax": 2
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Food_Wildmeat_Cooked",
+              "QuantityMin": 1,
+              "QuantityMax": 2
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Food_Fish_Grilled",
+              "QuantityMin": 1,
+              "QuantityMax": 2
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Potion_Health_Greater",
+              "QuantityMin": 1,
+              "QuantityMax": 2
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Potion_Stamina_Large",
+              "QuantityMin": 1,
+              "QuantityMax": 2
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 1,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Weapon_Sword_Doomed",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Weapon_Daggers_Doomed",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Weapon_Battleaxe_Doomed",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Weapon_Mace_Cobalt",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Weapon_Shield_Doomed",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Tool_Pickaxe_Cobalt",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Armor_Cobalt_Chest",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Armor_Cobalt_Hands",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Armor_Cobalt_Head",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Armor_Cobalt_Legs",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Weapon_Battleaxe_Thorium",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Weapon_Daggers_Thorium",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Weapon_Mace_Thorium",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Weapon_Sword_Thorium",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Weapon_Shield_Thorium",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Weapon_Shortbow_Thorium",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 25,
+            "Item": {
+              "ItemId": "Tool_Hatchet_Thorium",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 25,
+            "Item": {
+              "ItemId": "Tool_Pickaxe_Thorium",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 75,
+            "Item": {
+              "ItemId": "Weapon_Arrow_Crude",
+              "QuantityMin": 4,
+              "QuantityMax": 9
+            }
+          },
+          {
+            "Type": "Empty",
+            "Weight": 80
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 2,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Wood_Aspen_Trunk",
+              "QuantityMin": 4,
+              "QuantityMax": 9
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Wood_Azure_Trunk",
+              "QuantityMin": 4,
+              "QuantityMax": 9
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Wood_Beech_Trunk",
+              "QuantityMin": 4,
+              "QuantityMax": 9
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Wood_Birch_Trunk",
+              "QuantityMin": 4,
+              "QuantityMax": 9
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Wood_Maple_Trunk",
+              "QuantityMin": 4,
+              "QuantityMax": 9
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Wood_Redwood_Trunk",
+              "QuantityMin": 4,
+              "QuantityMax": 9
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
