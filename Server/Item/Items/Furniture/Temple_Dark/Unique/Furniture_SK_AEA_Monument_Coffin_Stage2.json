@@ -1,22 +1,22 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Furniture_Temple_Dark_Coffin.name"
+    "Name": "server.items.AEA_Monument_Coffin_Stage2.name"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
     "Furniture.Containers"
   ],
-  "Icon": "Icons/ItemsGenerated/Furniture_SK_AEA_Monument_Coffin.png",
+  "Icon": "Icons/ItemsGenerated/Furniture_SK_AEA_Monument_Coffin_Stage2.png",
   "IconProperties": {
     "Scale": 0.395,
-    "Translation": [
-      -12.13,
-      -22.93
-    ],
     "Rotation": [
       22.5,
       45,
       22.5
+    ],
+    "Translation": [
+      -12.13,
+      -22.93
     ]
   },
   "BlockType": {
