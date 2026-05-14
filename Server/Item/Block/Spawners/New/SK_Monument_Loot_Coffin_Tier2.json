@@ -1,0 +1,15 @@
+{
+  "Entries": [
+    {
+      "Name": "Furniture_SK_Monument_Loot_Coffin",
+      "Weight": 100,
+      "Components": {
+        "Components": {
+          "ItemContainerBlock": {
+            "Droplist": "SK_Monument_Coffin_Tier2"
+          }
+        }
+      }
+    }
+  ]
+}
