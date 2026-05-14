@@ -6,7 +6,7 @@
   "Categories": [
     "Furniture.Containers"
   ],
-  "Icon": "Icons/ItemsGenerated/Furniture_SK_AEA_Monument_Coffin_Stage2.png",
+  "Icon": "Icons/ItemsGenerated/Furniture_SK_AEA_Monument_Coffin_Stage3.png",
   "IconProperties": {
     "Scale": 0.395,
     "Rotation": [
@@ -43,7 +43,7 @@
     "Interactions": {
       "Use": {
         "Interactions": [
-          "AEA_Monument_Coffin_Open_Stage2"
+          "AEA_Monument_Coffin_Open_Stage3"
         ]
       }
     },

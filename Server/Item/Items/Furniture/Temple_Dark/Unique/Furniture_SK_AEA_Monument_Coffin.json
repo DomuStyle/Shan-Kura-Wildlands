@@ -39,7 +39,7 @@
         "DropList": "Container_Coffins"
       }
     },
-    "InteractionHint": "server.interactionHints.open",
+    "InteractionHint": "server.interactionHints.generic",
     "Interactions": {
       "Use": {
         "Interactions": [

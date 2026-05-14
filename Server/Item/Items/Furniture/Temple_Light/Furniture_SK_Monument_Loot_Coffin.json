@@ -87,7 +87,7 @@
       ]
     },
     "VariantRotation": "NESW",
-    "InteractionHint": "server.interactionHints.openDoor",
+    "InteractionHint": "server.interactionHints.generic",
     "Interactions": {
       "Use": "Open_Container"
     },
