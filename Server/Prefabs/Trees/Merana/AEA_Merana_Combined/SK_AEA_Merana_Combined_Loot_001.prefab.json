@@ -12242,6 +12242,12 @@
     },
     {
       "x": 1,
+      "y": 7,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 1,
       "y": 8,
       "z": 0,
       "name": "Rock_Shale_Cobble",
@@ -13003,7 +13009,8 @@
       "x": 1,
       "y": 5,
       "z": 2,
-      "name": "Rock_Shale_Cobble"
+      "name": "Build_Lightsource_Cyan",
+      "rotation": 5
     },
     {
       "x": 1,
@@ -14584,18 +14591,87 @@
       "x": 2,
       "y": 5,
       "z": 1,
-      "name": "Block_Spawner_Block",
+      "name": "Furniture_SK_Monument_Chest_Small",
       "components": {
         "Components": {
-          "PlacedByInteraction": {
-            "WhoPlacedUuid": {
-              "$binary": "i+Pl1XV4SJWc91StkZuWWA==",
-              "$type": "04"
-            }
-          },
-          "BlockSpawner": {}
+          "ItemContainerBlock": {
+            "ItemContainer": {
+              "Capacity": 18,
+              "Items": {
+                "0": {
+                  "Id": "Plant_Fruit_Apple",
+                  "Quantity": 2,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "1": {
+                  "Id": "Wood_Redwood_Trunk",
+                  "Quantity": 5,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "3": {
+                  "Id": "Weapon_Mace_Crude",
+                  "Quantity": 1,
+                  "Durability": 80.0,
+                  "MaxDurability": 80.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "4": {
+                  "Id": "Ore_Copper",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "5": {
+                  "Id": "Wood_Maple_Trunk",
+                  "Quantity": 8,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "9": {
+                  "Id": "Ore_Gold",
+                  "Quantity": 2,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "11": {
+                  "Id": "Ore_Iron",
+                  "Quantity": 2,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "10": {
+                  "Id": "Ingredient_Fabric_Scrap_Linen",
+                  "Quantity": 2,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            },
+            "Capacity": 20
+          }
         }
       }
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "z": 1,
+      "name": "Empty"
     },
     {
       "x": 2,
@@ -14721,6 +14797,25 @@
       "y": 4,
       "z": 2,
       "name": "Rock_Shale_Cobble"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": 2,
+      "name": "Plant_Moss_Rug_Green_Dark",
+      "support": 15
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "z": 2,
+      "name": "Empty"
     },
     {
       "x": 2,
@@ -14853,9 +14948,34 @@
     },
     {
       "x": 2,
+      "y": 5,
+      "z": 3,
+      "name": "Plant_Moss_Rug_Green_Dark",
+      "support": 15
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 2,
       "y": 8,
       "z": 3,
       "name": "Rock_Shale_Cobble"
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "z": 3,
+      "name": "Empty"
     },
     {
       "x": 2,
@@ -14985,6 +15105,12 @@
     },
     {
       "x": 2,
+      "y": 10,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 2,
       "y": 55,
       "z": 4,
       "name": "Wood_Sallow_Trunk_Full",
@@ -15019,6 +15145,24 @@
       "z": 4,
       "name": "Plant_Leaves_Beech",
       "support": 15
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "z": 5,
+      "name": "Empty"
     },
     {
       "x": 2,
@@ -15928,6 +16072,25 @@
     },
     {
       "x": 3,
+      "y": 5,
+      "z": 1,
+      "name": "Plant_Moss_Rug_Green_Dark",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
       "y": 8,
       "z": 1,
       "name": "Rock_Shale_Cobble",
@@ -16007,6 +16170,24 @@
       "y": 4,
       "z": 2,
       "name": "Rock_Shale_Cobble"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 2,
+      "name": "Empty"
     },
     {
       "x": 3,
@@ -16116,9 +16297,36 @@
     },
     {
       "x": 3,
+      "y": 5,
+      "z": 3,
+      "name": "Furniture_Human_Ruins_Ladder",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 3,
+      "name": "Furniture_Human_Ruins_Ladder",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 3,
+      "name": "Furniture_Human_Ruins_Ladder",
+      "rotation": 2
+    },
+    {
+      "x": 3,
       "y": 8,
       "z": 3,
-      "name": "*Furniture_Temple_Dark_Trapdoor_State_Definitions_OpenDoorOut"
+      "name": "*Furniture_Temple_Dark_Trapdoor_State_Definitions_CloseDoorOut"
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": 3,
+      "name": "Empty"
     },
     {
       "x": 3,
@@ -16241,6 +16449,18 @@
     },
     {
       "x": 3,
+      "y": 10,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
       "y": 12,
       "z": 4,
       "name": "Wood_Sallow_Trunk_Full",
@@ -16315,6 +16535,18 @@
       "name": "Plant_Moss_Rug_Green_Dark",
       "support": 15,
       "rotation": 1
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": 5,
+      "name": "Empty"
     },
     {
       "x": 3,
@@ -16494,10 +16726,22 @@
     },
     {
       "x": 3,
+      "y": 7,
+      "z": 6,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
       "y": 8,
       "z": 6,
       "name": "Plant_Moss_Wall_Green_Dark",
       "support": 15
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": 6,
+      "name": "Empty"
     },
     {
       "x": 3,
@@ -17252,6 +17496,27 @@
     },
     {
       "x": 4,
+      "y": 5,
+      "z": 1,
+      "name": "Metal_Iron_Glowing_Pipe",
+      "support": 15
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": 1,
+      "name": "Metal_Iron_Glowing_Pipe",
+      "support": 15
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "z": 1,
+      "name": "Metal_Iron_Glowing_Pipe",
+      "support": 15
+    },
+    {
+      "x": 4,
       "y": 8,
       "z": 1,
       "name": "Rock_Shale_Cobble",
@@ -17310,6 +17575,24 @@
       "y": 4,
       "z": 2,
       "name": "Rock_Shale_Cobble"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "z": 2,
+      "name": "Empty"
     },
     {
       "x": 4,
@@ -17409,10 +17692,35 @@
     },
     {
       "x": 4,
+      "y": 5,
+      "z": 3,
+      "name": "Rubble_Shale",
+      "support": 15
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
       "y": 8,
       "z": 3,
       "name": "Rock_Shale_Cobble",
       "rotation": 1
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "z": 3,
+      "name": "Empty"
     },
     {
       "x": 4,
@@ -17510,6 +17818,12 @@
       "z": 4,
       "name": "Rock_Shale_Cobble",
       "rotation": 1
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "z": 4,
+      "name": "Empty"
     },
     {
       "x": 4,
@@ -36992,6 +37306,13 @@
     },
     {
       "x": 2,
+      "y": 5,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
       "y": 8,
       "z": 2,
       "name": "Empty",
@@ -37112,6 +37433,13 @@
     {
       "x": 2,
       "y": 4,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 5,
       "z": 3,
       "name": "Empty",
       "level": 0
@@ -38203,6 +38531,13 @@
     },
     {
       "x": 3,
+      "y": 5,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
       "y": 8,
       "z": 1,
       "name": "Empty",
@@ -38386,6 +38721,27 @@
     {
       "x": 3,
       "y": 4,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 7,
       "z": 3,
       "name": "Empty",
       "level": 0
@@ -39519,6 +39875,27 @@
     },
     {
       "x": 4,
+      "y": 5,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 4,
       "y": 8,
       "z": 1,
       "name": "Empty",
@@ -39674,6 +40051,13 @@
     {
       "x": 4,
       "y": 4,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 4,
+      "y": 5,
       "z": 3,
       "name": "Empty",
       "level": 0
