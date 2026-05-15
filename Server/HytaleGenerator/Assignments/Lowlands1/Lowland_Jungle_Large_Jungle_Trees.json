@@ -14,7 +14,7 @@
 	},
 	"Delimiters":	[{
 			"$NodeId":	"Delimiter.FieldFunction.Assignments-5df1fc48-e91a-48d9-9896-54688efd4280",
-			"Max":	-0.4,
+			"Max":	-0.25,
 			"Min":	-1,
 			"Assignments":	{
 				"$NodeId":	"Constant.Assignments-4fae2215-12ce-4191-abd4-cc055b7ec302",

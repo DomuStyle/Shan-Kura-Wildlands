@@ -83,7 +83,7 @@
 							"Offset":	{
 								"$NodeId":	"Point3D-0549ed74-1fd7-4157-bd74-05a42c389ee5",
 								"X":	0,
-								"Y":	0,
+								"Y":	8,
 								"Z":	0
 							}
 						}
@@ -153,7 +153,7 @@
 							"Offset":	{
 								"$NodeId":	"Point3D-4087fe85-1ea8-4f22-b572-c1de32afb79c",
 								"X":	0,
-								"Y":	0,
+								"Y":	8,
 								"Z":	0
 							}
 						}
@@ -223,7 +223,7 @@
 							"Offset":	{
 								"$NodeId":	"Point3D-4c59077a-bdf9-4806-8678-1cf32f9438ba",
 								"X":	0,
-								"Y":	0,
+								"Y":	8,
 								"Z":	0
 							}
 						}
@@ -361,12 +361,6 @@
 					"$y":	903
 				}
 			},
-			"Union.Prop-c58fd2b4-8d5d-438d-8dcc-087e5bb83e0f":	{
-				"$Position":	{
-					"$x":	2552,
-					"$y":	640
-				}
-			},
 			"Delimiter.FieldFunction.Assignments-6da161b7-b899-4a93-af27-9b3473e3ce66":	{
 				"$Position":	{
 					"$x":	1451,
@@ -421,6 +415,12 @@
 					"$y":	1775
 				}
 			},
+			"Imported.Pattern-2444393c-3426-499d-b9e3-751bbfad2206":	{
+				"$Position":	{
+					"$x":	6036,
+					"$y":	1950
+				}
+			},
 			"Point3D-4087fe85-1ea8-4f22-b572-c1de32afb79c":	{
 				"$Position":	{
 					"$x":	5414,
@@ -431,18 +431,6 @@
 				"$Position":	{
 					"$x":	4101,
 					"$y":	1940
-				}
-			},
-			"Union.Prop-5bb325db-cd98-463f-a7a1-c35ba48638ef":	{
-				"$Position":	{
-					"$x":	2551,
-					"$y":	1677
-				}
-			},
-			"Imported.Pattern-2444393c-3426-499d-b9e3-751bbfad2206":	{
-				"$Position":	{
-					"$x":	6036,
-					"$y":	1950
 				}
 			},
 			"Delimiter.FieldFunction.Assignments-313335a8-d5b3-4f43-a1a5-6a3e8169adb8":	{
@@ -499,6 +487,12 @@
 					"$y":	2616
 				}
 			},
+			"Imported.Pattern-2a42e06d-9ad5-4a63-b04f-ebd0645b4add":	{
+				"$Position":	{
+					"$x":	6009,
+					"$y":	2794
+				}
+			},
 			"Point3D-4c59077a-bdf9-4806-8678-1cf32f9438ba":	{
 				"$Position":	{
 					"$x":	5380,
@@ -511,16 +505,22 @@
 					"$y":	2781
 				}
 			},
+			"Union.Prop-c58fd2b4-8d5d-438d-8dcc-087e5bb83e0f":	{
+				"$Position":	{
+					"$x":	2552,
+					"$y":	640
+				}
+			},
+			"Union.Prop-5bb325db-cd98-463f-a7a1-c35ba48638ef":	{
+				"$Position":	{
+					"$x":	2551,
+					"$y":	1677
+				}
+			},
 			"Union.Prop-9383aa0e-ef79-4a03-851c-2a54da5f9db0":	{
 				"$Position":	{
 					"$x":	2517,
 					"$y":	2518
-				}
-			},
-			"Imported.Pattern-2a42e06d-9ad5-4a63-b04f-ebd0645b4add":	{
-				"$Position":	{
-					"$x":	6009,
-					"$y":	2794
 				}
 			}
 		},

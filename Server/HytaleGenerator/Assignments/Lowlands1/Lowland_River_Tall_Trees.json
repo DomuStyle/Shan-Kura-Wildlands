@@ -160,7 +160,7 @@
 							"Offset":	{
 								"$NodeId":	"Point3D-65a86c6f-1870-49c2-9088-6be8a570dc97",
 								"X":	0,
-								"Y":	0,
+								"Y":	8,
 								"Z":	0
 							}
 						}
@@ -189,6 +189,12 @@
 					"$y":	298
 				},
 				"$Title":	"[ROOT] FieldFunction Assignments"
+			},
+			"SimplexNoise2DDensityNode-e14bd663-79ab-428b-95b0-77b3d4ae477a":	{
+				"$Position":	{
+					"$x":	1334,
+					"$y":	37
+				}
 			},
 			"Delimiter.FieldFunction.Assignments-d8c5eb4c-cbae-46ee-99ef-a03b60a06ee3":	{
 				"$Position":	{
@@ -284,12 +290,6 @@
 				"$Position":	{
 					"$x":	3333,
 					"$y":	670
-				}
-			},
-			"SimplexNoise2DDensityNode-e14bd663-79ab-428b-95b0-77b3d4ae477a":	{
-				"$Position":	{
-					"$x":	1334,
-					"$y":	37
 				}
 			},
 			"Delimiter.FieldFunction.Assignments-cf7535a0-4fe6-4b04-b877-f57a79dbb36a":	{

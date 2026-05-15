@@ -9,12 +9,12 @@
 		"Lacunarity":	5,
 		"Persistence":	0.5,
 		"Octaves":	2,
-		"Scale":	80,
+		"Scale":	60,
 		"Seed":	"T"
 	},
 	"Delimiters":	[{
 			"$NodeId":	"Delimiter.FieldFunction.Assignments-1aa9d3eb-20b6-44e0-bcdc-3705c75f6381",
-			"Max":	-0.5,
+			"Max":	-0.35,
 			"Min":	-1,
 			"Assignments":	{
 				"$NodeId":	"Constant.Assignments-0e0084d5-9d2f-4963-b994-8552f2c4a559",
@@ -30,7 +30,7 @@
 						}, {
 							"$NodeId":	"WeightedPath.Prefab.Prop-4d53a2e4-b007-407b-8830-e8049936f892",
 							"Path":	"Trees/Merana/AEA_Merana_Combined",
-							"Weight":	20
+							"Weight":	10
 						}],
 					"LegacyPath":	false,
 					"LoadEntities":	true,
@@ -74,7 +74,7 @@
 							"Offset":	{
 								"$NodeId":	"Point3D-aa81e524-1757-424b-b538-e282d1a04ee4",
 								"X":	0,
-								"Y":	2,
+								"Y":	8,
 								"Z":	0
 							}
 						}
@@ -96,8 +96,8 @@
 			}
 		}, {
 			"$NodeId":	"Delimiter.FieldFunction.Assignments-44e452c0-7cce-40f5-b3c9-df4819bcea11",
-			"Max":	-0.35,
-			"Min":	-0.5,
+			"Max":	-0.1,
+			"Min":	-0.35,
 			"Assignments":	{
 				"$NodeId":	"Constant.Assignments-8e52b6e2-d948-46c1-aed9-c058b465ea34",
 				"Type":	"Constant",
@@ -156,7 +156,7 @@
 							"Offset":	{
 								"$NodeId":	"Point3D-03527ebf-f5f8-4441-a782-5bff37657bee",
 								"X":	0,
-								"Y":	2,
+								"Y":	8,
 								"Z":	0
 							}
 						}

@@ -993,10 +993,10 @@
 					"PointGenerator":	{
 						"$NodeId":	"MeshPointGenerator-ed30f448-27eb-4c9d-8bd1-00b308c81f37",
 						"Type":	"Mesh",
-						"Jitter":	0.4,
-						"ScaleX":	22,
-						"ScaleY":	22,
-						"ScaleZ":	22,
+						"Jitter":	0.2,
+						"ScaleX":	18,
+						"ScaleY":	18,
+						"ScaleZ":	18,
 						"Seed":	"T"
 					}
 				}
@@ -1318,7 +1318,7 @@
 				"Delimiters":	[{
 						"$NodeId":	"Delimiter-b1f3aa61-b3af-47c0-970f-b57e06bdf932",
 						"Min":	-1,
-						"Max":	0.7
+						"Max":	1
 					}],
 				"Positions":	{
 					"$NodeId":	"Mesh2DPositions-7005ae4c-4347-443f-a3e1-3483f2f5bd81",
@@ -1328,10 +1328,10 @@
 					"PointGenerator":	{
 						"$NodeId":	"MeshPointGenerator-b167d39e-d724-4061-9698-d62b7b4dbc0d",
 						"Type":	"Mesh",
-						"Jitter":	0.4,
-						"ScaleX":	12,
-						"ScaleY":	12,
-						"ScaleZ":	20,
+						"Jitter":	0.09,
+						"ScaleX":	15,
+						"ScaleY":	15,
+						"ScaleZ":	15,
 						"Seed":	"A"
 					}
 				}

@@ -9,13 +9,13 @@
 		"Lacunarity":	5,
 		"Persistence":	0.5,
 		"Octaves":	2,
-		"Scale":	150,
+		"Scale":	50,
 		"Seed":	"T"
 	},
 	"Delimiters":	[{
 			"$NodeId":	"Delimiter.FieldFunction.Assignments-c869153b-e81a-4e5f-8725-91b578dae2f7",
-			"Max":	0,
-			"Min":	-0.5,
+			"Max":	1,
+			"Min":	-1,
 			"Assignments":	{
 				"$NodeId":	"Constant.Assignments-6cddc91f-9599-4118-980a-f5fa35c65bf4",
 				"Type":	"Constant",
@@ -25,7 +25,7 @@
 					"Skip":	false,
 					"WeightedPrefabPaths":	[{
 							"$NodeId":	"WeightedPath.Prefab.Prop-153623f4-3e37-41fe-9dec-16d1fa01e216",
-							"Path":	"Custom/AEA_Monuments_Mossy_Base",
+							"Path":	"Custom/AEA_Monuments_Mossy_Dungeon",
 							"Weight":	100
 						}],
 					"LegacyPath":	false,
@@ -63,6 +63,10 @@
 												"$NodeId":	"Material-84186e4d-dd5c-4936-9d36-b1fe6ec5046c",
 												"Solid":	"Soil_Grass",
 												"SolidBottomUp":	false
+											}, {
+												"$NodeId":	"Material-1499fd99-b6ae-4357-a7b7-e7b1d0230703",
+												"Solid":	"Soil_Dirt",
+												"SolidBottomUp":	false
 											}]
 									}
 								}
@@ -70,7 +74,7 @@
 							"Offset":	{
 								"$NodeId":	"Point3D-78f50093-f911-4420-b6af-48f75c240555",
 								"X":	0,
-								"Y":	4,
+								"Y":	15,
 								"Z":	0
 							}
 						}
@@ -99,6 +103,12 @@
 					"$y":	298
 				},
 				"$Title":	"[ROOT] FieldFunction Assignments"
+			},
+			"SimplexNoise2DDensityNode-22dbf8bc-49df-456c-8ae0-75406c059ab0":	{
+				"$Position":	{
+					"$x":	1200,
+					"$y":	79
+				}
 			},
 			"Delimiter.FieldFunction.Assignments-c869153b-e81a-4e5f-8725-91b578dae2f7":	{
 				"$Position":	{
@@ -184,10 +194,10 @@
 					"$y":	717
 				}
 			},
-			"SimplexNoise2DDensityNode-22dbf8bc-49df-456c-8ae0-75406c059ab0":	{
+			"Material-1499fd99-b6ae-4357-a7b7-e7b1d0230703":	{
 				"$Position":	{
-					"$x":	1200,
-					"$y":	79
+					"$x":	6251,
+					"$y":	889
 				}
 			}
 		},
