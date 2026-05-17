@@ -43,7 +43,16 @@
         "All": "BlockTextures/Glow_block_test_texture.png"
       }
     ],
-    "RequiresAlphaBlending": false
+    "RequiresAlphaBlending": false,
+    "Particles": [
+      {
+        "SystemId": "SK_AEA_Water_Particle",
+        "Scale": 2.5,
+        "PositionOffset": {
+          "Y": 0.5
+        }
+      }
+    ]
   },
   "Tags": {
     "Type": [

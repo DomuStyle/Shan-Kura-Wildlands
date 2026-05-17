@@ -92,7 +92,8 @@
       "Use": "Open_Container"
     },
     "RequiresAlphaBlending": false,
-    "HitboxType": "Coffin"
+    "HitboxType": "Coffin",
+    "InteractionHitboxType": "Coffin"
   },
   "Tags": {
     "Type": [

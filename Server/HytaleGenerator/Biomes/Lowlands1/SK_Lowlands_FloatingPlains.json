@@ -372,7 +372,7 @@
 		}, {
 			"$NodeId":	"Runtime-0db4a9d5-ded6-4046-bd7a-f0d736b4816e",
 			"Skip":	false,
-			"Runtime":	0,
+			"Runtime":	1,
 			"PropDistribution":	{
 				"$NodeId":	"Constant.PropDistribution-b5446a85-957a-4e6c-920e-6fafeac49eba",
 				"Type":	"Constant",
@@ -1122,6 +1122,18 @@
 					"$y":	-100
 				}
 			},
+			"Constant.PropDistribution-b5446a85-957a-4e6c-920e-6fafeac49eba":	{
+				"$Position":	{
+					"$x":	-3608,
+					"$y":	-19
+				}
+			},
+			"FieldFunctionPositions-83803bf8-4de5-48b9-9df5-9976dedf1191":	{
+				"$Position":	{
+					"$x":	-2933,
+					"$y":	-165
+				}
+			},
 			"Delimiter-874fe7c5-792d-4046-a399-b5a14fc5ae2b":	{
 				"$Position":	{
 					"$x":	-2258,
@@ -1138,6 +1150,84 @@
 				"$Position":	{
 					"$x":	-1547,
 					"$y":	-303
+				}
+			},
+			"Prefab.Prop-4ec5cd38-cc4d-4612-bd1a-e483bccdc164":	{
+				"$Position":	{
+					"$x":	-1650,
+					"$y":	10
+				}
+			},
+			"WeightedPath.Prefab.Prop-71f9d29e-12be-456c-83f7-8ad4ce736807":	{
+				"$Position":	{
+					"$x":	-795,
+					"$y":	-57
+				}
+			},
+			"Random.Directionality-530b3ab1-b27a-4925-9048-ece6f129f932":	{
+				"$Position":	{
+					"$x":	-794,
+					"$y":	116
+				}
+			},
+			"Offset.Pattern-f9b2e525-39f3-444c-a307-0da37311ee0c":	{
+				"$Position":	{
+					"$x":	-148,
+					"$y":	250
+				}
+			},
+			"Floor.Pattern-49a019f0-dfc2-4df8-8b86-f1affe67c11e":	{
+				"$Position":	{
+					"$x":	518,
+					"$y":	128
+				}
+			},
+			"BlockType.Pattern-65209026-c04e-4f5b-a94b-3af484dd8694":	{
+				"$Position":	{
+					"$x":	1143,
+					"$y":	109
+				}
+			},
+			"Material-24f75cad-63c5-4120-a169-28e63a4d31fa":	{
+				"$Position":	{
+					"$x":	1795,
+					"$y":	112
+				}
+			},
+			"BlockSet.Pattern-bea16370-42b8-4511-90e3-d8897d0072c5":	{
+				"$Position":	{
+					"$x":	1144,
+					"$y":	268
+				}
+			},
+			"BlockSet.BlockMask-643bcfea-3b85-4aa8-96d6-fbaa0d216943":	{
+				"$Position":	{
+					"$x":	1780,
+					"$y":	288
+				}
+			},
+			"Material-957ee07e-cd37-4dd5-ad9c-c5d8b8f15adb":	{
+				"$Position":	{
+					"$x":	2271,
+					"$y":	295
+				}
+			},
+			"Material-ad4d7c41-532e-4b06-b46b-74f4f1eb564a":	{
+				"$Position":	{
+					"$x":	2271,
+					"$y":	451
+				}
+			},
+			"Point3D-18c6eeea-1316-4f1c-965a-0533a3bd310f":	{
+				"$Position":	{
+					"$x":	508,
+					"$y":	463
+				}
+			},
+			"ColumnLinear.Scanner-af623013-d81d-4734-9644-7af9748d8ffd":	{
+				"$Position":	{
+					"$x":	-788,
+					"$y":	307
 				}
 			},
 			"Runtime-4f876fbb-be54-4f6b-807e-a16cfb9e080c":	{
@@ -1390,96 +1480,6 @@
 				"$Position":	{
 					"$x":	2797,
 					"$y":	-8008
-				}
-			},
-			"Constant.PropDistribution-b5446a85-957a-4e6c-920e-6fafeac49eba":	{
-				"$Position":	{
-					"$x":	-3608,
-					"$y":	-19
-				}
-			},
-			"Prefab.Prop-4ec5cd38-cc4d-4612-bd1a-e483bccdc164":	{
-				"$Position":	{
-					"$x":	-1650,
-					"$y":	10
-				}
-			},
-			"WeightedPath.Prefab.Prop-71f9d29e-12be-456c-83f7-8ad4ce736807":	{
-				"$Position":	{
-					"$x":	-795,
-					"$y":	-57
-				}
-			},
-			"Random.Directionality-530b3ab1-b27a-4925-9048-ece6f129f932":	{
-				"$Position":	{
-					"$x":	-794,
-					"$y":	116
-				}
-			},
-			"Floor.Pattern-49a019f0-dfc2-4df8-8b86-f1affe67c11e":	{
-				"$Position":	{
-					"$x":	518,
-					"$y":	128
-				}
-			},
-			"BlockType.Pattern-65209026-c04e-4f5b-a94b-3af484dd8694":	{
-				"$Position":	{
-					"$x":	1143,
-					"$y":	109
-				}
-			},
-			"Material-24f75cad-63c5-4120-a169-28e63a4d31fa":	{
-				"$Position":	{
-					"$x":	1795,
-					"$y":	112
-				}
-			},
-			"BlockSet.BlockMask-643bcfea-3b85-4aa8-96d6-fbaa0d216943":	{
-				"$Position":	{
-					"$x":	1780,
-					"$y":	288
-				}
-			},
-			"Material-957ee07e-cd37-4dd5-ad9c-c5d8b8f15adb":	{
-				"$Position":	{
-					"$x":	2271,
-					"$y":	295
-				}
-			},
-			"Material-ad4d7c41-532e-4b06-b46b-74f4f1eb564a":	{
-				"$Position":	{
-					"$x":	2271,
-					"$y":	451
-				}
-			},
-			"ColumnLinear.Scanner-af623013-d81d-4734-9644-7af9748d8ffd":	{
-				"$Position":	{
-					"$x":	-788,
-					"$y":	307
-				}
-			},
-			"Offset.Pattern-f9b2e525-39f3-444c-a307-0da37311ee0c":	{
-				"$Position":	{
-					"$x":	-148,
-					"$y":	250
-				}
-			},
-			"Point3D-18c6eeea-1316-4f1c-965a-0533a3bd310f":	{
-				"$Position":	{
-					"$x":	508,
-					"$y":	463
-				}
-			},
-			"BlockSet.Pattern-bea16370-42b8-4511-90e3-d8897d0072c5":	{
-				"$Position":	{
-					"$x":	1144,
-					"$y":	268
-				}
-			},
-			"FieldFunctionPositions-83803bf8-4de5-48b9-9df5-9976dedf1191":	{
-				"$Position":	{
-					"$x":	-2933,
-					"$y":	-165
 				}
 			}
 		},

@@ -70,7 +70,8 @@
         }
       ]
     },
-    "VariantRotation": "Wall"
+    "VariantRotation": "Wall",
+    "InteractionHitboxType": "Coffin"
   },
   "Tags": {
     "Type": [

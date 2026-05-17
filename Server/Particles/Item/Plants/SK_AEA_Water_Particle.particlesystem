@@ -1,0 +1,8 @@
+{
+  "CullDistance": 30.0,
+  "Spawners": [
+    {
+      "SpawnerId": "SK_AEA_Water_Particle"
+    }
+  ]
+}

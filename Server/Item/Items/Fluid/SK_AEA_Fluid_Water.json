@@ -11,31 +11,10 @@
       "Interactions": [
         {
           "Type": "PlaceFluid",
-          "FluidToPlace": "Water_Source"
+          "FluidToPlace": "SK_AEA_Fluid_Water_Source"
         }
       ]
     }
-  },
-  "BlockType": {
-    "Material": "Solid",
-    "DrawType": "Cube",
-    "Effect": [
-      "Water"
-    ],
-    "Opacity": "Transparent",
-    "Group": "Fluid_Water",
-    "Flags": {},
-    "BlockParticleSetId": "Water",
-    "Textures": [
-      {
-        "Weight": 1,
-        "All": "BlockTextures/Fluid_Water.png"
-      }
-    ],
-    "BlockSoundSetId": "Water",
-    "Tint": [
-      "#00d7ff"
-    ]
   },
   "PlayerAnimationsId": "Block",
   "Tags": {
@@ -55,5 +34,6 @@
       0,
       -13.5
     ]
-  }
+  },
+  "BlockType": ""
 }

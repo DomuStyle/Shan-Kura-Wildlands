@@ -47,7 +47,7 @@
 									"Pattern":	{
 										"$NodeId":	"Floor.Pattern-f89a4201-d4a5-4886-85e2-4372fbb60fad",
 										"Type":	"Floor",
-										"ExportAs":	"Plains1_OakPattern_Floor_Grass",
+										"ExportAs":	"",
 										"Skip":	false,
 										"Origin":	{
 											"$NodeId":	"BlockSet.Pattern-0dd4f509-0c2a-4b5e-9cba-5489fbbc1044",
@@ -179,19 +179,19 @@
 			"BlockSet.Pattern-0dd4f509-0c2a-4b5e-9cba-5489fbbc1044":	{
 				"$Position":	{
 					"$x":	12842,
-					"$y":	174
+					"$y":	291
 				}
 			},
 			"BlockSet.BlockMask-dcafb7f7-2901-4d28-878a-79405a90e682":	{
 				"$Position":	{
-					"$x":	13474,
-					"$y":	179
+					"$x":	13480,
+					"$y":	287
 				}
 			},
 			"Material-c1516876-9cd5-45d6-83d5-361871af9dda":	{
 				"$Position":	{
-					"$x":	13892,
-					"$y":	195
+					"$x":	13976,
+					"$y":	291
 				}
 			},
 			"BlockSet.Pattern-222739fd-c1fa-48d0-921d-f9cad178278d":	{
