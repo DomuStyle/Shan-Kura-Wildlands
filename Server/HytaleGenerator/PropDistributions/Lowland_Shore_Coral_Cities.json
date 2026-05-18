@@ -1,0 +1,1477 @@
+{
+	"$NodeId":	"Union.PropDistribution-af3aee11-5159-4787-82f6-29de3723707e",
+	"Type":	"Union",
+	"ExportAs":	"Lowland_Shore_Coral_Cities",
+	"PropDistributions":	[{
+			"$NodeId":	"Assigned.PropDistribution-d259e0a0-449f-4996-9019-d0c99d077d6e",
+			"Type":	"Assigned",
+			"PropDistribution":	{
+				"$NodeId":	"Positions.PropDistribution-ab5239d1-0eab-4f20-bf72-f96037d60f92",
+				"Type":	"Positions",
+				"Positions":	{
+					"$NodeId":	"Scaler.Positions-1f6147a3-394d-4adf-abaa-b198e6978902",
+					"Type":	"Scaler",
+					"ExportAs":	"Lowlands_Coral_City_Center",
+					"Skip":	false,
+					"Scale":	{
+						"$NodeId":	"Point3D-95276269-0425-46dd-90bf-f6bb958d3efb",
+						"X":	650,
+						"Y":	650,
+						"Z":	650
+					},
+					"Positions":	{
+						"$NodeId":	"Jitter2d.Positions-8d775789-6152-4d88-9ad1-06889bbf9f6c",
+						"Type":	"Jitter2d",
+						"Skip":	false,
+						"Magnitude":	0.5,
+						"Positions":	{
+							"$NodeId":	"TriangularGrid2d.Positions-23a993b9-263a-4442-827a-0b45ea8e4fa2",
+							"Type":	"TriangularGrid2d",
+							"Skip":	false
+						}
+					}
+				}
+			},
+			"Assignments":	{
+				"$NodeId":	"Weighted.Assignments-4d4747ab-e2a2-4efe-aa1a-59f876e937a1",
+				"Type":	"Weighted",
+				"SkipChance":	0,
+				"Seed":	"A",
+				"WeightedAssignments":	[{
+						"$NodeId":	"Weight.Weighted.Assignments-fd9fe114-a085-4d3b-a2da-8949204a2aeb",
+						"Weight":	1,
+						"Assignments":	{
+							"$NodeId":	"Constant.Assignments-05894b07-52b5-42ed-bd43-5a500aaf0c34",
+							"Type":	"Constant",
+							"Prop":	{
+								"$NodeId":	"RandomRotator.Prop-5066f177-fc09-41fa-bce5-71b050b8c759",
+								"Type":	"RandomRotator",
+								"Skip":	false,
+								"HorizontalRotations":	true,
+								"Prop":	{
+									"$NodeId":	"DensitySelector.Prop-da3b23c3-a741-4bad-9bc0-a3484526801f",
+									"Type":	"DensitySelector",
+									"Skip":	false,
+									"Delimiters":	[{
+											"$NodeId":	"Delimiter.DensitySelector.Prop-365a81c0-61ff-4183-8ac3-211fbc86c6b0",
+											"Prop":	{
+												"$NodeId":	"Locator.Prop-46a501bb-6369-4d94-91ee-d46884c7e471",
+												"Type":	"Locator",
+												"Skip":	false,
+												"PlacementCap":	1,
+												"Prop":	{
+													"$NodeId":	"RandomRotator.Prop-1dca7241-4b64-4b82-906e-92c0bb2b55f6",
+													"Type":	"RandomRotator",
+													"Skip":	false,
+													"HorizontalRotations":	true,
+													"Prop":	{
+														"$NodeId":	"Prefab.Prop-ded4f330-c80e-4402-91ef-3e7af3b7d3ab",
+														"Type":	"Prefab",
+														"Skip":	false,
+														"WeightedPrefabPaths":	[{
+																"$NodeId":	"WeightedPath.Prefab.Prop-178ec788-fb13-4da6-8601-41f6f05d497d",
+																"Path":	"Monuments/Encounter/City_Oceans/Buildings_Capital",
+																"Weight":	1
+															}],
+														"LegacyPath":	false,
+														"LoadEntities":	true,
+														"MoldingDirection":	"NONE",
+														"MoldingChildren":	false
+													},
+													"Rotations":	[]
+												},
+												"Pattern":	{
+													"$NodeId":	"Surface.Pattern-a9ab878b-b55a-4297-8a20-caaa43fc5be1",
+													"Type":	"Surface",
+													"Skip":	false,
+													"Surface":	{
+														"$NodeId":	"Imported.Pattern-28d04c5d-cd41-46f2-85e4-c0905b0c7f39",
+														"Type":	"Imported",
+														"Skip":	false,
+														"Name":	"Lowlands_Shore_Origin"
+													},
+													"Medium":	{
+														"$NodeId":	"Imported.Pattern-74305b95-9a34-4c73-9143-9ee88960538c",
+														"Type":	"Imported",
+														"Skip":	false,
+														"Name":	"Lowlands_Shore_Floor"
+													},
+													"SurfaceRadius":	1,
+													"MediumRadius":	6,
+													"SurfaceGap":	0,
+													"MediumGap":	3,
+													"Facings":	["D"],
+													"RequireAllFacings":	false
+												},
+												"Scanner":	{
+													"$NodeId":	"Linear.Scanner-bd4f9638-bf87-44b7-911c-caa8f24454f9",
+													"Type":	"Linear",
+													"ExportAs":	"Lowlands_Shore_City_Scanner",
+													"Skip":	false,
+													"Axis":	"Y",
+													"AscendingOrder":	false,
+													"Range":	{
+														"$NodeId":	"Integer.Range-bebcb366-1753-461b-af18-7b8fdb84ad25",
+														"MinInclusive":	50,
+														"MaxExclusive":	71
+													}
+												}
+											},
+											"Range":	{
+												"$NodeId":	"Decimal.Range-c7a5718c-1eac-4084-9591-389585da235b",
+												"MinInclusive":	0.5,
+												"MaxExclusive":	2
+											}
+										}],
+									"Density":	{
+										"$NodeId":	"Mix.Density-1e15cd79-3766-45c7-a49a-a1b40be6706f",
+										"Type":	"Mix",
+										"Skip":	false,
+										"Inputs":	[{
+												"$NodeId":	"ConstantDensityNode-7a94b13f-c3db-4815-9f78-71c8542af13d",
+												"Type":	"Constant",
+												"Skip":	false,
+												"Value":	-1
+											}, {
+												"$NodeId":	"ConstantDensityNode-a2e9e56d-aa20-461d-a6bc-afc4eb880100",
+												"Type":	"Constant",
+												"Skip":	false,
+												"Value":	1
+											}, {
+												"$NodeId":	"NormalizerDensityNode-c19cf20f-ef4f-45d7-93f8-8c8431a7cdfc",
+												"Type":	"Normalizer",
+												"ExportAs":	"Shore_Terrain1",
+												"Skip":	false,
+												"FromMin":	-0.5,
+												"FromMax":	-0.4,
+												"ToMin":	0,
+												"ToMax":	1,
+												"Inputs":	[{
+														"$NodeId":	"SimplexNoise2DDensityNode-44806c76-57b1-4ffb-8884-a0564213ef45",
+														"Type":	"SimplexNoise2D",
+														"Skip":	false,
+														"Lacunarity":	2,
+														"Persistence":	0.5,
+														"Octaves":	1,
+														"Scale":	100,
+														"Seed":	"shores"
+													}]
+											}]
+									}
+								},
+								"Rotations":	[]
+							}
+						}
+					}]
+			}
+		}, {
+			"$NodeId":	"Assigned.PropDistribution-37db0d61-b753-472a-b9f3-b7a703dce107",
+			"Type":	"Assigned",
+			"PropDistribution":	{
+				"$NodeId":	"Positions.PropDistribution-9bc1791e-683a-45aa-b7e1-3bd5f9e08847",
+				"Type":	"Positions",
+				"Positions":	{
+					"$NodeId":	"UnionPositions-283798df-2bbf-48b3-b3f6-2d9cc2cf06d3",
+					"Type":	"Union",
+					"Skip":	false,
+					"OffsetX":	"OffsetX",
+					"OffsetY":	"OffsetY",
+					"OffsetZ":	"OffsetZ",
+					"Positions":	[{
+							"$NodeId":	"OffsetPositions-0f0c6795-e42f-48c3-9717-06aafba56cff",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-ec7ff251-6727-44d0-b029-938ebd2f17e9",
+								"X":	40,
+								"Y":	0,
+								"Z":	40
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-77b8d07a-50bc-4b5e-8e9f-297c2a8f8849",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-522d8699-5132-4b8b-ae34-3de800790cfe",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-44dfb85c-1378-404d-b144-a9299420c436",
+								"X":	30,
+								"Y":	0,
+								"Z":	30
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-1a818e92-29e3-4168-a176-9df8efa693a5",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-18f2ef47-a905-42bb-80db-df622b89cc07",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-d70c0e76-d6ab-4a22-b959-67aa21866e73",
+								"X":	-40,
+								"Y":	0,
+								"Z":	40
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-11d42dec-e5f3-4a30-af2d-318d606531b3",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-e9100c5d-9091-469d-97e7-562b4b574350",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-871cf3af-791e-42b0-9a6c-048c5b42dae0",
+								"X":	-30,
+								"Y":	0,
+								"Z":	30
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-e461eb53-54d1-4ea9-935c-a8a0e9dcf29a",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-668a3fd3-53ea-4591-a78a-65da09dbb2a6",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-04635498-ea54-4d16-b3b8-8189be6f939f",
+								"X":	40,
+								"Y":	0,
+								"Z":	-40
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-273d9601-081c-4d99-893d-1432ee833592",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-db3f403c-6295-4aa1-9b3c-bd518fc12545",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-4f4a7743-7947-4f09-b1a3-968fa53caa7a",
+								"X":	30,
+								"Y":	0,
+								"Z":	-30
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-a63e81db-0adc-4e37-be96-a223260bd837",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-e8c291ef-454e-4a26-a43a-29c5813aeea4",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-fb145fde-9942-4a53-985c-0b2144f2b6c7",
+								"X":	-30,
+								"Y":	0,
+								"Z":	-30
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-3310a511-79cc-45e1-876e-0551969e1800",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-d144410b-e5c6-4c07-b1ea-4e112bfbe9d5",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-a67ca612-cbf5-4bdc-bcad-645bccab668f",
+								"X":	-40,
+								"Y":	0,
+								"Z":	-40
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-3fae8b3c-5577-4c3c-9bda-3716079c6fa1",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}]
+				}
+			},
+			"Assignments":	{
+				"$NodeId":	"Weighted.Assignments-c0fa6067-dfc5-4118-882a-2f8c18b9a9a9",
+				"Type":	"Weighted",
+				"SkipChance":	0,
+				"Seed":	"A",
+				"WeightedAssignments":	[{
+						"$NodeId":	"Weight.Weighted.Assignments-78cf0585-1539-4bf2-9b1e-5d14b8f6b3a5",
+						"Weight":	1,
+						"Assignments":	{
+							"$NodeId":	"Constant.Assignments-82516115-61a0-4ea8-8e9c-7cabc3ab7972",
+							"Type":	"Constant",
+							"Prop":	{
+								"$NodeId":	"RandomRotator.Prop-aef56e23-a353-4737-9f17-c374465b67cb",
+								"Type":	"RandomRotator",
+								"Skip":	false,
+								"HorizontalRotations":	true,
+								"Prop":	{
+									"$NodeId":	"DensitySelector.Prop-b63e8a83-940f-4a7b-9e9b-e2e045a38012",
+									"Type":	"DensitySelector",
+									"Skip":	false,
+									"Delimiters":	[{
+											"$NodeId":	"Delimiter.DensitySelector.Prop-7afa1e21-04f0-4876-a3ee-2075d999ebdc",
+											"Prop":	{
+												"$NodeId":	"Locator.Prop-ecb0c5a0-604c-44c5-8e79-7baf1898bd05",
+												"Type":	"Locator",
+												"Skip":	false,
+												"PlacementCap":	1,
+												"Prop":	{
+													"$NodeId":	"RandomRotator.Prop-6c07fa98-99be-4180-8dcf-344e3c9c68ef",
+													"Type":	"RandomRotator",
+													"Skip":	false,
+													"HorizontalRotations":	true,
+													"Prop":	{
+														"$NodeId":	"Prefab.Prop-f598dfa4-ee2c-49ce-b028-01d47491b861",
+														"Type":	"Prefab",
+														"Skip":	false,
+														"WeightedPrefabPaths":	[{
+																"$NodeId":	"WeightedPath.Prefab.Prop-82fd2155-029a-45f9-9762-b85c4578eede",
+																"Path":	"Monuments/Encounter/City_Oceans/Buildings_Medium/Coral",
+																"Weight":	1
+															}, {
+																"$NodeId":	"WeightedPath.Prefab.Prop-2197c9d3-52d0-4527-8459-6bac72d37bf8",
+																"Path":	"Monuments/Encounter/City_Oceans/Buildings_Small/Coral",
+																"Weight":	1
+															}],
+														"LegacyPath":	false,
+														"LoadEntities":	true,
+														"MoldingDirection":	"NONE",
+														"MoldingChildren":	false
+													},
+													"Rotations":	[]
+												},
+												"Pattern":	{
+													"$NodeId":	"Surface.Pattern-ead8cf92-e847-4939-9ac6-14006120daeb",
+													"Type":	"Surface",
+													"Skip":	false,
+													"Surface":	{
+														"$NodeId":	"Imported.Pattern-c971e4e8-b19f-42e6-b8d0-07612260130f",
+														"Type":	"Imported",
+														"Skip":	false,
+														"Name":	"Lowlands_Shore_Origin"
+													},
+													"Medium":	{
+														"$NodeId":	"Imported.Pattern-610152e1-d231-481d-821f-258c8bcc2c80",
+														"Type":	"Imported",
+														"Skip":	false,
+														"Name":	"Lowlands_Shore_Floor"
+													},
+													"SurfaceRadius":	1,
+													"MediumRadius":	3,
+													"SurfaceGap":	0,
+													"MediumGap":	2,
+													"Facings":	["D"],
+													"RequireAllFacings":	false
+												},
+												"Scanner":	{
+													"$NodeId":	"Imported.Scanner-0c0538cd-1ed4-469b-821b-7abed512f465",
+													"Type":	"Imported",
+													"Skip":	false,
+													"Name":	"Lowlands_Shore_City_Scanner"
+												}
+											},
+											"Range":	{
+												"$NodeId":	"Decimal.Range-9da41b6e-c276-4077-950e-9a9d6b1eecb6",
+												"MinInclusive":	0.5,
+												"MaxExclusive":	2
+											}
+										}],
+									"Density":	{
+										"$NodeId":	"Mix.Density-d2158c7b-7a2a-421d-b331-2cc56054ff98",
+										"Type":	"Mix",
+										"Skip":	false,
+										"Inputs":	[{
+												"$NodeId":	"ConstantDensityNode-108fde54-6975-4b7a-9aeb-69a146292230",
+												"Type":	"Constant",
+												"Skip":	false,
+												"Value":	-1
+											}, {
+												"$NodeId":	"ConstantDensityNode-0c2f2b20-99d3-45e5-966b-25f7ab4221b6",
+												"Type":	"Constant",
+												"Skip":	false,
+												"Value":	1
+											}, {
+												"$NodeId":	"ImportedDensityNode-9ec28184-dd9f-44bf-8883-dca95b744741",
+												"Type":	"Imported",
+												"Skip":	false,
+												"Name":	"Shore_Terrain1"
+											}]
+									}
+								},
+								"Rotations":	[]
+							}
+						}
+					}]
+			}
+		}, {
+			"$NodeId":	"Assigned.PropDistribution-7878ceb9-e156-45b3-8fa5-b73722fa69ef",
+			"Type":	"Assigned",
+			"PropDistribution":	{
+				"$NodeId":	"Positions.PropDistribution-9d473165-8147-4be9-a740-f1c5de388bdf",
+				"Type":	"Positions",
+				"Positions":	{
+					"$NodeId":	"UnionPositions-032a44e1-02cc-42ee-9ec3-2416e888a242",
+					"Type":	"Union",
+					"Skip":	false,
+					"OffsetX":	"OffsetX",
+					"OffsetY":	"OffsetY",
+					"OffsetZ":	"OffsetZ",
+					"Positions":	[{
+							"$NodeId":	"OffsetPositions-2ca3cc69-8679-4af0-8d32-5ceaa878f3dc",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-06693a21-f1de-4c34-a921-60317c2b276e",
+								"X":	40,
+								"Y":	0,
+								"Z":	40
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-5ff7f31e-1c0d-41a9-b1bd-0f45790fc936",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-300bfc32-1f9c-42c1-b4d0-6723d098e5ca",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-7e1a80a7-14bc-4c29-a64b-917048fb5b07",
+								"X":	50,
+								"Y":	0,
+								"Z":	50
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-b3d410f0-b658-45cc-8104-d0eecf40a41b",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-19275133-d6c1-4e5e-bcb9-3ea0f0f0b972",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-14fbe939-3085-4d25-b0d7-e893f3ce6f15",
+								"X":	-40,
+								"Y":	0,
+								"Z":	40
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-05ead197-a49c-4a98-873d-ec278d04904e",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-a681aa7b-815c-457d-ab6f-77ab5e15e6d7",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-fb6b4064-cdb5-45fe-94bd-5638371322c7",
+								"X":	-50,
+								"Y":	0,
+								"Z":	50
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-2a2b360c-f9f5-4566-9f7b-c284fa820c54",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-151239c0-ba26-49f5-a140-bb6af24cb23e",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-7f72e0be-fdb2-4801-b6a3-534457f9d84e",
+								"X":	40,
+								"Y":	0,
+								"Z":	-40
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-ec8beb77-9a08-4e47-bb1d-64867a632192",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-32389bd0-6a98-47bf-b5e9-4d8e0f258bc6",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-7578c876-e194-4106-a33b-dbd5d1a6218a",
+								"X":	50,
+								"Y":	0,
+								"Z":	-50
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-bdb04673-328d-43d6-a3f1-6320c8b3738f",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-f3a5ec2b-2781-42ef-a418-70602d8d6dfb",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-dd97a97b-9ede-406a-b4a7-1d9ec0b7c055",
+								"X":	-50,
+								"Y":	0,
+								"Z":	-50
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-8ef39f30-1a8d-4a6b-8dae-a47a7fd0c6a4",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}, {
+							"$NodeId":	"OffsetPositions-70b6a1aa-c6eb-41c9-a5c5-d350e3956e1a",
+							"Type":	"Offset",
+							"Skip":	false,
+							"OffsetX":	0,
+							"OffsetY":	0,
+							"OffsetZ":	0,
+							"Offset":	{
+								"$NodeId":	"Point3D-a687d3d4-e946-4199-a7d1-87f988be6f18",
+								"X":	-35,
+								"Y":	0,
+								"Z":	-35
+							},
+							"Positions":	{
+								"$NodeId":	"ImportedPositions-129101c3-127f-4010-9bb3-643720ff859a",
+								"Type":	"Imported",
+								"Name":	"Lowlands_Coral_City_Center",
+								"Skip":	false
+							}
+						}]
+				}
+			},
+			"Assignments":	{
+				"$NodeId":	"Weighted.Assignments-043771de-ba22-400b-b76d-40a99915694f",
+				"Type":	"Weighted",
+				"SkipChance":	0,
+				"Seed":	"A",
+				"WeightedAssignments":	[{
+						"$NodeId":	"Weight.Weighted.Assignments-367c3856-4032-455a-81ee-97fe992b96d5",
+						"Weight":	1,
+						"Assignments":	{
+							"$NodeId":	"Constant.Assignments-4990a2bd-0dbd-48ba-bbee-d1a6e4dfde6d",
+							"Type":	"Constant",
+							"Prop":	{
+								"$NodeId":	"RandomRotator.Prop-838d7821-f3ea-4a74-bba1-157ad456abf3",
+								"Type":	"RandomRotator",
+								"Skip":	false,
+								"HorizontalRotations":	true,
+								"Prop":	{
+									"$NodeId":	"DensitySelector.Prop-d5c6b8c9-e8ce-4583-ab79-61bbbc19eddc",
+									"Type":	"DensitySelector",
+									"Skip":	false,
+									"Delimiters":	[{
+											"$NodeId":	"Delimiter.DensitySelector.Prop-7c0dcfa7-014e-4d24-aac8-791a5e7a37e2",
+											"Prop":	{
+												"$NodeId":	"Locator.Prop-54d7041f-e046-4f31-bd0c-7e754a57eaa7",
+												"Type":	"Locator",
+												"Skip":	false,
+												"PlacementCap":	1,
+												"Prop":	{
+													"$NodeId":	"RandomRotator.Prop-85d5b115-8361-443c-b5cd-f7c6da5b6bd6",
+													"Type":	"RandomRotator",
+													"Skip":	false,
+													"HorizontalRotations":	true,
+													"Prop":	{
+														"$NodeId":	"Prefab.Prop-653940af-3e6c-4fc7-a80d-6b8e4302ec83",
+														"Type":	"Prefab",
+														"Skip":	false,
+														"WeightedPrefabPaths":	[{
+																"$NodeId":	"WeightedPath.Prefab.Prop-18be3ccd-cb80-406c-9245-b3b0db3a7a1b",
+																"Path":	"Monuments/Encounter/City_Oceans/Buildings_Medium/Coral",
+																"Weight":	1
+															}, {
+																"$NodeId":	"WeightedPath.Prefab.Prop-82943703-a92d-4668-9a9a-844e2378ea64",
+																"Path":	"Monuments/Encounter/City_Oceans/Buildings_Small/Coral",
+																"Weight":	1
+															}],
+														"LegacyPath":	false,
+														"LoadEntities":	true,
+														"MoldingDirection":	"NONE",
+														"MoldingChildren":	false
+													},
+													"Rotations":	[]
+												},
+												"Pattern":	{
+													"$NodeId":	"Surface.Pattern-0ba52a43-5b3a-4f8c-b026-bc798c14e049",
+													"Type":	"Surface",
+													"Skip":	false,
+													"Surface":	{
+														"$NodeId":	"Imported.Pattern-a9b9cfb2-d209-4369-aa99-1b78e1868734",
+														"Type":	"Imported",
+														"Skip":	false,
+														"Name":	"Lowlands_Shore_Origin"
+													},
+													"Medium":	{
+														"$NodeId":	"Imported.Pattern-d27279cb-77a0-4f31-bab6-a3e391fd26f3",
+														"Type":	"Imported",
+														"Skip":	false,
+														"Name":	"Lowlands_Shore_Floor"
+													},
+													"SurfaceRadius":	1,
+													"MediumRadius":	6,
+													"SurfaceGap":	0,
+													"MediumGap":	3,
+													"Facings":	["D"],
+													"RequireAllFacings":	false
+												},
+												"Scanner":	{
+													"$NodeId":	"Imported.Scanner-83033a7f-a02a-49d2-95fe-9caa9145873e",
+													"Type":	"Imported",
+													"Skip":	false,
+													"Name":	"Lowlands_Shore_City_Scanner"
+												}
+											},
+											"Range":	{
+												"$NodeId":	"Decimal.Range-009161fb-a04d-4d6d-aec2-afa02e83c308",
+												"MinInclusive":	0.5,
+												"MaxExclusive":	2
+											}
+										}],
+									"Density":	{
+										"$NodeId":	"Mix.Density-437b9a65-10f4-47d4-a1fa-88fdac019330",
+										"Type":	"Mix",
+										"Skip":	false,
+										"Inputs":	[{
+												"$NodeId":	"ConstantDensityNode-6f0817c0-0195-4cfe-90ac-84ec3f35a53e",
+												"Type":	"Constant",
+												"Skip":	false,
+												"Value":	-1
+											}, {
+												"$NodeId":	"ConstantDensityNode-1a60322d-bbdd-4bd1-a2a7-0d80c57e1e5d",
+												"Type":	"Constant",
+												"Skip":	false,
+												"Value":	1
+											}, {
+												"$NodeId":	"ImportedDensityNode-7fb4ad72-c950-4281-bcc8-b01b702067ba",
+												"Type":	"Imported",
+												"Skip":	false,
+												"Name":	"Shore_Terrain1"
+											}]
+									}
+								},
+								"Rotations":	[]
+							}
+						}
+					}]
+			}
+		}],
+	"$NodeEditorMetadata":	{
+		"$Nodes":	{
+			"Union.PropDistribution-af3aee11-5159-4787-82f6-29de3723707e":	{
+				"$Position":	{
+					"$x":	516,
+					"$y":	267
+				},
+				"$Title":	"[ROOT] Union PropDistribution"
+			},
+			"Assigned.PropDistribution-d259e0a0-449f-4996-9019-d0c99d077d6e":	{
+				"$Position":	{
+					"$x":	1717,
+					"$y":	-2201
+				}
+			},
+			"Positions.PropDistribution-ab5239d1-0eab-4f20-bf72-f96037d60f92":	{
+				"$Position":	{
+					"$x":	2401,
+					"$y":	-2198
+				}
+			},
+			"Scaler.Positions-1f6147a3-394d-4adf-abaa-b198e6978902":	{
+				"$Position":	{
+					"$x":	3031,
+					"$y":	-2199
+				}
+			},
+			"Point3D-95276269-0425-46dd-90bf-f6bb958d3efb":	{
+				"$Position":	{
+					"$x":	3686,
+					"$y":	-2132
+				}
+			},
+			"Jitter2d.Positions-8d775789-6152-4d88-9ad1-06889bbf9f6c":	{
+				"$Position":	{
+					"$x":	3691,
+					"$y":	-2366
+				}
+			},
+			"TriangularGrid2d.Positions-23a993b9-263a-4442-827a-0b45ea8e4fa2":	{
+				"$Position":	{
+					"$x":	4326,
+					"$y":	-2362
+				}
+			},
+			"Weighted.Assignments-4d4747ab-e2a2-4efe-aa1a-59f876e937a1":	{
+				"$Position":	{
+					"$x":	2401,
+					"$y":	-1908
+				}
+			},
+			"Weight.Weighted.Assignments-fd9fe114-a085-4d3b-a2da-8949204a2aeb":	{
+				"$Position":	{
+					"$x":	3130,
+					"$y":	-1907
+				}
+			},
+			"Constant.Assignments-05894b07-52b5-42ed-bd43-5a500aaf0c34":	{
+				"$Position":	{
+					"$x":	3609,
+					"$y":	-1908
+				}
+			},
+			"RandomRotator.Prop-5066f177-fc09-41fa-bce5-71b050b8c759":	{
+				"$Position":	{
+					"$x":	4211,
+					"$y":	-1903
+				}
+			},
+			"DensitySelector.Prop-da3b23c3-a741-4bad-9bc0-a3484526801f":	{
+				"$Position":	{
+					"$x":	4849,
+					"$y":	-1900
+				}
+			},
+			"Delimiter.DensitySelector.Prop-365a81c0-61ff-4183-8ac3-211fbc86c6b0":	{
+				"$Position":	{
+					"$x":	5503,
+					"$y":	-1900
+				}
+			},
+			"Locator.Prop-46a501bb-6369-4d94-91ee-d46884c7e471":	{
+				"$Position":	{
+					"$x":	5895,
+					"$y":	-1896
+				}
+			},
+			"RandomRotator.Prop-1dca7241-4b64-4b82-906e-92c0bb2b55f6":	{
+				"$Position":	{
+					"$x":	6534,
+					"$y":	-1893
+				}
+			},
+			"Prefab.Prop-ded4f330-c80e-4402-91ef-3e7af3b7d3ab":	{
+				"$Position":	{
+					"$x":	7170,
+					"$y":	-1890
+				}
+			},
+			"WeightedPath.Prefab.Prop-178ec788-fb13-4da6-8601-41f6f05d497d":	{
+				"$Position":	{
+					"$x":	7952,
+					"$y":	-1890
+				}
+			},
+			"Surface.Pattern-a9ab878b-b55a-4297-8a20-caaa43fc5be1":	{
+				"$Position":	{
+					"$x":	6540,
+					"$y":	-1579
+				}
+			},
+			"Imported.Pattern-28d04c5d-cd41-46f2-85e4-c0905b0c7f39":	{
+				"$Position":	{
+					"$x":	7301,
+					"$y":	-1568
+				}
+			},
+			"Imported.Pattern-74305b95-9a34-4c73-9143-9ee88960538c":	{
+				"$Position":	{
+					"$x":	7305,
+					"$y":	-1408
+				}
+			},
+			"Linear.Scanner-bd4f9638-bf87-44b7-911c-caa8f24454f9":	{
+				"$Position":	{
+					"$x":	6536,
+					"$y":	-1042
+				}
+			},
+			"Integer.Range-bebcb366-1753-461b-af18-7b8fdb84ad25":	{
+				"$Position":	{
+					"$x":	7163,
+					"$y":	-1006
+				}
+			},
+			"Decimal.Range-c7a5718c-1eac-4084-9591-389585da235b":	{
+				"$Position":	{
+					"$x":	5893,
+					"$y":	-1686
+				}
+			},
+			"Mix.Density-1e15cd79-3766-45c7-a49a-a1b40be6706f":	{
+				"$Position":	{
+					"$x":	5852,
+					"$y":	-557
+				}
+			},
+			"ConstantDensityNode-7a94b13f-c3db-4815-9f78-71c8542af13d":	{
+				"$Position":	{
+					"$x":	6531,
+					"$y":	-749
+				}
+			},
+			"ConstantDensityNode-a2e9e56d-aa20-461d-a6bc-afc4eb880100":	{
+				"$Position":	{
+					"$x":	6527,
+					"$y":	-561
+				}
+			},
+			"NormalizerDensityNode-c19cf20f-ef4f-45d7-93f8-8c8431a7cdfc":	{
+				"$Position":	{
+					"$x":	6534,
+					"$y":	-348
+				}
+			},
+			"SimplexNoise2DDensityNode-44806c76-57b1-4ffb-8884-a0564213ef45":	{
+				"$Position":	{
+					"$x":	7172,
+					"$y":	-346
+				}
+			},
+			"Assigned.PropDistribution-37db0d61-b753-472a-b9f3-b7a703dce107":	{
+				"$Position":	{
+					"$x":	1810,
+					"$y":	2147
+				}
+			},
+			"Positions.PropDistribution-9bc1791e-683a-45aa-b7e1-3bd5f9e08847":	{
+				"$Position":	{
+					"$x":	2542,
+					"$y":	2147
+				}
+			},
+			"UnionPositions-283798df-2bbf-48b3-b3f6-2d9cc2cf06d3":	{
+				"$Position":	{
+					"$x":	3198,
+					"$y":	2105
+				}
+			},
+			"OffsetPositions-0f0c6795-e42f-48c3-9717-06aafba56cff":	{
+				"$Position":	{
+					"$x":	5252,
+					"$y":	752
+				}
+			},
+			"Point3D-ec7ff251-6727-44d0-b029-938ebd2f17e9":	{
+				"$Position":	{
+					"$x":	5930,
+					"$y":	645
+				}
+			},
+			"ImportedPositions-77b8d07a-50bc-4b5e-8e9f-297c2a8f8849":	{
+				"$Position":	{
+					"$x":	5915,
+					"$y":	860
+				}
+			},
+			"OffsetPositions-522d8699-5132-4b8b-ae34-3de800790cfe":	{
+				"$Position":	{
+					"$x":	4077,
+					"$y":	761
+				}
+			},
+			"Point3D-44dfb85c-1378-404d-b144-a9299420c436":	{
+				"$Position":	{
+					"$x":	4738,
+					"$y":	674
+				}
+			},
+			"ImportedPositions-1a818e92-29e3-4168-a176-9df8efa693a5":	{
+				"$Position":	{
+					"$x":	4724,
+					"$y":	880
+				}
+			},
+			"OffsetPositions-18f2ef47-a905-42bb-80db-df622b89cc07":	{
+				"$Position":	{
+					"$x":	5258,
+					"$y":	1139
+				}
+			},
+			"Point3D-d70c0e76-d6ab-4a22-b959-67aa21866e73":	{
+				"$Position":	{
+					"$x":	5924,
+					"$y":	1047
+				}
+			},
+			"ImportedPositions-11d42dec-e5f3-4a30-af2d-318d606531b3":	{
+				"$Position":	{
+					"$x":	5917,
+					"$y":	1251
+				}
+			},
+			"OffsetPositions-e9100c5d-9091-469d-97e7-562b4b574350":	{
+				"$Position":	{
+					"$x":	4081,
+					"$y":	1150
+				}
+			},
+			"Point3D-871cf3af-791e-42b0-9a6c-048c5b42dae0":	{
+				"$Position":	{
+					"$x":	4740,
+					"$y":	1061
+				}
+			},
+			"ImportedPositions-e461eb53-54d1-4ea9-935c-a8a0e9dcf29a":	{
+				"$Position":	{
+					"$x":	4731,
+					"$y":	1258
+				}
+			},
+			"OffsetPositions-668a3fd3-53ea-4591-a78a-65da09dbb2a6":	{
+				"$Position":	{
+					"$x":	5264,
+					"$y":	1517
+				}
+			},
+			"Point3D-04635498-ea54-4d16-b3b8-8189be6f939f":	{
+				"$Position":	{
+					"$x":	5923,
+					"$y":	1423
+				}
+			},
+			"ImportedPositions-273d9601-081c-4d99-893d-1432ee833592":	{
+				"$Position":	{
+					"$x":	5913,
+					"$y":	1627
+				}
+			},
+			"OffsetPositions-db3f403c-6295-4aa1-9b3c-bd518fc12545":	{
+				"$Position":	{
+					"$x":	4084,
+					"$y":	1522
+				}
+			},
+			"Point3D-4f4a7743-7947-4f09-b1a3-968fa53caa7a":	{
+				"$Position":	{
+					"$x":	4752,
+					"$y":	1426
+				}
+			},
+			"ImportedPositions-a63e81db-0adc-4e37-be96-a223260bd837":	{
+				"$Position":	{
+					"$x":	4742,
+					"$y":	1627
+				}
+			},
+			"OffsetPositions-e8c291ef-454e-4a26-a43a-29c5813aeea4":	{
+				"$Position":	{
+					"$x":	4094,
+					"$y":	1898
+				}
+			},
+			"Point3D-fb145fde-9942-4a53-985c-0b2144f2b6c7":	{
+				"$Position":	{
+					"$x":	4759,
+					"$y":	1816
+				}
+			},
+			"ImportedPositions-3310a511-79cc-45e1-876e-0551969e1800":	{
+				"$Position":	{
+					"$x":	4753,
+					"$y":	2016
+				}
+			},
+			"OffsetPositions-d144410b-e5c6-4c07-b1ea-4e112bfbe9d5":	{
+				"$Position":	{
+					"$x":	5266,
+					"$y":	1899
+				}
+			},
+			"Point3D-a67ca612-cbf5-4bdc-bcad-645bccab668f":	{
+				"$Position":	{
+					"$x":	5938,
+					"$y":	1801
+				}
+			},
+			"ImportedPositions-3fae8b3c-5577-4c3c-9bda-3716079c6fa1":	{
+				"$Position":	{
+					"$x":	5929,
+					"$y":	2002
+				}
+			},
+			"Weighted.Assignments-c0fa6067-dfc5-4118-882a-2f8c18b9a9a9":	{
+				"$Position":	{
+					"$x":	2530,
+					"$y":	2336
+				}
+			},
+			"Weight.Weighted.Assignments-78cf0585-1539-4bf2-9b1e-5d14b8f6b3a5":	{
+				"$Position":	{
+					"$x":	3282,
+					"$y":	2335
+				}
+			},
+			"Constant.Assignments-82516115-61a0-4ea8-8e9c-7cabc3ab7972":	{
+				"$Position":	{
+					"$x":	3786,
+					"$y":	2331
+				}
+			},
+			"RandomRotator.Prop-aef56e23-a353-4737-9f17-c374465b67cb":	{
+				"$Position":	{
+					"$x":	4399,
+					"$y":	2327
+				}
+			},
+			"DensitySelector.Prop-b63e8a83-940f-4a7b-9e9b-e2e045a38012":	{
+				"$Position":	{
+					"$x":	5062,
+					"$y":	2325
+				}
+			},
+			"Delimiter.DensitySelector.Prop-7afa1e21-04f0-4876-a3ee-2075d999ebdc":	{
+				"$Position":	{
+					"$x":	5728,
+					"$y":	2327
+				}
+			},
+			"Locator.Prop-ecb0c5a0-604c-44c5-8e79-7baf1898bd05":	{
+				"$Position":	{
+					"$x":	6151,
+					"$y":	2326
+				}
+			},
+			"RandomRotator.Prop-6c07fa98-99be-4180-8dcf-344e3c9c68ef":	{
+				"$Position":	{
+					"$x":	6826,
+					"$y":	2328
+				}
+			},
+			"Prefab.Prop-f598dfa4-ee2c-49ce-b028-01d47491b861":	{
+				"$Position":	{
+					"$x":	7490,
+					"$y":	2327
+				}
+			},
+			"WeightedPath.Prefab.Prop-82fd2155-029a-45f9-9762-b85c4578eede":	{
+				"$Position":	{
+					"$x":	8290,
+					"$y":	2318
+				}
+			},
+			"WeightedPath.Prefab.Prop-2197c9d3-52d0-4527-8459-6bac72d37bf8":	{
+				"$Position":	{
+					"$x":	8289,
+					"$y":	2470
+				}
+			},
+			"Surface.Pattern-ead8cf92-e847-4939-9ac6-14006120daeb":	{
+				"$Position":	{
+					"$x":	6834,
+					"$y":	2693
+				}
+			},
+			"Imported.Pattern-c971e4e8-b19f-42e6-b8d0-07612260130f":	{
+				"$Position":	{
+					"$x":	7521,
+					"$y":	2647
+				}
+			},
+			"Imported.Pattern-610152e1-d231-481d-821f-258c8bcc2c80":	{
+				"$Position":	{
+					"$x":	7525,
+					"$y":	2797
+				}
+			},
+			"Imported.Scanner-0c0538cd-1ed4-469b-821b-7abed512f465":	{
+				"$Position":	{
+					"$x":	6832,
+					"$y":	3217
+				}
+			},
+			"Decimal.Range-9da41b6e-c276-4077-950e-9a9d6b1eecb6":	{
+				"$Position":	{
+					"$x":	6159,
+					"$y":	2534
+				}
+			},
+			"Mix.Density-d2158c7b-7a2a-421d-b331-2cc56054ff98":	{
+				"$Position":	{
+					"$x":	5738,
+					"$y":	3583
+				}
+			},
+			"ConstantDensityNode-108fde54-6975-4b7a-9aeb-69a146292230":	{
+				"$Position":	{
+					"$x":	6417,
+					"$y":	3391
+				}
+			},
+			"ConstantDensityNode-0c2f2b20-99d3-45e5-966b-25f7ab4221b6":	{
+				"$Position":	{
+					"$x":	6413,
+					"$y":	3580
+				}
+			},
+			"ImportedDensityNode-9ec28184-dd9f-44bf-8883-dca95b744741":	{
+				"$Position":	{
+					"$x":	6414,
+					"$y":	3805
+				}
+			},
+			"Assigned.PropDistribution-7878ceb9-e156-45b3-8fa5-b73722fa69ef":	{
+				"$Position":	{
+					"$x":	1854,
+					"$y":	5732
+				}
+			},
+			"Positions.PropDistribution-9d473165-8147-4be9-a740-f1c5de388bdf":	{
+				"$Position":	{
+					"$x":	2539,
+					"$y":	5726
+				}
+			},
+			"UnionPositions-032a44e1-02cc-42ee-9ec3-2416e888a242":	{
+				"$Position":	{
+					"$x":	3189,
+					"$y":	5713
+				}
+			},
+			"OffsetPositions-2ca3cc69-8679-4af0-8d32-5ceaa878f3dc":	{
+				"$Position":	{
+					"$x":	3896,
+					"$y":	4410
+				}
+			},
+			"Point3D-06693a21-f1de-4c34-a921-60317c2b276e":	{
+				"$Position":	{
+					"$x":	4562,
+					"$y":	4323
+				}
+			},
+			"ImportedPositions-5ff7f31e-1c0d-41a9-b1bd-0f45790fc936":	{
+				"$Position":	{
+					"$x":	4561,
+					"$y":	4521
+				}
+			},
+			"OffsetPositions-300bfc32-1f9c-42c1-b4d0-6723d098e5ca":	{
+				"$Position":	{
+					"$x":	5117,
+					"$y":	4428
+				}
+			},
+			"Point3D-7e1a80a7-14bc-4c29-a64b-917048fb5b07":	{
+				"$Position":	{
+					"$x":	5788,
+					"$y":	4342
+				}
+			},
+			"ImportedPositions-b3d410f0-b658-45cc-8104-d0eecf40a41b":	{
+				"$Position":	{
+					"$x":	5783,
+					"$y":	4543
+				}
+			},
+			"OffsetPositions-19275133-d6c1-4e5e-bcb9-3ea0f0f0b972":	{
+				"$Position":	{
+					"$x":	3893,
+					"$y":	4806
+				}
+			},
+			"Point3D-14fbe939-3085-4d25-b0d7-e893f3ce6f15":	{
+				"$Position":	{
+					"$x":	4559,
+					"$y":	4720
+				}
+			},
+			"ImportedPositions-05ead197-a49c-4a98-873d-ec278d04904e":	{
+				"$Position":	{
+					"$x":	4560,
+					"$y":	4914
+				}
+			},
+			"OffsetPositions-a681aa7b-815c-457d-ab6f-77ab5e15e6d7":	{
+				"$Position":	{
+					"$x":	5118,
+					"$y":	4821
+				}
+			},
+			"Point3D-fb6b4064-cdb5-45fe-94bd-5638371322c7":	{
+				"$Position":	{
+					"$x":	5790,
+					"$y":	4726
+				}
+			},
+			"ImportedPositions-2a2b360c-f9f5-4566-9f7b-c284fa820c54":	{
+				"$Position":	{
+					"$x":	5781,
+					"$y":	4930
+				}
+			},
+			"OffsetPositions-151239c0-ba26-49f5-a140-bb6af24cb23e":	{
+				"$Position":	{
+					"$x":	3901,
+					"$y":	5205
+				}
+			},
+			"Point3D-7f72e0be-fdb2-4801-b6a3-534457f9d84e":	{
+				"$Position":	{
+					"$x":	4565,
+					"$y":	5123
+				}
+			},
+			"ImportedPositions-ec8beb77-9a08-4e47-bb1d-64867a632192":	{
+				"$Position":	{
+					"$x":	4563,
+					"$y":	5315
+				}
+			},
+			"OffsetPositions-32389bd0-6a98-47bf-b5e9-4d8e0f258bc6":	{
+				"$Position":	{
+					"$x":	5117,
+					"$y":	5212
+				}
+			},
+			"Point3D-7578c876-e194-4106-a33b-dbd5d1a6218a":	{
+				"$Position":	{
+					"$x":	5778,
+					"$y":	5122
+				}
+			},
+			"ImportedPositions-bdb04673-328d-43d6-a3f1-6320c8b3738f":	{
+				"$Position":	{
+					"$x":	5776,
+					"$y":	5322
+				}
+			},
+			"OffsetPositions-f3a5ec2b-2781-42ef-a418-70602d8d6dfb":	{
+				"$Position":	{
+					"$x":	5123,
+					"$y":	5604
+				}
+			},
+			"Point3D-dd97a97b-9ede-406a-b4a7-1d9ec0b7c055":	{
+				"$Position":	{
+					"$x":	5791,
+					"$y":	5520
+				}
+			},
+			"ImportedPositions-8ef39f30-1a8d-4a6b-8dae-a47a7fd0c6a4":	{
+				"$Position":	{
+					"$x":	5780,
+					"$y":	5718
+				}
+			},
+			"OffsetPositions-70b6a1aa-c6eb-41c9-a5c5-d350e3956e1a":	{
+				"$Position":	{
+					"$x":	3899,
+					"$y":	5605
+				}
+			},
+			"Point3D-a687d3d4-e946-4199-a7d1-87f988be6f18":	{
+				"$Position":	{
+					"$x":	4564,
+					"$y":	5518
+				}
+			},
+			"ImportedPositions-129101c3-127f-4010-9bb3-643720ff859a":	{
+				"$Position":	{
+					"$x":	4561,
+					"$y":	5709
+				}
+			},
+			"Weighted.Assignments-043771de-ba22-400b-b76d-40a99915694f":	{
+				"$Position":	{
+					"$x":	2556,
+					"$y":	6019
+				}
+			},
+			"Weight.Weighted.Assignments-367c3856-4032-455a-81ee-97fe992b96d5":	{
+				"$Position":	{
+					"$x":	3293,
+					"$y":	6029
+				}
+			},
+			"Constant.Assignments-4990a2bd-0dbd-48ba-bbee-d1a6e4dfde6d":	{
+				"$Position":	{
+					"$x":	3786,
+					"$y":	6036
+				}
+			},
+			"RandomRotator.Prop-838d7821-f3ea-4a74-bba1-157ad456abf3":	{
+				"$Position":	{
+					"$x":	4427,
+					"$y":	6034
+				}
+			},
+			"DensitySelector.Prop-d5c6b8c9-e8ce-4583-ab79-61bbbc19eddc":	{
+				"$Position":	{
+					"$x":	5094,
+					"$y":	6025
+				}
+			},
+			"Delimiter.DensitySelector.Prop-7c0dcfa7-014e-4d24-aac8-791a5e7a37e2":	{
+				"$Position":	{
+					"$x":	5760,
+					"$y":	6026
+				}
+			},
+			"Locator.Prop-54d7041f-e046-4f31-bd0c-7e754a57eaa7":	{
+				"$Position":	{
+					"$x":	6175,
+					"$y":	6029
+				}
+			},
+			"RandomRotator.Prop-85d5b115-8361-443c-b5cd-f7c6da5b6bd6":	{
+				"$Position":	{
+					"$x":	6825,
+					"$y":	6031
+				}
+			},
+			"Prefab.Prop-653940af-3e6c-4fc7-a80d-6b8e4302ec83":	{
+				"$Position":	{
+					"$x":	7467,
+					"$y":	6022
+				}
+			},
+			"WeightedPath.Prefab.Prop-18be3ccd-cb80-406c-9245-b3b0db3a7a1b":	{
+				"$Position":	{
+					"$x":	8274,
+					"$y":	5992
+				}
+			},
+			"WeightedPath.Prefab.Prop-82943703-a92d-4668-9a9a-844e2378ea64":	{
+				"$Position":	{
+					"$x":	8278,
+					"$y":	6147
+				}
+			},
+			"Surface.Pattern-0ba52a43-5b3a-4f8c-b026-bc798c14e049":	{
+				"$Position":	{
+					"$x":	6828,
+					"$y":	6396
+				}
+			},
+			"Imported.Pattern-a9b9cfb2-d209-4369-aa99-1b78e1868734":	{
+				"$Position":	{
+					"$x":	7497,
+					"$y":	6360
+				}
+			},
+			"Imported.Pattern-d27279cb-77a0-4f31-bab6-a3e391fd26f3":	{
+				"$Position":	{
+					"$x":	7500,
+					"$y":	6530
+				}
+			},
+			"Imported.Scanner-83033a7f-a02a-49d2-95fe-9caa9145873e":	{
+				"$Position":	{
+					"$x":	6815,
+					"$y":	6923
+				}
+			},
+			"Decimal.Range-009161fb-a04d-4d6d-aec2-afa02e83c308":	{
+				"$Position":	{
+					"$x":	6173,
+					"$y":	6251
+				}
+			},
+			"Mix.Density-437b9a65-10f4-47d4-a1fa-88fdac019330":	{
+				"$Position":	{
+					"$x":	5765,
+					"$y":	7284
+				}
+			},
+			"ConstantDensityNode-6f0817c0-0195-4cfe-90ac-84ec3f35a53e":	{
+				"$Position":	{
+					"$x":	6444,
+					"$y":	7092
+				}
+			},
+			"ConstantDensityNode-1a60322d-bbdd-4bd1-a2a7-0d80c57e1e5d":	{
+				"$Position":	{
+					"$x":	6440,
+					"$y":	7281
+				}
+			},
+			"ImportedDensityNode-7fb4ad72-c950-4281-bcc8-b01b702067ba":	{
+				"$Position":	{
+					"$x":	6434,
+					"$y":	7480
+				}
+			}
+		},
+		"$FloatingNodes":	[],
+		"$Links":	{
+		},
+		"$Groups":	[],
+		"$Comments":	[],
+		"$WorkspaceID":	"HytaleGenerator - PropDistribution"
+	}
+}

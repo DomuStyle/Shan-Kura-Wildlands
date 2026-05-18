@@ -349,772 +349,18 @@
 			"Skip":	false,
 			"Runtime":	1,
 			"PropDistribution":	{
-				"$NodeId":	"Union.PropDistribution-8fa00844-930b-4aab-9ca2-76063e24e556",
-				"Type":	"Union",
-				"PropDistributions":	[{
-						"$NodeId":	"Assigned.PropDistribution-353adba3-005e-4492-a66c-66bc21847f9a",
-						"Type":	"Assigned",
-						"PropDistribution":	{
-							"$NodeId":	"Positions.PropDistribution-66f30b10-f3a6-4065-ba68-0704257fa697",
-							"Type":	"Positions",
-							"Positions":	{
-								"$NodeId":	"Scaler.Positions-6726c50e-fbd6-431f-98e0-3b2af23d202c",
-								"Type":	"Scaler",
-								"Skip":	false,
-								"Scale":	{
-									"$NodeId":	"Point3D-7ce1d759-649d-4136-879a-030674679c64",
-									"X":	15,
-									"Y":	15,
-									"Z":	15
-								},
-								"Positions":	{
-									"$NodeId":	"Jitter2d.Positions-0788796c-591c-41a2-8616-e8652a891090",
-									"Type":	"Jitter2d",
-									"Skip":	false,
-									"Magnitude":	0.5,
-									"Positions":	{
-										"$NodeId":	"TriangularGrid2d.Positions-34d1c48b-187b-4c73-87fb-3f0129057bf5",
-										"Type":	"TriangularGrid2d",
-										"Skip":	false
-									}
-								}
-							}
-						},
-						"Assignments":	{
-							"$NodeId":	"Weighted.Assignments-7f420185-3b9a-438c-973c-2502a1b56795",
-							"Type":	"Weighted",
-							"SkipChance":	0.1,
-							"Seed":	"A",
-							"WeightedAssignments":	[{
-									"$NodeId":	"Weight.Weighted.Assignments-1ad498a7-2251-457c-9f39-d3659592ef64",
-									"Weight":	1,
-									"Assignments":	{
-										"$NodeId":	"Constant.Assignments-8f021392-ddee-4354-bdcf-15aec7921d01",
-										"Type":	"Constant",
-										"Prop":	{
-											"$NodeId":	"RandomRotator.Prop-a3c33102-6282-4100-9532-c8c673b931c1",
-											"Type":	"RandomRotator",
-											"Skip":	false,
-											"HorizontalRotations":	true,
-											"Prop":	{
-												"$NodeId":	"Locator.Prop-db49cc47-0852-4a74-b2e6-f27f2c62598d",
-												"Type":	"Locator",
-												"Skip":	false,
-												"PlacementCap":	1,
-												"Prop":	{
-													"$NodeId":	"DensitySelector.Prop-b513f8b5-e89a-4381-b258-420ebcefc67d",
-													"Type":	"DensitySelector",
-													"Skip":	false,
-													"Delimiters":	[{
-															"$NodeId":	"Delimiter.DensitySelector.Prop-8c0e7667-9714-4646-825d-239b2a4ca6e3",
-															"Prop":	{
-																"$NodeId":	"Prefab.Prop-692323fd-23e5-4273-a196-042a8b08309b",
-																"Type":	"Prefab",
-																"Skip":	false,
-																"WeightedPrefabPaths":	[{
-																		"$NodeId":	"WeightedPath.Prefab.Prop-f43d9372-4f98-4420-8b8b-853fbb13e3f5",
-																		"Path":	"Plants/Coral/Branchy",
-																		"Weight":	1
-																	}, {
-																		"$NodeId":	"WeightedPath.Prefab.Prop-2ca297a6-afa7-4cfb-8093-be6fe0081d43",
-																		"Path":	"Plants/Coral/Bushy",
-																		"Weight":	1
-																	}, {
-																		"$NodeId":	"WeightedPath.Prefab.Prop-123edd10-b5f6-49e5-b6b6-c1c4be01830d",
-																		"Path":	"Plants/Coral/Sponge",
-																		"Weight":	1
-																	}, {
-																		"$NodeId":	"WeightedPath.Prefab.Prop-89582e12-2f77-4631-8e85-88804d5971fa",
-																		"Path":	"Plants/Coral/Trees",
-																		"Weight":	1
-																	}, {
-																		"$NodeId":	"WeightedPath.Prefab.Prop-65984eea-9a3c-4605-8546-3177711ef5dd",
-																		"Path":	"Plants/Coral/Tubes",
-																		"Weight":	1
-																	}],
-																"LegacyPath":	false,
-																"LoadEntities":	true,
-																"MoldingDirection":	"NONE",
-																"MoldingChildren":	false
-															},
-															"Range":	{
-																"$NodeId":	"Decimal.Range-518e3e3e-5030-4706-a946-204a90faf3a2",
-																"MinInclusive":	0.3,
-																"MaxExclusive":	1
-															}
-														}],
-													"Density":	{
-														"$NodeId":	"SimplexNoise2DDensityNode-647a0df6-88bc-420a-8c7a-75a818047076",
-														"Type":	"SimplexNoise2D",
-														"ExportAs":	"Lowlands_Shore_Coral_Density",
-														"Skip":	false,
-														"Lacunarity":	2,
-														"Persistence":	0.5,
-														"Octaves":	1,
-														"Scale":	150,
-														"Seed":	"Shore"
-													}
-												},
-												"Pattern":	{
-													"$NodeId":	"Surface.Pattern-bf6f419e-d7be-4f84-b26c-d3f43d6f6f5c",
-													"Type":	"Surface",
-													"Skip":	false,
-													"Surface":	{
-														"$NodeId":	"BlockSet.Pattern-c6f888ed-f6e5-4304-acd7-bcb949efb2a7",
-														"Type":	"BlockSet",
-														"ExportAs":	"Lowlands_Shore_Origin",
-														"Skip":	false,
-														"BlockSet":	{
-															"$NodeId":	"BlockSet.BlockMask-501de2d9-a6f7-4652-ba32-2f020302a17c",
-															"Inclusive":	true,
-															"Materials":	[{
-																	"$NodeId":	"Material-7932a4fe-94f3-479a-b36a-86d29a30cb3f",
-																	"Solid":	"Empty",
-																	"SolidBottomUp":	false
-																}, {
-																	"$NodeId":	"Material-ca9134c7-cbce-42fc-9a42-58aae9f2da57",
-																	"Solid":	"",
-																	"Fluid":	"Water_Source",
-																	"SolidBottomUp":	false
-																}]
-														}
-													},
-													"Medium":	{
-														"$NodeId":	"BlockSet.Pattern-9b87da70-cfa5-4030-b40d-c5f39753811a",
-														"Type":	"BlockSet",
-														"ExportAs":	"Lowlands_Shore_Floor",
-														"Skip":	false,
-														"BlockSet":	{
-															"$NodeId":	"BlockSet.BlockMask-f8a319e0-5b19-47af-99a6-619adef89a13",
-															"Inclusive":	true,
-															"Materials":	[{
-																	"$NodeId":	"Material-e0e38b37-aa1a-4abe-85d4-93514cddae86",
-																	"Solid":	"Soil_Sand_Crystal",
-																	"SolidBottomUp":	false
-																}]
-														}
-													},
-													"SurfaceRadius":	1,
-													"MediumRadius":	3,
-													"SurfaceGap":	0,
-													"MediumGap":	1,
-													"Facings":	["D"],
-													"RequireAllFacings":	false
-												},
-												"Scanner":	{
-													"$NodeId":	"Linear.Scanner-fa740e73-b156-4324-be9f-4cf7d013ccbf",
-													"Type":	"Linear",
-													"ExportAs":	"Lowlands_Shore_Coral_Scanner",
-													"Skip":	false,
-													"Axis":	"Y",
-													"AscendingOrder":	false,
-													"Range":	{
-														"$NodeId":	"Integer.Range-73114616-f752-4760-be7b-8ce91c3088f9",
-														"MinInclusive":	50,
-														"MaxExclusive":	77
-													}
-												}
-											},
-											"Rotations":	[]
-										}
-									}
-								}]
-						}
-					}, {
-						"$NodeId":	"Assigned.PropDistribution-07d63c9f-825c-4740-9671-d094c333b00e",
-						"Type":	"Assigned",
-						"PropDistribution":	{
-							"$NodeId":	"Positions.PropDistribution-34af6988-4060-416f-bc1f-73d856c663d3",
-							"Type":	"Positions",
-							"ExportAs":	"",
-							"Positions":	{
-								"$NodeId":	"Scaler.Positions-41af0ce8-fcfc-4885-bff3-54449e0ab106",
-								"Type":	"Scaler",
-								"Skip":	false,
-								"Scale":	{
-									"$NodeId":	"Point3D-8eb5a6dc-c77d-4e2b-8520-cc42cdf29167",
-									"X":	1,
-									"Y":	1,
-									"Z":	1
-								},
-								"Positions":	{
-									"$NodeId":	"SquareGrid2d.Positions-0e23c9fc-4731-4240-9171-8d2195729f68",
-									"Type":	"SquareGrid2d",
-									"Skip":	false
-								}
-							}
-						},
-						"Assignments":	{
-							"$NodeId":	"Weighted.Assignments-f3b59fb6-3f6d-495a-bcb3-f419e33cbb3d",
-							"Type":	"Weighted",
-							"SkipChance":	0.3,
-							"Seed":	"A",
-							"WeightedAssignments":	[{
-									"$NodeId":	"Weight.Weighted.Assignments-4a46425a-f964-4c5b-94ea-584f203b3962",
-									"Weight":	1,
-									"Assignments":	{
-										"$NodeId":	"Constant.Assignments-9b84aab9-a2dd-435c-8942-342f95a85928",
-										"Type":	"Constant",
-										"Prop":	{
-											"$NodeId":	"Locator.Prop-1e35be5e-f7cc-461a-83d9-d4c55cae53c0",
-											"Type":	"Locator",
-											"Skip":	false,
-											"PlacementCap":	6,
-											"Prop":	{
-												"$NodeId":	"DensitySelector.Prop-80ec6919-617d-497d-a068-158bccd51596",
-												"Type":	"DensitySelector",
-												"Skip":	false,
-												"Delimiters":	[{
-														"$NodeId":	"Delimiter.DensitySelector.Prop-ef7b07c0-71c3-4461-996d-3454c4a90883",
-														"Prop":	{
-															"$NodeId":	"Manual.Prop-22d6df4f-8156-4564-8bc4-7f39f1258c52",
-															"Type":	"Manual",
-															"Skip":	false,
-															"Blocks":	[{
-																	"$NodeId":	"Block.Manual.Prop-adf006cd-ed74-4ed4-bda3-b8681ee2906a",
-																	"Material":	{
-																		"$NodeId":	"Material-bb73ff67-4b29-4e25-9130-54d9932449b4",
-																		"Solid":	"Plant_Seaweed_Winter_Aurora",
-																		"Fluid":	"Water_Source",
-																		"SolidBottomUp":	false
-																	}
-																}]
-														},
-														"Range":	{
-															"$NodeId":	"Decimal.Range-f055da4c-bb9f-4fd3-9b1d-a0a29ea3056b",
-															"MinInclusive":	0.35,
-															"MaxExclusive":	1
-														}
-													}, {
-														"$NodeId":	"Delimiter.DensitySelector.Prop-e14362ea-965f-4f46-b361-be7e32db6eba",
-														"Prop":	{
-															"$NodeId":	"Manual.Prop-f43e175f-34fb-4b40-80bb-e85fafedecbb",
-															"Type":	"Manual",
-															"Skip":	false,
-															"Blocks":	[{
-																	"$NodeId":	"Block.Manual.Prop-54a85335-5d05-46c2-8233-9b84e253276b",
-																	"Material":	{
-																		"$NodeId":	"Material-46b1ac35-9152-4122-8661-93ddcc30d891",
-																		"Solid":	"Plant_Seaweed_Winter_Blue",
-																		"Fluid":	"Water_Source",
-																		"SolidBottomUp":	false
-																	}
-																}]
-														},
-														"Range":	{
-															"$NodeId":	"Decimal.Range-f153a9c1-8d4c-4e24-a7a8-78c148854955",
-															"MinInclusive":	-1,
-															"MaxExclusive":	-0.55
-														}
-													}, {
-														"$NodeId":	"Delimiter.DensitySelector.Prop-4c31ebb9-5432-494e-899d-6fed36b65422",
-														"Prop":	{
-															"$NodeId":	"Manual.Prop-f7caf80b-a91e-43fe-8c25-1c13af1871eb",
-															"Type":	"Manual",
-															"Skip":	false,
-															"Blocks":	[{
-																	"$NodeId":	"Block.Manual.Prop-11310e63-5d05-41af-a768-4f37d0f3d738",
-																	"Material":	{
-																		"$NodeId":	"Material-73eb1a82-70fc-4157-8872-26dc6bcb28b0",
-																		"Solid":	"Plant_Seaweed_Wet_Stack",
-																		"Fluid":	"Water_Source",
-																		"SolidBottomUp":	false
-																	}
-																}]
-														},
-														"Range":	{
-															"$NodeId":	"Decimal.Range-c46b4809-dbac-49b9-afd3-a5289d267916",
-															"MinInclusive":	-0.55,
-															"MaxExclusive":	-0.4
-														}
-													}],
-												"Density":	{
-													"$NodeId":	"SimplexNoise2DDensityNode-b965acaa-3b0b-4bba-a29a-0ee842e9bb86",
-													"Type":	"SimplexNoise2D",
-													"Skip":	false,
-													"Lacunarity":	2,
-													"Persistence":	0.5,
-													"Octaves":	4,
-													"Scale":	70,
-													"Seed":	"shores"
-												}
-											},
-											"Pattern":	{
-												"$NodeId":	"Floor.Pattern-2987b6fe-0d8d-44e3-bb7e-9baa76184507",
-												"Type":	"Floor",
-												"Skip":	false,
-												"Origin":	{
-													"$NodeId":	"Imported.Pattern-73fb1259-f2bd-481e-afde-2e510e98f8a2",
-													"Type":	"Imported",
-													"Skip":	false,
-													"Name":	"Lowlands_Shore_Origin"
-												},
-												"Floor":	{
-													"$NodeId":	"Imported.Pattern-fff32983-467f-4e5e-926f-0af642273ffd",
-													"Type":	"Imported",
-													"Skip":	false,
-													"Name":	"Lowlands_Shore_Floor"
-												}
-											},
-											"Scanner":	{
-												"$NodeId":	"Linear.Scanner-446301ea-f260-485e-8fd6-66fbb4be5bd4",
-												"Type":	"Linear",
-												"ExportAs":	"Lowlands_Shore_Seaweed_Scanner",
-												"Skip":	false,
-												"Axis":	"Y",
-												"AscendingOrder":	false,
-												"Range":	{
-													"$NodeId":	"Integer.Range-050a5b94-c1e2-470f-b15a-ae8e4cd9f0ff",
-													"MinInclusive":	50,
-													"MaxExclusive":	90
-												}
-											}
-										}
-									}
-								}]
-						}
-					}, {
-						"$NodeId":	"Assigned.PropDistribution-ae3c131b-4b6e-4376-9074-0a4bd8c86a15",
-						"Type":	"Assigned",
-						"PropDistribution":	{
-							"$NodeId":	"Positions.PropDistribution-72ce0072-edc1-43c4-a6e7-6a1e84cd5c6a",
-							"Type":	"Positions",
-							"Positions":	{
-								"$NodeId":	"Scaler.Positions-dc92a799-7925-448c-a7dd-7bc378240120",
-								"Type":	"Scaler",
-								"Skip":	false,
-								"Scale":	{
-									"$NodeId":	"Point3D-9e2af0a5-3ff2-4151-8af0-431c22fcab7b",
-									"X":	3,
-									"Y":	3,
-									"Z":	3
-								},
-								"Positions":	{
-									"$NodeId":	"Jitter2d.Positions-02773fdc-aa37-4624-a4f3-d7f4a4a348dc",
-									"Type":	"Jitter2d",
-									"Skip":	false,
-									"Magnitude":	0.5,
-									"Positions":	{
-										"$NodeId":	"TriangularGrid2d.Positions-38a694d3-ff3d-4813-99f7-4273f551787b",
-										"Type":	"TriangularGrid2d",
-										"Skip":	false
-									}
-								}
-							}
-						},
-						"Assignments":	{
-							"$NodeId":	"Weighted.Assignments-1be8a26f-ca38-4b04-914d-cad779e58922",
-							"Type":	"Weighted",
-							"SkipChance":	0.1,
-							"Seed":	"A",
-							"WeightedAssignments":	[{
-									"$NodeId":	"Weight.Weighted.Assignments-6f9502e2-5d9a-4b69-a016-04580b1ba884",
-									"Weight":	1,
-									"Assignments":	{
-										"$NodeId":	"Constant.Assignments-ddbf5029-c3cc-4ff0-964a-c4f633b6a6b9",
-										"Type":	"Constant",
-										"Prop":	{
-											"$NodeId":	"Locator.Prop-1fd9fc17-fe3e-4736-9942-d64fc77e2e6b",
-											"Type":	"Locator",
-											"Skip":	false,
-											"PlacementCap":	1,
-											"Prop":	{
-												"$NodeId":	"DensitySelector.Prop-1a2e4398-898d-4e08-a4c4-d56be34a7769",
-												"Type":	"DensitySelector",
-												"Skip":	false,
-												"Delimiters":	[{
-														"$NodeId":	"Delimiter.DensitySelector.Prop-2bc9c99b-4313-4851-917d-c29bc166134a",
-														"Prop":	{
-															"$NodeId":	"Prefab.Prop-99a98d22-e20f-41e5-9b2f-44bcefbfb792",
-															"Type":	"Prefab",
-															"Skip":	false,
-															"WeightedPrefabPaths":	[{
-																	"$NodeId":	"WeightedPath.Prefab.Prop-e4ac03d0-65cb-49d0-8e42-b96c383c0fde",
-																	"Path":	"Plants/Seaweed/Wet_Max30",
-																	"Weight":	1
-																}],
-															"LegacyPath":	false,
-															"LoadEntities":	true,
-															"MoldingDirection":	"NONE",
-															"MoldingChildren":	false
-														},
-														"Range":	{
-															"$NodeId":	"Decimal.Range-f77f0985-558f-4319-9e5e-6da356bae37e",
-															"MinInclusive":	0.15,
-															"MaxExclusive":	0.3
-														}
-													}],
-												"Density":	{
-													"$NodeId":	"Mix.Density-4e328d7a-2179-4f9e-be5d-33c803c5c789",
-													"Type":	"Mix",
-													"Skip":	false,
-													"Inputs":	[{
-															"$NodeId":	"SimplexNoise2DDensityNode-fa3da2f7-49d2-4aeb-a3db-5a0f8560922f",
-															"Type":	"SimplexNoise2D",
-															"Skip":	false,
-															"Lacunarity":	2,
-															"Persistence":	0.5,
-															"Octaves":	1,
-															"Scale":	40,
-															"Seed":	"Shore"
-														}, {
-															"$NodeId":	"ConstantDensityNode-cd7e7d87-2362-4c90-875c-500355fe879f",
-															"Type":	"Constant",
-															"Skip":	false,
-															"Value":	0
-														}, {
-															"$NodeId":	"NormalizerDensityNode-0c6892ee-dc99-470e-9c55-3a090884424b",
-															"Type":	"Normalizer",
-															"Skip":	false,
-															"FromMin":	-0.1,
-															"FromMax":	-0.1,
-															"ToMin":	0,
-															"ToMax":	1,
-															"Inputs":	[{
-																	"$NodeId":	"ImportedDensityNode-f60f47ed-2403-48c1-b974-c69f3e806e95",
-																	"Type":	"Imported",
-																	"Skip":	false,
-																	"Name":	"Lowlands_Shore_Coral_Density"
-																}]
-														}]
-												}
-											},
-											"Pattern":	{
-												"$NodeId":	"And.Pattern-f2664a47-80ca-4259-89cc-d9b7b90cef91",
-												"Type":	"And",
-												"Skip":	false,
-												"Patterns":	[{
-														"$NodeId":	"Floor.Pattern-d9937b0f-0372-46b7-9524-f36c47eac708",
-														"Type":	"Floor",
-														"Skip":	false,
-														"Origin":	{
-															"$NodeId":	"Imported.Pattern-da957213-0990-4ee2-946e-5763c843db4a",
-															"Type":	"Imported",
-															"Skip":	false,
-															"Name":	"Lowlands_Shore_Origin"
-														},
-														"Floor":	{
-															"$NodeId":	"Imported.Pattern-4e0c0676-c8f3-4c2d-9cf6-478751b4307d",
-															"Type":	"Imported",
-															"Skip":	false,
-															"Name":	"Lowlands_Shore_Floor"
-														}
-													}]
-											},
-											"Scanner":	{
-												"$NodeId":	"Linear.Scanner-3cc4dbf8-95fa-48cd-9b22-2bc741e20c25",
-												"Type":	"Linear",
-												"ExportAs":	"Lowlands_Long_Seaweed_Scanner",
-												"Skip":	false,
-												"Axis":	"Y",
-												"AscendingOrder":	false,
-												"Range":	{
-													"$NodeId":	"Integer.Range-87e915f4-d34c-4b82-8c12-5e956bfae6c7",
-													"MinInclusive":	50,
-													"MaxExclusive":	69
-												}
-											}
-										}
-									}
-								}]
-						}
-					}]
+				"$NodeId":	"Imported.PropDistribution-2bb17a6a-b463-4315-9ca3-3c7459bec5a7",
+				"Type":	"Imported",
+				"Name":	"Lowland_Shore_Corals_Seaweeds"
 			}
 		}, {
 			"$NodeId":	"Runtime-21d152c3-c39d-470c-bae6-7a7bddb6f664",
 			"Skip":	false,
 			"Runtime":	2,
 			"PropDistribution":	{
-				"$NodeId":	"Union.PropDistribution-d34f48fb-9659-4240-b0c8-86093a8465b9",
-				"Type":	"Union",
-				"PropDistributions":	[{
-						"$NodeId":	"Assigned.PropDistribution-48d5468a-d4ce-4879-ae3e-006539304965",
-						"Type":	"Assigned",
-						"PropDistribution":	{
-							"$NodeId":	"Positions.PropDistribution-2685e6b6-fc33-497f-822b-98def42d2136",
-							"Type":	"Positions",
-							"Positions":	{
-								"$NodeId":	"Scaler.Positions-87b73c0f-a3f1-46a2-9501-56ab1b406f7f",
-								"Type":	"Scaler",
-								"ExportAs":	"",
-								"Skip":	false,
-								"Scale":	{
-									"$NodeId":	"Point3D-6df7b07d-7579-44f1-ae2c-be4ea24ad982",
-									"X":	300,
-									"Y":	300,
-									"Z":	300
-								},
-								"Positions":	{
-									"$NodeId":	"Jitter2d.Positions-7c38b51b-2b47-41ed-8c51-f4c8156135fb",
-									"Type":	"Jitter2d",
-									"Skip":	false,
-									"Magnitude":	0.5,
-									"Positions":	{
-										"$NodeId":	"TriangularGrid2d.Positions-358257fa-45f2-4298-942c-d85b9c2e701a",
-										"Type":	"TriangularGrid2d",
-										"Skip":	false
-									}
-								}
-							}
-						},
-						"Assignments":	{
-							"$NodeId":	"Weighted.Assignments-b03287cb-8e1f-420d-9d9c-89eb5137e694",
-							"Type":	"Weighted",
-							"SkipChance":	0,
-							"Seed":	"A",
-							"WeightedAssignments":	[{
-									"$NodeId":	"Weight.Weighted.Assignments-b6e492dd-6df9-4e78-9e65-74224111fc74",
-									"Weight":	1,
-									"Assignments":	{
-										"$NodeId":	"Constant.Assignments-bf6df1ed-d7f9-4f20-938f-cc6c79332140",
-										"Type":	"Constant",
-										"Prop":	{
-											"$NodeId":	"RandomRotator.Prop-4547a648-50da-42e4-98c8-4677ec1d0437",
-											"Type":	"RandomRotator",
-											"Skip":	false,
-											"HorizontalRotations":	true,
-											"Prop":	{
-												"$NodeId":	"DensitySelector.Prop-4706cf0b-284a-4665-8a69-bf2ffaef368d",
-												"Type":	"DensitySelector",
-												"Skip":	false,
-												"Delimiters":	[{
-														"$NodeId":	"Delimiter.DensitySelector.Prop-20bfc55a-b2c3-48fa-8a5a-d4cfcf12ffca",
-														"Prop":	{
-															"$NodeId":	"Locator.Prop-6b7bb906-4804-4990-8ad3-64647d7ad064",
-															"Type":	"Locator",
-															"Skip":	false,
-															"PlacementCap":	1,
-															"Prop":	{
-																"$NodeId":	"RandomRotator.Prop-de66bbf5-6faf-4eb8-b500-071f08c48ca1",
-																"Type":	"RandomRotator",
-																"Skip":	false,
-																"HorizontalRotations":	true,
-																"Prop":	{
-																	"$NodeId":	"Prefab.Prop-46b3f54a-99db-4ab8-8ad6-a0a548480ced",
-																	"Type":	"Prefab",
-																	"Skip":	false,
-																	"WeightedPrefabPaths":	[{
-																			"$NodeId":	"WeightedPath.Prefab.Prop-51030723-00ec-40ad-88e8-94d28a75edcf",
-																			"Path":	"Monuments/Incidental/Shipwrecks",
-																			"Weight":	1
-																		}],
-																	"LegacyPath":	false,
-																	"LoadEntities":	true,
-																	"MoldingDirection":	"NONE",
-																	"MoldingChildren":	false
-																},
-																"Rotations":	[]
-															},
-															"Pattern":	{
-																"$NodeId":	"Surface.Pattern-daf6e3c4-992e-4f3b-af02-ad7d5d2e4db1",
-																"Type":	"Surface",
-																"Skip":	false,
-																"Surface":	{
-																	"$NodeId":	"Imported.Pattern-59e190b3-129a-428c-8589-b606a2f0f792",
-																	"Type":	"Imported",
-																	"Skip":	false,
-																	"Name":	"Lowlands_Shore_Origin"
-																},
-																"Medium":	{
-																	"$NodeId":	"Imported.Pattern-69b02b90-2b37-410f-b5e2-7ca5a070fe35",
-																	"Type":	"Imported",
-																	"Skip":	false,
-																	"Name":	"Lowlands_Shore_Floor"
-																},
-																"SurfaceRadius":	1,
-																"MediumRadius":	1,
-																"SurfaceGap":	0,
-																"MediumGap":	3,
-																"Facings":	["D"],
-																"RequireAllFacings":	false
-															},
-															"Scanner":	{
-																"$NodeId":	"Imported.Scanner-11745084-6682-4a1b-92ab-7548b527111d",
-																"Type":	"Imported",
-																"Skip":	false,
-																"Name":	"Lowlands_Shore_City_Scanner"
-															}
-														},
-														"Range":	{
-															"$NodeId":	"Decimal.Range-98b8f99e-23b7-400e-bb63-8ee469b402d2",
-															"MinInclusive":	0.5,
-															"MaxExclusive":	2
-														}
-													}],
-												"Density":	{
-													"$NodeId":	"Mix.Density-31d9d0c0-7585-40a5-ab7b-5114d47d99ab",
-													"Type":	"Mix",
-													"Skip":	false,
-													"Inputs":	[{
-															"$NodeId":	"ConstantDensityNode-ff980f90-09d8-46a6-8fa5-eff8c2ed4f1d",
-															"Type":	"Constant",
-															"Skip":	false,
-															"Value":	-1
-														}, {
-															"$NodeId":	"ConstantDensityNode-67e27203-2aee-4ef5-ba3b-eebe6d11b3f6",
-															"Type":	"Constant",
-															"Skip":	false,
-															"Value":	1
-														}, {
-															"$NodeId":	"ImportedDensityNode-d4a08604-e920-4ee4-8083-19707664fad7",
-															"Type":	"Imported",
-															"Skip":	false,
-															"Name":	"Shore_Terrain1"
-														}]
-												}
-											},
-											"Rotations":	[{
-													"$NodeId":	"OrthogonalRotation-3593b7c0-befd-472f-9a2d-1d76e7f91162",
-													"Yaw":	"None",
-													"Pitch":	"None",
-													"Roll":	"Ninety"
-												}, {
-													"$NodeId":	"OrthogonalRotation-8346cf04-935f-45ae-ab78-9eb42e1116cc",
-													"Yaw":	"None",
-													"Pitch":	"None",
-													"Roll":	"None"
-												}, {
-													"$NodeId":	"OrthogonalRotation-ac3d3dee-ffd4-4918-946d-976c12588125",
-													"Yaw":	"None",
-													"Pitch":	"None",
-													"Roll":	"TwoSeventy"
-												}]
-										}
-									}
-								}]
-						}
-					}, {
-						"$NodeId":	"Assigned.PropDistribution-171a8ee5-d493-4fc9-a3b8-edadaa515674",
-						"Type":	"Assigned",
-						"PropDistribution":	{
-							"$NodeId":	"Positions.PropDistribution-b3b2d660-74d0-47dd-bef5-260034b27548",
-							"Type":	"Positions",
-							"Positions":	{
-								"$NodeId":	"Scaler.Positions-23e1cf39-b78b-4d6a-b7c2-64b3334201c0",
-								"Type":	"Scaler",
-								"Skip":	false,
-								"Scale":	{
-									"$NodeId":	"Point3D-8e5ee7e6-cbb8-4514-ad6e-2888954eb2c8",
-									"X":	15,
-									"Y":	15,
-									"Z":	15
-								},
-								"Positions":	{
-									"$NodeId":	"Jitter3d.Positions-648d4537-e8c8-4e6b-ba1c-21f6e472feac",
-									"Type":	"Jitter3d",
-									"Skip":	false,
-									"Magnitude":	0.4,
-									"Seed":	"eaea",
-									"Positions":	{
-										"$NodeId":	"SquareGrid3d.Positions-ee4b28e9-4d6b-4b39-a6ef-91dbdce9e88e",
-										"Type":	"SquareGrid3d",
-										"Skip":	false
-									}
-								}
-							}
-						},
-						"Assignments":	{
-							"$NodeId":	"Weighted.Assignments-b39ccf28-5b1d-423a-b42b-6d8236d5feff",
-							"Type":	"Weighted",
-							"SkipChance":	0.1,
-							"Seed":	"A",
-							"WeightedAssignments":	[{
-									"$NodeId":	"Weight.Weighted.Assignments-1287337d-28bb-4f74-85b3-194fb18cd6cf",
-									"Weight":	1,
-									"Assignments":	{
-										"$NodeId":	"Constant.Assignments-5904a925-b6cb-492b-941b-6b49be5a968b",
-										"Type":	"Constant",
-										"Prop":	{
-											"$NodeId":	"RandomRotator.Prop-05a14071-3882-4fdc-a1a4-ec5268f11e09",
-											"Type":	"RandomRotator",
-											"Skip":	false,
-											"HorizontalRotations":	true,
-											"Prop":	{
-												"$NodeId":	"Locator.Prop-6609d149-7123-45bb-bb44-2cc9fc76a043",
-												"Type":	"Locator",
-												"Skip":	false,
-												"PlacementCap":	1,
-												"Prop":	{
-													"$NodeId":	"DensitySelector.Prop-1cf49af1-c458-4ef7-a8c2-cbeae14b376c",
-													"Type":	"DensitySelector",
-													"Skip":	false,
-													"Delimiters":	[{
-															"$NodeId":	"Delimiter.DensitySelector.Prop-ad08d675-aa90-4d34-bfd3-75fe4941c26f",
-															"Prop":	{
-																"$NodeId":	"Prefab.Prop-c6f4a9d3-2361-44d0-b5b7-687aaae72440",
-																"Type":	"Prefab",
-																"Skip":	false,
-																"WeightedPrefabPaths":	[{
-																		"$NodeId":	"WeightedPath.Prefab.Prop-4c2b1beb-5ff9-4996-957b-bf3e6b5c04a7",
-																		"Path":	"Plants/Coral/Bracket",
-																		"Weight":	1
-																	}],
-																"LegacyPath":	false,
-																"LoadEntities":	true,
-																"MoldingDirection":	"NONE",
-																"MoldingChildren":	false
-															},
-															"Range":	{
-																"$NodeId":	"Decimal.Range-dca05384-ed42-4528-9de1-d73fa20f8eba",
-																"MinInclusive":	0,
-																"MaxExclusive":	1
-															}
-														}],
-													"Density":	{
-														"$NodeId":	"ImportedDensityNode-eb0226e6-05cd-4543-ba39-ad7d91a4f1e9",
-														"Type":	"Imported",
-														"Skip":	false,
-														"Name":	"Lowlands_Shore_Coral_Density"
-													}
-												},
-												"Pattern":	{
-													"$NodeId":	"Wall.Pattern-0108397b-89d0-4432-b19f-697f2da322f9",
-													"Type":	"Wall",
-													"Skip":	false,
-													"Wall":	{
-														"$NodeId":	"BlockSet.Pattern-f8b3947a-c8be-4ab5-bb5e-a9f387c9a707",
-														"Type":	"BlockSet",
-														"Skip":	false,
-														"BlockSet":	{
-															"$NodeId":	"BlockSet.BlockMask-b609d4d4-4acc-4121-a026-c302c725b8a0",
-															"Inclusive":	true,
-															"Materials":	[{
-																	"$NodeId":	"Material-3bfbd93f-a4c6-43c4-9bcf-ad1bc2d599d8",
-																	"Solid":	"Rock_Aqua_Cobble",
-																	"SolidBottomUp":	false
-																}, {
-																	"$NodeId":	"Material-1761fa68-b00e-4313-8bb8-1ed32378b979",
-																	"Solid":	"Rock_Aqua",
-																	"SolidBottomUp":	false
-																}, {
-																	"$NodeId":	"Material-54929431-24bf-4b70-9205-2f91a6ec28ff",
-																	"Solid":	"Rock_Shale",
-																	"SolidBottomUp":	false
-																}]
-														}
-													},
-													"Origin":	{
-														"$NodeId":	"Imported.Pattern-2b1e8a5e-cd8c-4a78-81e2-bfe4dbb81345",
-														"Type":	"Imported",
-														"Skip":	false,
-														"Name":	"Lowlands_Shore_Floor"
-													},
-													"Directions":	["N", "S", "E", "W"],
-													"RequireAllDirections":	false
-												},
-												"Scanner":	{
-													"$NodeId":	"Imported.Scanner-9f132f13-1b15-4389-9e44-9215c9d5561f",
-													"Type":	"Imported",
-													"Skip":	false,
-													"Name":	"Lowlands_Shore_Seaweed_Scanner"
-												}
-											},
-											"Rotations":	[]
-										}
-									}
-								}]
-						}
-					}]
+				"$NodeId":	"Imported.PropDistribution-31c79571-44ea-43c7-a5d1-e2cd34c73252",
+				"Type":	"Imported",
+				"Name":	"Lowland_Shore_Shipwrecks_Brackets"
 			}
 		}, {
 			"$NodeId":	"Runtime-88a4440a-8188-4e1c-8687-2e13ae9f8a05",
@@ -1339,737 +585,9 @@
 			"Skip":	false,
 			"Runtime":	0,
 			"PropDistribution":	{
-				"$NodeId":	"Union.PropDistribution-83abde49-ec58-4aa2-bc1d-5e96eaf78cd2",
-				"Type":	"Union",
-				"PropDistributions":	[{
-						"$NodeId":	"Assigned.PropDistribution-3db2ff74-f93b-416d-ac51-4482fa8d4434",
-						"Type":	"Assigned",
-						"PropDistribution":	{
-							"$NodeId":	"Positions.PropDistribution-ef2d31a1-37da-47c9-bca4-11c28e375cf2",
-							"Type":	"Positions",
-							"Positions":	{
-								"$NodeId":	"Scaler.Positions-28f4e1c7-df71-4ad8-9004-6263eeaadebc",
-								"Type":	"Scaler",
-								"ExportAs":	"Lowlands_Coral_City_Center",
-								"Skip":	false,
-								"Scale":	{
-									"$NodeId":	"Point3D-f5f3f29e-e582-4b06-9a6a-1181cb6f6fb4",
-									"X":	650,
-									"Y":	650,
-									"Z":	650
-								},
-								"Positions":	{
-									"$NodeId":	"Jitter2d.Positions-0b21aada-4709-424b-9d96-5fc438d50fd8",
-									"Type":	"Jitter2d",
-									"Skip":	false,
-									"Magnitude":	0.5,
-									"Positions":	{
-										"$NodeId":	"TriangularGrid2d.Positions-590ccf5e-7490-4d6c-a16c-fcf4ffc3b39d",
-										"Type":	"TriangularGrid2d",
-										"Skip":	false
-									}
-								}
-							}
-						},
-						"Assignments":	{
-							"$NodeId":	"Weighted.Assignments-6cb14ebe-dacf-4147-83fa-ce46bb54f34d",
-							"Type":	"Weighted",
-							"SkipChance":	0,
-							"Seed":	"A",
-							"WeightedAssignments":	[{
-									"$NodeId":	"Weight.Weighted.Assignments-9918ba73-e351-4306-8d75-d517d24cae44",
-									"Weight":	1,
-									"Assignments":	{
-										"$NodeId":	"Constant.Assignments-489ebb9c-6b18-4059-826c-81de302413e0",
-										"Type":	"Constant",
-										"Prop":	{
-											"$NodeId":	"RandomRotator.Prop-a1f7c860-c120-4cf4-9941-01d53e7f3014",
-											"Type":	"RandomRotator",
-											"Skip":	false,
-											"HorizontalRotations":	true,
-											"Prop":	{
-												"$NodeId":	"DensitySelector.Prop-d08684cb-13b7-42af-afd1-5d24d08b426c",
-												"Type":	"DensitySelector",
-												"Skip":	false,
-												"Delimiters":	[{
-														"$NodeId":	"Delimiter.DensitySelector.Prop-1f82acfc-ca47-4048-a633-1699bc8e386e",
-														"Prop":	{
-															"$NodeId":	"Locator.Prop-9d81a0df-2c05-4288-8d9d-f3748753996a",
-															"Type":	"Locator",
-															"Skip":	false,
-															"PlacementCap":	1,
-															"Prop":	{
-																"$NodeId":	"RandomRotator.Prop-0fdc8d7a-26cc-4544-b6d9-6df8d37bb96d",
-																"Type":	"RandomRotator",
-																"Skip":	false,
-																"HorizontalRotations":	true,
-																"Prop":	{
-																	"$NodeId":	"Prefab.Prop-e4273fbe-1825-45a6-a412-eef383d2f90d",
-																	"Type":	"Prefab",
-																	"Skip":	false,
-																	"WeightedPrefabPaths":	[{
-																			"$NodeId":	"WeightedPath.Prefab.Prop-1a55ac1d-ddc9-424b-a8b3-c3cc0f13e9c3",
-																			"Path":	"Monuments/Encounter/City_Oceans/Buildings_Capital",
-																			"Weight":	1
-																		}],
-																	"LegacyPath":	false,
-																	"LoadEntities":	true,
-																	"MoldingDirection":	"NONE",
-																	"MoldingChildren":	false
-																},
-																"Rotations":	[]
-															},
-															"Pattern":	{
-																"$NodeId":	"Surface.Pattern-a9f3cade-544c-49e4-99cc-b6fdb7b262bf",
-																"Type":	"Surface",
-																"Skip":	false,
-																"Surface":	{
-																	"$NodeId":	"Imported.Pattern-df001acc-1acf-41cf-9cfa-8c2bfa6c1e7d",
-																	"Type":	"Imported",
-																	"Skip":	false,
-																	"Name":	"Lowlands_Shore_Origin"
-																},
-																"Medium":	{
-																	"$NodeId":	"Imported.Pattern-997f1a01-6352-4a3a-8a68-0b7561fe0e2b",
-																	"Type":	"Imported",
-																	"Skip":	false,
-																	"Name":	"Lowlands_Shore_Floor"
-																},
-																"SurfaceRadius":	1,
-																"MediumRadius":	6,
-																"SurfaceGap":	0,
-																"MediumGap":	3,
-																"Facings":	["D"],
-																"RequireAllFacings":	false
-															},
-															"Scanner":	{
-																"$NodeId":	"Linear.Scanner-38649e66-c7e4-40b8-94c0-a64b14bf84aa",
-																"Type":	"Linear",
-																"ExportAs":	"Lowlands_Shore_City_Scanner",
-																"Skip":	false,
-																"Axis":	"Y",
-																"AscendingOrder":	false,
-																"Range":	{
-																	"$NodeId":	"Integer.Range-bdd57f05-4cc6-42eb-88ed-7e6f908da721",
-																	"MinInclusive":	50,
-																	"MaxExclusive":	71
-																}
-															}
-														},
-														"Range":	{
-															"$NodeId":	"Decimal.Range-161d3fab-2766-4737-b86e-840df733185a",
-															"MinInclusive":	0.5,
-															"MaxExclusive":	2
-														}
-													}],
-												"Density":	{
-													"$NodeId":	"Mix.Density-7912fe0e-79c3-41ff-8b10-f5942c3bf048",
-													"Type":	"Mix",
-													"Skip":	false,
-													"Inputs":	[{
-															"$NodeId":	"ConstantDensityNode-6625ee48-a279-4948-8fe2-282c7f62edc9",
-															"Type":	"Constant",
-															"Skip":	false,
-															"Value":	-1
-														}, {
-															"$NodeId":	"ConstantDensityNode-17275eb2-1330-47a5-b9e8-5c48f56cdf50",
-															"Type":	"Constant",
-															"Skip":	false,
-															"Value":	1
-														}, {
-															"$NodeId":	"NormalizerDensityNode-58891f45-a1b7-4c05-b8ce-c88c7e3d257f",
-															"Type":	"Normalizer",
-															"ExportAs":	"Shore_Terrain1",
-															"Skip":	false,
-															"FromMin":	-0.5,
-															"FromMax":	-0.4,
-															"ToMin":	0,
-															"ToMax":	1,
-															"Inputs":	[{
-																	"$NodeId":	"SimplexNoise2DDensityNode-43525f57-4b2d-4337-a879-1a7535afca31",
-																	"Type":	"SimplexNoise2D",
-																	"Skip":	false,
-																	"Lacunarity":	2,
-																	"Persistence":	0.5,
-																	"Octaves":	1,
-																	"Scale":	100,
-																	"Seed":	"shores"
-																}]
-														}]
-												}
-											},
-											"Rotations":	[]
-										}
-									}
-								}]
-						}
-					}, {
-						"$NodeId":	"Assigned.PropDistribution-f762435d-d44c-466d-bec9-d1bf873ba249",
-						"Type":	"Assigned",
-						"PropDistribution":	{
-							"$NodeId":	"Positions.PropDistribution-825516ff-0f60-442b-8bf4-ceceb67628d8",
-							"Type":	"Positions",
-							"Positions":	{
-								"$NodeId":	"UnionPositions-30d13f55-cbb1-4c3f-a0d9-ae4d8d475042",
-								"Type":	"Union",
-								"Skip":	false,
-								"OffsetX":	"OffsetX",
-								"OffsetY":	"OffsetY",
-								"OffsetZ":	"OffsetZ",
-								"Positions":	[{
-										"$NodeId":	"OffsetPositions-61912814-27c8-41b5-8394-7ad11bfcd0ba",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-54975622-29a6-44d7-a190-16b7e1022d7b",
-											"X":	40,
-											"Y":	0,
-											"Z":	40
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-5de861f6-b3e2-4f08-a12c-cad42a777aac",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-850df21d-1590-4af0-8b0b-21250f9f6eb2",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-40ac3ed7-ac12-4d87-b835-88f7d9e90e7b",
-											"X":	30,
-											"Y":	0,
-											"Z":	30
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-316ea248-ab29-4415-a2ce-b89054d156bd",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-aef2a017-c260-4675-a540-a3d90ff6c31c",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-55332479-fc91-4de7-b542-2412f0f9f4fb",
-											"X":	-40,
-											"Y":	0,
-											"Z":	40
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-72b253f8-876f-4e28-a14c-502767e41fcd",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-83ebf8d2-2d44-4f72-9b01-b0b420e5d695",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-f0b55414-9bc1-4e45-9783-97868f2b976b",
-											"X":	-30,
-											"Y":	0,
-											"Z":	30
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-7ba79617-76bd-48bf-b669-8e9be7a5d08a",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-a3cfced2-10bf-4d3e-8e93-f345067b965d",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-3f3e8050-6253-45e9-93c8-94444e9a052d",
-											"X":	40,
-											"Y":	0,
-											"Z":	-40
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-9104fb78-03d9-43ce-82ac-a7434c40a77e",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-e1dd5a28-fca2-4198-8b4d-ea3bc31aa461",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-c923a7e0-ad31-48c9-85df-3a70aec492fc",
-											"X":	30,
-											"Y":	0,
-											"Z":	-30
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-1e9a559b-d2dd-47b5-a961-88936229a0c1",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-d98d6866-2f43-4c77-9a64-f82f5d7eb1f7",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-11692e52-8e44-4758-a321-97c15eb61a96",
-											"X":	-30,
-											"Y":	0,
-											"Z":	-30
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-a102c2a6-c139-4187-9332-9a982efd06e3",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-92288cf6-7629-4642-9a20-85deb02b7002",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-1384473b-185e-48ea-b06f-05b963ea9c9f",
-											"X":	-40,
-											"Y":	0,
-											"Z":	-40
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-bca88b02-1d4a-40ea-b4f6-2cab7db4c31a",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}]
-							}
-						},
-						"Assignments":	{
-							"$NodeId":	"Weighted.Assignments-3213e107-c5c5-4694-b35a-6aa15890a0bb",
-							"Type":	"Weighted",
-							"SkipChance":	0,
-							"Seed":	"A",
-							"WeightedAssignments":	[{
-									"$NodeId":	"Weight.Weighted.Assignments-86173dcf-47eb-422b-9210-60d1863fbe31",
-									"Weight":	1,
-									"Assignments":	{
-										"$NodeId":	"Constant.Assignments-764f7062-dc57-4d5f-b34e-3a6051ab6128",
-										"Type":	"Constant",
-										"Prop":	{
-											"$NodeId":	"RandomRotator.Prop-7baf283e-c855-48c9-bc80-682ffa0505aa",
-											"Type":	"RandomRotator",
-											"Skip":	false,
-											"HorizontalRotations":	true,
-											"Prop":	{
-												"$NodeId":	"DensitySelector.Prop-71b227ae-bc1a-423f-8c15-9b6c2a1d7d13",
-												"Type":	"DensitySelector",
-												"Skip":	false,
-												"Delimiters":	[{
-														"$NodeId":	"Delimiter.DensitySelector.Prop-a4266208-8a0d-4f90-aa0c-e37556b4884d",
-														"Prop":	{
-															"$NodeId":	"Locator.Prop-1954e639-ecef-4183-86d9-138e5b3536c7",
-															"Type":	"Locator",
-															"Skip":	false,
-															"PlacementCap":	1,
-															"Prop":	{
-																"$NodeId":	"RandomRotator.Prop-6aac2bae-70dc-45cd-bdaf-7b8a30641f0c",
-																"Type":	"RandomRotator",
-																"Skip":	false,
-																"HorizontalRotations":	true,
-																"Prop":	{
-																	"$NodeId":	"Prefab.Prop-193ff988-7d0a-4445-a9e8-6c1536cf5037",
-																	"Type":	"Prefab",
-																	"Skip":	false,
-																	"WeightedPrefabPaths":	[{
-																			"$NodeId":	"WeightedPath.Prefab.Prop-85dcf55c-f1dd-4ea0-b3f6-e9ede2d7f3f4",
-																			"Path":	"Monuments/Encounter/City_Oceans/Buildings_Medium/Coral",
-																			"Weight":	1
-																		}, {
-																			"$NodeId":	"WeightedPath.Prefab.Prop-d4cddb8d-fc2b-40a0-8301-4efa69a8ab3c",
-																			"Path":	"Monuments/Encounter/City_Oceans/Buildings_Small/Coral",
-																			"Weight":	1
-																		}],
-																	"LegacyPath":	false,
-																	"LoadEntities":	true,
-																	"MoldingDirection":	"NONE",
-																	"MoldingChildren":	false
-																},
-																"Rotations":	[]
-															},
-															"Pattern":	{
-																"$NodeId":	"Surface.Pattern-9b9710f1-d9fb-4023-b947-a96dd89c1907",
-																"Type":	"Surface",
-																"Skip":	false,
-																"Surface":	{
-																	"$NodeId":	"Imported.Pattern-91eaae77-ed89-4fab-98ce-cb2097168927",
-																	"Type":	"Imported",
-																	"Skip":	false,
-																	"Name":	"Lowlands_Shore_Origin"
-																},
-																"Medium":	{
-																	"$NodeId":	"Imported.Pattern-290bcdf6-977e-47a7-8d76-e33175d0d7d6",
-																	"Type":	"Imported",
-																	"Skip":	false,
-																	"Name":	"Lowlands_Shore_Floor"
-																},
-																"SurfaceRadius":	1,
-																"MediumRadius":	3,
-																"SurfaceGap":	0,
-																"MediumGap":	2,
-																"Facings":	["D"],
-																"RequireAllFacings":	false
-															},
-															"Scanner":	{
-																"$NodeId":	"Imported.Scanner-f4a06ddd-1332-4022-8975-4d54a1f5f938",
-																"Type":	"Imported",
-																"Skip":	false,
-																"Name":	"Lowlands_Shore_City_Scanner"
-															}
-														},
-														"Range":	{
-															"$NodeId":	"Decimal.Range-2e81cedf-e5ae-45c9-8b31-e4ad70220180",
-															"MinInclusive":	0.5,
-															"MaxExclusive":	2
-														}
-													}],
-												"Density":	{
-													"$NodeId":	"Mix.Density-97d428f7-9c73-4d7b-9d32-ea1d3b9f4734",
-													"Type":	"Mix",
-													"Skip":	false,
-													"Inputs":	[{
-															"$NodeId":	"ConstantDensityNode-2bac363d-f9e3-4262-8bc5-32085b98412e",
-															"Type":	"Constant",
-															"Skip":	false,
-															"Value":	-1
-														}, {
-															"$NodeId":	"ConstantDensityNode-8770b8dd-9b73-4e2d-af2c-7c7bd3899f70",
-															"Type":	"Constant",
-															"Skip":	false,
-															"Value":	1
-														}, {
-															"$NodeId":	"ImportedDensityNode-cc491d2b-d6d5-457d-9b5b-29be56920d23",
-															"Type":	"Imported",
-															"Skip":	false,
-															"Name":	"Shore_Terrain1"
-														}]
-												}
-											},
-											"Rotations":	[]
-										}
-									}
-								}]
-						}
-					}, {
-						"$NodeId":	"Assigned.PropDistribution-dd60b282-aeb1-4d82-9f03-e6f2b61a30d3",
-						"Type":	"Assigned",
-						"PropDistribution":	{
-							"$NodeId":	"Positions.PropDistribution-fbe9cf93-b825-45b8-875c-247d4c9c60e7",
-							"Type":	"Positions",
-							"Positions":	{
-								"$NodeId":	"UnionPositions-094ab0c5-ef0a-4dea-82f2-6c6defb7bda1",
-								"Type":	"Union",
-								"Skip":	false,
-								"OffsetX":	"OffsetX",
-								"OffsetY":	"OffsetY",
-								"OffsetZ":	"OffsetZ",
-								"Positions":	[{
-										"$NodeId":	"OffsetPositions-1bd24eb7-331e-466d-a050-4a4c3f5b1505",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-c9d24a1c-b11f-4a3b-825f-638a116880be",
-											"X":	40,
-											"Y":	0,
-											"Z":	40
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-e6b54951-a9a9-4c3f-8e35-c2ce10f884a0",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-5f238c26-7bc7-44f6-b86e-57d2c1715812",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-fbf9616d-a0d0-4c7b-a63a-7874a107488f",
-											"X":	50,
-											"Y":	0,
-											"Z":	50
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-1525d41d-5e88-4dea-9772-97213a299822",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-30eb114c-3aff-4a68-a24d-10701e96dc4b",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-db5ce0b4-a5c3-4d21-8cef-7752d18b38da",
-											"X":	-40,
-											"Y":	0,
-											"Z":	40
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-e9d7e878-e93b-467b-8a3a-dccc72befe54",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-5ce3d9c7-4d01-46dc-9b52-f8621daf8bed",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-65e52292-8cae-466f-8092-45be50d2e4ea",
-											"X":	-50,
-											"Y":	0,
-											"Z":	50
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-beb2a312-c6cb-4912-b307-75f7a79d8535",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-31f3ffc1-fa42-43cc-b4a2-8c57bdbd5450",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-812817e4-dbcb-44d2-89e6-4d3c054e19e1",
-											"X":	40,
-											"Y":	0,
-											"Z":	-40
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-8b50d65b-7b1b-4337-bf56-22e86f4e1362",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-0084d643-d990-42fe-8226-34b8f9822e71",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-ce2629cc-b7cc-445d-a1f7-81e8c8e4c8cd",
-											"X":	50,
-											"Y":	0,
-											"Z":	-50
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-d19ecc6e-daa3-4233-92b6-71e0a88ad9a0",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-7e50d3e1-82d7-4b91-a252-3806c84d32d0",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-4b42e47c-fa62-4ed7-8c06-7bf0ae245355",
-											"X":	-50,
-											"Y":	0,
-											"Z":	-50
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-45388c0e-59eb-4e3e-aa59-284ae132ed02",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}, {
-										"$NodeId":	"OffsetPositions-8aa15f9b-91f5-4250-9bc2-ef9f0858062c",
-										"Type":	"Offset",
-										"Skip":	false,
-										"OffsetX":	0,
-										"OffsetY":	0,
-										"OffsetZ":	0,
-										"Offset":	{
-											"$NodeId":	"Point3D-50f1b3dc-0613-4ec2-82f0-2c1968cd7275",
-											"X":	-35,
-											"Y":	0,
-											"Z":	-35
-										},
-										"Positions":	{
-											"$NodeId":	"ImportedPositions-19c8c40e-ea0d-4a82-a4c3-2546b82f8dd6",
-											"Type":	"Imported",
-											"Name":	"Lowlands_Coral_City_Center",
-											"Skip":	false
-										}
-									}]
-							}
-						},
-						"Assignments":	{
-							"$NodeId":	"Weighted.Assignments-203ec354-5ddd-4b77-b6f1-39190b455895",
-							"Type":	"Weighted",
-							"SkipChance":	0,
-							"Seed":	"A",
-							"WeightedAssignments":	[{
-									"$NodeId":	"Weight.Weighted.Assignments-2fd7c29e-8f5b-49cd-9af2-68db8fb2cdfd",
-									"Weight":	1,
-									"Assignments":	{
-										"$NodeId":	"Constant.Assignments-291f59de-0d35-47ee-b147-c1cdf09a4697",
-										"Type":	"Constant",
-										"Prop":	{
-											"$NodeId":	"RandomRotator.Prop-0ad9d1c7-f25a-4876-9b8d-682dfe8be640",
-											"Type":	"RandomRotator",
-											"Skip":	false,
-											"HorizontalRotations":	true,
-											"Prop":	{
-												"$NodeId":	"DensitySelector.Prop-6ab70f33-2bad-4279-aeb7-d87dfb1b0c86",
-												"Type":	"DensitySelector",
-												"Skip":	false,
-												"Delimiters":	[{
-														"$NodeId":	"Delimiter.DensitySelector.Prop-60140742-b39a-4c28-95be-8dcb29f3fcf4",
-														"Prop":	{
-															"$NodeId":	"Locator.Prop-6aa616b5-b134-4b8c-9cee-b0fad21c7a14",
-															"Type":	"Locator",
-															"Skip":	false,
-															"PlacementCap":	1,
-															"Prop":	{
-																"$NodeId":	"RandomRotator.Prop-571feeda-5068-42e7-97d6-88368a625d83",
-																"Type":	"RandomRotator",
-																"Skip":	false,
-																"HorizontalRotations":	true,
-																"Prop":	{
-																	"$NodeId":	"Prefab.Prop-c1995723-bbe4-4fde-ac60-12e21eecce08",
-																	"Type":	"Prefab",
-																	"Skip":	false,
-																	"WeightedPrefabPaths":	[{
-																			"$NodeId":	"WeightedPath.Prefab.Prop-1e2ee92d-cf38-49a3-b672-fe84b391ee1b",
-																			"Path":	"Monuments/Encounter/City_Oceans/Buildings_Medium/Coral",
-																			"Weight":	1
-																		}, {
-																			"$NodeId":	"WeightedPath.Prefab.Prop-40593816-0c61-4bdc-8975-38c31a658afd",
-																			"Path":	"Monuments/Encounter/City_Oceans/Buildings_Small/Coral",
-																			"Weight":	1
-																		}],
-																	"LegacyPath":	false,
-																	"LoadEntities":	true,
-																	"MoldingDirection":	"NONE",
-																	"MoldingChildren":	false
-																},
-																"Rotations":	[]
-															},
-															"Pattern":	{
-																"$NodeId":	"Surface.Pattern-d343c603-cf6a-4b96-9497-3897b6c1ff54",
-																"Type":	"Surface",
-																"Skip":	false,
-																"Surface":	{
-																	"$NodeId":	"Imported.Pattern-4982ac48-6fb5-4a65-9282-af2124404186",
-																	"Type":	"Imported",
-																	"Skip":	false,
-																	"Name":	"Lowlands_Shore_Origin"
-																},
-																"Medium":	{
-																	"$NodeId":	"Imported.Pattern-337f95a7-6b6e-4cd4-a853-08b50c375c44",
-																	"Type":	"Imported",
-																	"Skip":	false,
-																	"Name":	"Lowlands_Shore_Floor"
-																},
-																"SurfaceRadius":	1,
-																"MediumRadius":	6,
-																"SurfaceGap":	0,
-																"MediumGap":	3,
-																"Facings":	["D"],
-																"RequireAllFacings":	false
-															},
-															"Scanner":	{
-																"$NodeId":	"Imported.Scanner-3cc88d3e-3863-44ad-8aa6-2f0f651ceb35",
-																"Type":	"Imported",
-																"Skip":	false,
-																"Name":	"Lowlands_Shore_City_Scanner"
-															}
-														},
-														"Range":	{
-															"$NodeId":	"Decimal.Range-29f993ed-d58e-4050-a243-8ffa756bcca2",
-															"MinInclusive":	0.5,
-															"MaxExclusive":	2
-														}
-													}],
-												"Density":	{
-													"$NodeId":	"Mix.Density-3238b6e1-2a5e-4288-9b15-ebbb9d4c6317",
-													"Type":	"Mix",
-													"Skip":	false,
-													"Inputs":	[{
-															"$NodeId":	"ConstantDensityNode-0bceed1d-bab2-4efe-952f-fdb1c564f63f",
-															"Type":	"Constant",
-															"Skip":	false,
-															"Value":	-1
-														}, {
-															"$NodeId":	"ConstantDensityNode-002b939a-9da4-42c4-8079-b64f9875d228",
-															"Type":	"Constant",
-															"Skip":	false,
-															"Value":	1
-														}, {
-															"$NodeId":	"ImportedDensityNode-8e61803e-8bbf-4057-817d-770eee0b0926",
-															"Type":	"Imported",
-															"Skip":	false,
-															"Name":	"Shore_Terrain1"
-														}]
-												}
-											},
-											"Rotations":	[]
-										}
-									}
-								}]
-						}
-					}]
+				"$NodeId":	"Imported.PropDistribution-bf9e9869-9999-4d1d-8a65-48f12f34fde9",
+				"Type":	"Imported",
+				"Name":	"Lowland_Shore_Coral_Cities"
 			}
 		}, {
 			"$NodeId":	"Runtime-327bedfd-f400-429f-9407-ffba4ab3b16d",
@@ -2595,8 +1113,8 @@
 			},
 			"Union.PropDistribution-8fa00844-930b-4aab-9ca2-76063e24e556":	{
 				"$Position":	{
-					"$x":	414,
-					"$y":	-1394
+					"$x":	446,
+					"$y":	-1415
 				}
 			},
 			"Assigned.PropDistribution-353adba3-005e-4492-a66c-66bc21847f9a":	{
@@ -4542,9 +3060,1521 @@
 					"$x":	-5657,
 					"$y":	-674
 				}
+			},
+			"Imported.PropDistribution-31c79571-44ea-43c7-a5d1-e2cd34c73252":	{
+				"$Position":	{
+					"$x":	9843,
+					"$y":	-1125
+				}
+			},
+			"Imported.PropDistribution-2bb17a6a-b463-4315-9ca3-3c7459bec5a7":	{
+				"$Position":	{
+					"$x":	336,
+					"$y":	-1078
+				}
+			},
+			"Imported.PropDistribution-bf9e9869-9999-4d1d-8a65-48f12f34fde9":	{
+				"$Position":	{
+					"$x":	9975,
+					"$y":	4174
+				}
 			}
 		},
-		"$FloatingNodes":	[],
+		"$FloatingNodes":	[{
+				"$NodeId":	"Union.PropDistribution-8fa00844-930b-4aab-9ca2-76063e24e556",
+				"Type":	"Union",
+				"PropDistributions":	[{
+						"$NodeId":	"Assigned.PropDistribution-353adba3-005e-4492-a66c-66bc21847f9a",
+						"Type":	"Assigned",
+						"PropDistribution":	{
+							"$NodeId":	"Positions.PropDistribution-66f30b10-f3a6-4065-ba68-0704257fa697",
+							"Type":	"Positions",
+							"Positions":	{
+								"$NodeId":	"Scaler.Positions-6726c50e-fbd6-431f-98e0-3b2af23d202c",
+								"Type":	"Scaler",
+								"Skip":	false,
+								"Scale":	{
+									"$NodeId":	"Point3D-7ce1d759-649d-4136-879a-030674679c64",
+									"X":	15,
+									"Y":	15,
+									"Z":	15
+								},
+								"Positions":	{
+									"$NodeId":	"Jitter2d.Positions-0788796c-591c-41a2-8616-e8652a891090",
+									"Type":	"Jitter2d",
+									"Skip":	false,
+									"Magnitude":	0.5,
+									"Positions":	{
+										"$NodeId":	"TriangularGrid2d.Positions-34d1c48b-187b-4c73-87fb-3f0129057bf5",
+										"Type":	"TriangularGrid2d",
+										"Skip":	false
+									}
+								}
+							}
+						},
+						"Assignments":	{
+							"$NodeId":	"Weighted.Assignments-7f420185-3b9a-438c-973c-2502a1b56795",
+							"Type":	"Weighted",
+							"SkipChance":	0.1,
+							"Seed":	"A",
+							"WeightedAssignments":	[{
+									"$NodeId":	"Weight.Weighted.Assignments-1ad498a7-2251-457c-9f39-d3659592ef64",
+									"Weight":	1,
+									"Assignments":	{
+										"$NodeId":	"Constant.Assignments-8f021392-ddee-4354-bdcf-15aec7921d01",
+										"Type":	"Constant",
+										"Prop":	{
+											"$NodeId":	"RandomRotator.Prop-a3c33102-6282-4100-9532-c8c673b931c1",
+											"Type":	"RandomRotator",
+											"Skip":	false,
+											"HorizontalRotations":	true,
+											"Prop":	{
+												"$NodeId":	"Locator.Prop-db49cc47-0852-4a74-b2e6-f27f2c62598d",
+												"Type":	"Locator",
+												"Skip":	false,
+												"PlacementCap":	1,
+												"Prop":	{
+													"$NodeId":	"DensitySelector.Prop-b513f8b5-e89a-4381-b258-420ebcefc67d",
+													"Type":	"DensitySelector",
+													"Skip":	false,
+													"Delimiters":	[{
+															"$NodeId":	"Delimiter.DensitySelector.Prop-8c0e7667-9714-4646-825d-239b2a4ca6e3",
+															"Prop":	{
+																"$NodeId":	"Prefab.Prop-692323fd-23e5-4273-a196-042a8b08309b",
+																"Type":	"Prefab",
+																"Skip":	false,
+																"WeightedPrefabPaths":	[{
+																		"$NodeId":	"WeightedPath.Prefab.Prop-f43d9372-4f98-4420-8b8b-853fbb13e3f5",
+																		"Path":	"Plants/Coral/Branchy",
+																		"Weight":	1
+																	}, {
+																		"$NodeId":	"WeightedPath.Prefab.Prop-2ca297a6-afa7-4cfb-8093-be6fe0081d43",
+																		"Path":	"Plants/Coral/Bushy",
+																		"Weight":	1
+																	}, {
+																		"$NodeId":	"WeightedPath.Prefab.Prop-123edd10-b5f6-49e5-b6b6-c1c4be01830d",
+																		"Path":	"Plants/Coral/Sponge",
+																		"Weight":	1
+																	}, {
+																		"$NodeId":	"WeightedPath.Prefab.Prop-89582e12-2f77-4631-8e85-88804d5971fa",
+																		"Path":	"Plants/Coral/Trees",
+																		"Weight":	1
+																	}, {
+																		"$NodeId":	"WeightedPath.Prefab.Prop-65984eea-9a3c-4605-8546-3177711ef5dd",
+																		"Path":	"Plants/Coral/Tubes",
+																		"Weight":	1
+																	}],
+																"LegacyPath":	false,
+																"LoadEntities":	true,
+																"MoldingDirection":	"NONE",
+																"MoldingChildren":	false
+															},
+															"Range":	{
+																"$NodeId":	"Decimal.Range-518e3e3e-5030-4706-a946-204a90faf3a2",
+																"MinInclusive":	0.3,
+																"MaxExclusive":	1
+															}
+														}],
+													"Density":	{
+														"$NodeId":	"SimplexNoise2DDensityNode-647a0df6-88bc-420a-8c7a-75a818047076",
+														"Type":	"SimplexNoise2D",
+														"ExportAs":	"Lowlands_Shore_Coral_Density",
+														"Skip":	false,
+														"Lacunarity":	2,
+														"Persistence":	0.5,
+														"Octaves":	1,
+														"Scale":	150,
+														"Seed":	"Shore"
+													}
+												},
+												"Pattern":	{
+													"$NodeId":	"Surface.Pattern-bf6f419e-d7be-4f84-b26c-d3f43d6f6f5c",
+													"Type":	"Surface",
+													"Skip":	false,
+													"Surface":	{
+														"$NodeId":	"BlockSet.Pattern-c6f888ed-f6e5-4304-acd7-bcb949efb2a7",
+														"Type":	"BlockSet",
+														"ExportAs":	"Lowlands_Shore_Origin",
+														"Skip":	false,
+														"BlockSet":	{
+															"$NodeId":	"BlockSet.BlockMask-501de2d9-a6f7-4652-ba32-2f020302a17c",
+															"Inclusive":	true,
+															"Materials":	[{
+																	"$NodeId":	"Material-7932a4fe-94f3-479a-b36a-86d29a30cb3f",
+																	"Solid":	"Empty",
+																	"SolidBottomUp":	false
+																}, {
+																	"$NodeId":	"Material-ca9134c7-cbce-42fc-9a42-58aae9f2da57",
+																	"Solid":	"",
+																	"Fluid":	"Water_Source",
+																	"SolidBottomUp":	false
+																}]
+														}
+													},
+													"Medium":	{
+														"$NodeId":	"BlockSet.Pattern-9b87da70-cfa5-4030-b40d-c5f39753811a",
+														"Type":	"BlockSet",
+														"ExportAs":	"Lowlands_Shore_Floor",
+														"Skip":	false,
+														"BlockSet":	{
+															"$NodeId":	"BlockSet.BlockMask-f8a319e0-5b19-47af-99a6-619adef89a13",
+															"Inclusive":	true,
+															"Materials":	[{
+																	"$NodeId":	"Material-e0e38b37-aa1a-4abe-85d4-93514cddae86",
+																	"Solid":	"Soil_Sand_Crystal",
+																	"SolidBottomUp":	false
+																}]
+														}
+													},
+													"SurfaceRadius":	1,
+													"MediumRadius":	3,
+													"SurfaceGap":	0,
+													"MediumGap":	1,
+													"Facings":	["D"],
+													"RequireAllFacings":	false
+												},
+												"Scanner":	{
+													"$NodeId":	"Linear.Scanner-fa740e73-b156-4324-be9f-4cf7d013ccbf",
+													"Type":	"Linear",
+													"ExportAs":	"Lowlands_Shore_Coral_Scanner",
+													"Skip":	false,
+													"Axis":	"Y",
+													"AscendingOrder":	false,
+													"Range":	{
+														"$NodeId":	"Integer.Range-73114616-f752-4760-be7b-8ce91c3088f9",
+														"MinInclusive":	50,
+														"MaxExclusive":	77
+													}
+												}
+											},
+											"Rotations":	[]
+										}
+									}
+								}]
+						}
+					}, {
+						"$NodeId":	"Assigned.PropDistribution-07d63c9f-825c-4740-9671-d094c333b00e",
+						"Type":	"Assigned",
+						"PropDistribution":	{
+							"$NodeId":	"Positions.PropDistribution-34af6988-4060-416f-bc1f-73d856c663d3",
+							"Type":	"Positions",
+							"ExportAs":	"",
+							"Positions":	{
+								"$NodeId":	"Scaler.Positions-41af0ce8-fcfc-4885-bff3-54449e0ab106",
+								"Type":	"Scaler",
+								"Skip":	false,
+								"Scale":	{
+									"$NodeId":	"Point3D-8eb5a6dc-c77d-4e2b-8520-cc42cdf29167",
+									"X":	1,
+									"Y":	1,
+									"Z":	1
+								},
+								"Positions":	{
+									"$NodeId":	"SquareGrid2d.Positions-0e23c9fc-4731-4240-9171-8d2195729f68",
+									"Type":	"SquareGrid2d",
+									"Skip":	false
+								}
+							}
+						},
+						"Assignments":	{
+							"$NodeId":	"Weighted.Assignments-f3b59fb6-3f6d-495a-bcb3-f419e33cbb3d",
+							"Type":	"Weighted",
+							"SkipChance":	0.3,
+							"Seed":	"A",
+							"WeightedAssignments":	[{
+									"$NodeId":	"Weight.Weighted.Assignments-4a46425a-f964-4c5b-94ea-584f203b3962",
+									"Weight":	1,
+									"Assignments":	{
+										"$NodeId":	"Constant.Assignments-9b84aab9-a2dd-435c-8942-342f95a85928",
+										"Type":	"Constant",
+										"Prop":	{
+											"$NodeId":	"Locator.Prop-1e35be5e-f7cc-461a-83d9-d4c55cae53c0",
+											"Type":	"Locator",
+											"Skip":	false,
+											"PlacementCap":	6,
+											"Prop":	{
+												"$NodeId":	"DensitySelector.Prop-80ec6919-617d-497d-a068-158bccd51596",
+												"Type":	"DensitySelector",
+												"Skip":	false,
+												"Delimiters":	[{
+														"$NodeId":	"Delimiter.DensitySelector.Prop-ef7b07c0-71c3-4461-996d-3454c4a90883",
+														"Prop":	{
+															"$NodeId":	"Manual.Prop-22d6df4f-8156-4564-8bc4-7f39f1258c52",
+															"Type":	"Manual",
+															"Skip":	false,
+															"Blocks":	[{
+																	"$NodeId":	"Block.Manual.Prop-adf006cd-ed74-4ed4-bda3-b8681ee2906a",
+																	"Material":	{
+																		"$NodeId":	"Material-bb73ff67-4b29-4e25-9130-54d9932449b4",
+																		"Solid":	"Plant_Seaweed_Winter_Aurora",
+																		"Fluid":	"Water_Source",
+																		"SolidBottomUp":	false
+																	}
+																}]
+														},
+														"Range":	{
+															"$NodeId":	"Decimal.Range-f055da4c-bb9f-4fd3-9b1d-a0a29ea3056b",
+															"MinInclusive":	0.35,
+															"MaxExclusive":	1
+														}
+													}, {
+														"$NodeId":	"Delimiter.DensitySelector.Prop-e14362ea-965f-4f46-b361-be7e32db6eba",
+														"Prop":	{
+															"$NodeId":	"Manual.Prop-f43e175f-34fb-4b40-80bb-e85fafedecbb",
+															"Type":	"Manual",
+															"Skip":	false,
+															"Blocks":	[{
+																	"$NodeId":	"Block.Manual.Prop-54a85335-5d05-46c2-8233-9b84e253276b",
+																	"Material":	{
+																		"$NodeId":	"Material-46b1ac35-9152-4122-8661-93ddcc30d891",
+																		"Solid":	"Plant_Seaweed_Winter_Blue",
+																		"Fluid":	"Water_Source",
+																		"SolidBottomUp":	false
+																	}
+																}]
+														},
+														"Range":	{
+															"$NodeId":	"Decimal.Range-f153a9c1-8d4c-4e24-a7a8-78c148854955",
+															"MinInclusive":	-1,
+															"MaxExclusive":	-0.55
+														}
+													}, {
+														"$NodeId":	"Delimiter.DensitySelector.Prop-4c31ebb9-5432-494e-899d-6fed36b65422",
+														"Prop":	{
+															"$NodeId":	"Manual.Prop-f7caf80b-a91e-43fe-8c25-1c13af1871eb",
+															"Type":	"Manual",
+															"Skip":	false,
+															"Blocks":	[{
+																	"$NodeId":	"Block.Manual.Prop-11310e63-5d05-41af-a768-4f37d0f3d738",
+																	"Material":	{
+																		"$NodeId":	"Material-73eb1a82-70fc-4157-8872-26dc6bcb28b0",
+																		"Solid":	"Plant_Seaweed_Wet_Stack",
+																		"Fluid":	"Water_Source",
+																		"SolidBottomUp":	false
+																	}
+																}]
+														},
+														"Range":	{
+															"$NodeId":	"Decimal.Range-c46b4809-dbac-49b9-afd3-a5289d267916",
+															"MinInclusive":	-0.55,
+															"MaxExclusive":	-0.4
+														}
+													}],
+												"Density":	{
+													"$NodeId":	"SimplexNoise2DDensityNode-b965acaa-3b0b-4bba-a29a-0ee842e9bb86",
+													"Type":	"SimplexNoise2D",
+													"Skip":	false,
+													"Lacunarity":	2,
+													"Persistence":	0.5,
+													"Octaves":	4,
+													"Scale":	70,
+													"Seed":	"shores"
+												}
+											},
+											"Pattern":	{
+												"$NodeId":	"Floor.Pattern-2987b6fe-0d8d-44e3-bb7e-9baa76184507",
+												"Type":	"Floor",
+												"Skip":	false,
+												"Origin":	{
+													"$NodeId":	"Imported.Pattern-73fb1259-f2bd-481e-afde-2e510e98f8a2",
+													"Type":	"Imported",
+													"Skip":	false,
+													"Name":	"Lowlands_Shore_Origin"
+												},
+												"Floor":	{
+													"$NodeId":	"Imported.Pattern-fff32983-467f-4e5e-926f-0af642273ffd",
+													"Type":	"Imported",
+													"Skip":	false,
+													"Name":	"Lowlands_Shore_Floor"
+												}
+											},
+											"Scanner":	{
+												"$NodeId":	"Linear.Scanner-446301ea-f260-485e-8fd6-66fbb4be5bd4",
+												"Type":	"Linear",
+												"ExportAs":	"Lowlands_Shore_Seaweed_Scanner",
+												"Skip":	false,
+												"Axis":	"Y",
+												"AscendingOrder":	false,
+												"Range":	{
+													"$NodeId":	"Integer.Range-050a5b94-c1e2-470f-b15a-ae8e4cd9f0ff",
+													"MinInclusive":	50,
+													"MaxExclusive":	90
+												}
+											}
+										}
+									}
+								}]
+						}
+					}, {
+						"$NodeId":	"Assigned.PropDistribution-ae3c131b-4b6e-4376-9074-0a4bd8c86a15",
+						"Type":	"Assigned",
+						"PropDistribution":	{
+							"$NodeId":	"Positions.PropDistribution-72ce0072-edc1-43c4-a6e7-6a1e84cd5c6a",
+							"Type":	"Positions",
+							"Positions":	{
+								"$NodeId":	"Scaler.Positions-dc92a799-7925-448c-a7dd-7bc378240120",
+								"Type":	"Scaler",
+								"Skip":	false,
+								"Scale":	{
+									"$NodeId":	"Point3D-9e2af0a5-3ff2-4151-8af0-431c22fcab7b",
+									"X":	3,
+									"Y":	3,
+									"Z":	3
+								},
+								"Positions":	{
+									"$NodeId":	"Jitter2d.Positions-02773fdc-aa37-4624-a4f3-d7f4a4a348dc",
+									"Type":	"Jitter2d",
+									"Skip":	false,
+									"Magnitude":	0.5,
+									"Positions":	{
+										"$NodeId":	"TriangularGrid2d.Positions-38a694d3-ff3d-4813-99f7-4273f551787b",
+										"Type":	"TriangularGrid2d",
+										"Skip":	false
+									}
+								}
+							}
+						},
+						"Assignments":	{
+							"$NodeId":	"Weighted.Assignments-1be8a26f-ca38-4b04-914d-cad779e58922",
+							"Type":	"Weighted",
+							"SkipChance":	0.1,
+							"Seed":	"A",
+							"WeightedAssignments":	[{
+									"$NodeId":	"Weight.Weighted.Assignments-6f9502e2-5d9a-4b69-a016-04580b1ba884",
+									"Weight":	1,
+									"Assignments":	{
+										"$NodeId":	"Constant.Assignments-ddbf5029-c3cc-4ff0-964a-c4f633b6a6b9",
+										"Type":	"Constant",
+										"Prop":	{
+											"$NodeId":	"Locator.Prop-1fd9fc17-fe3e-4736-9942-d64fc77e2e6b",
+											"Type":	"Locator",
+											"Skip":	false,
+											"PlacementCap":	1,
+											"Prop":	{
+												"$NodeId":	"DensitySelector.Prop-1a2e4398-898d-4e08-a4c4-d56be34a7769",
+												"Type":	"DensitySelector",
+												"Skip":	false,
+												"Delimiters":	[{
+														"$NodeId":	"Delimiter.DensitySelector.Prop-2bc9c99b-4313-4851-917d-c29bc166134a",
+														"Prop":	{
+															"$NodeId":	"Prefab.Prop-99a98d22-e20f-41e5-9b2f-44bcefbfb792",
+															"Type":	"Prefab",
+															"Skip":	false,
+															"WeightedPrefabPaths":	[{
+																	"$NodeId":	"WeightedPath.Prefab.Prop-e4ac03d0-65cb-49d0-8e42-b96c383c0fde",
+																	"Path":	"Plants/Seaweed/Wet_Max30",
+																	"Weight":	1
+																}],
+															"LegacyPath":	false,
+															"LoadEntities":	true,
+															"MoldingDirection":	"NONE",
+															"MoldingChildren":	false
+														},
+														"Range":	{
+															"$NodeId":	"Decimal.Range-f77f0985-558f-4319-9e5e-6da356bae37e",
+															"MinInclusive":	0.15,
+															"MaxExclusive":	0.3
+														}
+													}],
+												"Density":	{
+													"$NodeId":	"Mix.Density-4e328d7a-2179-4f9e-be5d-33c803c5c789",
+													"Type":	"Mix",
+													"Skip":	false,
+													"Inputs":	[{
+															"$NodeId":	"SimplexNoise2DDensityNode-fa3da2f7-49d2-4aeb-a3db-5a0f8560922f",
+															"Type":	"SimplexNoise2D",
+															"Skip":	false,
+															"Lacunarity":	2,
+															"Persistence":	0.5,
+															"Octaves":	1,
+															"Scale":	40,
+															"Seed":	"Shore"
+														}, {
+															"$NodeId":	"ConstantDensityNode-cd7e7d87-2362-4c90-875c-500355fe879f",
+															"Type":	"Constant",
+															"Skip":	false,
+															"Value":	0
+														}, {
+															"$NodeId":	"NormalizerDensityNode-0c6892ee-dc99-470e-9c55-3a090884424b",
+															"Type":	"Normalizer",
+															"Skip":	false,
+															"FromMin":	-0.1,
+															"FromMax":	-0.1,
+															"ToMin":	0,
+															"ToMax":	1,
+															"Inputs":	[{
+																	"$NodeId":	"ImportedDensityNode-f60f47ed-2403-48c1-b974-c69f3e806e95",
+																	"Type":	"Imported",
+																	"Skip":	false,
+																	"Name":	"Lowlands_Shore_Coral_Density"
+																}]
+														}]
+												}
+											},
+											"Pattern":	{
+												"$NodeId":	"And.Pattern-f2664a47-80ca-4259-89cc-d9b7b90cef91",
+												"Type":	"And",
+												"Skip":	false,
+												"Patterns":	[{
+														"$NodeId":	"Floor.Pattern-d9937b0f-0372-46b7-9524-f36c47eac708",
+														"Type":	"Floor",
+														"Skip":	false,
+														"Origin":	{
+															"$NodeId":	"Imported.Pattern-da957213-0990-4ee2-946e-5763c843db4a",
+															"Type":	"Imported",
+															"Skip":	false,
+															"Name":	"Lowlands_Shore_Origin"
+														},
+														"Floor":	{
+															"$NodeId":	"Imported.Pattern-4e0c0676-c8f3-4c2d-9cf6-478751b4307d",
+															"Type":	"Imported",
+															"Skip":	false,
+															"Name":	"Lowlands_Shore_Floor"
+														}
+													}]
+											},
+											"Scanner":	{
+												"$NodeId":	"Linear.Scanner-3cc4dbf8-95fa-48cd-9b22-2bc741e20c25",
+												"Type":	"Linear",
+												"ExportAs":	"Lowlands_Long_Seaweed_Scanner",
+												"Skip":	false,
+												"Axis":	"Y",
+												"AscendingOrder":	false,
+												"Range":	{
+													"$NodeId":	"Integer.Range-87e915f4-d34c-4b82-8c12-5e956bfae6c7",
+													"MinInclusive":	50,
+													"MaxExclusive":	69
+												}
+											}
+										}
+									}
+								}]
+						}
+					}]
+			}, {
+				"$NodeId":	"Union.PropDistribution-d34f48fb-9659-4240-b0c8-86093a8465b9",
+				"Type":	"Union",
+				"PropDistributions":	[{
+						"$NodeId":	"Assigned.PropDistribution-48d5468a-d4ce-4879-ae3e-006539304965",
+						"Type":	"Assigned",
+						"PropDistribution":	{
+							"$NodeId":	"Positions.PropDistribution-2685e6b6-fc33-497f-822b-98def42d2136",
+							"Type":	"Positions",
+							"Positions":	{
+								"$NodeId":	"Scaler.Positions-87b73c0f-a3f1-46a2-9501-56ab1b406f7f",
+								"Type":	"Scaler",
+								"ExportAs":	"",
+								"Skip":	false,
+								"Scale":	{
+									"$NodeId":	"Point3D-6df7b07d-7579-44f1-ae2c-be4ea24ad982",
+									"X":	300,
+									"Y":	300,
+									"Z":	300
+								},
+								"Positions":	{
+									"$NodeId":	"Jitter2d.Positions-7c38b51b-2b47-41ed-8c51-f4c8156135fb",
+									"Type":	"Jitter2d",
+									"Skip":	false,
+									"Magnitude":	0.5,
+									"Positions":	{
+										"$NodeId":	"TriangularGrid2d.Positions-358257fa-45f2-4298-942c-d85b9c2e701a",
+										"Type":	"TriangularGrid2d",
+										"Skip":	false
+									}
+								}
+							}
+						},
+						"Assignments":	{
+							"$NodeId":	"Weighted.Assignments-b03287cb-8e1f-420d-9d9c-89eb5137e694",
+							"Type":	"Weighted",
+							"SkipChance":	0,
+							"Seed":	"A",
+							"WeightedAssignments":	[{
+									"$NodeId":	"Weight.Weighted.Assignments-b6e492dd-6df9-4e78-9e65-74224111fc74",
+									"Weight":	1,
+									"Assignments":	{
+										"$NodeId":	"Constant.Assignments-bf6df1ed-d7f9-4f20-938f-cc6c79332140",
+										"Type":	"Constant",
+										"Prop":	{
+											"$NodeId":	"RandomRotator.Prop-4547a648-50da-42e4-98c8-4677ec1d0437",
+											"Type":	"RandomRotator",
+											"Skip":	false,
+											"HorizontalRotations":	true,
+											"Prop":	{
+												"$NodeId":	"DensitySelector.Prop-4706cf0b-284a-4665-8a69-bf2ffaef368d",
+												"Type":	"DensitySelector",
+												"Skip":	false,
+												"Delimiters":	[{
+														"$NodeId":	"Delimiter.DensitySelector.Prop-20bfc55a-b2c3-48fa-8a5a-d4cfcf12ffca",
+														"Prop":	{
+															"$NodeId":	"Locator.Prop-6b7bb906-4804-4990-8ad3-64647d7ad064",
+															"Type":	"Locator",
+															"Skip":	false,
+															"PlacementCap":	1,
+															"Prop":	{
+																"$NodeId":	"RandomRotator.Prop-de66bbf5-6faf-4eb8-b500-071f08c48ca1",
+																"Type":	"RandomRotator",
+																"Skip":	false,
+																"HorizontalRotations":	true,
+																"Prop":	{
+																	"$NodeId":	"Prefab.Prop-46b3f54a-99db-4ab8-8ad6-a0a548480ced",
+																	"Type":	"Prefab",
+																	"Skip":	false,
+																	"WeightedPrefabPaths":	[{
+																			"$NodeId":	"WeightedPath.Prefab.Prop-51030723-00ec-40ad-88e8-94d28a75edcf",
+																			"Path":	"Monuments/Incidental/Shipwrecks",
+																			"Weight":	1
+																		}],
+																	"LegacyPath":	false,
+																	"LoadEntities":	true,
+																	"MoldingDirection":	"NONE",
+																	"MoldingChildren":	false
+																},
+																"Rotations":	[]
+															},
+															"Pattern":	{
+																"$NodeId":	"Surface.Pattern-daf6e3c4-992e-4f3b-af02-ad7d5d2e4db1",
+																"Type":	"Surface",
+																"Skip":	false,
+																"Surface":	{
+																	"$NodeId":	"Imported.Pattern-59e190b3-129a-428c-8589-b606a2f0f792",
+																	"Type":	"Imported",
+																	"Skip":	false,
+																	"Name":	"Lowlands_Shore_Origin"
+																},
+																"Medium":	{
+																	"$NodeId":	"Imported.Pattern-69b02b90-2b37-410f-b5e2-7ca5a070fe35",
+																	"Type":	"Imported",
+																	"Skip":	false,
+																	"Name":	"Lowlands_Shore_Floor"
+																},
+																"SurfaceRadius":	1,
+																"MediumRadius":	1,
+																"SurfaceGap":	0,
+																"MediumGap":	3,
+																"Facings":	["D"],
+																"RequireAllFacings":	false
+															},
+															"Scanner":	{
+																"$NodeId":	"Imported.Scanner-11745084-6682-4a1b-92ab-7548b527111d",
+																"Type":	"Imported",
+																"Skip":	false,
+																"Name":	"Lowlands_Shore_City_Scanner"
+															}
+														},
+														"Range":	{
+															"$NodeId":	"Decimal.Range-98b8f99e-23b7-400e-bb63-8ee469b402d2",
+															"MinInclusive":	0.5,
+															"MaxExclusive":	2
+														}
+													}],
+												"Density":	{
+													"$NodeId":	"Mix.Density-31d9d0c0-7585-40a5-ab7b-5114d47d99ab",
+													"Type":	"Mix",
+													"Skip":	false,
+													"Inputs":	[{
+															"$NodeId":	"ConstantDensityNode-ff980f90-09d8-46a6-8fa5-eff8c2ed4f1d",
+															"Type":	"Constant",
+															"Skip":	false,
+															"Value":	-1
+														}, {
+															"$NodeId":	"ConstantDensityNode-67e27203-2aee-4ef5-ba3b-eebe6d11b3f6",
+															"Type":	"Constant",
+															"Skip":	false,
+															"Value":	1
+														}, {
+															"$NodeId":	"ImportedDensityNode-d4a08604-e920-4ee4-8083-19707664fad7",
+															"Type":	"Imported",
+															"Skip":	false,
+															"Name":	"Shore_Terrain1"
+														}]
+												}
+											},
+											"Rotations":	[{
+													"$NodeId":	"OrthogonalRotation-3593b7c0-befd-472f-9a2d-1d76e7f91162",
+													"Yaw":	"None",
+													"Pitch":	"None",
+													"Roll":	"Ninety"
+												}, {
+													"$NodeId":	"OrthogonalRotation-8346cf04-935f-45ae-ab78-9eb42e1116cc",
+													"Yaw":	"None",
+													"Pitch":	"None",
+													"Roll":	"None"
+												}, {
+													"$NodeId":	"OrthogonalRotation-ac3d3dee-ffd4-4918-946d-976c12588125",
+													"Yaw":	"None",
+													"Pitch":	"None",
+													"Roll":	"TwoSeventy"
+												}]
+										}
+									}
+								}]
+						}
+					}, {
+						"$NodeId":	"Assigned.PropDistribution-171a8ee5-d493-4fc9-a3b8-edadaa515674",
+						"Type":	"Assigned",
+						"PropDistribution":	{
+							"$NodeId":	"Positions.PropDistribution-b3b2d660-74d0-47dd-bef5-260034b27548",
+							"Type":	"Positions",
+							"Positions":	{
+								"$NodeId":	"Scaler.Positions-23e1cf39-b78b-4d6a-b7c2-64b3334201c0",
+								"Type":	"Scaler",
+								"Skip":	false,
+								"Scale":	{
+									"$NodeId":	"Point3D-8e5ee7e6-cbb8-4514-ad6e-2888954eb2c8",
+									"X":	15,
+									"Y":	15,
+									"Z":	15
+								},
+								"Positions":	{
+									"$NodeId":	"Jitter3d.Positions-648d4537-e8c8-4e6b-ba1c-21f6e472feac",
+									"Type":	"Jitter3d",
+									"Skip":	false,
+									"Magnitude":	0.4,
+									"Seed":	"eaea",
+									"Positions":	{
+										"$NodeId":	"SquareGrid3d.Positions-ee4b28e9-4d6b-4b39-a6ef-91dbdce9e88e",
+										"Type":	"SquareGrid3d",
+										"Skip":	false
+									}
+								}
+							}
+						},
+						"Assignments":	{
+							"$NodeId":	"Weighted.Assignments-b39ccf28-5b1d-423a-b42b-6d8236d5feff",
+							"Type":	"Weighted",
+							"SkipChance":	0.1,
+							"Seed":	"A",
+							"WeightedAssignments":	[{
+									"$NodeId":	"Weight.Weighted.Assignments-1287337d-28bb-4f74-85b3-194fb18cd6cf",
+									"Weight":	1,
+									"Assignments":	{
+										"$NodeId":	"Constant.Assignments-5904a925-b6cb-492b-941b-6b49be5a968b",
+										"Type":	"Constant",
+										"Prop":	{
+											"$NodeId":	"RandomRotator.Prop-05a14071-3882-4fdc-a1a4-ec5268f11e09",
+											"Type":	"RandomRotator",
+											"Skip":	false,
+											"HorizontalRotations":	true,
+											"Prop":	{
+												"$NodeId":	"Locator.Prop-6609d149-7123-45bb-bb44-2cc9fc76a043",
+												"Type":	"Locator",
+												"Skip":	false,
+												"PlacementCap":	1,
+												"Prop":	{
+													"$NodeId":	"DensitySelector.Prop-1cf49af1-c458-4ef7-a8c2-cbeae14b376c",
+													"Type":	"DensitySelector",
+													"Skip":	false,
+													"Delimiters":	[{
+															"$NodeId":	"Delimiter.DensitySelector.Prop-ad08d675-aa90-4d34-bfd3-75fe4941c26f",
+															"Prop":	{
+																"$NodeId":	"Prefab.Prop-c6f4a9d3-2361-44d0-b5b7-687aaae72440",
+																"Type":	"Prefab",
+																"Skip":	false,
+																"WeightedPrefabPaths":	[{
+																		"$NodeId":	"WeightedPath.Prefab.Prop-4c2b1beb-5ff9-4996-957b-bf3e6b5c04a7",
+																		"Path":	"Plants/Coral/Bracket",
+																		"Weight":	1
+																	}],
+																"LegacyPath":	false,
+																"LoadEntities":	true,
+																"MoldingDirection":	"NONE",
+																"MoldingChildren":	false
+															},
+															"Range":	{
+																"$NodeId":	"Decimal.Range-dca05384-ed42-4528-9de1-d73fa20f8eba",
+																"MinInclusive":	0,
+																"MaxExclusive":	1
+															}
+														}],
+													"Density":	{
+														"$NodeId":	"ImportedDensityNode-eb0226e6-05cd-4543-ba39-ad7d91a4f1e9",
+														"Type":	"Imported",
+														"Skip":	false,
+														"Name":	"Lowlands_Shore_Coral_Density"
+													}
+												},
+												"Pattern":	{
+													"$NodeId":	"Wall.Pattern-0108397b-89d0-4432-b19f-697f2da322f9",
+													"Type":	"Wall",
+													"Skip":	false,
+													"Wall":	{
+														"$NodeId":	"BlockSet.Pattern-f8b3947a-c8be-4ab5-bb5e-a9f387c9a707",
+														"Type":	"BlockSet",
+														"Skip":	false,
+														"BlockSet":	{
+															"$NodeId":	"BlockSet.BlockMask-b609d4d4-4acc-4121-a026-c302c725b8a0",
+															"Inclusive":	true,
+															"Materials":	[{
+																	"$NodeId":	"Material-3bfbd93f-a4c6-43c4-9bcf-ad1bc2d599d8",
+																	"Solid":	"Rock_Aqua_Cobble",
+																	"SolidBottomUp":	false
+																}, {
+																	"$NodeId":	"Material-1761fa68-b00e-4313-8bb8-1ed32378b979",
+																	"Solid":	"Rock_Aqua",
+																	"SolidBottomUp":	false
+																}, {
+																	"$NodeId":	"Material-54929431-24bf-4b70-9205-2f91a6ec28ff",
+																	"Solid":	"Rock_Shale",
+																	"SolidBottomUp":	false
+																}]
+														}
+													},
+													"Origin":	{
+														"$NodeId":	"Imported.Pattern-2b1e8a5e-cd8c-4a78-81e2-bfe4dbb81345",
+														"Type":	"Imported",
+														"Skip":	false,
+														"Name":	"Lowlands_Shore_Floor"
+													},
+													"Directions":	["N", "S", "E", "W"],
+													"RequireAllDirections":	false
+												},
+												"Scanner":	{
+													"$NodeId":	"Imported.Scanner-9f132f13-1b15-4389-9e44-9215c9d5561f",
+													"Type":	"Imported",
+													"Skip":	false,
+													"Name":	"Lowlands_Shore_Seaweed_Scanner"
+												}
+											},
+											"Rotations":	[]
+										}
+									}
+								}]
+						}
+					}]
+			}, {
+				"$NodeId":	"Union.PropDistribution-83abde49-ec58-4aa2-bc1d-5e96eaf78cd2",
+				"Type":	"Union",
+				"PropDistributions":	[{
+						"$NodeId":	"Assigned.PropDistribution-3db2ff74-f93b-416d-ac51-4482fa8d4434",
+						"Type":	"Assigned",
+						"PropDistribution":	{
+							"$NodeId":	"Positions.PropDistribution-ef2d31a1-37da-47c9-bca4-11c28e375cf2",
+							"Type":	"Positions",
+							"Positions":	{
+								"$NodeId":	"Scaler.Positions-28f4e1c7-df71-4ad8-9004-6263eeaadebc",
+								"Type":	"Scaler",
+								"ExportAs":	"Lowlands_Coral_City_Center",
+								"Skip":	false,
+								"Scale":	{
+									"$NodeId":	"Point3D-f5f3f29e-e582-4b06-9a6a-1181cb6f6fb4",
+									"X":	650,
+									"Y":	650,
+									"Z":	650
+								},
+								"Positions":	{
+									"$NodeId":	"Jitter2d.Positions-0b21aada-4709-424b-9d96-5fc438d50fd8",
+									"Type":	"Jitter2d",
+									"Skip":	false,
+									"Magnitude":	0.5,
+									"Positions":	{
+										"$NodeId":	"TriangularGrid2d.Positions-590ccf5e-7490-4d6c-a16c-fcf4ffc3b39d",
+										"Type":	"TriangularGrid2d",
+										"Skip":	false
+									}
+								}
+							}
+						},
+						"Assignments":	{
+							"$NodeId":	"Weighted.Assignments-6cb14ebe-dacf-4147-83fa-ce46bb54f34d",
+							"Type":	"Weighted",
+							"SkipChance":	0,
+							"Seed":	"A",
+							"WeightedAssignments":	[{
+									"$NodeId":	"Weight.Weighted.Assignments-9918ba73-e351-4306-8d75-d517d24cae44",
+									"Weight":	1,
+									"Assignments":	{
+										"$NodeId":	"Constant.Assignments-489ebb9c-6b18-4059-826c-81de302413e0",
+										"Type":	"Constant",
+										"Prop":	{
+											"$NodeId":	"RandomRotator.Prop-a1f7c860-c120-4cf4-9941-01d53e7f3014",
+											"Type":	"RandomRotator",
+											"Skip":	false,
+											"HorizontalRotations":	true,
+											"Prop":	{
+												"$NodeId":	"DensitySelector.Prop-d08684cb-13b7-42af-afd1-5d24d08b426c",
+												"Type":	"DensitySelector",
+												"Skip":	false,
+												"Delimiters":	[{
+														"$NodeId":	"Delimiter.DensitySelector.Prop-1f82acfc-ca47-4048-a633-1699bc8e386e",
+														"Prop":	{
+															"$NodeId":	"Locator.Prop-9d81a0df-2c05-4288-8d9d-f3748753996a",
+															"Type":	"Locator",
+															"Skip":	false,
+															"PlacementCap":	1,
+															"Prop":	{
+																"$NodeId":	"RandomRotator.Prop-0fdc8d7a-26cc-4544-b6d9-6df8d37bb96d",
+																"Type":	"RandomRotator",
+																"Skip":	false,
+																"HorizontalRotations":	true,
+																"Prop":	{
+																	"$NodeId":	"Prefab.Prop-e4273fbe-1825-45a6-a412-eef383d2f90d",
+																	"Type":	"Prefab",
+																	"Skip":	false,
+																	"WeightedPrefabPaths":	[{
+																			"$NodeId":	"WeightedPath.Prefab.Prop-1a55ac1d-ddc9-424b-a8b3-c3cc0f13e9c3",
+																			"Path":	"Monuments/Encounter/City_Oceans/Buildings_Capital",
+																			"Weight":	1
+																		}],
+																	"LegacyPath":	false,
+																	"LoadEntities":	true,
+																	"MoldingDirection":	"NONE",
+																	"MoldingChildren":	false
+																},
+																"Rotations":	[]
+															},
+															"Pattern":	{
+																"$NodeId":	"Surface.Pattern-a9f3cade-544c-49e4-99cc-b6fdb7b262bf",
+																"Type":	"Surface",
+																"Skip":	false,
+																"Surface":	{
+																	"$NodeId":	"Imported.Pattern-df001acc-1acf-41cf-9cfa-8c2bfa6c1e7d",
+																	"Type":	"Imported",
+																	"Skip":	false,
+																	"Name":	"Lowlands_Shore_Origin"
+																},
+																"Medium":	{
+																	"$NodeId":	"Imported.Pattern-997f1a01-6352-4a3a-8a68-0b7561fe0e2b",
+																	"Type":	"Imported",
+																	"Skip":	false,
+																	"Name":	"Lowlands_Shore_Floor"
+																},
+																"SurfaceRadius":	1,
+																"MediumRadius":	6,
+																"SurfaceGap":	0,
+																"MediumGap":	3,
+																"Facings":	["D"],
+																"RequireAllFacings":	false
+															},
+															"Scanner":	{
+																"$NodeId":	"Linear.Scanner-38649e66-c7e4-40b8-94c0-a64b14bf84aa",
+																"Type":	"Linear",
+																"ExportAs":	"Lowlands_Shore_City_Scanner",
+																"Skip":	false,
+																"Axis":	"Y",
+																"AscendingOrder":	false,
+																"Range":	{
+																	"$NodeId":	"Integer.Range-bdd57f05-4cc6-42eb-88ed-7e6f908da721",
+																	"MinInclusive":	50,
+																	"MaxExclusive":	71
+																}
+															}
+														},
+														"Range":	{
+															"$NodeId":	"Decimal.Range-161d3fab-2766-4737-b86e-840df733185a",
+															"MinInclusive":	0.5,
+															"MaxExclusive":	2
+														}
+													}],
+												"Density":	{
+													"$NodeId":	"Mix.Density-7912fe0e-79c3-41ff-8b10-f5942c3bf048",
+													"Type":	"Mix",
+													"Skip":	false,
+													"Inputs":	[{
+															"$NodeId":	"ConstantDensityNode-6625ee48-a279-4948-8fe2-282c7f62edc9",
+															"Type":	"Constant",
+															"Skip":	false,
+															"Value":	-1
+														}, {
+															"$NodeId":	"ConstantDensityNode-17275eb2-1330-47a5-b9e8-5c48f56cdf50",
+															"Type":	"Constant",
+															"Skip":	false,
+															"Value":	1
+														}, {
+															"$NodeId":	"NormalizerDensityNode-58891f45-a1b7-4c05-b8ce-c88c7e3d257f",
+															"Type":	"Normalizer",
+															"ExportAs":	"Shore_Terrain1",
+															"Skip":	false,
+															"FromMin":	-0.5,
+															"FromMax":	-0.4,
+															"ToMin":	0,
+															"ToMax":	1,
+															"Inputs":	[{
+																	"$NodeId":	"SimplexNoise2DDensityNode-43525f57-4b2d-4337-a879-1a7535afca31",
+																	"Type":	"SimplexNoise2D",
+																	"Skip":	false,
+																	"Lacunarity":	2,
+																	"Persistence":	0.5,
+																	"Octaves":	1,
+																	"Scale":	100,
+																	"Seed":	"shores"
+																}]
+														}]
+												}
+											},
+											"Rotations":	[]
+										}
+									}
+								}]
+						}
+					}, {
+						"$NodeId":	"Assigned.PropDistribution-f762435d-d44c-466d-bec9-d1bf873ba249",
+						"Type":	"Assigned",
+						"PropDistribution":	{
+							"$NodeId":	"Positions.PropDistribution-825516ff-0f60-442b-8bf4-ceceb67628d8",
+							"Type":	"Positions",
+							"Positions":	{
+								"$NodeId":	"UnionPositions-30d13f55-cbb1-4c3f-a0d9-ae4d8d475042",
+								"Type":	"Union",
+								"Skip":	false,
+								"OffsetX":	"OffsetX",
+								"OffsetY":	"OffsetY",
+								"OffsetZ":	"OffsetZ",
+								"Positions":	[{
+										"$NodeId":	"OffsetPositions-61912814-27c8-41b5-8394-7ad11bfcd0ba",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-54975622-29a6-44d7-a190-16b7e1022d7b",
+											"X":	40,
+											"Y":	0,
+											"Z":	40
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-5de861f6-b3e2-4f08-a12c-cad42a777aac",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-850df21d-1590-4af0-8b0b-21250f9f6eb2",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-40ac3ed7-ac12-4d87-b835-88f7d9e90e7b",
+											"X":	30,
+											"Y":	0,
+											"Z":	30
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-316ea248-ab29-4415-a2ce-b89054d156bd",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-aef2a017-c260-4675-a540-a3d90ff6c31c",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-55332479-fc91-4de7-b542-2412f0f9f4fb",
+											"X":	-40,
+											"Y":	0,
+											"Z":	40
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-72b253f8-876f-4e28-a14c-502767e41fcd",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-83ebf8d2-2d44-4f72-9b01-b0b420e5d695",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-f0b55414-9bc1-4e45-9783-97868f2b976b",
+											"X":	-30,
+											"Y":	0,
+											"Z":	30
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-7ba79617-76bd-48bf-b669-8e9be7a5d08a",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-a3cfced2-10bf-4d3e-8e93-f345067b965d",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-3f3e8050-6253-45e9-93c8-94444e9a052d",
+											"X":	40,
+											"Y":	0,
+											"Z":	-40
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-9104fb78-03d9-43ce-82ac-a7434c40a77e",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-e1dd5a28-fca2-4198-8b4d-ea3bc31aa461",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-c923a7e0-ad31-48c9-85df-3a70aec492fc",
+											"X":	30,
+											"Y":	0,
+											"Z":	-30
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-1e9a559b-d2dd-47b5-a961-88936229a0c1",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-d98d6866-2f43-4c77-9a64-f82f5d7eb1f7",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-11692e52-8e44-4758-a321-97c15eb61a96",
+											"X":	-30,
+											"Y":	0,
+											"Z":	-30
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-a102c2a6-c139-4187-9332-9a982efd06e3",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-92288cf6-7629-4642-9a20-85deb02b7002",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-1384473b-185e-48ea-b06f-05b963ea9c9f",
+											"X":	-40,
+											"Y":	0,
+											"Z":	-40
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-bca88b02-1d4a-40ea-b4f6-2cab7db4c31a",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}]
+							}
+						},
+						"Assignments":	{
+							"$NodeId":	"Weighted.Assignments-3213e107-c5c5-4694-b35a-6aa15890a0bb",
+							"Type":	"Weighted",
+							"SkipChance":	0,
+							"Seed":	"A",
+							"WeightedAssignments":	[{
+									"$NodeId":	"Weight.Weighted.Assignments-86173dcf-47eb-422b-9210-60d1863fbe31",
+									"Weight":	1,
+									"Assignments":	{
+										"$NodeId":	"Constant.Assignments-764f7062-dc57-4d5f-b34e-3a6051ab6128",
+										"Type":	"Constant",
+										"Prop":	{
+											"$NodeId":	"RandomRotator.Prop-7baf283e-c855-48c9-bc80-682ffa0505aa",
+											"Type":	"RandomRotator",
+											"Skip":	false,
+											"HorizontalRotations":	true,
+											"Prop":	{
+												"$NodeId":	"DensitySelector.Prop-71b227ae-bc1a-423f-8c15-9b6c2a1d7d13",
+												"Type":	"DensitySelector",
+												"Skip":	false,
+												"Delimiters":	[{
+														"$NodeId":	"Delimiter.DensitySelector.Prop-a4266208-8a0d-4f90-aa0c-e37556b4884d",
+														"Prop":	{
+															"$NodeId":	"Locator.Prop-1954e639-ecef-4183-86d9-138e5b3536c7",
+															"Type":	"Locator",
+															"Skip":	false,
+															"PlacementCap":	1,
+															"Prop":	{
+																"$NodeId":	"RandomRotator.Prop-6aac2bae-70dc-45cd-bdaf-7b8a30641f0c",
+																"Type":	"RandomRotator",
+																"Skip":	false,
+																"HorizontalRotations":	true,
+																"Prop":	{
+																	"$NodeId":	"Prefab.Prop-193ff988-7d0a-4445-a9e8-6c1536cf5037",
+																	"Type":	"Prefab",
+																	"Skip":	false,
+																	"WeightedPrefabPaths":	[{
+																			"$NodeId":	"WeightedPath.Prefab.Prop-85dcf55c-f1dd-4ea0-b3f6-e9ede2d7f3f4",
+																			"Path":	"Monuments/Encounter/City_Oceans/Buildings_Medium/Coral",
+																			"Weight":	1
+																		}, {
+																			"$NodeId":	"WeightedPath.Prefab.Prop-d4cddb8d-fc2b-40a0-8301-4efa69a8ab3c",
+																			"Path":	"Monuments/Encounter/City_Oceans/Buildings_Small/Coral",
+																			"Weight":	1
+																		}],
+																	"LegacyPath":	false,
+																	"LoadEntities":	true,
+																	"MoldingDirection":	"NONE",
+																	"MoldingChildren":	false
+																},
+																"Rotations":	[]
+															},
+															"Pattern":	{
+																"$NodeId":	"Surface.Pattern-9b9710f1-d9fb-4023-b947-a96dd89c1907",
+																"Type":	"Surface",
+																"Skip":	false,
+																"Surface":	{
+																	"$NodeId":	"Imported.Pattern-91eaae77-ed89-4fab-98ce-cb2097168927",
+																	"Type":	"Imported",
+																	"Skip":	false,
+																	"Name":	"Lowlands_Shore_Origin"
+																},
+																"Medium":	{
+																	"$NodeId":	"Imported.Pattern-290bcdf6-977e-47a7-8d76-e33175d0d7d6",
+																	"Type":	"Imported",
+																	"Skip":	false,
+																	"Name":	"Lowlands_Shore_Floor"
+																},
+																"SurfaceRadius":	1,
+																"MediumRadius":	3,
+																"SurfaceGap":	0,
+																"MediumGap":	2,
+																"Facings":	["D"],
+																"RequireAllFacings":	false
+															},
+															"Scanner":	{
+																"$NodeId":	"Imported.Scanner-f4a06ddd-1332-4022-8975-4d54a1f5f938",
+																"Type":	"Imported",
+																"Skip":	false,
+																"Name":	"Lowlands_Shore_City_Scanner"
+															}
+														},
+														"Range":	{
+															"$NodeId":	"Decimal.Range-2e81cedf-e5ae-45c9-8b31-e4ad70220180",
+															"MinInclusive":	0.5,
+															"MaxExclusive":	2
+														}
+													}],
+												"Density":	{
+													"$NodeId":	"Mix.Density-97d428f7-9c73-4d7b-9d32-ea1d3b9f4734",
+													"Type":	"Mix",
+													"Skip":	false,
+													"Inputs":	[{
+															"$NodeId":	"ConstantDensityNode-2bac363d-f9e3-4262-8bc5-32085b98412e",
+															"Type":	"Constant",
+															"Skip":	false,
+															"Value":	-1
+														}, {
+															"$NodeId":	"ConstantDensityNode-8770b8dd-9b73-4e2d-af2c-7c7bd3899f70",
+															"Type":	"Constant",
+															"Skip":	false,
+															"Value":	1
+														}, {
+															"$NodeId":	"ImportedDensityNode-cc491d2b-d6d5-457d-9b5b-29be56920d23",
+															"Type":	"Imported",
+															"Skip":	false,
+															"Name":	"Shore_Terrain1"
+														}]
+												}
+											},
+											"Rotations":	[]
+										}
+									}
+								}]
+						}
+					}, {
+						"$NodeId":	"Assigned.PropDistribution-dd60b282-aeb1-4d82-9f03-e6f2b61a30d3",
+						"Type":	"Assigned",
+						"PropDistribution":	{
+							"$NodeId":	"Positions.PropDistribution-fbe9cf93-b825-45b8-875c-247d4c9c60e7",
+							"Type":	"Positions",
+							"Positions":	{
+								"$NodeId":	"UnionPositions-094ab0c5-ef0a-4dea-82f2-6c6defb7bda1",
+								"Type":	"Union",
+								"Skip":	false,
+								"OffsetX":	"OffsetX",
+								"OffsetY":	"OffsetY",
+								"OffsetZ":	"OffsetZ",
+								"Positions":	[{
+										"$NodeId":	"OffsetPositions-1bd24eb7-331e-466d-a050-4a4c3f5b1505",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-c9d24a1c-b11f-4a3b-825f-638a116880be",
+											"X":	40,
+											"Y":	0,
+											"Z":	40
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-e6b54951-a9a9-4c3f-8e35-c2ce10f884a0",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-5f238c26-7bc7-44f6-b86e-57d2c1715812",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-fbf9616d-a0d0-4c7b-a63a-7874a107488f",
+											"X":	50,
+											"Y":	0,
+											"Z":	50
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-1525d41d-5e88-4dea-9772-97213a299822",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-30eb114c-3aff-4a68-a24d-10701e96dc4b",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-db5ce0b4-a5c3-4d21-8cef-7752d18b38da",
+											"X":	-40,
+											"Y":	0,
+											"Z":	40
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-e9d7e878-e93b-467b-8a3a-dccc72befe54",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-5ce3d9c7-4d01-46dc-9b52-f8621daf8bed",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-65e52292-8cae-466f-8092-45be50d2e4ea",
+											"X":	-50,
+											"Y":	0,
+											"Z":	50
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-beb2a312-c6cb-4912-b307-75f7a79d8535",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-31f3ffc1-fa42-43cc-b4a2-8c57bdbd5450",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-812817e4-dbcb-44d2-89e6-4d3c054e19e1",
+											"X":	40,
+											"Y":	0,
+											"Z":	-40
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-8b50d65b-7b1b-4337-bf56-22e86f4e1362",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-0084d643-d990-42fe-8226-34b8f9822e71",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-ce2629cc-b7cc-445d-a1f7-81e8c8e4c8cd",
+											"X":	50,
+											"Y":	0,
+											"Z":	-50
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-d19ecc6e-daa3-4233-92b6-71e0a88ad9a0",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-7e50d3e1-82d7-4b91-a252-3806c84d32d0",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-4b42e47c-fa62-4ed7-8c06-7bf0ae245355",
+											"X":	-50,
+											"Y":	0,
+											"Z":	-50
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-45388c0e-59eb-4e3e-aa59-284ae132ed02",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}, {
+										"$NodeId":	"OffsetPositions-8aa15f9b-91f5-4250-9bc2-ef9f0858062c",
+										"Type":	"Offset",
+										"Skip":	false,
+										"OffsetX":	0,
+										"OffsetY":	0,
+										"OffsetZ":	0,
+										"Offset":	{
+											"$NodeId":	"Point3D-50f1b3dc-0613-4ec2-82f0-2c1968cd7275",
+											"X":	-35,
+											"Y":	0,
+											"Z":	-35
+										},
+										"Positions":	{
+											"$NodeId":	"ImportedPositions-19c8c40e-ea0d-4a82-a4c3-2546b82f8dd6",
+											"Type":	"Imported",
+											"Name":	"Lowlands_Coral_City_Center",
+											"Skip":	false
+										}
+									}]
+							}
+						},
+						"Assignments":	{
+							"$NodeId":	"Weighted.Assignments-203ec354-5ddd-4b77-b6f1-39190b455895",
+							"Type":	"Weighted",
+							"SkipChance":	0,
+							"Seed":	"A",
+							"WeightedAssignments":	[{
+									"$NodeId":	"Weight.Weighted.Assignments-2fd7c29e-8f5b-49cd-9af2-68db8fb2cdfd",
+									"Weight":	1,
+									"Assignments":	{
+										"$NodeId":	"Constant.Assignments-291f59de-0d35-47ee-b147-c1cdf09a4697",
+										"Type":	"Constant",
+										"Prop":	{
+											"$NodeId":	"RandomRotator.Prop-0ad9d1c7-f25a-4876-9b8d-682dfe8be640",
+											"Type":	"RandomRotator",
+											"Skip":	false,
+											"HorizontalRotations":	true,
+											"Prop":	{
+												"$NodeId":	"DensitySelector.Prop-6ab70f33-2bad-4279-aeb7-d87dfb1b0c86",
+												"Type":	"DensitySelector",
+												"Skip":	false,
+												"Delimiters":	[{
+														"$NodeId":	"Delimiter.DensitySelector.Prop-60140742-b39a-4c28-95be-8dcb29f3fcf4",
+														"Prop":	{
+															"$NodeId":	"Locator.Prop-6aa616b5-b134-4b8c-9cee-b0fad21c7a14",
+															"Type":	"Locator",
+															"Skip":	false,
+															"PlacementCap":	1,
+															"Prop":	{
+																"$NodeId":	"RandomRotator.Prop-571feeda-5068-42e7-97d6-88368a625d83",
+																"Type":	"RandomRotator",
+																"Skip":	false,
+																"HorizontalRotations":	true,
+																"Prop":	{
+																	"$NodeId":	"Prefab.Prop-c1995723-bbe4-4fde-ac60-12e21eecce08",
+																	"Type":	"Prefab",
+																	"Skip":	false,
+																	"WeightedPrefabPaths":	[{
+																			"$NodeId":	"WeightedPath.Prefab.Prop-1e2ee92d-cf38-49a3-b672-fe84b391ee1b",
+																			"Path":	"Monuments/Encounter/City_Oceans/Buildings_Medium/Coral",
+																			"Weight":	1
+																		}, {
+																			"$NodeId":	"WeightedPath.Prefab.Prop-40593816-0c61-4bdc-8975-38c31a658afd",
+																			"Path":	"Monuments/Encounter/City_Oceans/Buildings_Small/Coral",
+																			"Weight":	1
+																		}],
+																	"LegacyPath":	false,
+																	"LoadEntities":	true,
+																	"MoldingDirection":	"NONE",
+																	"MoldingChildren":	false
+																},
+																"Rotations":	[]
+															},
+															"Pattern":	{
+																"$NodeId":	"Surface.Pattern-d343c603-cf6a-4b96-9497-3897b6c1ff54",
+																"Type":	"Surface",
+																"Skip":	false,
+																"Surface":	{
+																	"$NodeId":	"Imported.Pattern-4982ac48-6fb5-4a65-9282-af2124404186",
+																	"Type":	"Imported",
+																	"Skip":	false,
+																	"Name":	"Lowlands_Shore_Origin"
+																},
+																"Medium":	{
+																	"$NodeId":	"Imported.Pattern-337f95a7-6b6e-4cd4-a853-08b50c375c44",
+																	"Type":	"Imported",
+																	"Skip":	false,
+																	"Name":	"Lowlands_Shore_Floor"
+																},
+																"SurfaceRadius":	1,
+																"MediumRadius":	6,
+																"SurfaceGap":	0,
+																"MediumGap":	3,
+																"Facings":	["D"],
+																"RequireAllFacings":	false
+															},
+															"Scanner":	{
+																"$NodeId":	"Imported.Scanner-3cc88d3e-3863-44ad-8aa6-2f0f651ceb35",
+																"Type":	"Imported",
+																"Skip":	false,
+																"Name":	"Lowlands_Shore_City_Scanner"
+															}
+														},
+														"Range":	{
+															"$NodeId":	"Decimal.Range-29f993ed-d58e-4050-a243-8ffa756bcca2",
+															"MinInclusive":	0.5,
+															"MaxExclusive":	2
+														}
+													}],
+												"Density":	{
+													"$NodeId":	"Mix.Density-3238b6e1-2a5e-4288-9b15-ebbb9d4c6317",
+													"Type":	"Mix",
+													"Skip":	false,
+													"Inputs":	[{
+															"$NodeId":	"ConstantDensityNode-0bceed1d-bab2-4efe-952f-fdb1c564f63f",
+															"Type":	"Constant",
+															"Skip":	false,
+															"Value":	-1
+														}, {
+															"$NodeId":	"ConstantDensityNode-002b939a-9da4-42c4-8079-b64f9875d228",
+															"Type":	"Constant",
+															"Skip":	false,
+															"Value":	1
+														}, {
+															"$NodeId":	"ImportedDensityNode-8e61803e-8bbf-4057-817d-770eee0b0926",
+															"Type":	"Imported",
+															"Skip":	false,
+															"Name":	"Shore_Terrain1"
+														}]
+												}
+											},
+											"Rotations":	[]
+										}
+									}
+								}]
+						}
+					}]
+			}],
 		"$Links":	{
 		},
 		"$Groups":	[{
