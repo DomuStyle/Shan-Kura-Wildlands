@@ -1,6 +1,6 @@
 {
-  "Model": "NPC/Wildlife/Tetrabird/Models/Model.blockymodel",
-  "Texture": "NPC/Wildlife/Tetrabird/Models/Texture.png",
+  "Model": "NPC/Wildlife/Kurachobo/Kurachobo_V1.blockymodel",
+  "Texture": "NPC/Wildlife/Kurachobo/Kurachobo_Texture_V1.png",
   "EyeHeight": 1.8,
   "CrouchOffset": -0.5,
   "HitBox": {
@@ -405,5 +405,19 @@
       ]
     }
   },
-  "Icon": "Icons/ModelsGenerated/Tetrabird.png"
+  "Icon": "Icons/ModelsGenerated/Kurachobo.png",
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      19,
+      326,
+      349
+    ],
+    "Translation": [
+      -9,
+      -58
+    ]
+  },
+  "MinScale": 1.3,
+  "MaxScale": 1.15
 }

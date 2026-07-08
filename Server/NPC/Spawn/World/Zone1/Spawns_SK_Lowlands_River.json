@@ -36,6 +36,12 @@
       "SpawnBlockSet": "Soil",
       "Flock": "One_Or_Two",
       "SpawnFluidTag": "Water"
+    },
+    {
+      "Id": "Kurachobo",
+      "Weight": 6,
+      "SpawnBlockSet": "Soil",
+      "Flock": "One_Or_Two"
     }
   ]
 }
