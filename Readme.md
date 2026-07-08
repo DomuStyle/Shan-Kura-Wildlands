@@ -63,7 +63,10 @@ Features:
 
 -Custom Assets
 
- NPC's (Capybara tameable & rideable)
+ NPC's:
+ Capybara (tameable & rideable)
+ Kurachbo
+
  Plants
  Blocks
 
