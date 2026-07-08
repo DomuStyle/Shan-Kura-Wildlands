@@ -11,7 +11,7 @@
     }
   ],
   "Website": "www.dominik-marnet.de",
-  "ServerVersion": "2026.03.26-89796e57b",
+  "ServerVersion": ">=0.5.6 <0.6.0",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},
