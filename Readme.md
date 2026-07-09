@@ -25,6 +25,7 @@ https://support.curseforge.com/support/solutions/articles/9000273615-install-hyt
 
 To be able to tame Animals use change gamemode to Adventure by using the command /gamemode adventure
 
+This Mod is compatible with Hytale Patch 5
 
 
 About Shan'Kura Wildlands:
@@ -59,13 +60,13 @@ Features:
 
 -Custom Prefabs
 
- around 50 custom Prefabs, trees, treehouses, rock_formations and ancient structures
+ around 50 custom Prefabs, Dungeons, trees, treehouses, rock_formations and ancient structures
 
 -Custom Assets
 
  NPC's:
  Capybara (tameable & rideable)
- Kurachbo
+ Kurachobo (tameable & rideable)
 
  Plants
  Blocks
