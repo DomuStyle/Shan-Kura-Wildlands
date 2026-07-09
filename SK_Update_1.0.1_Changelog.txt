@@ -17,5 +17,7 @@ Ver. 1.0.1 (02.05.2026)
 Ver. 1.0.2 (?02.05.2026?)
 
 - added Mod's Icon to show up in Mod browser
-- Kurachobo (tamable and rideable)
+- Kurachobo (tamable and rideable npc)
 - added Underwater Flora and Fauna via PropDistribution
+- added Dungeon with 3 Stages to Floating Plains Biome
+- added Drowned Dungeon in Shore Biome
