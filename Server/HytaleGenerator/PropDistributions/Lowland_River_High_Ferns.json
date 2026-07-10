@@ -1,0 +1,271 @@
+{
+	"$NodeId":	"Union.PropDistribution-daea0445-af39-40c5-ac61-961c0eab5025",
+	"Type":	"Union",
+	"ExportAs":	"Lowland_River_High_Ferns",
+	"Skip":	false,
+	"PropDistributions":	[{
+			"$NodeId":	"Assigned.PropDistribution-9b7b1af3-0c01-4eea-ab71-2615e2e99129",
+			"Type":	"Assigned",
+			"Skip":	false,
+			"OverrideAllProps":	false,
+			"PropDistribution":	{
+				"$NodeId":	"Positions.PropDistribution-2d7b1f2f-bb5a-4a6e-8b25-7eb5ca5fdfb3",
+				"Type":	"Positions",
+				"Skip":	false,
+				"Positions":	{
+					"$NodeId":	"Scaler.Positions-9548c2f7-d93a-4241-bf5c-52d4f2a4e494",
+					"Type":	"Scaler",
+					"Skip":	false,
+					"Scale":	{
+						"$NodeId":	"Point3D-8770b12d-fbea-4fb5-b703-53a897b4352b",
+						"X":	6,
+						"Y":	6,
+						"Z":	6
+					},
+					"Positions":	{
+						"$NodeId":	"Jitter2d.Positions-153a81e4-10d7-4b0b-9c2b-faf01bf5cdb9",
+						"Type":	"Jitter2d",
+						"Skip":	false,
+						"Magnitude":	0.5,
+						"Positions":	{
+							"$NodeId":	"TriangularGrid2d.Positions-22744743-859b-4a6c-acd1-06d7552b1a9f",
+							"Type":	"TriangularGrid2d",
+							"Skip":	false
+						}
+					}
+				}
+			},
+			"Assignments":	{
+				"$NodeId":	"Weighted.Assignments-7632a9ca-c8f9-40b6-8298-30274b5b3b33",
+				"Type":	"Weighted",
+				"Skip":	false,
+				"SkipChance":	0.65,
+				"Seed":	"A",
+				"WeightedAssignments":	[{
+						"$NodeId":	"Weight.Weighted.Assignments-423d3c00-7508-4bfd-bd64-308607da19f4",
+						"Weight":	1,
+						"Assignments":	{
+							"$NodeId":	"Constant.Assignments-5f36798b-364e-491f-a748-735a078b1488",
+							"Type":	"Constant",
+							"Skip":	false,
+							"Prop":	{
+								"$NodeId":	"RandomRotator.Prop-e8f93fd1-dda5-4a41-b44f-f55233a08c60",
+								"Type":	"RandomRotator",
+								"Skip":	false,
+								"HorizontalRotations":	true,
+								"Prop":	{
+									"$NodeId":	"Locator.Prop-9a46c8a8-0d2f-4390-b6ca-46c57d6cf0b9",
+									"Type":	"Locator",
+									"Skip":	false,
+									"PlacementCap":	1,
+									"Prop":	{
+										"$NodeId":	"DensitySelector.Prop-12954017-62e8-42d0-a9b5-aaffcacd6d34",
+										"Type":	"DensitySelector",
+										"Skip":	false,
+										"Delimiters":	[{
+												"$NodeId":	"Delimiter.DensitySelector.Prop-fe5453fb-57dc-4480-bd34-6f05beb41961",
+												"Prop":	{
+													"$NodeId":	"Prefab.Prop-3aa76b43-048c-4c2e-83b4-abd496e3902d",
+													"Type":	"Prefab",
+													"Skip":	false,
+													"WeightedPrefabPaths":	[{
+															"$NodeId":	"WeightedPath.Prefab.Prop-6c74b5ad-2f6f-4130-9668-a62e5ab6bf8a",
+															"Path":	"Plants/Jungle/Ferns/Small",
+															"Weight":	1
+														}],
+													"LegacyPath":	false,
+													"LoadEntities":	true,
+													"MoldingDirection":	"NONE",
+													"MoldingChildren":	false
+												},
+												"Range":	{
+													"$NodeId":	"Decimal.Range-388f9b60-d47e-4d66-903a-97cf01362db5",
+													"MinInclusive":	-1,
+													"MaxExclusive":	0
+												}
+											}],
+										"Density":	{
+											"$NodeId":	"SimplexNoise2DDensityNode-0322772b-d8bf-4250-9ea8-dd0dd7d00dce",
+											"Type":	"SimplexNoise2D",
+											"Skip":	false,
+											"Lacunarity":	2,
+											"Persistence":	0.5,
+											"Octaves":	1,
+											"Scale":	25,
+											"Seed":	"HighFerns"
+										}
+									},
+									"Pattern":	{
+										"$NodeId":	"Floor.Pattern-b79bdbcc-fa5c-420e-854d-8f24e31d9431",
+										"Type":	"Floor",
+										"Skip":	false,
+										"Origin":	{
+											"$NodeId":	"Imported.Pattern-26a74a8c-b3b3-4c83-8b36-1ff16ded37c7",
+											"Type":	"Imported",
+											"Skip":	false,
+											"Name":	"Lowland_River_Origin1"
+										},
+										"Floor":	{
+											"$NodeId":	"Imported.Pattern-b74403b6-2ea1-40b9-841b-5cfd27d3300d",
+											"Type":	"Imported",
+											"Skip":	false,
+											"Name":	"Lowland_River_Floor3"
+										}
+									},
+									"Scanner":	{
+										"$NodeId":	"Imported.Scanner-c0ce5fe1-0734-4919-afbb-5abd32f7c82b",
+										"Type":	"Imported",
+										"Skip":	false,
+										"Name":	"Lowland_River_Scanner3"
+									}
+								},
+								"Rotations":	[]
+							}
+						}
+					}]
+			}
+		}],
+	"$NodeEditorMetadata":	{
+		"$Nodes":	{
+			"Union.PropDistribution-daea0445-af39-40c5-ac61-961c0eab5025":	{
+				"$Position":	{
+					"$x":	461,
+					"$y":	560
+				},
+				"$Title":	"[ROOT] Union PropDistribution"
+			},
+			"Assigned.PropDistribution-9b7b1af3-0c01-4eea-ab71-2615e2e99129":	{
+				"$Position":	{
+					"$x":	1176,
+					"$y":	563
+				}
+			},
+			"Positions.PropDistribution-2d7b1f2f-bb5a-4a6e-8b25-7eb5ca5fdfb3":	{
+				"$Position":	{
+					"$x":	1978,
+					"$y":	483
+				}
+			},
+			"Scaler.Positions-9548c2f7-d93a-4241-bf5c-52d4f2a4e494":	{
+				"$Position":	{
+					"$x":	2612,
+					"$y":	485
+				}
+			},
+			"Point3D-8770b12d-fbea-4fb5-b703-53a897b4352b":	{
+				"$Position":	{
+					"$x":	3250,
+					"$y":	719
+				}
+			},
+			"Jitter2d.Positions-153a81e4-10d7-4b0b-9c2b-faf01bf5cdb9":	{
+				"$Position":	{
+					"$x":	3247,
+					"$y":	484
+				}
+			},
+			"TriangularGrid2d.Positions-22744743-859b-4a6c-acd1-06d7552b1a9f":	{
+				"$Position":	{
+					"$x":	3875,
+					"$y":	488
+				}
+			},
+			"Weighted.Assignments-7632a9ca-c8f9-40b6-8298-30274b5b3b33":	{
+				"$Position":	{
+					"$x":	1983,
+					"$y":	945
+				}
+			},
+			"Weight.Weighted.Assignments-423d3c00-7508-4bfd-bd64-308607da19f4":	{
+				"$Position":	{
+					"$x":	2718,
+					"$y":	946
+				}
+			},
+			"Constant.Assignments-5f36798b-364e-491f-a748-735a078b1488":	{
+				"$Position":	{
+					"$x":	3195,
+					"$y":	948
+				}
+			},
+			"RandomRotator.Prop-e8f93fd1-dda5-4a41-b44f-f55233a08c60":	{
+				"$Position":	{
+					"$x":	3799,
+					"$y":	947
+				}
+			},
+			"Locator.Prop-9a46c8a8-0d2f-4390-b6ca-46c57d6cf0b9":	{
+				"$Position":	{
+					"$x":	4437,
+					"$y":	947
+				}
+			},
+			"DensitySelector.Prop-12954017-62e8-42d0-a9b5-aaffcacd6d34":	{
+				"$Position":	{
+					"$x":	5076,
+					"$y":	948
+				}
+			},
+			"Delimiter.DensitySelector.Prop-fe5453fb-57dc-4480-bd34-6f05beb41961":	{
+				"$Position":	{
+					"$x":	5744,
+					"$y":	952
+				}
+			},
+			"Prefab.Prop-3aa76b43-048c-4c2e-83b4-abd496e3902d":	{
+				"$Position":	{
+					"$x":	6155,
+					"$y":	826
+				}
+			},
+			"Decimal.Range-388f9b60-d47e-4d66-903a-97cf01362db5":	{
+				"$Position":	{
+					"$x":	6156,
+					"$y":	1153
+				}
+			},
+			"Floor.Pattern-b79bdbcc-fa5c-420e-854d-8f24e31d9431":	{
+				"$Position":	{
+					"$x":	5108,
+					"$y":	1755
+				}
+			},
+			"Imported.Pattern-26a74a8c-b3b3-4c83-8b36-1ff16ded37c7":	{
+				"$Position":	{
+					"$x":	5755,
+					"$y":	1693
+				}
+			},
+			"Imported.Pattern-b74403b6-2ea1-40b9-841b-5cfd27d3300d":	{
+				"$Position":	{
+					"$x":	5753,
+					"$y":	1851
+				}
+			},
+			"Imported.Scanner-c0ce5fe1-0734-4919-afbb-5abd32f7c82b":	{
+				"$Position":	{
+					"$x":	5115,
+					"$y":	1997
+				}
+			},
+			"SimplexNoise2DDensityNode-0322772b-d8bf-4250-9ea8-dd0dd7d00dce":	{
+				"$Position":	{
+					"$x":	5764,
+					"$y":	1347
+				}
+			},
+			"WeightedPath.Prefab.Prop-6c74b5ad-2f6f-4130-9668-a62e5ab6bf8a":	{
+				"$Position":	{
+					"$x":	6956,
+					"$y":	828
+				}
+			}
+		},
+		"$FloatingNodes":	[],
+		"$Links":	{
+		},
+		"$Groups":	[],
+		"$Comments":	[],
+		"$WorkspaceID":	"HytaleGenerator - PropDistribution"
+	}
+}

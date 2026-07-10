@@ -1260,34 +1260,8 @@
 			"$NodeId":	"Runtime-650af849-1a14-423e-8dde-f29752ac2b3d",
 			"Skip":	false,
 			"Runtime":	0,
-			"Positions":	{
-				"$NodeId":	"FieldFunctionPositions-afb604a3-af2a-49f2-87eb-f885ade6566f",
-				"Type":	"FieldFunction",
-				"Skip":	false,
-				"Delimiters":	[{
-						"$NodeId":	"Delimiter-6a181864-ff46-4f34-a3f8-fbe878cd4307",
-						"Min":	-1,
-						"Max":	1
-					}],
-				"Positions":	{
-					"$NodeId":	"Mesh2DPositions-7a2e742c-afa6-43f9-86e2-93e275130dd0",
-					"Type":	"Mesh2D",
-					"Skip":	false,
-					"PointsY":	0,
-					"PointGenerator":	{
-						"$NodeId":	"MeshPointGenerator-0ce3f3a6-54a6-49ed-809d-d4370d0e4688",
-						"Type":	"Mesh",
-						"Skip":	false,
-						"Jitter":	0.4,
-						"ScaleX":	4,
-						"ScaleY":	4,
-						"ScaleZ":	4,
-						"Seed":	"S"
-					}
-				}
-			},
-			"Assignments":	{
-				"$NodeId":	"Imported.Assignments-e8a48a93-a93f-4c77-8c45-7f1b798dc2cc",
+			"PropDistribution":	{
+				"$NodeId":	"Imported.PropDistribution-81451a62-d0fa-49ca-82ed-044d1137955b",
 				"Type":	"Imported",
 				"Skip":	false,
 				"Name":	"Lowland_River_High_Ferns"
@@ -2523,74 +2497,44 @@
 			},
 			"Runtime-7b36bdc0-93e6-466c-bf6b-be483805ed7f":	{
 				"$Position":	{
-					"$x":	-3264,
-					"$y":	15367
+					"$x":	-3212,
+					"$y":	15556
 				}
 			},
 			"FieldFunctionPositions-201f8d71-8638-4c7a-82b6-a7c0f261ad8a":	{
 				"$Position":	{
-					"$x":	-2591,
-					"$y":	15288
+					"$x":	-2539,
+					"$y":	15477
 				}
 			},
 			"Delimiter-01d3cb9f-2b33-418a-86de-14d4d620ab6b":	{
 				"$Position":	{
-					"$x":	-1926,
-					"$y":	15433
+					"$x":	-1874,
+					"$y":	15622
 				}
 			},
 			"Mesh2DPositions-db20427b-28ed-4cc6-abf5-d06fec057e04":	{
 				"$Position":	{
-					"$x":	-1910,
-					"$y":	15204
+					"$x":	-1858,
+					"$y":	15393
 				}
 			},
 			"MeshPointGenerator-742e0cf7-c663-481e-8c7e-53ea6e49e22a":	{
 				"$Position":	{
-					"$x":	-1197,
-					"$y":	15216
+					"$x":	-1145,
+					"$y":	15405
 				}
 			},
 			"Imported.Assignments-18dab0bf-9619-4ac3-92a7-28708312497e":	{
 				"$Position":	{
-					"$x":	-2599,
-					"$y":	15521
+					"$x":	-2547,
+					"$y":	15710
 				}
 			},
 			"Runtime-94273a01-759a-4479-aa26-4c4902f56960":	{
 				"$Position":	{
 					"$x":	-3213,
 					"$y":	16211
-				}
-			},
-			"FieldFunctionPositions-c369dcc9-339a-4dae-964d-9ed977994e10":	{
-				"$Position":	{
-					"$x":	-2557,
-					"$y":	16116
-				}
-			},
-			"Delimiter-b0117e7d-33cb-4e9a-9d0a-90a270751cd2":	{
-				"$Position":	{
-					"$x":	-1880,
-					"$y":	16200
-				}
-			},
-			"Mesh2DPositions-f1375942-bd8f-430c-b9d6-abc65cd40e4f":	{
-				"$Position":	{
-					"$x":	-1867,
-					"$y":	15979
-				}
-			},
-			"MeshPointGenerator-dbfa2a8b-ec94-46a5-96fa-4c97386226dd":	{
-				"$Position":	{
-					"$x":	-1159,
-					"$y":	15980
-				}
-			},
-			"Imported.Assignments-a5b1657f-3c62-4444-967c-5ab14a6d070b":	{
-				"$Position":	{
-					"$x":	-2549,
-					"$y":	16309
 				}
 			},
 			"Runtime-f92d9b99-69e2-4632-ae52-2d2d3b034121":	{
@@ -2655,26 +2599,26 @@
 			},
 			"Runtime-cac83679-7266-4995-bd4b-e2451322a32a":	{
 				"$Position":	{
-					"$x":	-3338,
-					"$y":	19087
+					"$x":	-3320,
+					"$y":	18661
 				}
 			},
 			"Imported.PropDistribution-72253163-b9b9-40fb-95c0-239951bfd42f":	{
 				"$Position":	{
-					"$x":	-2712,
-					"$y":	19165
+					"$x":	-2694,
+					"$y":	18739
 				}
 			},
 			"Runtime-2ef8da10-09b1-48f6-b362-bc29d100c73c":	{
 				"$Position":	{
-					"$x":	-3321,
-					"$y":	19588
+					"$x":	-3303,
+					"$y":	19117
 				}
 			},
 			"Imported.PropDistribution-1392da1c-93f0-4c94-a098-502260738be3":	{
 				"$Position":	{
-					"$x":	-2686,
-					"$y":	19665
+					"$x":	-2668,
+					"$y":	19194
 				}
 			},
 			"Runtime-98581f99-e2b4-4480-82ac-afe737b8b761":	{
@@ -2715,38 +2659,8 @@
 			},
 			"Runtime-650af849-1a14-423e-8dde-f29752ac2b3d":	{
 				"$Position":	{
-					"$x":	-3188,
-					"$y":	21035
-				}
-			},
-			"FieldFunctionPositions-afb604a3-af2a-49f2-87eb-f885ade6566f":	{
-				"$Position":	{
-					"$x":	-2540,
-					"$y":	20922
-				}
-			},
-			"Delimiter-6a181864-ff46-4f34-a3f8-fbe878cd4307":	{
-				"$Position":	{
-					"$x":	-1872,
-					"$y":	21002
-				}
-			},
-			"Mesh2DPositions-7a2e742c-afa6-43f9-86e2-93e275130dd0":	{
-				"$Position":	{
-					"$x":	-1861,
-					"$y":	20781
-				}
-			},
-			"MeshPointGenerator-0ce3f3a6-54a6-49ed-809d-d4370d0e4688":	{
-				"$Position":	{
-					"$x":	-1163,
-					"$y":	20782
-				}
-			},
-			"Imported.Assignments-e8a48a93-a93f-4c77-8c45-7f1b798dc2cc":	{
-				"$Position":	{
-					"$x":	-2538,
-					"$y":	21173
+					"$x":	-3215,
+					"$y":	21032
 				}
 			},
 			"Runtime-3d6396ee-992a-4146-8f4c-f2a3b29e29c4":	{
@@ -2931,42 +2845,18 @@
 			},
 			"Imported.PropDistribution-f9c462d9-6a16-442d-bdf8-196409109397":	{
 				"$Position":	{
-					"$x":	-2550,
-					"$y":	16460
+					"$x":	-2587,
+					"$y":	16290
+				}
+			},
+			"Imported.PropDistribution-81451a62-d0fa-49ca-82ed-044d1137955b":	{
+				"$Position":	{
+					"$x":	-2602,
+					"$y":	21108
 				}
 			}
 		},
 		"$FloatingNodes":	[{
-				"$NodeId":	"FieldFunctionPositions-c369dcc9-339a-4dae-964d-9ed977994e10",
-				"Type":	"FieldFunction",
-				"Skip":	false,
-				"Delimiters":	[{
-						"$NodeId":	"Delimiter-b0117e7d-33cb-4e9a-9d0a-90a270751cd2",
-						"Min":	-1,
-						"Max":	1
-					}],
-				"Positions":	{
-					"$NodeId":	"Mesh2DPositions-f1375942-bd8f-430c-b9d6-abc65cd40e4f",
-					"Type":	"Mesh2D",
-					"Skip":	false,
-					"PointsY":	0,
-					"PointGenerator":	{
-						"$NodeId":	"MeshPointGenerator-dbfa2a8b-ec94-46a5-96fa-4c97386226dd",
-						"Type":	"Mesh",
-						"Skip":	false,
-						"Jitter":	0.4,
-						"ScaleX":	30,
-						"ScaleY":	30,
-						"ScaleZ":	30,
-						"Seed":	"S"
-					}
-				}
-			}, {
-				"$NodeId":	"Imported.Assignments-a5b1657f-3c62-4444-967c-5ab14a6d070b",
-				"Type":	"Imported",
-				"Skip":	false,
-				"Name":	"Lowland_River_Rocks"
-			}, {
 				"$NodeId":	"DensityDelimited.EnvironmentProvider-60ccd1a8-3932-414d-b362-6601fb90b839",
 				"Type":	"DensityDelimited",
 				"Skip":	false,
@@ -3195,8 +3085,8 @@
 				"$name":	"Bedrock"
 			}, {
 				"$Position":	{
-					"$x":	-3382.4375,
-					"$y":	19003.75
+					"$x":	-3364.5625,
+					"$y":	18577.0625
 				},
 				"$width":	1237.8125,
 				"$height":	364.875,
@@ -3211,19 +3101,19 @@
 				"$name":	"Jungle Plants"
 			}, {
 				"$Position":	{
-					"$x":	-3383.6875,
-					"$y":	15837.875
+					"$x":	-3252.0625,
+					"$y":	16122.6875
 				},
-				"$width":	2725.875,
-				"$height":	775.25,
+				"$width":	1239.25,
+				"$height":	360.9375,
 				"$name":	"Rocks"
 			}, {
 				"$Position":	{
-					"$x":	-3325.5625,
-					"$y":	20706.8125
+					"$x":	-3249.4375,
+					"$y":	20967.3125
 				},
-				"$width":	2659.875,
-				"$height":	791.25,
+				"$width":	1216.25,
+				"$height":	326.625,
 				"$name":	"High Ferns"
 			}, {
 				"$Position":	{
@@ -3243,16 +3133,16 @@
 				"$name":	"Tall Trees"
 			}, {
 				"$Position":	{
-					"$x":	-3364.8125,
-					"$y":	19510.375
+					"$x":	-3347.0625,
+					"$y":	19039.1875
 				},
 				"$width":	1259.875,
 				"$height":	350.875,
 				"$name":	"Small Trees"
 			}, {
 				"$Position":	{
-					"$x":	-3393.5,
-					"$y":	15067.625
+					"$x":	-3341.875,
+					"$y":	15257.125
 				},
 				"$width":	2664.1875,
 				"$height":	652.8125,
