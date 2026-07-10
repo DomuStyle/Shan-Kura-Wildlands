@@ -1254,34 +1254,8 @@
 			"$NodeId":	"Runtime-cac83679-7266-4995-bd4b-e2451322a32a",
 			"Skip":	false,
 			"Runtime":	0,
-			"Positions":	{
-				"$NodeId":	"FieldFunctionPositions-d35fe746-9b51-487a-ba38-4bc20914409a",
-				"Type":	"FieldFunction",
-				"Skip":	false,
-				"Delimiters":	[{
-						"$NodeId":	"Delimiter-36bbf952-8e13-46bb-9c24-b48c5c68241a",
-						"Min":	-1,
-						"Max":	0.7
-					}],
-				"Positions":	{
-					"$NodeId":	"Mesh2DPositions-8e4fc7b2-f0cb-4603-a986-46355caad360",
-					"Type":	"Mesh2D",
-					"Skip":	false,
-					"PointsY":	0,
-					"PointGenerator":	{
-						"$NodeId":	"MeshPointGenerator-8eac38d3-cbb9-41cf-85b9-54671b847d0d",
-						"Type":	"Mesh",
-						"Skip":	false,
-						"Jitter":	0.4,
-						"ScaleX":	20,
-						"ScaleY":	20,
-						"ScaleZ":	20,
-						"Seed":	"P"
-					}
-				}
-			},
-			"Assignments":	{
-				"$NodeId":	"Imported.Assignments-db7542df-f3e5-4a6d-8199-293aace9c912",
+			"PropDistribution":	{
+				"$NodeId":	"Imported.PropDistribution-72253163-b9b9-40fb-95c0-239951bfd42f",
 				"Type":	"Imported",
 				"Skip":	false,
 				"Name":	"Lowland_River_Palm_Trees"
@@ -2739,6 +2713,12 @@
 					"$y":	17373
 				}
 			},
+			"Imported.PropDistribution-4ca95ebf-93c2-4337-af97-cf943481cb42":	{
+				"$Position":	{
+					"$x":	-2678,
+					"$y":	17453
+				}
+			},
 			"Runtime-c14d3ee4-adae-43ad-847e-915bd7f954b0":	{
 				"$Position":	{
 					"$x":	-3313,
@@ -2778,37 +2758,37 @@
 			"Runtime-cac83679-7266-4995-bd4b-e2451322a32a":	{
 				"$Position":	{
 					"$x":	-3248,
-					"$y":	18878
+					"$y":	18862
 				}
 			},
 			"FieldFunctionPositions-d35fe746-9b51-487a-ba38-4bc20914409a":	{
 				"$Position":	{
-					"$x":	-2571,
-					"$y":	18745
+					"$x":	-2563,
+					"$y":	18664
 				}
 			},
 			"Delimiter-36bbf952-8e13-46bb-9c24-b48c5c68241a":	{
 				"$Position":	{
 					"$x":	-1887,
-					"$y":	18824
+					"$y":	18808
 				}
 			},
 			"Mesh2DPositions-8e4fc7b2-f0cb-4603-a986-46355caad360":	{
 				"$Position":	{
 					"$x":	-1879,
-					"$y":	18600
+					"$y":	18584
 				}
 			},
 			"MeshPointGenerator-8eac38d3-cbb9-41cf-85b9-54671b847d0d":	{
 				"$Position":	{
 					"$x":	-1173,
-					"$y":	18601
+					"$y":	18585
 				}
 			},
 			"Imported.Assignments-db7542df-f3e5-4a6d-8199-293aace9c912":	{
 				"$Position":	{
-					"$x":	-2557,
-					"$y":	19004
+					"$x":	-2562,
+					"$y":	18862
 				}
 			},
 			"Runtime-2ef8da10-09b1-48f6-b362-bc29d100c73c":	{
@@ -2925,6 +2905,12 @@
 					"$y":	21704
 				}
 			},
+			"Imported.PropDistribution-59c9fded-d2b2-4b27-b16a-c72e769298cc":	{
+				"$Position":	{
+					"$x":	-2612,
+					"$y":	21782
+				}
+			},
 			"Runtime-017aee1e-6c4e-48b8-abbf-3bfb0eff8adf":	{
 				"$Position":	{
 					"$x":	-3017,
@@ -2947,6 +2933,78 @@
 				"$Position":	{
 					"$x":	-2306,
 					"$y":	22543
+				}
+			},
+			"Constant.EnvironmentProvider-e4b11ea2-dbc9-426c-b29f-c21f4b5fc09e":	{
+				"$Position":	{
+					"$x":	-6527,
+					"$y":	15411
+				}
+			},
+			"DensityDelimited.TintProvider-2729fd3c-42d3-4042-b5ce-29c6db5f8936":	{
+				"$Position":	{
+					"$x":	-6541,
+					"$y":	17643
+				}
+			},
+			"SimplexNoise2DDensityNode-618097a7-be5f-478e-8606-ea331d82159c":	{
+				"$Position":	{
+					"$x":	-5472,
+					"$y":	17321
+				}
+			},
+			"Delimiter.DensityDelimited.TintProvider-59a0261b-4f9b-452e-b665-37d142e01c51":	{
+				"$Position":	{
+					"$x":	-5798,
+					"$y":	17748
+				}
+			},
+			"Constant.TintProvider-7e7f3a9f-5ca8-44ef-93ae-94aec5295586":	{
+				"$Position":	{
+					"$x":	-5459,
+					"$y":	17658
+				}
+			},
+			"Decimal.Range-b199508f-4be2-45bb-acba-42a0157ccce7":	{
+				"$Position":	{
+					"$x":	-5465,
+					"$y":	17816
+				}
+			},
+			"Delimiter.DensityDelimited.TintProvider-5aa67c63-1459-4e15-968f-64006bcb015c":	{
+				"$Position":	{
+					"$x":	-5777,
+					"$y":	18054
+				}
+			},
+			"Constant.TintProvider-af0760ee-d937-41d0-85f2-0cdfa234b05b":	{
+				"$Position":	{
+					"$x":	-5471,
+					"$y":	17991
+				}
+			},
+			"Decimal.Range-bc525321-54e3-465e-babb-385ec3750edb":	{
+				"$Position":	{
+					"$x":	-5484,
+					"$y":	18137
+				}
+			},
+			"Delimiter.DensityDelimited.TintProvider-3680b5b9-5558-4b3c-b117-15db23cc77f5":	{
+				"$Position":	{
+					"$x":	-5741,
+					"$y":	18381
+				}
+			},
+			"Constant.TintProvider-521b314d-88e2-44b0-bb60-3942bd77f28a":	{
+				"$Position":	{
+					"$x":	-5481,
+					"$y":	18308
+				}
+			},
+			"Decimal.Range-bed6d4a7-75d3-441c-a539-aca9e74489c3":	{
+				"$Position":	{
+					"$x":	-5475,
+					"$y":	18453
 				}
 			},
 			"DensityDelimited.EnvironmentProvider-60ccd1a8-3932-414d-b362-6601fb90b839":	{
@@ -3021,92 +3079,44 @@
 					"$y":	16795
 				}
 			},
-			"DensityDelimited.TintProvider-2729fd3c-42d3-4042-b5ce-29c6db5f8936":	{
+			"Imported.PropDistribution-72253163-b9b9-40fb-95c0-239951bfd42f":	{
 				"$Position":	{
-					"$x":	-6541,
-					"$y":	17643
-				}
-			},
-			"SimplexNoise2DDensityNode-618097a7-be5f-478e-8606-ea331d82159c":	{
-				"$Position":	{
-					"$x":	-5472,
-					"$y":	17321
-				}
-			},
-			"Delimiter.DensityDelimited.TintProvider-59a0261b-4f9b-452e-b665-37d142e01c51":	{
-				"$Position":	{
-					"$x":	-5798,
-					"$y":	17748
-				}
-			},
-			"Constant.TintProvider-7e7f3a9f-5ca8-44ef-93ae-94aec5295586":	{
-				"$Position":	{
-					"$x":	-5459,
-					"$y":	17658
-				}
-			},
-			"Decimal.Range-b199508f-4be2-45bb-acba-42a0157ccce7":	{
-				"$Position":	{
-					"$x":	-5465,
-					"$y":	17816
-				}
-			},
-			"Delimiter.DensityDelimited.TintProvider-5aa67c63-1459-4e15-968f-64006bcb015c":	{
-				"$Position":	{
-					"$x":	-5777,
-					"$y":	18054
-				}
-			},
-			"Constant.TintProvider-af0760ee-d937-41d0-85f2-0cdfa234b05b":	{
-				"$Position":	{
-					"$x":	-5471,
-					"$y":	17991
-				}
-			},
-			"Decimal.Range-bc525321-54e3-465e-babb-385ec3750edb":	{
-				"$Position":	{
-					"$x":	-5484,
-					"$y":	18137
-				}
-			},
-			"Delimiter.DensityDelimited.TintProvider-3680b5b9-5558-4b3c-b117-15db23cc77f5":	{
-				"$Position":	{
-					"$x":	-5741,
-					"$y":	18381
-				}
-			},
-			"Constant.TintProvider-521b314d-88e2-44b0-bb60-3942bd77f28a":	{
-				"$Position":	{
-					"$x":	-5481,
-					"$y":	18308
-				}
-			},
-			"Decimal.Range-bed6d4a7-75d3-441c-a539-aca9e74489c3":	{
-				"$Position":	{
-					"$x":	-5475,
-					"$y":	18453
-				}
-			},
-			"Imported.PropDistribution-4ca95ebf-93c2-4337-af97-cf943481cb42":	{
-				"$Position":	{
-					"$x":	-2678,
-					"$y":	17453
-				}
-			},
-			"Imported.PropDistribution-59c9fded-d2b2-4b27-b16a-c72e769298cc":	{
-				"$Position":	{
-					"$x":	-2612,
-					"$y":	21782
-				}
-			},
-			"Constant.EnvironmentProvider-e4b11ea2-dbc9-426c-b29f-c21f4b5fc09e":	{
-				"$Position":	{
-					"$x":	-6527,
-					"$y":	15411
+					"$x":	-2560,
+					"$y":	19023
 				}
 			}
 		},
 		"$FloatingNodes":	[{
+				"$NodeId":	"FieldFunctionPositions-d35fe746-9b51-487a-ba38-4bc20914409a",
+				"Type":	"FieldFunction",
+				"Skip":	false,
+				"Delimiters":	[{
+						"$NodeId":	"Delimiter-36bbf952-8e13-46bb-9c24-b48c5c68241a",
+						"Min":	-1,
+						"Max":	0.7
+					}],
+				"Positions":	{
+					"$NodeId":	"Mesh2DPositions-8e4fc7b2-f0cb-4603-a986-46355caad360",
+					"Type":	"Mesh2D",
+					"Skip":	false,
+					"PointsY":	0,
+					"PointGenerator":	{
+						"$NodeId":	"MeshPointGenerator-8eac38d3-cbb9-41cf-85b9-54671b847d0d",
+						"Type":	"Mesh",
+						"Skip":	false,
+						"Jitter":	0.4,
+						"ScaleX":	20,
+						"ScaleY":	20,
+						"ScaleZ":	20,
+						"Seed":	"P"
+					}
+				}
+			}, {
+				"$NodeId":	"Imported.Assignments-db7542df-f3e5-4a6d-8199-293aace9c912",
+				"Type":	"Imported",
+				"Skip":	false,
+				"Name":	"Lowland_River_Palm_Trees"
+			}, {
 				"$NodeId":	"DensityDelimited.EnvironmentProvider-60ccd1a8-3932-414d-b362-6601fb90b839",
 				"Type":	"DensityDelimited",
 				"Skip":	false,
@@ -3336,10 +3346,10 @@
 			}, {
 				"$Position":	{
 					"$x":	-3389.1875,
-					"$y":	18485.6875
+					"$y":	18470.125
 				},
 				"$width":	2675.625,
-				"$height":	728.375,
+				"$height":	759.625,
 				"$name":	"Palm Trees"
 			}, {
 				"$Position":	{
