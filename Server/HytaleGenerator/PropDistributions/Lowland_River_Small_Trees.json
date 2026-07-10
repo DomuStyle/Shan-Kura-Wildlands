@@ -1,0 +1,292 @@
+{
+	"$NodeId":	"Union.PropDistribution-0758a45e-5981-4041-ade6-ca48b57e4f25",
+	"Type":	"Union",
+	"ExportAs":	"Lowland_River_Small_Trees",
+	"Skip":	false,
+	"PropDistributions":	[{
+			"$NodeId":	"Assigned.PropDistribution-81df6b7b-92c7-49ef-9151-07049006b073",
+			"Type":	"Assigned",
+			"Skip":	false,
+			"OverrideAllProps":	false,
+			"PropDistribution":	{
+				"$NodeId":	"Positions.PropDistribution-eb76d5a4-7176-4bcb-a6ba-8262a6b258ed",
+				"Type":	"Positions",
+				"Skip":	false,
+				"Positions":	{
+					"$NodeId":	"Scaler.Positions-3af9f518-e15b-4d9b-a814-332f5ca8c522",
+					"Type":	"Scaler",
+					"Skip":	false,
+					"Scale":	{
+						"$NodeId":	"Point3D-ae1d9ccd-cc40-405b-a388-d4a77c793ffb",
+						"X":	8,
+						"Y":	8,
+						"Z":	8
+					},
+					"Positions":	{
+						"$NodeId":	"Jitter2d.Positions-aeb35201-90d2-4c23-8b10-a75a0d04a786",
+						"Type":	"Jitter2d",
+						"Skip":	false,
+						"Magnitude":	0.5,
+						"Positions":	{
+							"$NodeId":	"TriangularGrid2d.Positions-ced22148-52dd-43b7-ae56-ab04f4f0d6d2",
+							"Type":	"TriangularGrid2d",
+							"Skip":	false
+						}
+					}
+				}
+			},
+			"Assignments":	{
+				"$NodeId":	"Weighted.Assignments-1cf24c3b-1c2f-4669-8846-448ff841eaca",
+				"Type":	"Weighted",
+				"Skip":	false,
+				"SkipChance":	0.1,
+				"Seed":	"A",
+				"WeightedAssignments":	[{
+						"$NodeId":	"Weight.Weighted.Assignments-adc410f8-5705-4545-9100-9708e82b24ad",
+						"Weight":	1,
+						"Assignments":	{
+							"$NodeId":	"Constant.Assignments-391976ed-d3f5-4831-8e66-22a3a346bced",
+							"Type":	"Constant",
+							"Skip":	false,
+							"Prop":	{
+								"$NodeId":	"RandomRotator.Prop-1e5c7f20-285a-45d0-941b-75dfa8da8804",
+								"Type":	"RandomRotator",
+								"Skip":	false,
+								"HorizontalRotations":	true,
+								"Prop":	{
+									"$NodeId":	"Locator.Prop-d56df53d-6bab-4ff3-83d6-1cd01bf814bc",
+									"Type":	"Locator",
+									"Skip":	false,
+									"PlacementCap":	1,
+									"Prop":	{
+										"$NodeId":	"DensitySelector.Prop-5671dd34-f8de-41a5-ac52-9909b5b9f20c",
+										"Type":	"DensitySelector",
+										"Skip":	false,
+										"Delimiters":	[{
+												"$NodeId":	"Delimiter.DensitySelector.Prop-e426278e-02b7-456a-8fd6-f2a8fd3802e6",
+												"Prop":	{
+													"$NodeId":	"Prefab.Prop-ac44a637-7426-41a5-96c7-49f41f511d83",
+													"Type":	"Prefab",
+													"Skip":	false,
+													"WeightedPrefabPaths":	[{
+															"$NodeId":	"WeightedPath.Prefab.Prop-b6a3b4bc-b5c9-4643-be21-5c139de3af06",
+															"Path":	"Trees/Jungle_Island2/Stage_1",
+															"Weight":	1
+														}, {
+															"$NodeId":	"WeightedPath.Prefab.Prop-bc6c733f-1f87-4962-b5a1-7e66d5af32d5",
+															"Path":	"Trees/Jungle_Island1/Stage_00",
+															"Weight":	1
+														}, {
+															"$NodeId":	"WeightedPath.Prefab.Prop-c546bdb5-e13a-44b5-bcd3-99675a8b8a08",
+															"Path":	"Trees/Jungle_Island1/Stage_1",
+															"Weight":	1
+														}],
+													"LegacyPath":	false,
+													"LoadEntities":	true,
+													"MoldingDirection":	"NONE",
+													"MoldingChildren":	false
+												},
+												"Range":	{
+													"$NodeId":	"Decimal.Range-5df697d9-256b-4e02-8a9a-d156c58fea28",
+													"MinInclusive":	-1,
+													"MaxExclusive":	0.5
+												}
+											}],
+										"Density":	{
+											"$NodeId":	"SimplexNoise2DDensityNode-2148d6e8-b7d7-4cf5-9983-908368a9da2c",
+											"Type":	"SimplexNoise2D",
+											"ExportAs":	"\n\t\"$NodeId\":\t\"Union.PropDistribution\",\n\t\"$Title\":\t\"[ROOT] Union PropDistribution\",\n\t\"$Position\":\t{\n\t\t\"$x\":\t-17911,\n\t\t\"$y\":\t-148\n\t},\n\t\"Type\":\t\"Union\",\n\t\"ExportAs\":\t\"Challenge4_Biome1_Lake_Plants\",\n\t\"Skip\":\tfalse,\n\t\"PropDistributions\":\t[{\n\t\t\t\"$NodeId\":\t\"Assigned.PropDistribution\",\n\t\t\t\"$Position\":\t{\n\t\t\t\t\"$x\":\t-16661,\n\t\t\t\t\"$y\":\t16\n\t\t\t},\n\t\t\t\"Type\":\t\"Assigned\",\n\t\t\t\"Skip\":\tfalse,\n\t\t\t\"OverrideAllProps\":\tfalse,\n\t\t\t\"PropDistribution\":\t{\n\t\t\t\t\"$NodeId\":\t\"Positions.PropDistribution\",\n\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\"$x\":\t-15961,\n\t\t\t\t\t\"$y\":\t-63\n\t\t\t\t},\n\t\t\t\t\"Type\":\t\"Positions\",\n\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\"Positions\":\t{\n\t\t\t\t\t\"$NodeId\":\t\"Scaler.Positions\",\n\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\"$x\":\t-15326,\n\t\t\t\t\t\t\"$y\":\t-61\n\t\t\t\t\t},\n\t\t\t\t\t\"Type\":\t\"Scaler\",\n\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\"Scale\":\t{\n\t\t\t\t\t\t\"$NodeId\":\t\"Point3D\",\n\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\"$x\":\t-14688,\n\t\t\t\t\t\t\t\"$y\":\t173\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"X\":\t3,\n\t\t\t\t\t\t\"Y\":\t3,\n\t\t\t\t\t\t\"Z\":\t3\n\t\t\t\t\t},\n\t\t\t\t\t\"Positions\":\t{\n\t\t\t\t\t\t\"$NodeId\":\t\"Jitter2d.Positions\",\n\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\"$x\":\t-14691,\n\t\t\t\t\t\t\t\"$y\":\t-62\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"Type\":\t\"Jitter2d\",\n\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\"Magnitude\":\t0.5,\n\t\t\t\t\t\t\"Positions\":\t{\n\t\t\t\t\t\t\t\"$NodeId\":\t\"TriangularGrid2d.Positions\",\n\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\"$x\":\t-14063,\n\t\t\t\t\t\t\t\t\"$y\":\t-58\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\"Type\":\t\"TriangularGrid2d\",\n\t\t\t\t\t\t\t\"Skip\":\tfalse\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t\"Assignments\":\t{\n\t\t\t\t\"$NodeId\":\t\"Weighted.Assignments\",\n\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\"$x\":\t-15956,\n\t\t\t\t\t\"$y\":\t399\n\t\t\t\t},\n\t\t\t\t\"Type\":\t\"Weighted\",\n\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\"SkipChance\":\t0.1,\n\t\t\t\t\"Seed\":\t\"A\",\n\t\t\t\t\"WeightedAssignments\":\t[{\n\t\t\t\t\t\t\"$NodeId\":\t\"Weight.Weighted.Assignments\",\n\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\"$x\":\t-15220,\n\t\t\t\t\t\t\t\"$y\":\t400\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"Weight\":\t1,\n\t\t\t\t\t\t\"Assignments\":\t{\n\t\t\t\t\t\t\t\"$NodeId\":\t\"Constant.Assignments\",\n\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\"$x\":\t-14743,\n\t\t\t\t\t\t\t\t\"$y\":\t402\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\"Type\":\t\"Constant\",\n\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\"Prop\":\t{\n\t\t\t\t\t\t\t\t\"$NodeId\":\t\"RandomRotator.Prop\",\n\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\"$x\":\t-14139,\n\t\t\t\t\t\t\t\t\t\"$y\":\t401\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\"Type\":\t\"RandomRotator\",\n\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\"HorizontalRotations\":\ttrue,\n\t\t\t\t\t\t\t\t\"Prop\":\t{\n\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Locator.Prop\",\n\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\"$x\":\t-13501,\n\t\t\t\t\t\t\t\t\t\t\"$y\":\t401\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"Type\":\t\"Locator\",\n\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\"PlacementCap\":\t1,\n\t\t\t\t\t\t\t\t\t\"Prop\":\t{\n\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"DensitySelector.Prop\",\n\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12862,\n\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t402\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"DensitySelector\",\n\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\"Delimiters\":\t[{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Delimiter.DensitySelector.Prop\",\n\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12194,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t406\n\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\"Prop\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Prefab.Prop\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-11783,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t280\n\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"Prefab\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"WeightedPrefabPaths\":\t[{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"WeightedPath.Prefab.Prop\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10928,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t281\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Path\":\t\"Plants/Jungle/Waterlily\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Weight\":\t1\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t}],\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"LegacyPath\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"LoadEntities\":\ttrue,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"MoldingDirection\":\t\"NONE\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"MoldingChildren\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\"Range\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Decimal.Range\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-11782,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t607\n\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"MinInclusive\":\t-1,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"MaxExclusive\":\t1\n\t\t\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t\t\t}],\n\t\t\t\t\t\t\t\t\t\t\"Density\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"SimplexNoise2DDensityNode\",\n\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12183,\n\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t764\n\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"SimplexNoise2D\",\n\t\t\t\t\t\t\t\t\t\t\t\"ExportAs\":\t\"Lowlands_Shore_Coral_Density\",\n\t\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\"Lacunarity\":\t2,\n\t\t\t\t\t\t\t\t\t\t\t\"Persistence\":\t0.5,\n\t\t\t\t\t\t\t\t\t\t\t\"Octaves\":\t1,\n\t\t\t\t\t\t\t\t\t\t\t\"Scale\":\t150,\n\t\t\t\t\t\t\t\t\t\t\t\"Seed\":\t\"Shore\"\n\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"Pattern\":\t{\n\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Surface.Pattern\",\n\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12829,\n\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1135\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"Surface\",\n\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\"Surface\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"BlockSet.Pattern\",\n\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12131,\n\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1165\n\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"BlockSet\",\n\t\t\t\t\t\t\t\t\t\t\t\"ExportAs\":\t\"Challenge4_Biome1_Lake_Origin\",\n\t\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\"BlockSet\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"BlockSet.BlockMask\",\n\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-11449,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1169\n\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\"Inclusive\":\ttrue,\n\t\t\t\t\t\t\t\t\t\t\t\t\"Materials\":\t[{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Material\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10935,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1072\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Solid\":\t\"Empty\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"SolidBottomUp\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t\t}, {\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Material\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10936,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1233\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Solid\":\t\"\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Fluid\":\t\"Water_Source\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"SolidBottomUp\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t\t}]\n\t\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"Medium\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"BlockSet.Pattern\",\n\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12123,\n\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1387\n\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"BlockSet\",\n\t\t\t\t\t\t\t\t\t\t\t\"ExportAs\":\t\"Challenge4_Biome1_Lake_Floor\",\n\t\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\"BlockSet\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"BlockSet.BlockMask\",\n\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-11443,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1388\n\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\"Inclusive\":\ttrue,\n\t\t\t\t\t\t\t\t\t\t\t\t\"Materials\":\t[{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Material\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10943,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1391\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Solid\":\t\"Soil_Dirt\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"SolidBottomUp\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t\t}, {\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Material\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10941,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1550\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Solid\":\t\"Soil_Pebbles\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"SolidBottomUp\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t\t}]\n\t\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"SurfaceRadius\":\t1,\n\t\t\t\t\t\t\t\t\t\t\"MediumRadius\":\t3,\n\t\t\t\t\t\t\t\t\t\t\"SurfaceGap\":\t0,\n\t\t\t\t\t\t\t\t\t\t\"MediumGap\":\t1,\n\t\t\t\t\t\t\t\t\t\t\"Facings\":\t[\"D\"],\n\t\t\t\t\t\t\t\t\t\t\"RequireAllFacings\":\tfalse\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"Scanner\":\t{\n\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Linear.Scanner\",\n\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12828,\n\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1694\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"Linear\",\n\t\t\t\t\t\t\t\t\t\t\"ExportAs\":\t\"Challenge4_Biome1_Waterlily_Scanner\",\n\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\"Axis\":\t\"Y\",\n\t\t\t\t\t\t\t\t\t\t\"AscendingOrder\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\"Range\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Integer.Range\",\n\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12195,\n\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1736\n\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\"MinInclusive\":\t98,\n\t\t\t\t\t\t\t\t\t\t\t\"MaxExclusive\":\t99\n\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\"Rotations\":\t[]\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t}]\n\t\t\t}\n\t\t}]",
+											"Skip":	false,
+											"Lacunarity":	2,
+											"Persistence":	0.5,
+											"Octaves":	1,
+											"Scale":	50,
+											"Seed":	"SmallTrees"
+										}
+									},
+									"Pattern":	{
+										"$NodeId":	"Floor.Pattern-c844ae63-9ef5-48fe-a7be-2500f9d45bef",
+										"Type":	"Floor",
+										"Skip":	false,
+										"Origin":	{
+											"$NodeId":	"Imported.Pattern-3ba437f7-8abf-42d4-be4d-d515881184c7",
+											"Type":	"Imported",
+											"Skip":	false,
+											"Name":	"Lowland_River_Origin1"
+										},
+										"Floor":	{
+											"$NodeId":	"Imported.Pattern-5a76dbca-ef3d-4943-b88f-9abd425a5278",
+											"Type":	"Imported",
+											"Skip":	false,
+											"Name":	"Lowland_River_Floor1"
+										}
+									},
+									"Scanner":	{
+										"$NodeId":	"Imported.Scanner-61a3f7dd-3fab-421c-b8e6-2eee7a9a2ddc",
+										"Type":	"Imported",
+										"Skip":	false,
+										"Name":	"Lowland_River_Palm_Scanner"
+									}
+								},
+								"Rotations":	[]
+							}
+						}
+					}]
+			}
+		}],
+	"$NodeEditorMetadata":	{
+		"$Nodes":	{
+			"Union.PropDistribution-0758a45e-5981-4041-ade6-ca48b57e4f25":	{
+				"$Position":	{
+					"$x":	605,
+					"$y":	318
+				},
+				"$Title":	"[ROOT] Union PropDistribution"
+			},
+			"Assigned.PropDistribution-81df6b7b-92c7-49ef-9151-07049006b073":	{
+				"$Position":	{
+					"$x":	1375,
+					"$y":	322
+				}
+			},
+			"Positions.PropDistribution-eb76d5a4-7176-4bcb-a6ba-8262a6b258ed":	{
+				"$Position":	{
+					"$x":	2177,
+					"$y":	242
+				}
+			},
+			"Scaler.Positions-3af9f518-e15b-4d9b-a814-332f5ca8c522":	{
+				"$Position":	{
+					"$x":	2811,
+					"$y":	244
+				}
+			},
+			"Point3D-ae1d9ccd-cc40-405b-a388-d4a77c793ffb":	{
+				"$Position":	{
+					"$x":	3449,
+					"$y":	478
+				}
+			},
+			"Jitter2d.Positions-aeb35201-90d2-4c23-8b10-a75a0d04a786":	{
+				"$Position":	{
+					"$x":	3446,
+					"$y":	243
+				}
+			},
+			"TriangularGrid2d.Positions-ced22148-52dd-43b7-ae56-ab04f4f0d6d2":	{
+				"$Position":	{
+					"$x":	4074,
+					"$y":	247
+				}
+			},
+			"Weighted.Assignments-1cf24c3b-1c2f-4669-8846-448ff841eaca":	{
+				"$Position":	{
+					"$x":	2186,
+					"$y":	702
+				}
+			},
+			"Weight.Weighted.Assignments-adc410f8-5705-4545-9100-9708e82b24ad":	{
+				"$Position":	{
+					"$x":	2917,
+					"$y":	705
+				}
+			},
+			"Constant.Assignments-391976ed-d3f5-4831-8e66-22a3a346bced":	{
+				"$Position":	{
+					"$x":	3394,
+					"$y":	707
+				}
+			},
+			"RandomRotator.Prop-1e5c7f20-285a-45d0-941b-75dfa8da8804":	{
+				"$Position":	{
+					"$x":	3998,
+					"$y":	706
+				}
+			},
+			"Locator.Prop-d56df53d-6bab-4ff3-83d6-1cd01bf814bc":	{
+				"$Position":	{
+					"$x":	4636,
+					"$y":	706
+				}
+			},
+			"DensitySelector.Prop-5671dd34-f8de-41a5-ac52-9909b5b9f20c":	{
+				"$Position":	{
+					"$x":	5275,
+					"$y":	707
+				}
+			},
+			"Delimiter.DensitySelector.Prop-e426278e-02b7-456a-8fd6-f2a8fd3802e6":	{
+				"$Position":	{
+					"$x":	5943,
+					"$y":	711
+				}
+			},
+			"Prefab.Prop-ac44a637-7426-41a5-96c7-49f41f511d83":	{
+				"$Position":	{
+					"$x":	6354,
+					"$y":	585
+				}
+			},
+			"WeightedPath.Prefab.Prop-b6a3b4bc-b5c9-4643-be21-5c139de3af06":	{
+				"$Position":	{
+					"$x":	7206,
+					"$y":	433
+				}
+			},
+			"WeightedPath.Prefab.Prop-bc6c733f-1f87-4962-b5a1-7e66d5af32d5":	{
+				"$Position":	{
+					"$x":	7205,
+					"$y":	589
+				}
+			},
+			"WeightedPath.Prefab.Prop-c546bdb5-e13a-44b5-bcd3-99675a8b8a08":	{
+				"$Position":	{
+					"$x":	7206,
+					"$y":	749
+				}
+			},
+			"Decimal.Range-5df697d9-256b-4e02-8a9a-d156c58fea28":	{
+				"$Position":	{
+					"$x":	6355,
+					"$y":	912
+				}
+			},
+			"SimplexNoise2DDensityNode-2148d6e8-b7d7-4cf5-9983-908368a9da2c":	{
+				"$Position":	{
+					"$x":	5954,
+					"$y":	1069
+				}
+			},
+			"Floor.Pattern-c844ae63-9ef5-48fe-a7be-2500f9d45bef":	{
+				"$Position":	{
+					"$x":	5304,
+					"$y":	1470
+				}
+			},
+			"Imported.Pattern-3ba437f7-8abf-42d4-be4d-d515881184c7":	{
+				"$Position":	{
+					"$x":	5952,
+					"$y":	1412
+				}
+			},
+			"Imported.Pattern-5a76dbca-ef3d-4943-b88f-9abd425a5278":	{
+				"$Position":	{
+					"$x":	5955,
+					"$y":	1570
+				}
+			},
+			"Imported.Scanner-61a3f7dd-3fab-421c-b8e6-2eee7a9a2ddc":	{
+				"$Position":	{
+					"$x":	5306,
+					"$y":	1656
+				}
+			}
+		},
+		"$FloatingNodes":	[],
+		"$Links":	{
+		},
+		"$Groups":	[],
+		"$Comments":	[],
+		"$WorkspaceID":	"HytaleGenerator - PropDistribution"
+	}
+}
