@@ -162,6 +162,10 @@
 													"$NodeId":	"Material-88acd92a-ab0f-4e29-acc0-9598caf74372",
 													"Solid":	"Soil_Grass_Sunny",
 													"SolidBottomUp":	false
+												}, {
+													"$NodeId":	"Material-21a8baf6-c431-4db6-8ff4-b2ee825c565a",
+													"Solid":	"Soil_Grass_Deep",
+													"SolidBottomUp":	false
 												}]
 										}
 									}
@@ -407,6 +411,12 @@
 				"$Position":	{
 					"$x":	5380,
 					"$y":	1517
+				}
+			},
+			"Material-21a8baf6-c431-4db6-8ff4-b2ee825c565a":	{
+				"$Position":	{
+					"$x":	6579,
+					"$y":	1613
 				}
 			}
 		},
