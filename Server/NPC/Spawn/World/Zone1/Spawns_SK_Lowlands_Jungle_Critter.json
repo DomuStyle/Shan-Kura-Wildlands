@@ -63,6 +63,12 @@
       "Id": "Gecko",
       "Weight": 2,
       "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Kurachobo",
+      "Weight": 50,
+      "SpawnBlockSet": "Soil",
+      "Flock": "One_Or_Two"
     }
   ],
   "DayTimeRange": [
