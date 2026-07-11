@@ -1138,36 +1138,8 @@
 			"$NodeId":	"Runtime-c14d3ee4-adae-43ad-847e-915bd7f954b0",
 			"Skip":	false,
 			"Runtime":	0,
-			"Positions":	{
-				"$NodeId":	"OccurrencePositions-952a6450-5381-4838-895b-284dc6430f58",
-				"Type":	"Occurrence",
-				"Skip":	false,
-				"Seed":	"A",
-				"FieldFunction":	{
-					"$NodeId":	"ConstantDensityNode-8f58726f-0af8-4d66-bee9-b38daa20105e",
-					"Type":	"Constant",
-					"Skip":	false,
-					"Value":	0.25
-				},
-				"Positions":	{
-					"$NodeId":	"Mesh2DPositions-06bfe673-d69c-4f6f-b342-4e9d3259802c",
-					"Type":	"Mesh2D",
-					"Skip":	false,
-					"PointsY":	0,
-					"PointGenerator":	{
-						"$NodeId":	"MeshPointGenerator-fe5784a7-2afb-4ad9-add6-c86c64275df7",
-						"Type":	"Mesh",
-						"Skip":	false,
-						"Jitter":	0.4,
-						"ScaleX":	5,
-						"ScaleY":	5,
-						"ScaleZ":	5,
-						"Seed":	"A"
-					}
-				}
-			},
-			"Assignments":	{
-				"$NodeId":	"Imported.Assignments-64f5db7c-e7c3-4cb1-9218-6bb8081d09e1",
+			"PropDistribution":	{
+				"$NodeId":	"Imported.PropDistribution-e6c7e18b-d869-49a4-b34b-2d7dc6acffa2",
 				"Type":	"Imported",
 				"Skip":	false,
 				"Name":	"Lowland_River_Bushes"
@@ -2496,61 +2468,31 @@
 			"Runtime-f92d9b99-69e2-4632-ae52-2d2d3b034121":	{
 				"$Position":	{
 					"$x":	-3299,
-					"$y":	16890
+					"$y":	16863
 				}
 			},
 			"Imported.PropDistribution-4ed87bab-af71-452d-a8e2-0f4d4df2a0cd":	{
 				"$Position":	{
 					"$x":	-2675,
-					"$y":	16968
+					"$y":	16941
 				}
 			},
 			"Runtime-f75415e3-42e7-4934-8cbc-f7b24b63b348":	{
 				"$Position":	{
-					"$x":	-3300,
-					"$y":	17373
+					"$x":	-3292,
+					"$y":	17358
 				}
 			},
 			"Imported.PropDistribution-4ca95ebf-93c2-4337-af97-cf943481cb42":	{
 				"$Position":	{
-					"$x":	-2678,
-					"$y":	17453
+					"$x":	-2670,
+					"$y":	17438
 				}
 			},
 			"Runtime-c14d3ee4-adae-43ad-847e-915bd7f954b0":	{
 				"$Position":	{
-					"$x":	-3313,
-					"$y":	17922
-				}
-			},
-			"OccurrencePositions-952a6450-5381-4838-895b-284dc6430f58":	{
-				"$Position":	{
-					"$x":	-2687,
-					"$y":	17923
-				}
-			},
-			"ConstantDensityNode-8f58726f-0af8-4d66-bee9-b38daa20105e":	{
-				"$Position":	{
-					"$x":	-2011,
-					"$y":	18137
-				}
-			},
-			"Mesh2DPositions-06bfe673-d69c-4f6f-b342-4e9d3259802c":	{
-				"$Position":	{
-					"$x":	-2006,
-					"$y":	17929
-				}
-			},
-			"MeshPointGenerator-fe5784a7-2afb-4ad9-add6-c86c64275df7":	{
-				"$Position":	{
-					"$x":	-1332,
-					"$y":	17929
-				}
-			},
-			"Imported.Assignments-64f5db7c-e7c3-4cb1-9218-6bb8081d09e1":	{
-				"$Position":	{
-					"$x":	-2692,
-					"$y":	18130
+					"$x":	-3289,
+					"$y":	17861
 				}
 			},
 			"Runtime-cac83679-7266-4995-bd4b-e2451322a32a":	{
@@ -2804,6 +2746,12 @@
 					"$x":	-5624,
 					"$y":	16795
 				}
+			},
+			"Imported.PropDistribution-e6c7e18b-d869-49a4-b34b-2d7dc6acffa2":	{
+				"$Position":	{
+					"$x":	-2666,
+					"$y":	17940
+				}
 			}
 		},
 		"$FloatingNodes":	[{
@@ -2915,19 +2863,19 @@
 				"$name":	"Edge Mask"
 			}, {
 				"$Position":	{
-					"$x":	-3345.3125,
-					"$y":	17308.25
+					"$x":	-3337.8125,
+					"$y":	17293.25
 				},
 				"$width":	1222.375,
 				"$height":	334.625,
 				"$name":	"Grasses"
 			}, {
 				"$Position":	{
-					"$x":	-3369.875,
-					"$y":	17858.625
+					"$x":	-3330.3125,
+					"$y":	17798.125
 				},
-				"$width":	2476.375,
-				"$height":	578.25,
+				"$width":	1219,
+				"$height":	321.875,
 				"$name":	"Bushes"
 			}, {
 				"$Position":	{
@@ -3076,7 +3024,7 @@
 			}, {
 				"$Position":	{
 					"$x":	-3340.25,
-					"$y":	16823.6875
+					"$y":	16797.4375
 				},
 				"$width":	1245.25,
 				"$height":	337.375,
