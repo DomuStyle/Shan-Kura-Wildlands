@@ -1,0 +1,73 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Human_Ruins_Banner_Double.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Signs"
+  ],
+  "Set": "Furniture_Human",
+  "Icon": "Icons/ItemsGenerated/Nyxari_Banner_Double.png",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      -14,
+      30
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "CustomModel": "Blocks/Decorative_Sets/Human_Ruins/Banner_Double.blockymodel",
+    "CustomModelAnimation": "Blocks/Decorative_Sets/Human_Ruins/Banner_Swing.blockyanim",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/Nyxari/Banner/Banner_Nyxari_Double.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#4c4a31",
+    "Support": {
+      "Down": [
+        {
+          "AllowSupportPropagation": false,
+          "FaceType": "Full",
+          "Rotate": false
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Cloth",
+    "PhysicalMaterialId": "Wool",
+    "Looping": true,
+    "HitboxType": "Banner",
+    "TextureComputedColor": "#172521"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Human"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "Quality": "Developer"
+}
