@@ -33,7 +33,7 @@
       ]
     },
     "BlockParticleSetId": "Leaves_Branches",
-    "BlockSoundSetId": "Fern",
+    "BlockSoundSetId": "Plant",
     "CustomModelScale": 1.2,
     "Particles": [
       {
@@ -43,11 +43,13 @@
       }
     ],
     "Light": {
-      "Color": "#369"
+      "Color": "#289",
+      "Radius": 1
     },
     "Material": "Empty",
     "HitboxType": "Plant_Tall_Full",
-    "ParticleColor": "#00d7ff"
+    "ParticleColor": "#00d7ff",
+    "PhysicalMaterialId": "Foliage"
   },
   "PlayerAnimationsId": "Item",
   "IconProperties": {
@@ -72,5 +74,6 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Foliage",
-  "DropOnDeath": true
+  "DropOnDeath": true,
+  "Parent": "Plant_Fern"
 }

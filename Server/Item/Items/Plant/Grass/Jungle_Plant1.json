@@ -17,7 +17,9 @@
     "BiomeTint": 80,
     "Material": "Solid",
     "HitboxType": "Beam",
-    "ParticleColor": "#4fa890"
+    "ParticleColor": "#4fa890",
+    "BlockSoundSetId": "Plant",
+    "PhysicalMaterialId": "Foliage"
   },
   "Icon": "Icons/ItemsGenerated/Jungle_Plant1.png",
   "Scale": 0.65,

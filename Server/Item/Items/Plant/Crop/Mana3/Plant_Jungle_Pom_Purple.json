@@ -33,7 +33,7 @@
       ]
     },
     "BlockParticleSetId": "Leaves_Fir",
-    "BlockSoundSetId": "Fern",
+    "BlockSoundSetId": "Plant",
     "CustomModelScale": 1.2,
     "Particles": [
       {
@@ -47,7 +47,9 @@
     },
     "Material": "Empty",
     "HitboxType": "Plant_Tall_Full",
-    "ParticleColor": "#5841c7"
+    "ParticleColor": "#5841c7",
+    "PhysicalMaterialId": "Foliage",
+    "Parent": "Plant_Fern"
   },
   "PlayerAnimationsId": "Item",
   "IconProperties": {

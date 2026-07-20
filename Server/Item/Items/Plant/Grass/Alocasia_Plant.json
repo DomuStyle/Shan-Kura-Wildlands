@@ -22,7 +22,9 @@
       {
         "All": "Blocks/Foliage/Plants/Test_Texture.png"
       }
-    ]
+    ],
+    "BlockSoundSetId": "Plant",
+    "PhysicalMaterialId": "Foliage"
   },
   "Icon": "Icons/ItemsGenerated/Alocasia_Plant.png",
   "Scale": 0.65,
