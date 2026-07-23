@@ -4812,7 +4812,16 @@
 				"$height":	1370.75,
 				"$name":	"Treehouse Villages"
 			}],
-		"$Comments":	[],
+		"$Comments":	[{
+				"$Position":	{
+					"$x":	-10677.5,
+					"$y":	-3595.3125
+				},
+				"$width":	250,
+				"$height":	150,
+				"$name":	"Comment",
+				"$text":	"Add random directionality after patch 6 release"
+			}],
 		"$WorkspaceID":	"HytaleGenerator - Biome"
 	}
 }
