@@ -1,6 +1,6 @@
 {
   "Model": "NPC/Wildlife/Prehistoric_Sloth/PrehistoricSloth_V1.blockymodel",
-  "Texture": "NPC/Wildlife/Prehistoric_Sloth/Mega_Lazy_Texture2WIP.png",
+  "Texture": "NPC/Wildlife/Prehistoric_Sloth/Prehistoric_Sloth_Texture.png",
   "EyeHeight": 1.9,
   "CrouchOffset": -0.3,
   "HitBox": {

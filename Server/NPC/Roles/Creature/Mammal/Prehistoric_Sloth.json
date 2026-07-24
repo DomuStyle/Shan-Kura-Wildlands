@@ -1,6 +1,6 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Animal_Neutral",
+  "Reference": "Template_Predator",
   "Parameters": {
     "Appearance": {
       "Value": "Prehistoric_Sloth",

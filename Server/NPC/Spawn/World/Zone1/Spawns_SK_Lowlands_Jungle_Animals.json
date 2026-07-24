@@ -71,6 +71,11 @@
       "Weight": 3,
       "SpawnBlockSet": "Soil",
       "Flock": "Group_Small"
+    },
+    {
+      "Id": "Prehistoric_Sloth",
+      "Weight": 8,
+      "SpawnBlockSet": "Soil"
     }
   ],
   "DayTimeRange": [

@@ -54,7 +54,7 @@
                 },
                 "textureLayout": {
                   "back": {
-                    "offset": {"x": 72, "y": 323},
+                    "offset": {"x": 73, "y": 323},
                     "mirror": {"x": true, "y": false},
                     "angle": 0
                   },
@@ -64,7 +64,7 @@
                     "angle": 0
                   },
                   "front": {
-                    "offset": {"x": -1, "y": 323},
+                    "offset": {"x": 0, "y": 323},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
                   },
@@ -79,7 +79,7 @@
                     "angle": 0
                   },
                   "bottom": {
-                    "offset": {"x": 72, "y": 323},
+                    "offset": {"x": 73, "y": 323},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
                   }
@@ -835,7 +835,7 @@
                         {
                           "id": "25",
                           "name": "R-ClawsRear",
-                          "position": {"x": -0.22897, "y": -3.42398, "z": 14.97616},
+                          "position": {"x": -0.22897, "y": -3.42398, "z": 12.97616},
                           "orientation": {"x": 0, "y": -0.15212, "z": 0, "w": 0.98836},
                           "shape": {
                             "type": "none",
@@ -1243,7 +1243,7 @@
                         {
                           "id": "37",
                           "name": "L-ClawsRear",
-                          "position": {"x": 0.74178, "y": -2.65476, "z": 19.87403},
+                          "position": {"x": 0.74178, "y": -2.65476, "z": 17.87403},
                           "orientation": {"x": 0, "y": 0.19295, "z": 0, "w": 0.98121},
                           "shape": {
                             "type": "none",
@@ -1376,11 +1376,11 @@
                             {
                               "id": "42",
                               "name": "L-ClawRear3",
-                              "position": {"x": 3.05387, "y": -0.07969, "z": 1.10905},
+                              "position": {"x": 3.05387, "y": -0.07969, "z": 1.10906},
                               "orientation": {"x": 0.74077, "y": -0.12353, "z": 0.12212, "w": 0.64892},
                               "shape": {
                                 "type": "quad",
-                                "offset": {"x": 0.0446, "y": -0.01415, "z": -0.00529},
+                                "offset": {"x": 0.04461, "y": -0.01415, "z": -0.0053},
                                 "stretch": {"x": 1, "y": 1, "z": 1},
                                 "settings": {
                                   "isPiece": false,
@@ -1433,11 +1433,11 @@
                             {
                               "id": "44",
                               "name": "L-ClawRear4",
-                              "position": {"x": 8.69179, "y": -0.22681, "z": 3.15656},
+                              "position": {"x": 8.69179, "y": -0.22681, "z": 3.15657},
                               "orientation": {"x": 0.74077, "y": -0.12353, "z": 0.12212, "w": 0.64892},
                               "shape": {
                                 "type": "quad",
-                                "offset": {"x": 0.0446, "y": 0.13297, "z": -0.00529},
+                                "offset": {"x": 0.0446, "y": 0.13297, "z": -0.0053},
                                 "stretch": {"x": 1, "y": 1, "z": 1},
                                 "settings": {
                                   "isPiece": false,
