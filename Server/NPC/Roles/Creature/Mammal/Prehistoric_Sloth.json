@@ -39,7 +39,7 @@
       "Description": "Hard Leash Distance."
     },
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Bear_Grizzly.name",
+      "Value": "server.npcRoles.Prehistoric_Sloth.name",
       "Description": "Translation key for NPC name display"
     }
   },
