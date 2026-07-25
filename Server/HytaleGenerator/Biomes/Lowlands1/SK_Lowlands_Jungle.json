@@ -1100,131 +1100,6 @@
 				"Name":	"Lowland_Jungle_Flower_Red_Yellow"
 			}
 		}, {
-			"$NodeId":	"Runtime-26baf2f0-7e5c-4da8-8749-bb23a7e73108",
-			"Skip":	false,
-			"Runtime":	3,
-			"PropDistribution":	{
-				"$NodeId":	"Constant.PropDistribution-6f3b7064-3670-4da0-9652-16217686303e",
-				"Type":	"Constant",
-				"Skip":	false,
-				"Positions":	{
-					"$NodeId":	"FieldFunctionPositions-d07bc6f5-a40b-4f19-b426-46f8c132c885",
-					"Type":	"FieldFunction",
-					"Skip":	false,
-					"Delimiters":	[{
-							"$NodeId":	"Delimiter-83d0e11c-6ae6-4b5a-b1df-71df30233304",
-							"Min":	-1,
-							"Max":	1
-						}],
-					"Positions":	{
-						"$NodeId":	"Mesh2DPositions-d50f431c-d302-421f-a6ea-fa7eada576be",
-						"Type":	"Mesh2D",
-						"Skip":	false,
-						"PointsY":	0,
-						"PointGenerator":	{
-							"$NodeId":	"MeshPointGenerator-7086ccdc-4c38-47f7-ab71-9beda1116415",
-							"Type":	"Mesh",
-							"Skip":	false,
-							"Jitter":	0.3,
-							"ScaleX":	350,
-							"ScaleY":	350,
-							"ScaleZ":	350,
-							"Seed":	"E"
-						}
-					}
-				},
-				"Prop":	{
-					"$NodeId":	"Prefab.Prop-f333cc1b-e6d6-4c69-909e-2c1047b70f6c",
-					"Type":	"Prefab",
-					"Skip":	false,
-					"WeightedPrefabPaths":	[{
-							"$NodeId":	"WeightedPath.Prefab.Prop-dafa8252-c55e-4838-a823-c9bab50a14d3",
-							"Path":	"Custom/AEA_AT_Mossy_Dungeon",
-							"Weight":	100
-						}],
-					"LegacyPath":	false,
-					"LoadEntities":	true,
-					"Directionality":	{
-						"$NodeId":	"Random.Directionality-1da78fd7-f671-4742-b8af-7eb97929fb43",
-						"Type":	"Random",
-						"Seed":	"A",
-						"Pattern":	{
-							"$NodeId":	"Offset.Pattern-cb995a24-1ce8-4efc-ae0b-ce675181000f",
-							"Type":	"Offset",
-							"Skip":	false,
-							"Pattern":	{
-								"$NodeId":	"Floor.Pattern-87e5c259-c549-41fc-bdfa-244841ca6e48",
-								"Type":	"Floor",
-								"Skip":	false,
-								"Origin":	{
-									"$NodeId":	"BlockType.Pattern-de8122b9-8b81-4da7-8b95-9137f8fd0cfd",
-									"Type":	"BlockType",
-									"Skip":	false,
-									"Material":	{
-										"$NodeId":	"Material-722d420c-c2ef-44de-9486-13be54c759f7",
-										"Solid":	"Empty",
-										"SolidBottomUp":	false
-									}
-								},
-								"Floor":	{
-									"$NodeId":	"BlockSet.Pattern-96d179cf-400f-4814-8d07-cfd2c251bab9",
-									"Type":	"BlockSet",
-									"Skip":	false,
-									"BlockSet":	{
-										"$NodeId":	"BlockSet.BlockMask-1b00f3cb-66b6-4ab7-bb83-40b216c2a411",
-										"Inclusive":	true,
-										"Materials":	[{
-												"$NodeId":	"Material-f4e83b85-e170-4018-8907-c6a10e8ef4d0",
-												"Solid":	"Soil_Grass",
-												"SolidBottomUp":	false
-											}, {
-												"$NodeId":	"Material-08c31763-8339-4f14-9541-40f378aec081",
-												"Solid":	"Soil_Dirt",
-												"SolidBottomUp":	false
-											}, {
-												"$NodeId":	"Material-606a167a-69f4-4402-a40e-1d987a652c3e",
-												"Solid":	"Soil_Grass_Sunny",
-												"SolidBottomUp":	false
-											}, {
-												"$NodeId":	"Material-254b4fee-1729-465a-9299-43259c8d6d47",
-												"Solid":	"Soil_Grass_Deep",
-												"SolidBottomUp":	false
-											}, {
-												"$NodeId":	"Material-40f25b6b-e39a-4a02-aef9-cdf56fa8cc90",
-												"Solid":	"Soil_Pathway",
-												"SolidBottomUp":	false
-											}, {
-												"$NodeId":	"Material-3d9ace09-4e6e-4934-840f-48e62ea2e895",
-												"Solid":	"Soil_Pebbles_Frozen",
-												"SolidBottomUp":	false
-											}]
-									}
-								}
-							},
-							"Offset":	{
-								"$NodeId":	"Point3D-fbb208e2-01c0-4780-8899-63175d0669d1",
-								"X":	0,
-								"Y":	10,
-								"Z":	0
-							}
-						}
-					},
-					"Scanner":	{
-						"$NodeId":	"ColumnLinear.Scanner-35edfd86-d120-4ad5-ae8f-c11e65f8a437",
-						"Type":	"ColumnLinear",
-						"Skip":	false,
-						"MaxY":	8,
-						"MinY":	-15,
-						"RelativeToPosition":	false,
-						"BaseHeightName":	"Base",
-						"TopDownOrder":	false,
-						"ResultCap":	0
-					},
-					"MoldingDirection":	"None",
-					"MoldingChildren":	false
-				}
-			}
-		}, {
 			"$NodeId":	"Runtime-f5d2808e-9202-4ff8-b497-bf03e2a74c0d",
 			"Skip":	false,
 			"Runtime":	0,
@@ -1888,6 +1763,16 @@
 				"Type":	"Imported",
 				"Skip":	false,
 				"Name":	"Lowland_Jungle_AEA_AT_Mossy_Ruined"
+			}
+		}, {
+			"$NodeId":	"Runtime-26baf2f0-7e5c-4da8-8749-bb23a7e73108",
+			"Skip":	false,
+			"Runtime":	3,
+			"PropDistribution":	{
+				"$NodeId":	"Imported.PropDistribution-ca703644-baae-4ea8-935a-4787fcdbbe1d",
+				"Type":	"Imported",
+				"Skip":	false,
+				"Name":	"Lowland_Jungle_AEA_AT_Mossy_Dungeon"
 			}
 		}],
 	"EnvironmentProvider":	{
@@ -3153,140 +3038,8 @@
 			},
 			"Runtime-26baf2f0-7e5c-4da8-8749-bb23a7e73108":	{
 				"$Position":	{
-					"$x":	-13519,
-					"$y":	-141
-				}
-			},
-			"Constant.PropDistribution-6f3b7064-3670-4da0-9652-16217686303e":	{
-				"$Position":	{
-					"$x":	-12863,
-					"$y":	-60
-				}
-			},
-			"FieldFunctionPositions-d07bc6f5-a40b-4f19-b426-46f8c132c885":	{
-				"$Position":	{
-					"$x":	-12188,
-					"$y":	-206
-				}
-			},
-			"Delimiter-83d0e11c-6ae6-4b5a-b1df-71df30233304":	{
-				"$Position":	{
-					"$x":	-11513,
-					"$y":	-127
-				}
-			},
-			"Mesh2DPositions-d50f431c-d302-421f-a6ea-fa7eada576be":	{
-				"$Position":	{
-					"$x":	-11513,
-					"$y":	-343
-				}
-			},
-			"MeshPointGenerator-7086ccdc-4c38-47f7-ab71-9beda1116415":	{
-				"$Position":	{
-					"$x":	-10802,
-					"$y":	-344
-				}
-			},
-			"Prefab.Prop-f333cc1b-e6d6-4c69-909e-2c1047b70f6c":	{
-				"$Position":	{
-					"$x":	-10905,
-					"$y":	-31
-				}
-			},
-			"WeightedPath.Prefab.Prop-dafa8252-c55e-4838-a823-c9bab50a14d3":	{
-				"$Position":	{
-					"$x":	-10050,
-					"$y":	-98
-				}
-			},
-			"Random.Directionality-1da78fd7-f671-4742-b8af-7eb97929fb43":	{
-				"$Position":	{
-					"$x":	-10049,
-					"$y":	75
-				}
-			},
-			"Offset.Pattern-cb995a24-1ce8-4efc-ae0b-ce675181000f":	{
-				"$Position":	{
-					"$x":	-9403,
-					"$y":	209
-				}
-			},
-			"Floor.Pattern-87e5c259-c549-41fc-bdfa-244841ca6e48":	{
-				"$Position":	{
-					"$x":	-8737,
-					"$y":	87
-				}
-			},
-			"BlockType.Pattern-de8122b9-8b81-4da7-8b95-9137f8fd0cfd":	{
-				"$Position":	{
-					"$x":	-8112,
-					"$y":	68
-				}
-			},
-			"Material-722d420c-c2ef-44de-9486-13be54c759f7":	{
-				"$Position":	{
-					"$x":	-7460,
-					"$y":	71
-				}
-			},
-			"BlockSet.Pattern-96d179cf-400f-4814-8d07-cfd2c251bab9":	{
-				"$Position":	{
-					"$x":	-8111,
-					"$y":	227
-				}
-			},
-			"BlockSet.BlockMask-1b00f3cb-66b6-4ab7-bb83-40b216c2a411":	{
-				"$Position":	{
-					"$x":	-7475,
-					"$y":	247
-				}
-			},
-			"Material-f4e83b85-e170-4018-8907-c6a10e8ef4d0":	{
-				"$Position":	{
-					"$x":	-6984,
-					"$y":	254
-				}
-			},
-			"Material-08c31763-8339-4f14-9541-40f378aec081":	{
-				"$Position":	{
-					"$x":	-6984,
-					"$y":	410
-				}
-			},
-			"Material-606a167a-69f4-4402-a40e-1d987a652c3e":	{
-				"$Position":	{
-					"$x":	-6983,
-					"$y":	571
-				}
-			},
-			"Material-254b4fee-1729-465a-9299-43259c8d6d47":	{
-				"$Position":	{
-					"$x":	-6980,
-					"$y":	730
-				}
-			},
-			"Material-40f25b6b-e39a-4a02-aef9-cdf56fa8cc90":	{
-				"$Position":	{
-					"$x":	-6976,
-					"$y":	890
-				}
-			},
-			"Material-3d9ace09-4e6e-4934-840f-48e62ea2e895":	{
-				"$Position":	{
-					"$x":	-6975,
-					"$y":	1067
-				}
-			},
-			"Point3D-fbb208e2-01c0-4780-8899-63175d0669d1":	{
-				"$Position":	{
-					"$x":	-8747,
-					"$y":	422
-				}
-			},
-			"ColumnLinear.Scanner-35edfd86-d120-4ad5-ae8f-c11e65f8a437":	{
-				"$Position":	{
-					"$x":	-10043,
-					"$y":	266
+					"$x":	-4250,
+					"$y":	6795
 				}
 			},
 			"Runtime-f5d2808e-9202-4ff8-b497-bf03e2a74c0d":	{
@@ -4044,6 +3797,12 @@
 					"$x":	-3630,
 					"$y":	6385
 				}
+			},
+			"Imported.PropDistribution-ca703644-baae-4ea8-935a-4787fcdbbe1d":	{
+				"$Position":	{
+					"$x":	-3624,
+					"$y":	6874
+				}
 			}
 		},
 		"$FloatingNodes":	[],
@@ -4345,6 +4104,14 @@
 				"$width":	1248.875,
 				"$height":	352.5625,
 				"$name":	"AEA_AT_Mossy_Ruined"
+			}, {
+				"$Position":	{
+					"$x":	-4311.5625,
+					"$y":	6722.875
+				},
+				"$width":	1264.875,
+				"$height":	365.75,
+				"$name":	"AEA_AT_Mossy_Dungeon"
 			}],
 		"$Comments":	[],
 		"$WorkspaceID":	"HytaleGenerator - Biome"
