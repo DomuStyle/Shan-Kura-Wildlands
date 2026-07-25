@@ -363,165 +363,6 @@
 		}
 	},
 	"Props":	[{
-			"$NodeId":	"Runtime-3f6de6c8-e3b4-4893-962f-3b0eff458dc4",
-			"Skip":	false,
-			"Runtime":	0,
-			"PropDistribution":	{
-				"$NodeId":	"Union.PropDistribution-ce8966f5-5c03-4ca0-98c8-46fedcadc489",
-				"Type":	"Union",
-				"ExportAs":	"",
-				"Skip":	false,
-				"PropDistributions":	[{
-						"$NodeId":	"Assigned.PropDistribution-427dee6c-baf5-4f5a-a061-57160de44cb4",
-						"Type":	"Assigned",
-						"Skip":	false,
-						"OverrideAllProps":	false,
-						"PropDistribution":	{
-							"$NodeId":	"Positions.PropDistribution-0c41e6cd-0d06-4690-a79c-11cce10890a1",
-							"Type":	"Positions",
-							"Skip":	false,
-							"Positions":	{
-								"$NodeId":	"Scaler.Positions-11278c00-cd6e-4c8a-be99-d7b0ab0c67f4",
-								"Type":	"Scaler",
-								"ExportAs":	"",
-								"Skip":	false,
-								"Scale":	{
-									"$NodeId":	"Point3D-ba579a6b-4eeb-429e-ac50-930aa0869225",
-									"X":	150,
-									"Y":	150,
-									"Z":	150
-								},
-								"Positions":	{
-									"$NodeId":	"Jitter2d.Positions-7b0912d0-476e-450d-b993-b44e23461a00",
-									"Type":	"Jitter2d",
-									"Skip":	false,
-									"Magnitude":	0.5,
-									"Positions":	{
-										"$NodeId":	"TriangularGrid2d.Positions-8de868ac-f0fc-4af1-913c-e3b8ce1f8612",
-										"Type":	"TriangularGrid2d",
-										"Skip":	false
-									}
-								}
-							}
-						},
-						"Assignments":	{
-							"$NodeId":	"Weighted.Assignments-7d6cb872-526d-4f2a-bc4d-91bcb7067462",
-							"Type":	"Weighted",
-							"Skip":	false,
-							"SkipChance":	0.3,
-							"Seed":	"A",
-							"WeightedAssignments":	[{
-									"$NodeId":	"Weight.Weighted.Assignments-34dff077-d67d-4f85-9238-a779c6f98ae3",
-									"Weight":	1,
-									"Assignments":	{
-										"$NodeId":	"Constant.Assignments-a4b18950-9f0f-4894-a3c6-94ed67ad1158",
-										"Type":	"Constant",
-										"Skip":	false,
-										"Prop":	{
-											"$NodeId":	"RandomRotator.Prop-25ed4f94-a9af-4b0c-8bc2-59d0532fdca1",
-											"Type":	"RandomRotator",
-											"Skip":	false,
-											"HorizontalRotations":	true,
-											"Prop":	{
-												"$NodeId":	"Locator.Prop-5b778ae9-f6c2-4a3b-987d-94b06624c32c",
-												"Type":	"Locator",
-												"Skip":	false,
-												"PlacementCap":	1,
-												"Prop":	{
-													"$NodeId":	"Offset.Prop-065a12b3-7b08-44a6-9b23-49b6c0fcdc70",
-													"Type":	"Offset",
-													"Skip":	false,
-													"Offset":	{
-														"$NodeId":	"Point3D-416f57d4-4956-4047-9b34-a8aa89569caa",
-														"X":	0,
-														"Y":	-28,
-														"Z":	0
-													},
-													"Prop":	{
-														"$NodeId":	"RandomRotator.Prop-69e28312-9d75-432e-9ebc-211ceca33742",
-														"Type":	"RandomRotator",
-														"Skip":	false,
-														"HorizontalRotations":	true,
-														"Prop":	{
-															"$NodeId":	"Prefab.Prop-49d3ee67-09ad-431d-ba28-b9e939ea7259",
-															"Type":	"Prefab",
-															"Skip":	false,
-															"WeightedPrefabPaths":	[{
-																	"$NodeId":	"WeightedPath.Prefab.Prop-9845d6da-ab7f-471a-bb35-83958a10335a",
-																	"Path":	"Drowned_Dungeon_1",
-																	"Weight":	1
-																}],
-															"LegacyPath":	false,
-															"LoadEntities":	true,
-															"MoldingDirection":	"NONE",
-															"MoldingChildren":	false
-														},
-														"Rotations":	[]
-													}
-												},
-												"Pattern":	{
-													"$NodeId":	"Surface.Pattern-06a64a72-95e5-4a0e-aa32-e9af1d173d9b",
-													"Type":	"Surface",
-													"Skip":	false,
-													"Surface":	{
-														"$NodeId":	"Imported.Pattern-4a289892-498b-418a-a71c-d5cb5af6a9f5",
-														"Type":	"Imported",
-														"Skip":	false,
-														"Name":	"Lowlands_Shore_Origin"
-													},
-													"Medium":	{
-														"$NodeId":	"Imported.Pattern-c85ad27e-dbc8-4653-b468-97b189e96152",
-														"Type":	"Imported",
-														"Skip":	false,
-														"Name":	"Lowlands_Shore_Floor"
-													},
-													"SurfaceRadius":	1,
-													"MediumRadius":	1,
-													"SurfaceGap":	0,
-													"MediumGap":	3,
-													"Facings":	["D"],
-													"RequireAllFacings":	false
-												},
-												"Scanner":	{
-													"$NodeId":	"Imported.Scanner-6d4c90df-ce1a-450f-9f6e-32bf6310fbf1",
-													"Type":	"Imported",
-													"Skip":	false,
-													"Name":	"Lowlands_Shore_City_Scanner"
-												}
-											},
-											"Rotations":	[{
-													"$NodeId":	"OrthogonalRotation-e38a3e19-9c82-4840-9618-7b497954243a",
-													"Yaw":	"None",
-													"Pitch":	"None",
-													"Roll":	"Ninety"
-												}, {
-													"$NodeId":	"OrthogonalRotation-ea5f1e8b-e20d-49f1-a0ac-58cfa5b22b30",
-													"Yaw":	"None",
-													"Pitch":	"None",
-													"Roll":	"None"
-												}, {
-													"$NodeId":	"OrthogonalRotation-28b247b7-d60b-43ce-8916-712e8922b99e",
-													"Yaw":	"None",
-													"Pitch":	"None",
-													"Roll":	"TwoSeventy"
-												}]
-										}
-									}
-								}]
-						}
-					}]
-			}
-		}, {
-			"$NodeId":	"Runtime-b43b4755-838d-4a70-80ae-3fd95612e93f",
-			"Skip":	false,
-			"Runtime":	1,
-			"PropDistribution":	{
-				"$NodeId":	"Imported.PropDistribution-2bb17a6a-b463-4315-9ca3-3c7459bec5a7",
-				"Type":	"Imported",
-				"Skip":	false,
-				"Name":	"Lowland_Shore_Corals_Seaweeds"
-			}
-		}, {
 			"$NodeId":	"Runtime-88a4440a-8188-4e1c-8687-2e13ae9f8a05",
 			"Skip":	false,
 			"Runtime":	0,
@@ -556,6 +397,16 @@
 				"Type":	"Imported",
 				"Skip":	false,
 				"Name":	"Lowland_Shore_Palm_Trees"
+			}
+		}, {
+			"$NodeId":	"Runtime-b43b4755-838d-4a70-80ae-3fd95612e93f",
+			"Skip":	false,
+			"Runtime":	1,
+			"PropDistribution":	{
+				"$NodeId":	"Imported.PropDistribution-2bb17a6a-b463-4315-9ca3-3c7459bec5a7",
+				"Type":	"Imported",
+				"Skip":	false,
+				"Name":	"Lowland_Shore_Corals_Seaweeds"
 			}
 		}, {
 			"$NodeId":	"Runtime-21d152c3-c39d-470c-bae6-7a7bddb6f664",
@@ -648,6 +499,16 @@
 				"Type":	"Imported",
 				"Skip":	false,
 				"Name":	"Lowland_Shore_Rocks"
+			}
+		}, {
+			"$NodeId":	"Runtime-3f6de6c8-e3b4-4893-962f-3b0eff458dc4",
+			"Skip":	false,
+			"Runtime":	0,
+			"PropDistribution":	{
+				"$NodeId":	"Imported.PropDistribution-44e9c47d-30bf-4559-a51e-f98abc19c3c4",
+				"Type":	"Imported",
+				"Skip":	false,
+				"Name":	"Lowland_Shore_Drowned_Dungeon1"
 			}
 		}, {
 			"$NodeId":	"Runtime-5af32eba-b6dd-4f5b-8988-6496f2d377b0",
@@ -1300,165 +1161,20 @@
 			},
 			"Runtime-3f6de6c8-e3b4-4893-962f-3b0eff458dc4":	{
 				"$Position":	{
-					"$x":	-12007,
-					"$y":	-6220
-				}
-			},
-			"Union.PropDistribution-ce8966f5-5c03-4ca0-98c8-46fedcadc489":	{
-				"$Position":	{
-					"$x":	-11358,
-					"$y":	-6142
-				},
-				"$Title":	"[ROOT] Union PropDistribution"
-			},
-			"Assigned.PropDistribution-427dee6c-baf5-4f5a-a061-57160de44cb4":	{
-				"$Position":	{
-					"$x":	-10639,
-					"$y":	-6141
-				}
-			},
-			"Positions.PropDistribution-0c41e6cd-0d06-4690-a79c-11cce10890a1":	{
-				"$Position":	{
-					"$x":	-9963,
-					"$y":	-6138
-				}
-			},
-			"Scaler.Positions-11278c00-cd6e-4c8a-be99-d7b0ab0c67f4":	{
-				"$Position":	{
-					"$x":	-9334,
-					"$y":	-6134
-				}
-			},
-			"Point3D-ba579a6b-4eeb-429e-ac50-930aa0869225":	{
-				"$Position":	{
-					"$x":	-8669,
-					"$y":	-5993
-				}
-			},
-			"Jitter2d.Positions-7b0912d0-476e-450d-b993-b44e23461a00":	{
-				"$Position":	{
-					"$x":	-8673,
-					"$y":	-6237
-				}
-			},
-			"TriangularGrid2d.Positions-8de868ac-f0fc-4af1-913c-e3b8ce1f8612":	{
-				"$Position":	{
-					"$x":	-8056,
-					"$y":	-6235
-				}
-			},
-			"Weighted.Assignments-7d6cb872-526d-4f2a-bc4d-91bcb7067462":	{
-				"$Position":	{
-					"$x":	-9979,
-					"$y":	-5752
-				}
-			},
-			"Weight.Weighted.Assignments-34dff077-d67d-4f85-9238-a779c6f98ae3":	{
-				"$Position":	{
-					"$x":	-9251,
-					"$y":	-5753
-				}
-			},
-			"Constant.Assignments-a4b18950-9f0f-4894-a3c6-94ed67ad1158":	{
-				"$Position":	{
-					"$x":	-8763,
-					"$y":	-5751
-				}
-			},
-			"RandomRotator.Prop-25ed4f94-a9af-4b0c-8bc2-59d0532fdca1":	{
-				"$Position":	{
-					"$x":	-8142,
-					"$y":	-5748
-				}
-			},
-			"Locator.Prop-5b778ae9-f6c2-4a3b-987d-94b06624c32c":	{
-				"$Position":	{
-					"$x":	-6461,
-					"$y":	-5737
-				}
-			},
-			"Offset.Prop-065a12b3-7b08-44a6-9b23-49b6c0fcdc70":	{
-				"$Position":	{
-					"$x":	-5794,
-					"$y":	-5984
-				}
-			},
-			"Point3D-416f57d4-4956-4047-9b34-a8aa89569caa":	{
-				"$Position":	{
-					"$x":	-5120,
-					"$y":	-6230
-				}
-			},
-			"RandomRotator.Prop-69e28312-9d75-432e-9ebc-211ceca33742":	{
-				"$Position":	{
-					"$x":	-5315,
-					"$y":	-5748
-				}
-			},
-			"Prefab.Prop-49d3ee67-09ad-431d-ba28-b9e939ea7259":	{
-				"$Position":	{
-					"$x":	-4688,
-					"$y":	-5752
-				}
-			},
-			"WeightedPath.Prefab.Prop-9845d6da-ab7f-471a-bb35-83958a10335a":	{
-				"$Position":	{
-					"$x":	-3902,
-					"$y":	-5752
-				}
-			},
-			"Surface.Pattern-06a64a72-95e5-4a0e-aa32-e9af1d173d9b":	{
-				"$Position":	{
-					"$x":	-5827,
-					"$y":	-5373
-				}
-			},
-			"Imported.Pattern-4a289892-498b-418a-a71c-d5cb5af6a9f5":	{
-				"$Position":	{
-					"$x":	-5167,
-					"$y":	-5419
-				}
-			},
-			"Imported.Pattern-c85ad27e-dbc8-4653-b468-97b189e96152":	{
-				"$Position":	{
-					"$x":	-5167,
-					"$y":	-5266
-				}
-			},
-			"Imported.Scanner-6d4c90df-ce1a-450f-9f6e-32bf6310fbf1":	{
-				"$Position":	{
-					"$x":	-5826,
-					"$y":	-4838
-				}
-			},
-			"OrthogonalRotation-e38a3e19-9c82-4840-9618-7b497954243a":	{
-				"$Position":	{
-					"$x":	-7487,
-					"$y":	-5577
-				}
-			},
-			"OrthogonalRotation-ea5f1e8b-e20d-49f1-a0ac-58cfa5b22b30":	{
-				"$Position":	{
-					"$x":	-7488,
-					"$y":	-5381
-				}
-			},
-			"OrthogonalRotation-28b247b7-d60b-43ce-8916-712e8922b99e":	{
-				"$Position":	{
-					"$x":	-7489,
-					"$y":	-5189
+					"$x":	-300,
+					"$y":	287
 				}
 			},
 			"Runtime-b43b4755-838d-4a70-80ae-3fd95612e93f":	{
 				"$Position":	{
-					"$x":	-318,
-					"$y":	-1475
+					"$x":	-330,
+					"$y":	-1266
 				}
 			},
 			"Imported.PropDistribution-2bb17a6a-b463-4315-9ca3-3c7459bec5a7":	{
 				"$Position":	{
-					"$x":	315,
-					"$y":	-1395
+					"$x":	302,
+					"$y":	-1186
 				}
 			},
 			"Runtime-88a4440a-8188-4e1c-8687-2e13ae9f8a05":	{
@@ -1499,14 +1215,14 @@
 			},
 			"Runtime-21d152c3-c39d-470c-bae6-7a7bddb6f664":	{
 				"$Position":	{
-					"$x":	-308,
-					"$y":	-840
+					"$x":	-312,
+					"$y":	-758
 				}
 			},
 			"Imported.PropDistribution-31c79571-44ea-43c7-a5d1-e2cd34c73252":	{
 				"$Position":	{
-					"$x":	330,
-					"$y":	-771
+					"$x":	325,
+					"$y":	-689
 				}
 			},
 			"Runtime-24130fa5-fa8e-4af3-b1f2-1711cffc2d01":	{
@@ -1547,14 +1263,14 @@
 			},
 			"Runtime-0fbfaf91-5158-4856-adc0-22c5b402d295":	{
 				"$Position":	{
-					"$x":	-328,
-					"$y":	-229
+					"$x":	-315,
+					"$y":	-246
 				}
 			},
 			"Imported.PropDistribution-bf9e9869-9999-4d1d-8a65-48f12f34fde9":	{
 				"$Position":	{
-					"$x":	311,
-					"$y":	-155
+					"$x":	323,
+					"$y":	-172
 				}
 			},
 			"Runtime-948e4512-3076-410d-8e05-e0873fc3feb3":	{
@@ -1833,83 +1549,14 @@
 					"$y":	-674
 				}
 			},
-			"DensitySelector.Prop-afd990bb-aa23-419f-ba63-8dfd2ac04040":	{
+			"Imported.PropDistribution-44e9c47d-30bf-4559-a51e-f98abc19c3c4":	{
 				"$Position":	{
-					"$x":	-7487,
-					"$y":	-5745
-				}
-			},
-			"Delimiter.DensitySelector.Prop-dbc39116-6e77-431f-bd03-0843db9317aa":	{
-				"$Position":	{
-					"$x":	-6842,
-					"$y":	-5737
-				}
-			},
-			"Decimal.Range-25bccb9f-9f9f-434b-b81c-e8cd1a73cc38":	{
-				"$Position":	{
-					"$x":	-6459,
-					"$y":	-5524
-				}
-			},
-			"Mix.Density-f1a67009-068c-4f95-8ff7-c9d43be0866a":	{
-				"$Position":	{
-					"$x":	-6783,
-					"$y":	-4417
-				}
-			},
-			"ConstantDensityNode-4e695750-6d90-4530-aeb9-c3ee96d1d70a":	{
-				"$Position":	{
-					"$x":	-6104,
-					"$y":	-4609
-				}
-			},
-			"ConstantDensityNode-16bd8844-ed2c-4085-9bcb-6626789cf30f":	{
-				"$Position":	{
-					"$x":	-6108,
-					"$y":	-4421
-				}
-			},
-			"ImportedDensityNode-d473f215-5a75-47cf-91d7-38f5cbe3cac1":	{
-				"$Position":	{
-					"$x":	-6114,
-					"$y":	-4221
+					"$x":	321,
+					"$y":	364
 				}
 			}
 		},
-		"$FloatingNodes":	[{
-				"$NodeId":	"DensitySelector.Prop-afd990bb-aa23-419f-ba63-8dfd2ac04040",
-				"Type":	"DensitySelector",
-				"Skip":	false,
-				"Delimiters":	[{
-						"$NodeId":	"Delimiter.DensitySelector.Prop-dbc39116-6e77-431f-bd03-0843db9317aa",
-						"Range":	{
-							"$NodeId":	"Decimal.Range-25bccb9f-9f9f-434b-b81c-e8cd1a73cc38",
-							"MinInclusive":	0.5,
-							"MaxExclusive":	2
-						}
-					}],
-				"Density":	{
-					"$NodeId":	"Mix.Density-f1a67009-068c-4f95-8ff7-c9d43be0866a",
-					"Type":	"Mix",
-					"Skip":	false,
-					"Inputs":	[{
-							"$NodeId":	"ConstantDensityNode-4e695750-6d90-4530-aeb9-c3ee96d1d70a",
-							"Type":	"Constant",
-							"Skip":	false,
-							"Value":	-1
-						}, {
-							"$NodeId":	"ConstantDensityNode-16bd8844-ed2c-4085-9bcb-6626789cf30f",
-							"Type":	"Constant",
-							"Skip":	false,
-							"Value":	1
-						}, {
-							"$NodeId":	"ImportedDensityNode-d473f215-5a75-47cf-91d7-38f5cbe3cac1",
-							"Type":	"Imported",
-							"Skip":	false,
-							"Name":	"Shore_Terrain1"
-						}]
-				}
-			}],
+		"$FloatingNodes":	[],
 		"$Links":	{
 		},
 		"$Groups":	[{
@@ -2034,28 +1681,36 @@
 				"$name":	"Energy Absorber"
 			}, {
 				"$Position":	{
-					"$x":	-446.8125,
-					"$y":	-389.8125
+					"$x":	-372.3125,
+					"$y":	-347.5625
 				},
-				"$width":	1480.5625,
-				"$height":	527.6875,
+				"$width":	1281.6875,
+				"$height":	398.5625,
 				"$name":	"Coral Citys"
 			}, {
 				"$Position":	{
-					"$x":	-460.125,
-					"$y":	-1611.125
+					"$x":	-385.625,
+					"$y":	-1350.25
 				},
-				"$width":	1420.625,
-				"$height":	432.0625,
+				"$width":	1266.5,
+				"$height":	352.6875,
 				"$name":	"Coral Structures & Seaweed"
 			}, {
 				"$Position":	{
-					"$x":	-459.25,
-					"$y":	-1044.0625
+					"$x":	-379.625,
+					"$y":	-852.8125
 				},
-				"$width":	1442.375,
-				"$height":	538.625,
+				"$width":	1285.875,
+				"$height":	374.625,
 				"$name":	"Shipwrecks & Brackets"
+			}, {
+				"$Position":	{
+					"$x":	-356.125,
+					"$y":	212.75
+				},
+				"$width":	1245,
+				"$height":	349.875,
+				"$name":	"Drowned_Dungeon1"
 			}],
 		"$Comments":	[],
 		"$WorkspaceID":	"HytaleGenerator - Biome"
