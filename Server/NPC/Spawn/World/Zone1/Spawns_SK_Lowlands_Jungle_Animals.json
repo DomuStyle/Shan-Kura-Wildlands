@@ -74,7 +74,7 @@
     },
     {
       "Id": "Prehistoric_Sloth",
-      "Weight": 8,
+      "Weight": 10,
       "SpawnBlockSet": "Soil"
     }
   ],

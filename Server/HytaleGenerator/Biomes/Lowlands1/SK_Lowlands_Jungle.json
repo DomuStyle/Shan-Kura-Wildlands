@@ -866,125 +866,10 @@
 			"Skip":	false,
 			"Runtime":	3,
 			"PropDistribution":	{
-				"$NodeId":	"Constant.PropDistribution-05eac0fe-30c8-4242-8466-858301756840",
-				"Type":	"Constant",
+				"$NodeId":	"Imported.PropDistribution-3b8736e9-8f8f-4f75-8981-b5e2b8db9002",
+				"Type":	"Imported",
 				"Skip":	false,
-				"Positions":	{
-					"$NodeId":	"FieldFunctionPositions-2a580317-bd57-40fa-8562-69378822d0a9",
-					"Type":	"FieldFunction",
-					"Skip":	false,
-					"Delimiters":	[{
-							"$NodeId":	"Delimiter-47090bcc-f3f3-442a-b86d-2cc75edf21cb",
-							"Min":	-1,
-							"Max":	1
-						}],
-					"Positions":	{
-						"$NodeId":	"Mesh2DPositions-a0bb19c1-6bad-4ef7-a2dc-ec9390b0d019",
-						"Type":	"Mesh2D",
-						"Skip":	false,
-						"PointsY":	0,
-						"PointGenerator":	{
-							"$NodeId":	"MeshPointGenerator-edc9e8d9-4fbd-40b6-b88c-e3d707359fd9",
-							"Type":	"Mesh",
-							"Skip":	false,
-							"Jitter":	0.4,
-							"ScaleX":	250,
-							"ScaleY":	250,
-							"ScaleZ":	250,
-							"Seed":	"E"
-						}
-					}
-				},
-				"Prop":	{
-					"$NodeId":	"Prefab.Prop-c5bcf282-6398-4b50-8d33-93ac61e09bfe",
-					"Type":	"Prefab",
-					"Skip":	false,
-					"WeightedPrefabPaths":	[{
-							"$NodeId":	"WeightedPath.Prefab.Prop-a362ffc4-81f3-4154-ab8b-a9655be3a830",
-							"Path":	"Custom/AEA_AT_Mossy_Ruined_Dungeon",
-							"Weight":	100
-						}],
-					"LegacyPath":	false,
-					"LoadEntities":	true,
-					"Directionality":	{
-						"$NodeId":	"Static.Directionality-db56a717-245f-4cbc-9581-f28cd553576d",
-						"Type":	"Static",
-						"Rotation":	0,
-						"Pattern":	{
-							"$NodeId":	"Offset.Pattern-45848ada-62b1-4f4e-b7a2-38bd7361b033",
-							"Type":	"Offset",
-							"Skip":	false,
-							"Pattern":	{
-								"$NodeId":	"Floor.Pattern-aacf9beb-8e50-41f5-87ca-0b09cdb91a6b",
-								"Type":	"Floor",
-								"Skip":	false,
-								"Origin":	{
-									"$NodeId":	"BlockType.Pattern-18672b4f-0331-4033-8a58-824dcff40e64",
-									"Type":	"BlockType",
-									"Skip":	false,
-									"Material":	{
-										"$NodeId":	"Material-289584ca-7965-4f1e-9a01-7614551d2b2b",
-										"Solid":	"Empty",
-										"SolidBottomUp":	false
-									}
-								},
-								"Floor":	{
-									"$NodeId":	"BlockSet.Pattern-68b5a7ad-4da9-4566-824f-7c5a97d62a7b",
-									"Type":	"BlockSet",
-									"Skip":	false,
-									"BlockSet":	{
-										"$NodeId":	"BlockSet.BlockMask-4762cd89-a7d7-4d78-92b5-aea1939d32bc",
-										"Inclusive":	true,
-										"Materials":	[{
-												"$NodeId":	"Material-ae758be1-462c-4123-8fe9-8dc061bcf5ee",
-												"Solid":	"Soil_Grass",
-												"SolidBottomUp":	false
-											}, {
-												"$NodeId":	"Material-9f503caf-d87f-4ffd-8bf0-86609ff3620f",
-												"Solid":	"Soil_Dirt",
-												"SolidBottomUp":	false
-											}, {
-												"$NodeId":	"Material-88ec85f3-eb6a-41f1-8668-daee4b4494ae",
-												"Solid":	"Soil_Grass_Sunny",
-												"SolidBottomUp":	false
-											}, {
-												"$NodeId":	"Material-ee34928b-d8e6-4005-9372-61675cddf6ba",
-												"Solid":	"Soil_Grass_Deep",
-												"SolidBottomUp":	false
-											}, {
-												"$NodeId":	"Material-cc3e6b6f-6d9a-40ef-8050-04d436e40e11",
-												"Solid":	"Soil_Pathway",
-												"SolidBottomUp":	false
-											}, {
-												"$NodeId":	"Material-7aff40d4-d526-4976-8673-b5e17d581acc",
-												"Solid":	"Soil_Pebbles_Frozen",
-												"SolidBottomUp":	false
-											}]
-									}
-								}
-							},
-							"Offset":	{
-								"$NodeId":	"Point3D-1339d1cc-7919-43be-b4d9-a05cc99bcd24",
-								"X":	0,
-								"Y":	20,
-								"Z":	0
-							}
-						}
-					},
-					"Scanner":	{
-						"$NodeId":	"ColumnLinear.Scanner-449554f4-f92d-4d87-abe0-b23fac17e445",
-						"Type":	"ColumnLinear",
-						"Skip":	false,
-						"MaxY":	8,
-						"MinY":	-15,
-						"RelativeToPosition":	false,
-						"BaseHeightName":	"Base",
-						"TopDownOrder":	false,
-						"ResultCap":	0
-					},
-					"MoldingDirection":	"None",
-					"MoldingChildren":	false
-				}
+				"Name":	"Lowland_Jungle_AEA_AT_Mossy_Ruined_Dungeon"
 			}
 		}, {
 			"$NodeId":	"Runtime-cfd9afb8-09ad-4410-b299-cfa21782682f",
@@ -3149,8 +3034,8 @@
 			},
 			"Runtime-68448ea6-0e92-43e6-af89-a5f8f5f22569":	{
 				"$Position":	{
-					"$x":	-13438,
-					"$y":	-4185
+					"$x":	-14261,
+					"$y":	-3989
 				}
 			},
 			"Constant.PropDistribution-05eac0fe-30c8-4242-8466-858301756840":	{
@@ -3193,6 +3078,12 @@
 				"$Position":	{
 					"$x":	-11239,
 					"$y":	-3933
+				}
+			},
+			"Static.Directionality-db56a717-245f-4cbc-9581-f28cd553576d":	{
+				"$Position":	{
+					"$x":	-11239,
+					"$y":	-3768
 				}
 			},
 			"Offset.Pattern-45848ada-62b1-4f4e-b7a2-38bd7361b033":	{
@@ -4521,14 +4412,134 @@
 					"$y":	7079
 				}
 			},
-			"Static.Directionality-db56a717-245f-4cbc-9581-f28cd553576d":	{
+			"Imported.PropDistribution-3b8736e9-8f8f-4f75-8981-b5e2b8db9002":	{
 				"$Position":	{
-					"$x":	-11239,
-					"$y":	-3768
+					"$x":	-13611,
+					"$y":	-3915
 				}
 			}
 		},
-		"$FloatingNodes":	[],
+		"$FloatingNodes":	[{
+				"$NodeId":	"Constant.PropDistribution-05eac0fe-30c8-4242-8466-858301756840",
+				"Type":	"Constant",
+				"Skip":	false,
+				"Positions":	{
+					"$NodeId":	"FieldFunctionPositions-2a580317-bd57-40fa-8562-69378822d0a9",
+					"Type":	"FieldFunction",
+					"Skip":	false,
+					"Delimiters":	[{
+							"$NodeId":	"Delimiter-47090bcc-f3f3-442a-b86d-2cc75edf21cb",
+							"Min":	-1,
+							"Max":	1
+						}],
+					"Positions":	{
+						"$NodeId":	"Mesh2DPositions-a0bb19c1-6bad-4ef7-a2dc-ec9390b0d019",
+						"Type":	"Mesh2D",
+						"Skip":	false,
+						"PointsY":	0,
+						"PointGenerator":	{
+							"$NodeId":	"MeshPointGenerator-edc9e8d9-4fbd-40b6-b88c-e3d707359fd9",
+							"Type":	"Mesh",
+							"Skip":	false,
+							"Jitter":	0.4,
+							"ScaleX":	250,
+							"ScaleY":	250,
+							"ScaleZ":	250,
+							"Seed":	"E"
+						}
+					}
+				},
+				"Prop":	{
+					"$NodeId":	"Prefab.Prop-c5bcf282-6398-4b50-8d33-93ac61e09bfe",
+					"Type":	"Prefab",
+					"Skip":	false,
+					"WeightedPrefabPaths":	[{
+							"$NodeId":	"WeightedPath.Prefab.Prop-a362ffc4-81f3-4154-ab8b-a9655be3a830",
+							"Path":	"Custom/AEA_AT_Mossy_Ruined_Dungeon",
+							"Weight":	100
+						}],
+					"LegacyPath":	false,
+					"LoadEntities":	true,
+					"Directionality":	{
+						"$NodeId":	"Static.Directionality-db56a717-245f-4cbc-9581-f28cd553576d",
+						"Type":	"Static",
+						"Rotation":	0,
+						"Pattern":	{
+							"$NodeId":	"Offset.Pattern-45848ada-62b1-4f4e-b7a2-38bd7361b033",
+							"Type":	"Offset",
+							"Skip":	false,
+							"Pattern":	{
+								"$NodeId":	"Floor.Pattern-aacf9beb-8e50-41f5-87ca-0b09cdb91a6b",
+								"Type":	"Floor",
+								"Skip":	false,
+								"Origin":	{
+									"$NodeId":	"BlockType.Pattern-18672b4f-0331-4033-8a58-824dcff40e64",
+									"Type":	"BlockType",
+									"Skip":	false,
+									"Material":	{
+										"$NodeId":	"Material-289584ca-7965-4f1e-9a01-7614551d2b2b",
+										"Solid":	"Empty",
+										"SolidBottomUp":	false
+									}
+								},
+								"Floor":	{
+									"$NodeId":	"BlockSet.Pattern-68b5a7ad-4da9-4566-824f-7c5a97d62a7b",
+									"Type":	"BlockSet",
+									"Skip":	false,
+									"BlockSet":	{
+										"$NodeId":	"BlockSet.BlockMask-4762cd89-a7d7-4d78-92b5-aea1939d32bc",
+										"Inclusive":	true,
+										"Materials":	[{
+												"$NodeId":	"Material-ae758be1-462c-4123-8fe9-8dc061bcf5ee",
+												"Solid":	"Soil_Grass",
+												"SolidBottomUp":	false
+											}, {
+												"$NodeId":	"Material-9f503caf-d87f-4ffd-8bf0-86609ff3620f",
+												"Solid":	"Soil_Dirt",
+												"SolidBottomUp":	false
+											}, {
+												"$NodeId":	"Material-88ec85f3-eb6a-41f1-8668-daee4b4494ae",
+												"Solid":	"Soil_Grass_Sunny",
+												"SolidBottomUp":	false
+											}, {
+												"$NodeId":	"Material-ee34928b-d8e6-4005-9372-61675cddf6ba",
+												"Solid":	"Soil_Grass_Deep",
+												"SolidBottomUp":	false
+											}, {
+												"$NodeId":	"Material-cc3e6b6f-6d9a-40ef-8050-04d436e40e11",
+												"Solid":	"Soil_Pathway",
+												"SolidBottomUp":	false
+											}, {
+												"$NodeId":	"Material-7aff40d4-d526-4976-8673-b5e17d581acc",
+												"Solid":	"Soil_Pebbles_Frozen",
+												"SolidBottomUp":	false
+											}]
+									}
+								}
+							},
+							"Offset":	{
+								"$NodeId":	"Point3D-1339d1cc-7919-43be-b4d9-a05cc99bcd24",
+								"X":	0,
+								"Y":	20,
+								"Z":	0
+							}
+						}
+					},
+					"Scanner":	{
+						"$NodeId":	"ColumnLinear.Scanner-449554f4-f92d-4d87-abe0-b23fac17e445",
+						"Type":	"ColumnLinear",
+						"Skip":	false,
+						"MaxY":	8,
+						"MinY":	-15,
+						"RelativeToPosition":	false,
+						"BaseHeightName":	"Base",
+						"TopDownOrder":	false,
+						"ResultCap":	0
+					},
+					"MoldingDirection":	"None",
+					"MoldingChildren":	false
+				}
+			}],
 		"$Links":	{
 		},
 		"$Groups":	[{
