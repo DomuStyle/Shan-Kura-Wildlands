@@ -181,41 +181,52 @@
 									"Skip":	false,
 									"PlacementCap":	1,
 									"Prop":	{
-										"$NodeId":	"DensitySelector.Prop-04639d4b-9b08-4b07-a9d2-968c9605bcfe",
-										"Type":	"DensitySelector",
+										"$NodeId":	"Offset.Prop-ed664f26-233f-472b-b405-36a8d48cc64a",
+										"Type":	"Offset",
 										"Skip":	false,
-										"Delimiters":	[{
-												"$NodeId":	"Delimiter.DensitySelector.Prop-8b73e733-2f98-4597-a516-28274ab044b4",
-												"Prop":	{
-													"$NodeId":	"Prefab.Prop-66a60256-9921-4eef-92d7-8585b7cb9f05",
-													"Type":	"Prefab",
-													"Skip":	false,
-													"WeightedPrefabPaths":	[{
-															"$NodeId":	"WeightedPath.Prefab.Prop-0ad80d14-2b3f-4e60-aff6-77a86977dd3b",
-															"Path":	"Custom/AEA_Round_Cracked_Flat",
-															"Weight":	1
-														}],
-													"LegacyPath":	false,
-													"LoadEntities":	true,
-													"MoldingDirection":	"NONE",
-													"MoldingChildren":	false
-												},
-												"Range":	{
-													"$NodeId":	"Decimal.Range-78d140ed-c026-4854-a124-a6729157304c",
-													"MinInclusive":	-1,
-													"MaxExclusive":	1
-												}
-											}],
-										"Density":	{
-											"$NodeId":	"SimplexNoise2DDensityNode-76ecbb96-4c92-47f3-8800-a0f1749f7714",
-											"Type":	"SimplexNoise2D",
-											"ExportAs":	"\n\t\"$NodeId\":\t\"Union.PropDistribution\",\n\t\"$Title\":\t\"[ROOT] Union PropDistribution\",\n\t\"$Position\":\t{\n\t\t\"$x\":\t-17911,\n\t\t\"$y\":\t-148\n\t},\n\t\"Type\":\t\"Union\",\n\t\"ExportAs\":\t\"Challenge4_Biome1_Lake_Plants\",\n\t\"Skip\":\tfalse,\n\t\"PropDistributions\":\t[{\n\t\t\t\"$NodeId\":\t\"Assigned.PropDistribution\",\n\t\t\t\"$Position\":\t{\n\t\t\t\t\"$x\":\t-16661,\n\t\t\t\t\"$y\":\t16\n\t\t\t},\n\t\t\t\"Type\":\t\"Assigned\",\n\t\t\t\"Skip\":\tfalse,\n\t\t\t\"OverrideAllProps\":\tfalse,\n\t\t\t\"PropDistribution\":\t{\n\t\t\t\t\"$NodeId\":\t\"Positions.PropDistribution\",\n\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\"$x\":\t-15961,\n\t\t\t\t\t\"$y\":\t-63\n\t\t\t\t},\n\t\t\t\t\"Type\":\t\"Positions\",\n\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\"Positions\":\t{\n\t\t\t\t\t\"$NodeId\":\t\"Scaler.Positions\",\n\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\"$x\":\t-15326,\n\t\t\t\t\t\t\"$y\":\t-61\n\t\t\t\t\t},\n\t\t\t\t\t\"Type\":\t\"Scaler\",\n\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\"Scale\":\t{\n\t\t\t\t\t\t\"$NodeId\":\t\"Point3D\",\n\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\"$x\":\t-14688,\n\t\t\t\t\t\t\t\"$y\":\t173\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"X\":\t3,\n\t\t\t\t\t\t\"Y\":\t3,\n\t\t\t\t\t\t\"Z\":\t3\n\t\t\t\t\t},\n\t\t\t\t\t\"Positions\":\t{\n\t\t\t\t\t\t\"$NodeId\":\t\"Jitter2d.Positions\",\n\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\"$x\":\t-14691,\n\t\t\t\t\t\t\t\"$y\":\t-62\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"Type\":\t\"Jitter2d\",\n\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\"Magnitude\":\t0.5,\n\t\t\t\t\t\t\"Positions\":\t{\n\t\t\t\t\t\t\t\"$NodeId\":\t\"TriangularGrid2d.Positions\",\n\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\"$x\":\t-14063,\n\t\t\t\t\t\t\t\t\"$y\":\t-58\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\"Type\":\t\"TriangularGrid2d\",\n\t\t\t\t\t\t\t\"Skip\":\tfalse\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t\"Assignments\":\t{\n\t\t\t\t\"$NodeId\":\t\"Weighted.Assignments\",\n\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\"$x\":\t-15956,\n\t\t\t\t\t\"$y\":\t399\n\t\t\t\t},\n\t\t\t\t\"Type\":\t\"Weighted\",\n\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\"SkipChance\":\t0.1,\n\t\t\t\t\"Seed\":\t\"A\",\n\t\t\t\t\"WeightedAssignments\":\t[{\n\t\t\t\t\t\t\"$NodeId\":\t\"Weight.Weighted.Assignments\",\n\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\"$x\":\t-15220,\n\t\t\t\t\t\t\t\"$y\":\t400\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"Weight\":\t1,\n\t\t\t\t\t\t\"Assignments\":\t{\n\t\t\t\t\t\t\t\"$NodeId\":\t\"Constant.Assignments\",\n\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\"$x\":\t-14743,\n\t\t\t\t\t\t\t\t\"$y\":\t402\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\"Type\":\t\"Constant\",\n\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\"Prop\":\t{\n\t\t\t\t\t\t\t\t\"$NodeId\":\t\"RandomRotator.Prop\",\n\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\"$x\":\t-14139,\n\t\t\t\t\t\t\t\t\t\"$y\":\t401\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\"Type\":\t\"RandomRotator\",\n\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\"HorizontalRotations\":\ttrue,\n\t\t\t\t\t\t\t\t\"Prop\":\t{\n\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Locator.Prop\",\n\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\"$x\":\t-13501,\n\t\t\t\t\t\t\t\t\t\t\"$y\":\t401\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"Type\":\t\"Locator\",\n\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\"PlacementCap\":\t1,\n\t\t\t\t\t\t\t\t\t\"Prop\":\t{\n\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"DensitySelector.Prop\",\n\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12862,\n\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t402\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"DensitySelector\",\n\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\"Delimiters\":\t[{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Delimiter.DensitySelector.Prop\",\n\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12194,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t406\n\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\"Prop\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Prefab.Prop\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-11783,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t280\n\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"Prefab\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"WeightedPrefabPaths\":\t[{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"WeightedPath.Prefab.Prop\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10928,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t281\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Path\":\t\"Plants/Jungle/Waterlily\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Weight\":\t1\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t}],\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"LegacyPath\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"LoadEntities\":\ttrue,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"MoldingDirection\":\t\"NONE\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"MoldingChildren\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\"Range\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Decimal.Range\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-11782,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t607\n\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"MinInclusive\":\t-1,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"MaxExclusive\":\t1\n\t\t\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t\t\t}],\n\t\t\t\t\t\t\t\t\t\t\"Density\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"SimplexNoise2DDensityNode\",\n\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12183,\n\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t764\n\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"SimplexNoise2D\",\n\t\t\t\t\t\t\t\t\t\t\t\"ExportAs\":\t\"Lowlands_Shore_Coral_Density\",\n\t\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\"Lacunarity\":\t2,\n\t\t\t\t\t\t\t\t\t\t\t\"Persistence\":\t0.5,\n\t\t\t\t\t\t\t\t\t\t\t\"Octaves\":\t1,\n\t\t\t\t\t\t\t\t\t\t\t\"Scale\":\t150,\n\t\t\t\t\t\t\t\t\t\t\t\"Seed\":\t\"Shore\"\n\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"Pattern\":\t{\n\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Surface.Pattern\",\n\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12829,\n\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1135\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"Surface\",\n\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\"Surface\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"BlockSet.Pattern\",\n\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12131,\n\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1165\n\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"BlockSet\",\n\t\t\t\t\t\t\t\t\t\t\t\"ExportAs\":\t\"Challenge4_Biome1_Lake_Origin\",\n\t\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\"BlockSet\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"BlockSet.BlockMask\",\n\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-11449,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1169\n\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\"Inclusive\":\ttrue,\n\t\t\t\t\t\t\t\t\t\t\t\t\"Materials\":\t[{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Material\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10935,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1072\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Solid\":\t\"Empty\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"SolidBottomUp\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t\t}, {\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Material\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10936,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1233\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Solid\":\t\"\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Fluid\":\t\"Water_Source\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"SolidBottomUp\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t\t}]\n\t\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"Medium\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"BlockSet.Pattern\",\n\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12123,\n\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1387\n\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"BlockSet\",\n\t\t\t\t\t\t\t\t\t\t\t\"ExportAs\":\t\"Challenge4_Biome1_Lake_Floor\",\n\t\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\"BlockSet\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"BlockSet.BlockMask\",\n\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-11443,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1388\n\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\"Inclusive\":\ttrue,\n\t\t\t\t\t\t\t\t\t\t\t\t\"Materials\":\t[{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Material\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10943,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1391\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Solid\":\t\"Soil_Dirt\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"SolidBottomUp\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t\t}, {\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Material\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10941,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1550\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Solid\":\t\"Soil_Pebbles\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"SolidBottomUp\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t\t}]\n\t\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"SurfaceRadius\":\t1,\n\t\t\t\t\t\t\t\t\t\t\"MediumRadius\":\t3,\n\t\t\t\t\t\t\t\t\t\t\"SurfaceGap\":\t0,\n\t\t\t\t\t\t\t\t\t\t\"MediumGap\":\t1,\n\t\t\t\t\t\t\t\t\t\t\"Facings\":\t[\"D\"],\n\t\t\t\t\t\t\t\t\t\t\"RequireAllFacings\":\tfalse\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"Scanner\":\t{\n\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Linear.Scanner\",\n\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12828,\n\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1694\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"Linear\",\n\t\t\t\t\t\t\t\t\t\t\"ExportAs\":\t\"Challenge4_Biome1_Waterlily_Scanner\",\n\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\"Axis\":\t\"Y\",\n\t\t\t\t\t\t\t\t\t\t\"AscendingOrder\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\"Range\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Integer.Range\",\n\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12195,\n\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1736\n\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\"MinInclusive\":\t98,\n\t\t\t\t\t\t\t\t\t\t\t\"MaxExclusive\":\t99\n\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\"Rotations\":\t[]\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t}]\n\t\t\t}\n\t\t}]",
+										"Offset":	{
+											"$NodeId":	"Point3D-235569e5-9206-466c-bba3-d6aa1db21bdc",
+											"X":	0,
+											"Y":	-4,
+											"Z":	0
+										},
+										"Prop":	{
+											"$NodeId":	"DensitySelector.Prop-04639d4b-9b08-4b07-a9d2-968c9605bcfe",
+											"Type":	"DensitySelector",
 											"Skip":	false,
-											"Lacunarity":	2,
-											"Persistence":	0.5,
-											"Octaves":	1,
-											"Scale":	50,
-											"Seed":	"AEACrackedFlat"
+											"Delimiters":	[{
+													"$NodeId":	"Delimiter.DensitySelector.Prop-8b73e733-2f98-4597-a516-28274ab044b4",
+													"Prop":	{
+														"$NodeId":	"Prefab.Prop-66a60256-9921-4eef-92d7-8585b7cb9f05",
+														"Type":	"Prefab",
+														"Skip":	false,
+														"WeightedPrefabPaths":	[{
+																"$NodeId":	"WeightedPath.Prefab.Prop-0ad80d14-2b3f-4e60-aff6-77a86977dd3b",
+																"Path":	"Custom/AEA_Round_Cracked_Flat",
+																"Weight":	1
+															}],
+														"LegacyPath":	false,
+														"LoadEntities":	true,
+														"MoldingDirection":	"NONE",
+														"MoldingChildren":	false
+													},
+													"Range":	{
+														"$NodeId":	"Decimal.Range-78d140ed-c026-4854-a124-a6729157304c",
+														"MinInclusive":	-1,
+														"MaxExclusive":	1
+													}
+												}],
+											"Density":	{
+												"$NodeId":	"SimplexNoise2DDensityNode-76ecbb96-4c92-47f3-8800-a0f1749f7714",
+												"Type":	"SimplexNoise2D",
+												"ExportAs":	"\n\t\"$NodeId\":\t\"Union.PropDistribution\",\n\t\"$Title\":\t\"[ROOT] Union PropDistribution\",\n\t\"$Position\":\t{\n\t\t\"$x\":\t-17911,\n\t\t\"$y\":\t-148\n\t},\n\t\"Type\":\t\"Union\",\n\t\"ExportAs\":\t\"Challenge4_Biome1_Lake_Plants\",\n\t\"Skip\":\tfalse,\n\t\"PropDistributions\":\t[{\n\t\t\t\"$NodeId\":\t\"Assigned.PropDistribution\",\n\t\t\t\"$Position\":\t{\n\t\t\t\t\"$x\":\t-16661,\n\t\t\t\t\"$y\":\t16\n\t\t\t},\n\t\t\t\"Type\":\t\"Assigned\",\n\t\t\t\"Skip\":\tfalse,\n\t\t\t\"OverrideAllProps\":\tfalse,\n\t\t\t\"PropDistribution\":\t{\n\t\t\t\t\"$NodeId\":\t\"Positions.PropDistribution\",\n\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\"$x\":\t-15961,\n\t\t\t\t\t\"$y\":\t-63\n\t\t\t\t},\n\t\t\t\t\"Type\":\t\"Positions\",\n\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\"Positions\":\t{\n\t\t\t\t\t\"$NodeId\":\t\"Scaler.Positions\",\n\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\"$x\":\t-15326,\n\t\t\t\t\t\t\"$y\":\t-61\n\t\t\t\t\t},\n\t\t\t\t\t\"Type\":\t\"Scaler\",\n\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\"Scale\":\t{\n\t\t\t\t\t\t\"$NodeId\":\t\"Point3D\",\n\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\"$x\":\t-14688,\n\t\t\t\t\t\t\t\"$y\":\t173\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"X\":\t3,\n\t\t\t\t\t\t\"Y\":\t3,\n\t\t\t\t\t\t\"Z\":\t3\n\t\t\t\t\t},\n\t\t\t\t\t\"Positions\":\t{\n\t\t\t\t\t\t\"$NodeId\":\t\"Jitter2d.Positions\",\n\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\"$x\":\t-14691,\n\t\t\t\t\t\t\t\"$y\":\t-62\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"Type\":\t\"Jitter2d\",\n\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\"Magnitude\":\t0.5,\n\t\t\t\t\t\t\"Positions\":\t{\n\t\t\t\t\t\t\t\"$NodeId\":\t\"TriangularGrid2d.Positions\",\n\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\"$x\":\t-14063,\n\t\t\t\t\t\t\t\t\"$y\":\t-58\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\"Type\":\t\"TriangularGrid2d\",\n\t\t\t\t\t\t\t\"Skip\":\tfalse\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t\"Assignments\":\t{\n\t\t\t\t\"$NodeId\":\t\"Weighted.Assignments\",\n\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\"$x\":\t-15956,\n\t\t\t\t\t\"$y\":\t399\n\t\t\t\t},\n\t\t\t\t\"Type\":\t\"Weighted\",\n\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\"SkipChance\":\t0.1,\n\t\t\t\t\"Seed\":\t\"A\",\n\t\t\t\t\"WeightedAssignments\":\t[{\n\t\t\t\t\t\t\"$NodeId\":\t\"Weight.Weighted.Assignments\",\n\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\"$x\":\t-15220,\n\t\t\t\t\t\t\t\"$y\":\t400\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"Weight\":\t1,\n\t\t\t\t\t\t\"Assignments\":\t{\n\t\t\t\t\t\t\t\"$NodeId\":\t\"Constant.Assignments\",\n\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\"$x\":\t-14743,\n\t\t\t\t\t\t\t\t\"$y\":\t402\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\"Type\":\t\"Constant\",\n\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\"Prop\":\t{\n\t\t\t\t\t\t\t\t\"$NodeId\":\t\"RandomRotator.Prop\",\n\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\"$x\":\t-14139,\n\t\t\t\t\t\t\t\t\t\"$y\":\t401\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\"Type\":\t\"RandomRotator\",\n\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\"HorizontalRotations\":\ttrue,\n\t\t\t\t\t\t\t\t\"Prop\":\t{\n\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Locator.Prop\",\n\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\"$x\":\t-13501,\n\t\t\t\t\t\t\t\t\t\t\"$y\":\t401\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"Type\":\t\"Locator\",\n\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\"PlacementCap\":\t1,\n\t\t\t\t\t\t\t\t\t\"Prop\":\t{\n\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"DensitySelector.Prop\",\n\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12862,\n\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t402\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"DensitySelector\",\n\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\"Delimiters\":\t[{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Delimiter.DensitySelector.Prop\",\n\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12194,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t406\n\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\"Prop\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Prefab.Prop\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-11783,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t280\n\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"Prefab\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"WeightedPrefabPaths\":\t[{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"WeightedPath.Prefab.Prop\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10928,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t281\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Path\":\t\"Plants/Jungle/Waterlily\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Weight\":\t1\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t}],\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"LegacyPath\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"LoadEntities\":\ttrue,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"MoldingDirection\":\t\"NONE\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"MoldingChildren\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\"Range\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Decimal.Range\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-11782,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t607\n\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"MinInclusive\":\t-1,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"MaxExclusive\":\t1\n\t\t\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t\t\t}],\n\t\t\t\t\t\t\t\t\t\t\"Density\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"SimplexNoise2DDensityNode\",\n\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12183,\n\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t764\n\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"SimplexNoise2D\",\n\t\t\t\t\t\t\t\t\t\t\t\"ExportAs\":\t\"Lowlands_Shore_Coral_Density\",\n\t\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\"Lacunarity\":\t2,\n\t\t\t\t\t\t\t\t\t\t\t\"Persistence\":\t0.5,\n\t\t\t\t\t\t\t\t\t\t\t\"Octaves\":\t1,\n\t\t\t\t\t\t\t\t\t\t\t\"Scale\":\t150,\n\t\t\t\t\t\t\t\t\t\t\t\"Seed\":\t\"Shore\"\n\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"Pattern\":\t{\n\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Surface.Pattern\",\n\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12829,\n\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1135\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"Surface\",\n\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\"Surface\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"BlockSet.Pattern\",\n\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12131,\n\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1165\n\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"BlockSet\",\n\t\t\t\t\t\t\t\t\t\t\t\"ExportAs\":\t\"Challenge4_Biome1_Lake_Origin\",\n\t\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\"BlockSet\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"BlockSet.BlockMask\",\n\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-11449,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1169\n\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\"Inclusive\":\ttrue,\n\t\t\t\t\t\t\t\t\t\t\t\t\"Materials\":\t[{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Material\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10935,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1072\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Solid\":\t\"Empty\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"SolidBottomUp\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t\t}, {\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Material\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10936,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1233\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Solid\":\t\"\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Fluid\":\t\"Water_Source\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"SolidBottomUp\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t\t}]\n\t\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"Medium\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"BlockSet.Pattern\",\n\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12123,\n\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1387\n\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"BlockSet\",\n\t\t\t\t\t\t\t\t\t\t\t\"ExportAs\":\t\"Challenge4_Biome1_Lake_Floor\",\n\t\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\t\"BlockSet\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"BlockSet.BlockMask\",\n\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-11443,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1388\n\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\"Inclusive\":\ttrue,\n\t\t\t\t\t\t\t\t\t\t\t\t\"Materials\":\t[{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Material\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10943,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1391\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Solid\":\t\"Soil_Dirt\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"SolidBottomUp\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t\t}, {\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Material\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-10941,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1550\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"Solid\":\t\"Soil_Pebbles\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"SolidBottomUp\":\tfalse\n\t\t\t\t\t\t\t\t\t\t\t\t\t}]\n\t\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"SurfaceRadius\":\t1,\n\t\t\t\t\t\t\t\t\t\t\"MediumRadius\":\t3,\n\t\t\t\t\t\t\t\t\t\t\"SurfaceGap\":\t0,\n\t\t\t\t\t\t\t\t\t\t\"MediumGap\":\t1,\n\t\t\t\t\t\t\t\t\t\t\"Facings\":\t[\"D\"],\n\t\t\t\t\t\t\t\t\t\t\"RequireAllFacings\":\tfalse\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"Scanner\":\t{\n\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Linear.Scanner\",\n\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12828,\n\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1694\n\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\"Type\":\t\"Linear\",\n\t\t\t\t\t\t\t\t\t\t\"ExportAs\":\t\"Challenge4_Biome1_Waterlily_Scanner\",\n\t\t\t\t\t\t\t\t\t\t\"Skip\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\"Axis\":\t\"Y\",\n\t\t\t\t\t\t\t\t\t\t\"AscendingOrder\":\tfalse,\n\t\t\t\t\t\t\t\t\t\t\"Range\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\"$NodeId\":\t\"Integer.Range\",\n\t\t\t\t\t\t\t\t\t\t\t\"$Position\":\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\"$x\":\t-12195,\n\t\t\t\t\t\t\t\t\t\t\t\t\"$y\":\t1736\n\t\t\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\t\t\"MinInclusive\":\t98,\n\t\t\t\t\t\t\t\t\t\t\t\"MaxExclusive\":\t99\n\t\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\"Rotations\":\t[]\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t}]\n\t\t\t}\n\t\t}]",
+												"Skip":	false,
+												"Lacunarity":	2,
+												"Persistence":	0.5,
+												"Octaves":	1,
+												"Scale":	50,
+												"Seed":	"AEACrackedFlat"
+											}
 										}
 									},
 									"Pattern":	{
@@ -451,38 +462,38 @@
 			},
 			"DensitySelector.Prop-04639d4b-9b08-4b07-a9d2-968c9605bcfe":	{
 				"$Position":	{
-					"$x":	4996,
-					"$y":	2653
+					"$x":	5614,
+					"$y":	2700
 				}
 			},
 			"Delimiter.DensitySelector.Prop-8b73e733-2f98-4597-a516-28274ab044b4":	{
 				"$Position":	{
-					"$x":	5664,
-					"$y":	2657
+					"$x":	6282,
+					"$y":	2704
 				}
 			},
 			"Prefab.Prop-66a60256-9921-4eef-92d7-8585b7cb9f05":	{
 				"$Position":	{
-					"$x":	6075,
-					"$y":	2531
+					"$x":	6693,
+					"$y":	2578
 				}
 			},
 			"WeightedPath.Prefab.Prop-0ad80d14-2b3f-4e60-aff6-77a86977dd3b":	{
 				"$Position":	{
-					"$x":	6881,
-					"$y":	2529
+					"$x":	7499,
+					"$y":	2576
 				}
 			},
 			"Decimal.Range-78d140ed-c026-4854-a124-a6729157304c":	{
 				"$Position":	{
-					"$x":	6076,
-					"$y":	2858
+					"$x":	6694,
+					"$y":	2905
 				}
 			},
 			"SimplexNoise2DDensityNode-76ecbb96-4c92-47f3-8800-a0f1749f7714":	{
 				"$Position":	{
-					"$x":	5719,
-					"$y":	3022
+					"$x":	6337,
+					"$y":	3069
 				}
 			},
 			"Floor.Pattern-09464949-1d33-4cf2-b437-d309e06c15e8":	{
@@ -507,6 +518,18 @@
 				"$Position":	{
 					"$x":	5086,
 					"$y":	3816
+				}
+			},
+			"Offset.Prop-ed664f26-233f-472b-b405-36a8d48cc64a":	{
+				"$Position":	{
+					"$x":	4988,
+					"$y":	2655
+				}
+			},
+			"Point3D-235569e5-9206-466c-bba3-d6aa1db21bdc":	{
+				"$Position":	{
+					"$x":	5625,
+					"$y":	2495
 				}
 			}
 		},
