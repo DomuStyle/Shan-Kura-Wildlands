@@ -14,10 +14,12 @@ Ver. 1.0.1 (02.05.2026)
 
 
 
-Ver. 1.0.2 (?02.05.2026?)
+Ver. 1.0.2 (26.07.2026)
 
 - added Mod's Icon to show up in Mod browser
-- Kurachobo (tamable and rideable npc)
+- Kurachobo (tamable and rideable npc) and Prehistoric Sloth
 - added Underwater Flora and Fauna via PropDistribution
-- added Dungeon with 3 Stages to Floating Plains Biome
-- added Drowned Dungeon in Shore Biome
+- added Dungeon with 3 Stages to Floating Plains Biome, Ancient Tower with multiple floors to Jungle Biome 
+  in multiple versions and a small Drowned Dungeon to Shores Biome
+- started implementation of Trigger Volumes to make Dungeons more immersive
+- Chnaged use of Prop Assignments in River Biome to Prop Distribution

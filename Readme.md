@@ -67,6 +67,7 @@ Features:
  NPC's:
  Capybara (tameable & rideable)
  Kurachobo (tameable & rideable)
+ Prehistoric Sloth
 
  Plants
  Blocks
