@@ -1095,16 +1095,6 @@
 		}
 	},
 	"Props":	[{
-			"$NodeId":	"Runtime-2ef8da10-09b1-48f6-b362-bc29d100c73c",
-			"Skip":	false,
-			"Runtime":	0,
-			"PropDistribution":	{
-				"$NodeId":	"Imported.PropDistribution-1392da1c-93f0-4c94-a098-502260738be3",
-				"Type":	"Imported",
-				"Skip":	false,
-				"Name":	"Lowland_River_Small_Trees"
-			}
-		}, {
 			"$NodeId":	"Runtime-7b36bdc0-93e6-466c-bf6b-be483805ed7f",
 			"Skip":	false,
 			"Runtime":	2,
@@ -1163,6 +1153,16 @@
 				"Type":	"Imported",
 				"Skip":	false,
 				"Name":	"Lowland_River_Palm_Trees"
+			}
+		}, {
+			"$NodeId":	"Runtime-2ef8da10-09b1-48f6-b362-bc29d100c73c",
+			"Skip":	false,
+			"Runtime":	0,
+			"PropDistribution":	{
+				"$NodeId":	"Imported.PropDistribution-1392da1c-93f0-4c94-a098-502260738be3",
+				"Type":	"Imported",
+				"Skip":	false,
+				"Name":	"Lowland_River_Small_Trees"
 			}
 		}, {
 			"$NodeId":	"Runtime-650af849-1a14-423e-8dde-f29752ac2b3d",
@@ -2461,14 +2461,14 @@
 			},
 			"Runtime-2ef8da10-09b1-48f6-b362-bc29d100c73c":	{
 				"$Position":	{
-					"$x":	-668,
-					"$y":	11957
+					"$x":	-245,
+					"$y":	18756
 				}
 			},
 			"Imported.PropDistribution-1392da1c-93f0-4c94-a098-502260738be3":	{
 				"$Position":	{
-					"$x":	-34,
-					"$y":	12034
+					"$x":	388,
+					"$y":	18833
 				}
 			},
 			"Runtime-650af849-1a14-423e-8dde-f29752ac2b3d":	{
@@ -2921,8 +2921,8 @@
 				"$name":	"Tall Trees"
 			}, {
 				"$Position":	{
-					"$x":	-713.375,
-					"$y":	11879.6875
+					"$x":	-290.5625,
+					"$y":	18678.4375
 				},
 				"$width":	1259.875,
 				"$height":	350.875,
