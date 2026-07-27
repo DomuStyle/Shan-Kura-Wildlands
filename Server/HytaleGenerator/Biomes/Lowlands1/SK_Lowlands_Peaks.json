@@ -1,6 +1,6 @@
 {
 	"$NodeId":	"Biome-bcc388fa-3403-4309-92af-86eb4114ba0a",
-	"Name":	"Hills",
+	"Name":	"SK_Lowlands_Peaks",
 	"Terrain":	{
 		"$NodeId":	"Terrain-fd0874f1-0e77-4f97-95ff-1d116aed9935",
 		"Type":	"DAOTerrain",
@@ -579,12 +579,15 @@
 	"MaterialProvider":	{
 		"$NodeId":	"SolidityMaterialProvider-55f73182-b038-470e-b0b1-685f139c06b8",
 		"Type":	"Solidity",
+		"Skip":	false,
 		"Solid":	{
 			"$NodeId":	"QueueMaterialProvider-b75cf204-98c9-4dcd-8f80-9dcb1e3083c6",
 			"Type":	"Queue",
+			"Skip":	false,
 			"Queue":	[{
 					"$NodeId":	"SimpleHorizontalMaterialProvider-aec6bc5a-627e-4ed0-a385-df1be4174ac6",
 					"Type":	"SimpleHorizontal",
+					"Skip":	false,
 					"TopY":	1,
 					"TopBaseHeight":	"Bedrock",
 					"BottomY":	0,
@@ -592,6 +595,7 @@
 					"Material":	{
 						"$NodeId":	"ConstantMaterialProvider-90420d17-5fa3-44c8-9295-44a10da9d94f",
 						"Type":	"Constant",
+						"Skip":	false,
 						"Material":	{
 							"$NodeId":	"Material-cd514f46-f093-4f43-95e4-247603bee38a",
 							"Solid":	"Rock_Bedrock",
@@ -601,6 +605,7 @@
 				}, {
 					"$NodeId":	"SimpleHorizontalMaterialProvider-9c04f9d2-dd8b-470b-9b92-2678d4739f6c",
 					"Type":	"SimpleHorizontal",
+					"Skip":	false,
 					"TopY":	170,
 					"TopBaseHeight":	"Base",
 					"BottomY":	-20,
@@ -608,6 +613,7 @@
 					"Material":	{
 						"$NodeId":	"SpaceAndDepthMaterialProvider-574212ce-9f7a-4ef3-bdf3-7d44c2ad1321",
 						"Type":	"SpaceAndDepth",
+						"Skip":	false,
 						"LayerContext":	"DEPTH_INTO_FLOOR",
 						"MaxExpectedDepth":	3,
 						"Layers":	[{
@@ -617,6 +623,7 @@
 								"Material":	{
 									"$NodeId":	"FieldFunctionMaterialProvider-37afbd09-494b-4945-8e75-c8f30f87ef12",
 									"Type":	"FieldFunction",
+									"Skip":	false,
 									"FieldFunction":	{
 										"$NodeId":	"ImportedDensityNode-127253c2-36c3-4fb6-a0fa-3b68741d4781",
 										"Type":	"Imported",
@@ -630,6 +637,7 @@
 											"Material":	{
 												"$NodeId":	"FieldFunctionMaterialProvider-43ed2c74-44cd-4b12-b690-fcc340066a9b",
 												"Type":	"FieldFunction",
+												"Skip":	false,
 												"FieldFunction":	{
 													"$NodeId":	"ImportedDensityNode-ddb2bc99-e53f-49bf-90ea-a7de3e40816a",
 													"Type":	"Imported",
@@ -643,9 +651,11 @@
 														"Material":	{
 															"$NodeId":	"QueueMaterialProvider-79fbfffe-c42c-48f5-9de9-586c5e0e035c",
 															"Type":	"Queue",
+															"Skip":	false,
 															"Queue":	[{
 																	"$NodeId":	"SimpleHorizontalMaterialProvider-f04b6bcf-bbbc-485d-a9c1-14973a75b3eb",
 																	"Type":	"SimpleHorizontal",
+																	"Skip":	false,
 																	"TopY":	180,
 																	"TopBaseHeight":	"Base",
 																	"BottomY":	40,
@@ -653,6 +663,7 @@
 																	"Material":	{
 																		"$NodeId":	"FieldFunctionMaterialProvider-e7f188c4-e52a-4c9c-b863-8508801b2250",
 																		"Type":	"FieldFunction",
+																		"Skip":	false,
 																		"FieldFunction":	{
 																			"$NodeId":	"SumDensityNode-90bd6b54-d099-4bb9-9bce-3727603eb2d3",
 																			"Type":	"Sum",
@@ -698,6 +709,7 @@
 																				"Material":	{
 																					"$NodeId":	"SpaceAndDepthMaterialProvider-2f9875b1-b0ca-4482-91da-bb37b3baa60f",
 																					"Type":	"SpaceAndDepth",
+																					"Skip":	false,
 																					"LayerContext":	"DEPTH_INTO_FLOOR",
 																					"MaxExpectedDepth":	3,
 																					"Layers":	[{
@@ -707,6 +719,7 @@
 																							"Material":	{
 																								"$NodeId":	"ConstantMaterialProvider-c487fd97-2733-4427-9ed7-f5aab49c1d97",
 																								"Type":	"Constant",
+																								"Skip":	false,
 																								"Material":	{
 																									"$NodeId":	"Material-3162af5c-54ff-4908-8cf1-a4cfa8beed2c",
 																									"Solid":	"Soil_Grass_Sunny",
@@ -720,6 +733,7 @@
 																							"Material":	{
 																								"$NodeId":	"ConstantMaterialProvider-6a8e9e37-c494-471e-b892-b125f36ec432",
 																								"Type":	"Constant",
+																								"Skip":	false,
 																								"Material":	{
 																									"$NodeId":	"Material-0353ff76-d3d7-4507-ac5d-a12e9052eecf",
 																									"Solid":	"Soil_Grass",
@@ -735,6 +749,7 @@
 																				"Material":	{
 																					"$NodeId":	"SpaceAndDepthMaterialProvider-307ac393-6647-4d28-b158-0fd11dfe7313",
 																					"Type":	"SpaceAndDepth",
+																					"Skip":	false,
 																					"LayerContext":	"DEPTH_INTO_FLOOR",
 																					"MaxExpectedDepth":	3,
 																					"Layers":	[{
@@ -744,6 +759,7 @@
 																							"Material":	{
 																								"$NodeId":	"ConstantMaterialProvider-ba2c1e36-5ee2-4ae8-bcb6-016b5b9594e6",
 																								"Type":	"Constant",
+																								"Skip":	false,
 																								"Material":	{
 																									"$NodeId":	"Material-facd72c1-80ca-445c-b0a6-1543a2a2bf13",
 																									"Solid":	"Soil_Grass_Deep",
@@ -757,6 +773,7 @@
 																}, {
 																	"$NodeId":	"FieldFunctionMaterialProvider-1a108ba7-9475-4335-87de-6733665b6ef0",
 																	"Type":	"FieldFunction",
+																	"Skip":	false,
 																	"FieldFunction":	{
 																		"$NodeId":	"SumDensityNode-3b3d4d39-50a4-4954-b272-71e4d3e88eae",
 																		"Type":	"Sum",
@@ -812,6 +829,7 @@
 																			"Material":	{
 																				"$NodeId":	"SpaceAndDepthMaterialProvider-666c0a08-4f4e-4350-a08d-03e2a3ebcbb9",
 																				"Type":	"SpaceAndDepth",
+																				"Skip":	false,
 																				"LayerContext":	"DEPTH_INTO_FLOOR",
 																				"MaxExpectedDepth":	3,
 																				"Layers":	[{
@@ -821,6 +839,7 @@
 																						"Material":	{
 																							"$NodeId":	"ConstantMaterialProvider-3de8d296-49d2-4fe1-8dc6-72c1aa95b7c2",
 																							"Type":	"Constant",
+																							"Skip":	false,
 																							"Material":	{
 																								"$NodeId":	"Material-1e4496ff-f692-49f5-9c74-68579a7a7bbe",
 																								"Solid":	"Soil_Dirt",
@@ -833,6 +852,7 @@
 																}, {
 																	"$NodeId":	"FieldFunctionMaterialProvider-c9d84f63-01bf-4c43-a00e-816085f23686",
 																	"Type":	"FieldFunction",
+																	"Skip":	false,
 																	"FieldFunction":	{
 																		"$NodeId":	"SumDensityNode-d97c142f-0c8e-4586-8e71-723d543eebfa",
 																		"Type":	"Sum",
@@ -855,6 +875,7 @@
 																			"Material":	{
 																				"$NodeId":	"SpaceAndDepthMaterialProvider-1775864f-de44-403a-81b2-b1330c9919da",
 																				"Type":	"SpaceAndDepth",
+																				"Skip":	false,
 																				"LayerContext":	"DEPTH_INTO_FLOOR",
 																				"MaxExpectedDepth":	3,
 																				"Layers":	[{
@@ -864,6 +885,7 @@
 																						"Material":	{
 																							"$NodeId":	"ConstantMaterialProvider-0ad5d3fe-284b-48b3-8938-ecfd158f2c09",
 																							"Type":	"Constant",
+																							"Skip":	false,
 																							"Material":	{
 																								"$NodeId":	"Material-602c7f32-542d-4f90-a1d9-81b29e1fafee",
 																								"Solid":	"Soil_Leaves",
@@ -877,6 +899,7 @@
 																						"Material":	{
 																							"$NodeId":	"ConstantMaterialProvider-9ff83044-196c-4691-887c-277c840965f9",
 																							"Type":	"Constant",
+																							"Skip":	false,
 																							"Material":	{
 																								"$NodeId":	"Material-69e730b6-eee8-412f-a086-0e77276a225c",
 																								"Solid":	"Soil_Dirt",
@@ -889,6 +912,7 @@
 																}, {
 																	"$NodeId":	"SpaceAndDepthMaterialProvider-57188276-a9ed-4752-9646-f035d2d0fef7",
 																	"Type":	"SpaceAndDepth",
+																	"Skip":	false,
 																	"LayerContext":	"DEPTH_INTO_FLOOR",
 																	"MaxExpectedDepth":	3,
 																	"Layers":	[{
@@ -898,6 +922,7 @@
 																			"Material":	{
 																				"$NodeId":	"ConstantMaterialProvider-85a43a75-f294-4171-8dfb-5454a7be00f2",
 																				"Type":	"Constant",
+																				"Skip":	false,
 																				"Material":	{
 																					"$NodeId":	"Material-8818adc7-fd1d-4de2-9695-95be9143307e",
 																					"Solid":	"Soil_Grass",
@@ -911,6 +936,7 @@
 																			"Material":	{
 																				"$NodeId":	"ConstantMaterialProvider-773cd4db-679e-4cb8-8ca6-27de9d7cb495",
 																				"Type":	"Constant",
+																				"Skip":	false,
 																				"Material":	{
 																					"$NodeId":	"Material-f770d39a-811d-4101-8a48-e371c06c440b",
 																					"Solid":	"Soil_Dirt",
@@ -929,6 +955,7 @@
 				}, {
 					"$NodeId":	"SimpleHorizontalMaterialProvider-49b82206-04de-40e4-9f32-a960c58a3f19",
 					"Type":	"SimpleHorizontal",
+					"Skip":	false,
 					"TopY":	150,
 					"TopBaseHeight":	"Base",
 					"BottomY":	0,
@@ -936,6 +963,7 @@
 					"Material":	{
 						"$NodeId":	"FieldFunctionMaterialProvider-39b81065-6c08-46a4-aba1-ee12b4f327a1",
 						"Type":	"FieldFunction",
+						"Skip":	false,
 						"FieldFunction":	{
 							"$NodeId":	"ImportedDensityNode-f95d5cd8-b0ca-441d-82c0-2f24472471ba",
 							"Type":	"Imported",
@@ -949,6 +977,7 @@
 								"Material":	{
 									"$NodeId":	"ConstantMaterialProvider-f1273c87-f455-4536-8690-b225b501c730",
 									"Type":	"Constant",
+									"Skip":	false,
 									"Material":	{
 										"$NodeId":	"Material-4b96b14f-3ac0-4ad7-ae4a-2ada4cb11044",
 										"Solid":	"Rock_Basalt",
@@ -962,6 +991,7 @@
 								"Material":	{
 									"$NodeId":	"FieldFunctionMaterialProvider-54fd3d53-a183-46cd-8744-e1954979db08",
 									"Type":	"FieldFunction",
+									"Skip":	false,
 									"FieldFunction":	{
 										"$NodeId":	"SimplexNoise2DDensityNode-2f2f08a8-df31-45be-b143-eb20b4143fef",
 										"Type":	"SimplexNoise2D",
@@ -979,6 +1009,7 @@
 											"Material":	{
 												"$NodeId":	"SpaceAndDepthMaterialProvider-af1ca3be-8790-42ed-bf93-6fc8e5d1b487",
 												"Type":	"SpaceAndDepth",
+												"Skip":	false,
 												"LayerContext":	"DEPTH_INTO_FLOOR",
 												"MaxExpectedDepth":	6,
 												"Layers":	[{
@@ -988,6 +1019,7 @@
 														"Material":	{
 															"$NodeId":	"ConstantMaterialProvider-eaefb63c-9633-4c6d-b1aa-f7a54c8b610f",
 															"Type":	"Constant",
+															"Skip":	false,
 															"Material":	{
 																"$NodeId":	"Material-4d75c14c-b2c6-4f43-8ec0-7cd82fb07a1d",
 																"Solid":	"Rock_Slate",
@@ -1003,6 +1035,7 @@
 				}, {
 					"$NodeId":	"SimpleHorizontalMaterialProvider-a024eae1-621a-46aa-8a19-013d1d5b68c8",
 					"Type":	"SimpleHorizontal",
+					"Skip":	false,
 					"TopY":	100,
 					"TopBaseHeight":	"Base",
 					"BottomY":	-80,
@@ -1010,6 +1043,7 @@
 					"Material":	{
 						"$NodeId":	"SpaceAndDepthMaterialProvider-cd45907c-af25-4c36-9511-0db8f818ea36",
 						"Type":	"SpaceAndDepth",
+						"Skip":	false,
 						"LayerContext":	"DEPTH_INTO_FLOOR",
 						"MaxExpectedDepth":	2,
 						"Condition":	{
@@ -1025,6 +1059,7 @@
 								"Material":	{
 									"$NodeId":	"FieldFunctionMaterialProvider-33e930ec-a40a-4ea4-8512-ff484992051e",
 									"Type":	"FieldFunction",
+									"Skip":	false,
 									"FieldFunction":	{
 										"$NodeId":	"Mix.Density-16837276-2f60-4529-a197-cb8a9c0eba79",
 										"Type":	"Mix",
@@ -1057,6 +1092,7 @@
 											"Material":	{
 												"$NodeId":	"ConstantMaterialProvider-31248f94-bfea-49cd-b438-73d104d79dee",
 												"Type":	"Constant",
+												"Skip":	false,
 												"Material":	{
 													"$NodeId":	"Material-6809ba77-3a95-4f96-a478-3c86431a63dd",
 													"Solid":	"Soil_Gravel",
@@ -1070,6 +1106,7 @@
 				}, {
 					"$NodeId":	"SimpleHorizontalMaterialProvider-d64b337d-97e9-44cc-a056-b591ffc4de8f",
 					"Type":	"SimpleHorizontal",
+					"Skip":	false,
 					"TopY":	150,
 					"TopBaseHeight":	"Base",
 					"BottomY":	0,
@@ -1077,6 +1114,7 @@
 					"Material":	{
 						"$NodeId":	"FieldFunctionMaterialProvider-998200aa-84db-4022-8598-008cf2670017",
 						"Type":	"FieldFunction",
+						"Skip":	false,
 						"FieldFunction":	{
 							"$NodeId":	"SimplexNoise2DDensityNode-383ce21b-6cd1-4407-9a60-7f5b8a845d97",
 							"Type":	"SimplexNoise2D",
@@ -1094,6 +1132,7 @@
 								"Material":	{
 									"$NodeId":	"ConstantMaterialProvider-67f3a70d-f840-474d-b6c6-e25c0a58c096",
 									"Type":	"Constant",
+									"Skip":	false,
 									"Material":	{
 										"$NodeId":	"Material-6b165610-7dce-40c0-819a-51af33036c26",
 										"Solid":	"Rock_Basalt",
@@ -1105,6 +1144,7 @@
 				}, {
 					"$NodeId":	"ConstantMaterialProvider-ebd03c87-fa7b-442a-b822-ca10b767bd07",
 					"Type":	"Constant",
+					"Skip":	false,
 					"Material":	{
 						"$NodeId":	"Material-2d3b3ddd-0f38-4a93-8221-9c509acb63b7",
 						"Solid":	"Rock_Shale",
@@ -1115,9 +1155,11 @@
 		"Empty":	{
 			"$NodeId":	"QueueMaterialProvider-b2eb7891-7234-4739-ae22-22d0f366da4a",
 			"Type":	"Queue",
+			"Skip":	false,
 			"Queue":	[{
 					"$NodeId":	"ConstantMaterialProvider-a7af3e41-1dc8-4829-a679-d20352a4f6e0",
 					"Type":	"Constant",
+					"Skip":	false,
 					"Material":	{
 						"$NodeId":	"Material-b72686f4-8454-4b37-8b73-a5badafe72ec",
 						"Solid":	"Empty",
@@ -1138,6 +1180,7 @@
 				"PointGenerator":	{
 					"$NodeId":	"MeshPointGenerator-7d16dfd6-9f95-4fcc-a77b-6a71276516ef",
 					"Type":	"Mesh",
+					"Skip":	false,
 					"Jitter":	0.5,
 					"ScaleX":	22,
 					"ScaleY":	22,
@@ -1148,7 +1191,18 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-5c885f65-44ec-463a-ab73-c10f23c0d3e0",
 				"Type":	"Imported",
+				"Skip":	false,
 				"Name":	"Lowland_Peaks_Iron"
+			}
+		}, {
+			"$NodeId":	"Runtime-9ebf25d0-bcd6-46ce-b773-dfcb3f98e3c0",
+			"Skip":	false,
+			"Runtime":	0,
+			"PropDistribution":	{
+				"$NodeId":	"Imported.PropDistribution-92b9d373-537c-45e5-8a5d-2b22d4906ae4",
+				"Type":	"Imported",
+				"Skip":	false,
+				"Name":	"Lowland_Peaks_Plants"
 			}
 		}, {
 			"$NodeId":	"Runtime-5eab4f0d-d59b-46f3-a991-3996eb589e34",
@@ -1162,6 +1216,7 @@
 				"PointGenerator":	{
 					"$NodeId":	"MeshPointGenerator-19db7681-c271-4b01-93b1-fd791a2ba8cd",
 					"Type":	"Mesh",
+					"Skip":	false,
 					"Jitter":	0.5,
 					"ScaleX":	22,
 					"ScaleY":	22,
@@ -1172,6 +1227,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-46cd79a7-1fe5-4815-b379-53bbf7ab5e04",
 				"Type":	"Imported",
+				"Skip":	false,
 				"Name":	"Lowland_Cobalt"
 			}
 		}, {
@@ -1186,6 +1242,7 @@
 				"PointGenerator":	{
 					"$NodeId":	"MeshPointGenerator-8170d640-f4cf-46dc-acba-639f9321cf4d",
 					"Type":	"Mesh",
+					"Skip":	false,
 					"Jitter":	0.5,
 					"ScaleX":	32,
 					"ScaleY":	32,
@@ -1196,6 +1253,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-8e76d11d-1a60-42e2-9742-3c963528bf6a",
 				"Type":	"Imported",
+				"Skip":	false,
 				"Name":	"Lowland_Gold"
 			}
 		}, {
@@ -1219,6 +1277,7 @@
 					"PointGenerator":	{
 						"$NodeId":	"MeshPointGenerator-9caa60cc-6d07-41bf-b70c-b32b71c0ae8f",
 						"Type":	"Mesh",
+						"Skip":	false,
 						"Jitter":	0.4,
 						"ScaleX":	12,
 						"ScaleY":	12,
@@ -1230,6 +1289,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-5c02695e-a975-4b16-bb1b-3bb58bc7bcf8",
 				"Type":	"Imported",
+				"Skip":	false,
 				"Name":	"Lowland_Peaks_Jungle_Trees"
 			}
 		}, {
@@ -1244,6 +1304,7 @@
 				"PointGenerator":	{
 					"$NodeId":	"MeshPointGenerator-34412e5a-16a4-4ba4-9ceb-4c67bc2d53b8",
 					"Type":	"Mesh",
+					"Skip":	false,
 					"Jitter":	0,
 					"ScaleX":	1,
 					"ScaleY":	1,
@@ -1254,69 +1315,8 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-0b337df7-62d2-45be-91d8-9b9ae2d473c7",
 				"Type":	"Imported",
-				"Name":	"Lowland_Peaks_Stalactites"
-			}
-		}, {
-			"$NodeId":	"Runtime-962a7db2-c37f-40bf-ad57-966fbd921114",
-			"Skip":	false,
-			"Runtime":	0,
-			"Positions":	{
-				"$NodeId":	"OccurrencePositions-ff06e5f7-c685-49ae-ac20-ca0424467932",
-				"Type":	"Occurrence",
 				"Skip":	false,
-				"Seed":	"A",
-				"FieldFunction":	{
-					"$NodeId":	"CurveMapper.Density-1618d2b8-7835-40b7-8107-fa1b4d02a42e",
-					"Type":	"CurveMapper",
-					"Skip":	false,
-					"Curve":	{
-						"$NodeId":	"ManualCurve-2c5207d3-4a19-46ce-8585-2df544cbfd90",
-						"Type":	"Manual",
-						"Points":	[{
-								"$NodeId":	"CurvePoint-832660a4-b7a7-4deb-973e-f9ccb9923a77",
-								"In":	1,
-								"Out":	1
-							}, {
-								"$NodeId":	"CurvePoint-0aa9dcaf-d367-4047-9ad5-612dfa050f6e",
-								"In":	0.4,
-								"Out":	1
-							}, {
-								"$NodeId":	"CurvePoint-91fb5b11-61bb-4f34-9e11-0458ee976c21",
-								"In":	0.3,
-								"Out":	0.5
-							}, {
-								"$NodeId":	"CurvePoint-5bd12cc4-9bad-4725-9392-fc9761826e62",
-								"In":	0.2,
-								"Out":	0
-							}]
-					},
-					"Inputs":	[{
-							"$NodeId":	"ImportedDensityNode-36511705-68c1-417d-a8b5-801b683a3b54",
-							"Type":	"Imported",
-							"Skip":	false,
-							"Name":	"Lowland_Peaks_Trees_Pattern"
-						}]
-				},
-				"Positions":	{
-					"$NodeId":	"Mesh2DPositions-16a96845-505b-4c2d-a87b-369241203b06",
-					"Type":	"Mesh2D",
-					"Skip":	false,
-					"PointsY":	0,
-					"PointGenerator":	{
-						"$NodeId":	"MeshPointGenerator-a310ca88-7662-4108-9f6c-5d7bc570699e",
-						"Type":	"Mesh",
-						"Jitter":	0.3,
-						"ScaleX":	5.5,
-						"ScaleY":	5.5,
-						"ScaleZ":	5.5,
-						"Seed":	"A"
-					}
-				}
-			},
-			"Assignments":	{
-				"$NodeId":	"Imported.Assignments-124e4ad6-6388-4dac-8010-ba3fdc32ad18",
-				"Type":	"Imported",
-				"Name":	"Lowland_Peaks_Trees"
+				"Name":	"Lowland_Peaks_Stalactites"
 			}
 		}, {
 			"$NodeId":	"Runtime-24765f2d-d7ed-4f63-89d8-110d829ba219",
@@ -1330,6 +1330,7 @@
 				"PointGenerator":	{
 					"$NodeId":	"MeshPointGenerator-5d4ce1e9-b08c-4226-a568-9ac24f32c99f",
 					"Type":	"Mesh",
+					"Skip":	false,
 					"Jitter":	0,
 					"ScaleX":	1,
 					"ScaleY":	1,
@@ -1340,6 +1341,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-ea30904c-3aeb-4fb8-a713-b5a03dad046a",
 				"Type":	"Imported",
+				"Skip":	false,
 				"Name":	"Lowland_Jungle_Grasses"
 			}
 		}, {
@@ -1354,6 +1356,7 @@
 				"PointGenerator":	{
 					"$NodeId":	"MeshPointGenerator-1e70094d-6a7e-4630-8cde-90729574f6ba",
 					"Type":	"Mesh",
+					"Skip":	false,
 					"Jitter":	0.5,
 					"ScaleX":	8,
 					"ScaleY":	8,
@@ -1364,6 +1367,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-8b8bace2-3674-4b9f-854d-04da798dee39",
 				"Type":	"Imported",
+				"Skip":	false,
 				"Name":	"Lowland_Peaks_Rubble"
 			}
 		}, {
@@ -1378,6 +1382,7 @@
 				"PointGenerator":	{
 					"$NodeId":	"MeshPointGenerator-0942babe-8903-48bc-9640-f7ed117c149a",
 					"Type":	"Mesh",
+					"Skip":	false,
 					"Jitter":	0.5,
 					"ScaleX":	10,
 					"ScaleY":	10,
@@ -1388,31 +1393,8 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-13a6df88-e513-4a03-928b-5fa70d337ea6",
 				"Type":	"Imported",
-				"Name":	"Lowland_Peaks_Boulders"
-			}
-		}, {
-			"$NodeId":	"Runtime-de149d90-d5b6-4f78-ad25-db65f5359e9c",
-			"Skip":	false,
-			"Runtime":	0,
-			"Positions":	{
-				"$NodeId":	"Mesh2DPositions-ea7218de-b60e-4e06-9dcc-c8613697aacf",
-				"Type":	"Mesh2D",
 				"Skip":	false,
-				"PointsY":	0,
-				"PointGenerator":	{
-					"$NodeId":	"MeshPointGenerator-9c9f484f-08d0-4b19-a436-4d59f6ad919a",
-					"Type":	"Mesh",
-					"Jitter":	0.3,
-					"ScaleX":	3,
-					"ScaleY":	3,
-					"ScaleZ":	3,
-					"Seed":	"B"
-				}
-			},
-			"Assignments":	{
-				"$NodeId":	"Imported.Assignments-f17ad796-e6a0-4618-b9c5-26bf3bb68696",
-				"Type":	"Imported",
-				"Name":	"Lowland_Peaks_Cliffs"
+				"Name":	"Lowland_Peaks_Boulders"
 			}
 		}, {
 			"$NodeId":	"Runtime-b4f337a3-fa5b-421e-ad39-c21cbd7f74a8",
@@ -1426,6 +1408,7 @@
 				"PointGenerator":	{
 					"$NodeId":	"MeshPointGenerator-dd30c26c-3666-4aa4-acff-c43fd56b0055",
 					"Type":	"Mesh",
+					"Skip":	false,
 					"Jitter":	0.5,
 					"ScaleX":	6,
 					"ScaleY":	6,
@@ -1436,12 +1419,14 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-adf54a0a-3247-4c51-b25c-611611385a4e",
 				"Type":	"Imported",
+				"Skip":	false,
 				"Name":	"Lowland_Peaks_Cave_Boulders"
 			}
 		}],
 	"EnvironmentProvider":	{
 		"$NodeId":	"DensityDelimited.EnvironmentProvider-ece2c808-2b00-4949-9ddc-2b1ae853d149",
 		"Type":	"DensityDelimited",
+		"Skip":	false,
 		"Density":	{
 			"$NodeId":	"CurveMapper.Density-e03c0969-bc63-4f73-aff6-0f87d31cdc30",
 			"Type":	"CurveMapper",
@@ -1472,6 +1457,7 @@
 				"Environment":	{
 					"$NodeId":	"Constant.EnvironmentProvider-a8a01c41-5d80-488f-87fc-434018cff10a",
 					"Type":	"Constant",
+					"Skip":	false,
 					"Environment":	"Env_Lowland_Peaks"
 				},
 				"Range":	{
@@ -1484,6 +1470,7 @@
 				"Environment":	{
 					"$NodeId":	"Constant.EnvironmentProvider-ab0d95cf-84e6-433f-a275-6ef6fa8361c8",
 					"Type":	"Constant",
+					"Skip":	false,
 					"Environment":	"Env_Zone3_Caves_Forests"
 				},
 				"Range":	{
@@ -1496,6 +1483,7 @@
 	"TintProvider":	{
 		"$NodeId":	"DensityDelimited.TintProvider-fabd29a9-5661-4f11-9dd8-e27a56583838",
 		"Type":	"DensityDelimited",
+		"Skip":	false,
 		"Density":	{
 			"$NodeId":	"SimplexNoise2DDensityNode-b2c2c99c-82b6-4814-919a-d2afb9aa5866",
 			"Type":	"SimplexNoise2D",
@@ -1511,6 +1499,7 @@
 				"Tint":	{
 					"$NodeId":	"Constant.TintProvider-2eb3f7b6-71ff-4a5d-acb9-d77b4a15877f",
 					"Type":	"Constant",
+					"Skip":	false,
 					"Color":	"#56ad1b"
 				},
 				"Range":	{
@@ -1523,6 +1512,7 @@
 				"Tint":	{
 					"$NodeId":	"Constant.TintProvider-de246b0b-c968-4a3f-8e1d-fe1679dc03ee",
 					"Type":	"Constant",
+					"Skip":	false,
 					"Color":	"#56ad1b"
 				},
 				"Range":	{
@@ -1535,6 +1525,7 @@
 				"Tint":	{
 					"$NodeId":	"Constant.TintProvider-3b3445f9-1c04-4b16-927c-93cd5281c283",
 					"Type":	"Constant",
+					"Skip":	false,
 					"Color":	"#56ad1b"
 				},
 				"Range":	{
@@ -1547,6 +1538,7 @@
 				"Tint":	{
 					"$NodeId":	"Constant.TintProvider-23928d86-9b5b-450b-9dee-1c67248783a0",
 					"Type":	"Constant",
+					"Skip":	false,
 					"Color":	"#56ad1b"
 				},
 				"Range":	{
@@ -3250,9 +3242,111 @@
 					"$x":	-9670,
 					"$y":	1881
 				}
+			},
+			"Runtime-9ebf25d0-bcd6-46ce-b773-dfcb3f98e3c0":	{
+				"$Position":	{
+					"$x":	-6462,
+					"$y":	494
+				}
+			},
+			"Imported.PropDistribution-92b9d373-537c-45e5-8a5d-2b22d4906ae4":	{
+				"$Position":	{
+					"$x":	-5842,
+					"$y":	572
+				}
 			}
 		},
-		"$FloatingNodes":	[],
+		"$FloatingNodes":	[{
+				"$NodeId":	"Runtime-962a7db2-c37f-40bf-ad57-966fbd921114",
+				"Skip":	false,
+				"Runtime":	0,
+				"Positions":	{
+					"$NodeId":	"OccurrencePositions-ff06e5f7-c685-49ae-ac20-ca0424467932",
+					"Type":	"Occurrence",
+					"Skip":	false,
+					"Seed":	"A",
+					"FieldFunction":	{
+						"$NodeId":	"CurveMapper.Density-1618d2b8-7835-40b7-8107-fa1b4d02a42e",
+						"Type":	"CurveMapper",
+						"Skip":	false,
+						"Curve":	{
+							"$NodeId":	"ManualCurve-2c5207d3-4a19-46ce-8585-2df544cbfd90",
+							"Type":	"Manual",
+							"Points":	[{
+									"$NodeId":	"CurvePoint-832660a4-b7a7-4deb-973e-f9ccb9923a77",
+									"In":	1,
+									"Out":	1
+								}, {
+									"$NodeId":	"CurvePoint-0aa9dcaf-d367-4047-9ad5-612dfa050f6e",
+									"In":	0.4,
+									"Out":	1
+								}, {
+									"$NodeId":	"CurvePoint-91fb5b11-61bb-4f34-9e11-0458ee976c21",
+									"In":	0.3,
+									"Out":	0.5
+								}, {
+									"$NodeId":	"CurvePoint-5bd12cc4-9bad-4725-9392-fc9761826e62",
+									"In":	0.2,
+									"Out":	0
+								}]
+						},
+						"Inputs":	[{
+								"$NodeId":	"ImportedDensityNode-36511705-68c1-417d-a8b5-801b683a3b54",
+								"Type":	"Imported",
+								"Skip":	false,
+								"Name":	"Lowland_Peaks_Trees_Pattern"
+							}]
+					},
+					"Positions":	{
+						"$NodeId":	"Mesh2DPositions-16a96845-505b-4c2d-a87b-369241203b06",
+						"Type":	"Mesh2D",
+						"Skip":	false,
+						"PointsY":	0,
+						"PointGenerator":	{
+							"$NodeId":	"MeshPointGenerator-a310ca88-7662-4108-9f6c-5d7bc570699e",
+							"Type":	"Mesh",
+							"Skip":	false,
+							"Jitter":	0.3,
+							"ScaleX":	5.5,
+							"ScaleY":	5.5,
+							"ScaleZ":	5.5,
+							"Seed":	"A"
+						}
+					}
+				},
+				"Assignments":	{
+					"$NodeId":	"Imported.Assignments-124e4ad6-6388-4dac-8010-ba3fdc32ad18",
+					"Type":	"Imported",
+					"Skip":	false,
+					"Name":	"Lowland_Peaks_Trees"
+				}
+			}, {
+				"$NodeId":	"Runtime-de149d90-d5b6-4f78-ad25-db65f5359e9c",
+				"Skip":	false,
+				"Runtime":	0,
+				"Positions":	{
+					"$NodeId":	"Mesh2DPositions-ea7218de-b60e-4e06-9dcc-c8613697aacf",
+					"Type":	"Mesh2D",
+					"Skip":	false,
+					"PointsY":	0,
+					"PointGenerator":	{
+						"$NodeId":	"MeshPointGenerator-9c9f484f-08d0-4b19-a436-4d59f6ad919a",
+						"Type":	"Mesh",
+						"Skip":	false,
+						"Jitter":	0.3,
+						"ScaleX":	3,
+						"ScaleY":	3,
+						"ScaleZ":	3,
+						"Seed":	"B"
+					}
+				},
+				"Assignments":	{
+					"$NodeId":	"Imported.Assignments-f17ad796-e6a0-4618-b9c5-26bf3bb68696",
+					"Type":	"Imported",
+					"Skip":	false,
+					"Name":	"Lowland_Peaks_Cliffs"
+				}
+			}],
 		"$Links":	{
 		},
 		"$Groups":	[{
@@ -3495,6 +3589,14 @@
 				"$width":	3261.125,
 				"$height":	1403,
 				"$name":	"Trees"
+			}, {
+				"$Position":	{
+					"$x":	-6518.4375,
+					"$y":	436
+				},
+				"$width":	1250.625,
+				"$height":	335.125,
+				"$name":	"Plants"
 			}],
 		"$Comments":	[],
 		"$WorkspaceID":	"HytaleGenerator - Biome"
