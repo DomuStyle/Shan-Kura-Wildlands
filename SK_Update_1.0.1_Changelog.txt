@@ -10,7 +10,7 @@ Ver. 1.0.1 (02.05.2026)
 - plant spawning adjustments (Shores & Rivers)
 - increased Merana & Jungle Tree density in Jungle Biome
 - slightly increased animal spawning in gorges (Bamboo Gardens) 
-- chnaged Treehouse villages spawning from fixed positions to procedual generation
+- changed Treehouse villages spawning from fixed positions to procedual generation
 
 
 
@@ -22,4 +22,4 @@ Ver. 1.0.2 (26.07.2026)
 - added Dungeon with 3 Stages to Floating Plains Biome, Ancient Tower with multiple floors to Jungle Biome 
   in multiple versions and a small Drowned Dungeon to Shores Biome
 - started implementation of Trigger Volumes to make Dungeons more immersive
-- Chnaged use of Prop Assignments in River Biome to Prop Distribution
+- Changed use of Prop Assignments in River Biome to Prop Distribution

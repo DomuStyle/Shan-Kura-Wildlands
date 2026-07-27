@@ -161,7 +161,7 @@
 				"$NodeId":	"Weighted.Assignments-1a8b7272-2369-43ee-a4ac-e77ae390864b",
 				"Type":	"Weighted",
 				"Skip":	false,
-				"SkipChance":	0.1,
+				"SkipChance":	0.25,
 				"Seed":	"",
 				"WeightedAssignments":	[{
 						"$NodeId":	"Weight.Weighted.Assignments-188ad3d2-dee5-43bf-9776-4989f36366c7",
@@ -460,6 +460,18 @@
 					"$y":	2652
 				}
 			},
+			"Offset.Prop-ed664f26-233f-472b-b405-36a8d48cc64a":	{
+				"$Position":	{
+					"$x":	4988,
+					"$y":	2655
+				}
+			},
+			"Point3D-235569e5-9206-466c-bba3-d6aa1db21bdc":	{
+				"$Position":	{
+					"$x":	5625,
+					"$y":	2495
+				}
+			},
 			"DensitySelector.Prop-04639d4b-9b08-4b07-a9d2-968c9605bcfe":	{
 				"$Position":	{
 					"$x":	5614,
@@ -518,18 +530,6 @@
 				"$Position":	{
 					"$x":	5086,
 					"$y":	3816
-				}
-			},
-			"Offset.Prop-ed664f26-233f-472b-b405-36a8d48cc64a":	{
-				"$Position":	{
-					"$x":	4988,
-					"$y":	2655
-				}
-			},
-			"Point3D-235569e5-9206-466c-bba3-d6aa1db21bdc":	{
-				"$Position":	{
-					"$x":	5625,
-					"$y":	2495
 				}
 			}
 		},

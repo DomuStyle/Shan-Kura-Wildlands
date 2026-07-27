@@ -39,7 +39,7 @@
 				"$NodeId":	"Weighted.Assignments-1cf24c3b-1c2f-4669-8846-448ff841eaca",
 				"Type":	"Weighted",
 				"Skip":	false,
-				"SkipChance":	0.1,
+				"SkipChance":	0.15,
 				"Seed":	"A",
 				"WeightedAssignments":	[{
 						"$NodeId":	"Weight.Weighted.Assignments-adc410f8-5705-4545-9100-9708e82b24ad",

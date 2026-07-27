@@ -142,8 +142,8 @@
 		"$Nodes":	{
 			"Union.PropDistribution-17447625-37dc-438c-acf2-1bae174757d6":	{
 				"$Position":	{
-					"$x":	520,
-					"$y":	266
+					"$x":	595,
+					"$y":	525
 				},
 				"$Title":	"[ROOT] Union PropDistribution"
 			},
@@ -225,6 +225,12 @@
 					"$y":	-78
 				}
 			},
+			"Material-9e956007-5f78-4b2e-a8fc-353aea2354a1":	{
+				"$Position":	{
+					"$x":	6664,
+					"$y":	-76
+				}
+			},
 			"Decimal.Range-520b1818-3cd1-4784-89ee-cfdd1b2bdbe5":	{
 				"$Position":	{
 					"$x":	5728,
@@ -247,6 +253,12 @@
 				"$Position":	{
 					"$x":	6349,
 					"$y":	265
+				}
+			},
+			"Material-7833da5c-3ee1-47a6-90d2-345fca782d4e":	{
+				"$Position":	{
+					"$x":	6663,
+					"$y":	263
 				}
 			},
 			"Decimal.Range-fd5f87b2-fbb6-4e06-8bcc-baace4abb54c":	{
@@ -277,18 +289,6 @@
 				"$Position":	{
 					"$x":	5292,
 					"$y":	1136
-				}
-			},
-			"Material-9e956007-5f78-4b2e-a8fc-353aea2354a1":	{
-				"$Position":	{
-					"$x":	6664,
-					"$y":	-76
-				}
-			},
-			"Material-7833da5c-3ee1-47a6-90d2-345fca782d4e":	{
-				"$Position":	{
-					"$x":	6663,
-					"$y":	263
 				}
 			},
 			"Linear.Scanner-0ed445f8-fc8b-4ef8-a508-7f868ce59426":	{
