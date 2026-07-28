@@ -14,7 +14,7 @@ Ver. 1.0.1 (02.05.2026)
 
 
 
-Ver. 1.0.2 (26.07.2026)
+Ver. 1.0.2 (28.07.2026)
 
 - added Mod's Icon to show up in Mod browser
 - Kurachobo (tamable and rideable npc) and Prehistoric Sloth
@@ -23,3 +23,4 @@ Ver. 1.0.2 (26.07.2026)
   in multiple versions and a small Drowned Dungeon to Shores Biome
 - started implementation of Trigger Volumes to make Dungeons more immersive
 - Changed use of Prop Assignments in River Biome to Prop Distribution
+- Replaced Crops to tame custom NPC's from River Biome to another Biome( You have to find out by urself wich one (^_^)/ )
