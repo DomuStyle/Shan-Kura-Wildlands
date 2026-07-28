@@ -39,7 +39,7 @@
     },
     {
       "Id": "Kurachobo",
-      "Weight": 40,
+      "Weight": 10,
       "SpawnBlockSet": "Soil",
       "Flock": "One_Or_Two"
     }
